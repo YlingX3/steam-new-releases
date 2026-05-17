@@ -3,7 +3,11 @@ name: Update Steam report
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 2 * * *"
+    - cron: "17 2 * * *"
+  push:
+    paths:
+      - ".github/workflows/update-steam.yml"
+      - "generate_report.py"
 
 permissions:
   contents: write
