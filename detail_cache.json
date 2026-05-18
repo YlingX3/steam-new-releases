@@ -9332,8 +9332,8 @@
   },
   "4725490": {
     "title": "Soulwoven Princess Demo",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4725490/4e86b6f31a06b86d5609cd868f6591014867734c/capsule_616x353_2x.jpg?t=1779095743",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4725490/4e86b6f31a06b86d5609cd868f6591014867734c/capsule_616x353_2x.jpg?t=1779095743",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4725490/4e86b6f31a06b86d5609cd868f6591014867734c/capsule_616x353_2x.jpg?t=1779099737",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4725490/4e86b6f31a06b86d5609cd868f6591014867734c/capsule_616x353_2x.jpg?t=1779099737",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "Survive a toxic royal family in this story-rich life sim and tactical deckbuilder. As the Princess, manage your schedule, shape your personality, and build powerful shard decks. Your choices permanently alter the story. Play the 6-turn demo and uncover 5 unique endings.",
     "description_source": "store_browse_short",
@@ -11226,6 +11226,341 @@
       "独立",
       "多人",
       "物理"
+    ],
+    "is_free": false,
+    "screenshots": null
+  },
+  "3432650": {
+    "title": "追曙",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3432650/98dbbf84e9827ac514d5cc8ba6f5397649005c2a/capsule_616x353_2x.jpg?t=1778490012",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3432650/98dbbf84e9827ac514d5cc8ba6f5397649005c2a/capsule_616x353_2x.jpg?t=1778490012",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "《追曙》是一款以东南亚为背景，融合了中式民俗元素的恐怖剧情游戏。2015年，警察杨帆在值班时收到一段模糊的无线电求救：“…山上…救孩子们”，信号源指向一栋废弃公寓，而档案显示——这栋公寓曾发生少女自杀案。随着调查深入，线索逐渐拼凑，杨帆发现这起案件背后，隐藏着一个无人敢触碰的黑暗秘密。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "悄语灯"
+    ],
+    "publishers": [
+      "悄语灯",
+      "Paras Games"
+    ],
+    "genres": [
+      "恐怖",
+      "独立",
+      "解谜",
+      "探索",
+      "2D"
+    ],
+    "is_free": false,
+    "screenshots": null
+  },
+  "3670630": {
+    "title": "Besmirch",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3670630/b39a21e3ff4c88cfa7fb182b3ab7a79dc5421b15/capsule_616x353_2x.jpg?t=1778789294",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3670630/b39a21e3ff4c88cfa7fb182b3ab7a79dc5421b15/capsule_616x353_2x.jpg?t=1778789294",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "The town of Besmirch starves. Stave off the hunger as the latest farmhand in this survival horror farming sim, earning the trust of paranoid townsfolk under the thumb of the corrupt Baron. Tend to both your farm and the town while avoiding unholy terrors that come in the night.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Gangru Games"
+    ],
+    "publishers": [
+      "2 Left Thumbs"
+    ],
+    "genres": [
+      "抢先体验",
+      "恐怖",
+      "角色扮演"
+    ],
+    "is_free": false,
+    "screenshots": null
+  },
+  "3968100": {
+    "title": "CD-ROM",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3968100/72de798280dabf69f8deb554247bc67c915bdfc1/capsule_616x353_2x.jpg?t=1778345810",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3968100/72de798280dabf69f8deb554247bc67c915bdfc1/capsule_616x353_2x.jpg?t=1778345810",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "10张CD，10个密码。寻找隐藏信息、文字与数字，解锁下一张CD，继续你的隐写术谜题之旅。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "monoclelord"
+    ],
+    "publishers": [
+      "monoclelord"
+    ],
+    "genres": [
+      "解谜",
+      "战争",
+      "像素图形",
+      "2D",
+      "探索"
+    ],
+    "is_free": false,
+    "screenshots": null
+  },
+  "2190920": {
+    "title": "核元突破！",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2190920/9d35abfa04a506dfc92ddb4f084ade52e32cc458/capsule_616x353_schinese_2x.jpg?t=1778256004",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2190920/9d35abfa04a506dfc92ddb4f084ade52e32cc458/capsule_616x353_schinese_2x.jpg?t=1778256004",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "你，叫诺瓦，是机器人。设计者让你在人类被机械灭种时刻醒来，去拯救？寻找？打败？总之，你肩负着重要使命。解锁并强化你的能力和武器，打败机械强敌，寻找到你存在的目的。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "aQuadiun"
+    ],
+    "publishers": [
+      "Astrolabe Games"
+    ],
+    "genres": [
+      "抢先体验",
+      "动作类 Rogue",
+      "2D 平台",
+      "射击",
+      "平台游戏"
+    ],
+    "is_free": false,
+    "screenshots": null
+  },
+  "3804180": {
+    "title": "在姉正泰镇渡过的暑假",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3804180/39c7ca8d2876c0f3fc0425020c5c505bc371c5e8/capsule_616x353_schinese_2x.jpg?t=1778637390",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3804180/39c7ca8d2876c0f3fc0425020c5c505bc371c5e8/capsule_616x353_schinese_2x.jpg?t=1778637390",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "邻家姐姐、辣妹、学生会长、朋友的妈妈……被各种大姐姐包围的我，究竟这个暑假会变得有多好玩呢？",
+    "description_source": "store_browse_short",
+    "developers": [
+      "アイオライト"
+    ],
+    "publishers": [
+      "072 Project",
+      "072 News"
+    ],
+    "genres": [
+      "角色扮演",
+      "休闲"
+    ],
+    "is_free": false,
+    "screenshots": null
+  },
+  "2680670": {
+    "title": "闻鼓而战",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680670/21712d21022d1c54fc1aa4232eb27da9209b27f0/capsule_616x353_2x.jpg?t=1778253606",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680670/21712d21022d1c54fc1aa4232eb27da9209b27f0/capsule_616x353_2x.jpg?t=1778253606",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "在这款 Roguelite 战略回合制游戏中，带领一支部落战乐团，与 Wardrum 的节拍协同来发动攻势吧！在这个弥漫着节奏魔法的严酷幻想世界中开辟道路、直面死亡并强化你的战士，最终清除败侵蚀这片大陆的黑暗巫术。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Mopeful Games"
+    ],
+    "publishers": [
+      "Team17"
+    ],
+    "genres": [
+      "策略",
+      "回合制战术",
+      "回合制策略",
+      "类魂",
+      "角色扮演"
+    ],
+    "is_free": false,
+    "screenshots": null
+  },
+  "3228580": {
+    "title": "失落国度：死境求生",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3228580/826b596387a34cffd798b9643f64ac0ff9233cdb/capsule_616x353_schinese_2x.jpg?t=1778520623",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3228580/826b596387a34cffd798b9643f64ac0ff9233cdb/capsule_616x353_schinese_2x.jpg?t=1778520623",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "《失落王国幸存者》是一款在线合作类生存自动射击游戏。与成群结队的凶猛敌人战斗，探寻古老的神器，融合独特的技能树，并解锁强大的升级博得一线生机。倾泻失落王国的全部力量和魔法。单人游玩或与好友一起对抗无情的爪牙！",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Burst2Flame Games"
+    ],
+    "publishers": [
+      "Burst2Flame Games"
+    ],
+    "genres": [
+      "动作类 Rogue",
+      "弹幕射击",
+      "回合制",
+      "独立",
+      "俯视射击"
+    ],
+    "is_free": false,
+    "screenshots": null
+  },
+  "4517350": {
+    "title": "传奇盛世",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4517350/cd240ffaa90cdff84b388ce129b4eb279ec53242/capsule_616x353_schinese_2x.jpg?t=1778211537",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4517350/cd240ffaa90cdff84b388ce129b4eb279ec53242/capsule_616x353_schinese_2x.jpg?t=1778211537",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "在《传奇盛世》里,无首充！无套路! 无强制消费! 耐玩性佳：海量特色玩法持续更新，长久陪伴乐趣无穷！ 匠心巨制：团队潜心一年重磅打造，热血体验诚意奉上！ 人气保障：专注打造火爆大服，激情永不落幕！",
+    "description_source": "store_browse_short",
+    "developers": [
+      "传奇盛世"
+    ],
+    "publishers": [
+      "传奇盛世"
+    ],
+    "genres": [
+      "动作角色扮演",
+      "回合制",
+      "2.5D",
+      "动作",
+      "刷宝"
+    ],
+    "is_free": true,
+    "screenshots": null
+  },
+  "4183230": {
+    "title": "In Trusted Hands",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4183230/f43d3ad984a9fa15bd52cea0101c80b76d4e402a/capsule_616x353_2x.jpg?t=1778278408",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4183230/f43d3ad984a9fa15bd52cea0101c80b76d4e402a/capsule_616x353_2x.jpg?t=1778278408",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Dive into the daily work of a cozy workshop in a big city, accompanied by relaxing atmospheric music. Manage client data, balance energy and stress, and make choices that shape the story and its outcome.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "HGISoft"
+    ],
+    "publishers": [
+      "Spaghetti Cat"
+    ],
+    "genres": [
+      "模拟",
+      "休闲",
+      "放松"
+    ],
+    "is_free": false,
+    "screenshots": null
+  },
+  "2959770": {
+    "title": "Duck Side of the Moon",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2959770/c68627b2504e81367f6be972ec693f309b12a627/capsule_616x353_2x.jpg?t=1778660037",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2959770/c68627b2504e81367f6be972ec693f309b12a627/capsule_616x353_2x.jpg?t=1778660037",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Waddle and fly as a duck in space! Explore every corner of the galaxy and find curious creatures and materials along the way. Craft gadgets, upgrade your spaceship, and get cozy in this relaxing adventure.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Starbrew Games"
+    ],
+    "publishers": [
+      "Starbrew Games"
+    ],
+    "genres": [
+      "冒险",
+      "休闲",
+      "探索",
+      "3D",
+      "可爱"
+    ],
+    "is_free": false,
+    "screenshots": null
+  },
+  "3470370": {
+    "title": "色系战记",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3470370/d5dfe9eabc9c6a25800b379fd2841b09ec820e0b/capsule_616x353_schinese_2x.jpg?t=1778164779",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3470370/d5dfe9eabc9c6a25800b379fd2841b09ec820e0b/capsule_616x353_schinese_2x.jpg?t=1778164779",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "《色系战记》 是一款融合涂地玩法的 Roguelike 卡牌构筑游戏。 卡牌不再造成数值伤害，而是以范围形状争夺领地颜色。 扩张地盘、部署防线、守护核心，在混乱的战局中击败对手， 最终封印吞噬色彩的虚空领主，让彩虹重返大陆。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Unpixel Cloud Cedar Studio"
+    ],
+    "publishers": [
+      "Light Up Games"
+    ],
+    "genres": [
+      "回合制战斗",
+      "类 Rogue",
+      "回合制策略",
+      "策略"
+    ],
+    "is_free": false,
+    "screenshots": null
+  },
+  "2822980": {
+    "title": "纵火游戏 ARSONATE",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2822980/0389e21c5dcd57914b6b6ad2bcde3daff0eb8455/capsule_616x353_schinese_2x.jpg?t=1778119672",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2822980/0389e21c5dcd57914b6b6ad2bcde3daff0eb8455/capsule_616x353_schinese_2x.jpg?t=1778119672",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "在火焰蔓延的死亡游戏中，与主持人斗智斗勇。烧尽一切，成为最后的幸存者。你害怕死亡吗？",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Nash"
+    ],
+    "publishers": [
+      "IndieArk"
+    ],
+    "genres": [
+      "恐怖",
+      "第一人称",
+      "策略",
+      "单人",
+      "3D"
+    ],
+    "is_free": false,
+    "screenshots": null
+  },
+  "3277880": {
+    "title": "Warped Universe",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3277880/13d9b04bab14e713767975db62ee3a2a9c9fc93c/capsule_616x353_2x.jpg?t=1778477536",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3277880/13d9b04bab14e713767975db62ee3a2a9c9fc93c/capsule_616x353_2x.jpg?t=1778477536",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "合作PvE科幻掠夺射击游戏，每次任务对所有人都至关重要。探索未知，防御设施，升级你的回声战甲，赋能整个星系。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Warped Games"
+    ],
+    "publishers": [
+      "Warped Games"
+    ],
+    "genres": [
+      "抢先体验",
+      "回合制战术",
+      "俯视射击"
+    ],
+    "is_free": true,
+    "screenshots": null
+  },
+  "4597330": {
+    "title": "SHRIMP GAME: KRILL CONFIRMED",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4597330/8d08d2984e1b8efae93c641e2fa152f23f5cc622/capsule_616x353_2x.jpg?t=1778724356",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4597330/8d08d2984e1b8efae93c641e2fa152f23f5cc622/capsule_616x353_2x.jpg?t=1778724356",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "SHRIMP GAME: KRILL CONFIRMED is a solo or multiplayer third-person shooter RPG intro to SHRIMP GAME set in an abyssal realm. Pilot your SHRIMP platform to fight giant sea monsters, master elemental classes, and unearth secrets in a co-op campaign, or just krill your friends in multiplayer PVP!",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Gas God Games",
+      "GLUE MAN"
+    ],
+    "publishers": [
+      "GIGATANK 3000"
+    ],
+    "genres": [
+      "弹幕射击",
+      "战争"
+    ],
+    "is_free": true,
+    "screenshots": null
+  },
+  "2861210": {
+    "title": "HYPNOS",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2861210/f61b7950f9d52c3e7c0d49a909251f119f51d49a/capsule_616x353_2x.jpg?t=1778146450",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2861210/f61b7950f9d52c3e7c0d49a909251f119f51d49a/capsule_616x353_2x.jpg?t=1778146450",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "HYPNOS is a first-person adventure and exploration game, set in a lovecraftian megastructure fever dream. Enter the Nameless City at the edge of Dreams. Follow the trail into the shadow of the Holy Mountain. Embrace your destiny.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Redlock Studio"
+    ],
+    "publishers": [
+      "Redlock Studio"
+    ],
+    "genres": [
+      "抢先体验",
+      "冒险",
+      "探索",
+      "恐怖",
+      "氛围"
     ],
     "is_free": false,
     "screenshots": null

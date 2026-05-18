@@ -1,4 +1,4 @@
-Started at 2026-05-18T18:15:10+08:00
+Started at 2026-05-18T18:26:33+08:00
 Target latest items: 300
 Fetch search game page=1 url=https://store.steampowered.com/search/results/?query=&start=0&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1
 Fetch search game page=2 url=https://store.steampowered.com/search/results/?query=&start=25&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1
@@ -40,14 +40,51 @@ Fetch potential demo page=2 url=https://store.steampowered.com/search/results/?q
 Fetch potential game page=3 url=https://store.steampowered.com/search/results/?query=&start=50&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1
 Fetch potential demo page=3 url=https://store.steampowered.com/search/results/?query=&start=50&count=25&sort_by=Released_DESC&sort_order=DESC&category1=10&cc=CN&l=schinese&ignore_preferences=1
 Fetch potential game page=4 url=https://store.steampowered.com/search/results/?query=&start=75&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1
-Potential game page=4 rate limited; using collected candidates.
 Fetch potential demo page=4 url=https://store.steampowered.com/search/results/?query=&start=75&count=25&sort_by=Released_DESC&sort_order=DESC&category1=10&cc=CN&l=schinese&ignore_preferences=1
-Potential demo page=4 rate limited; using collected candidates.
-Potential game: pages=4 candidates=75 qualified=3
-Potential demo: pages=4 candidates=75 qualified=0
-Fetch StoreBrowse details batches=1 batch_size=50 items=3
-StoreBrowse batch 1/1 appids=3332830,3133650,4466620
-Potential selected=3 games=3 demos=0 raw_qualified=3
-Potential backfilled from previous report: before=3 added=97 total=100
+Fetch potential game page=5 url=https://store.steampowered.com/search/results/?query=&start=100&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1
+Fetch potential demo page=5 url=https://store.steampowered.com/search/results/?query=&start=100&count=25&sort_by=Released_DESC&sort_order=DESC&category1=10&cc=CN&l=schinese&ignore_preferences=1
+Fetch potential game page=6 url=https://store.steampowered.com/search/results/?query=&start=125&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1
+Fetch potential demo page=6 url=https://store.steampowered.com/search/results/?query=&start=125&count=25&sort_by=Released_DESC&sort_order=DESC&category1=10&cc=CN&l=schinese&ignore_preferences=1
+Fetch potential game page=7 url=https://store.steampowered.com/search/results/?query=&start=150&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1
+Fetch potential demo page=7 url=https://store.steampowered.com/search/results/?query=&start=150&count=25&sort_by=Released_DESC&sort_order=DESC&category1=10&cc=CN&l=schinese&ignore_preferences=1
+Fetch potential game page=8 url=https://store.steampowered.com/search/results/?query=&start=175&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1
+Fetch potential demo page=8 url=https://store.steampowered.com/search/results/?query=&start=175&count=25&sort_by=Released_DESC&sort_order=DESC&category1=10&cc=CN&l=schinese&ignore_preferences=1
+Fetch potential game page=9 url=https://store.steampowered.com/search/results/?query=&start=200&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1
+Fetch potential demo page=9 url=https://store.steampowered.com/search/results/?query=&start=200&count=25&sort_by=Released_DESC&sort_order=DESC&category1=10&cc=CN&l=schinese&ignore_preferences=1
+Fetch potential game page=10 url=https://store.steampowered.com/search/results/?query=&start=225&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1
+Fetch potential demo page=10 url=https://store.steampowered.com/search/results/?query=&start=225&count=25&sort_by=Released_DESC&sort_order=DESC&category1=10&cc=CN&l=schinese&ignore_preferences=1
+Fetch potential game page=11 url=https://store.steampowered.com/search/results/?query=&start=250&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1
+Fetch potential demo page=11 url=https://store.steampowered.com/search/results/?query=&start=250&count=25&sort_by=Released_DESC&sort_order=DESC&category1=10&cc=CN&l=schinese&ignore_preferences=1
+Fetch potential game page=12 url=https://store.steampowered.com/search/results/?query=&start=275&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1
+Fetch potential demo page=12 url=https://store.steampowered.com/search/results/?query=&start=275&count=25&sort_by=Released_DESC&sort_order=DESC&category1=10&cc=CN&l=schinese&ignore_preferences=1
+Potential demo found no qualified items in first 12 pages; stopping demo.
+Fetch potential game page=13 url=https://store.steampowered.com/search/results/?query=&start=300&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1
+Fetch potential game page=14 url=https://store.steampowered.com/search/results/?query=&start=325&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1
+Fetch potential game page=15 url=https://store.steampowered.com/search/results/?query=&start=350&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1
+Fetch potential game page=16 url=https://store.steampowered.com/search/results/?query=&start=375&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1
+Fetch potential game page=17 url=https://store.steampowered.com/search/results/?query=&start=400&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1
+Fetch potential game page=18 url=https://store.steampowered.com/search/results/?query=&start=425&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1
+Fetch potential game page=19 url=https://store.steampowered.com/search/results/?query=&start=450&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1
+Fetch potential game page=20 url=https://store.steampowered.com/search/results/?query=&start=475&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1
+Fetch potential game page=21 url=https://store.steampowered.com/search/results/?query=&start=500&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1
+Fetch potential game page=22 url=https://store.steampowered.com/search/results/?query=&start=525&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1
+Fetch potential game page=23 url=https://store.steampowered.com/search/results/?query=&start=550&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1
+Fetch potential game page=24 url=https://store.steampowered.com/search/results/?query=&start=575&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1
+Fetch potential game page=25 url=https://store.steampowered.com/search/results/?query=&start=600&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1
+Fetch potential game page=26 url=https://store.steampowered.com/search/results/?query=&start=625&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1
+Fetch potential game page=27 url=https://store.steampowered.com/search/results/?query=&start=650&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1
+Fetch potential game page=28 url=https://store.steampowered.com/search/results/?query=&start=675&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1
+Fetch potential game page=29 url=https://store.steampowered.com/search/results/?query=&start=700&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1
+Fetch potential game page=30 url=https://store.steampowered.com/search/results/?query=&start=725&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1
+Fetch potential game page=31 url=https://store.steampowered.com/search/results/?query=&start=750&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1
+Fetch potential game page=32 url=https://store.steampowered.com/search/results/?query=&start=775&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1
+Potential game page=32 is older than current top 100; stopping game.
+Potential game: pages=32 candidates=800 qualified=105
+Potential demo: pages=12 candidates=300 qualified=0
+Fetch StoreBrowse details batches=2 batch_size=50 items=100
+StoreBrowse batch 1/2 appids=3332830,3133650,3779380,3995110,3523750,2629230,3602030,3657180,4466620,1409530,3826060,1602000,2369580,4265120,3418990,3181890,3030190,4214820,3529690,4321500,4501240,3774440,3313720,2091020,3525620,3065030,1962700,1461910,2587590,3928990,4513840,3088070,3296830,2537470,3900120,979110,3616260,3237640,2525510,3100370,2174380,4641700,3784760,3670740,2599690,2255370,3432650,4187140,2681030,3048930
+StoreBrowse batch 2/2 appids=4584240,3670630,2535950,3582250,3894440,3968100,2190920,3804180,3526710,4479970,3639010,4435720,3043760,2680670,3232380,3110760,4537540,3161400,4111260,3228580,4304230,4517350,3144860,3441280,2474430,2654490,2582320,4183230,2473350,3844750,2570210,2959770,1826420,2854480,3470370,2822980,2056200,4235230,3277880,3802470,4597330,2861210,3672400,3742830,3868320,2769240,2830030,3404260,3242950,3169580
+Potential selected=100 games=100 demos=0 raw_qualified=100
 Completed total=300 games=173 demos=127 free=155 discounted=105
 Potential total=100 games=100 demos=0 cutoff=2025-05-18 min_reviews>50
+Potential freshness fresh=100 backfilled=0 used_previous=False rate_limited=False

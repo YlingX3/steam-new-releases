@@ -40,7 +40,8 @@ DEFAULT_POTENTIAL_DEMO_EMPTY_PAGE_LIMIT = 12
 DEFAULT_DETAIL_WORKERS = 3
 DEFAULT_STORE_BROWSE_BATCH_SIZE = 50
 PAGE_SIZE = 25
-REQUEST_DELAY_SECONDS = 0.35
+REQUEST_DELAY_SECONDS = 1.2
+RATE_LIMIT_COOLDOWN_SECONDS = 45
 DETAIL_CACHE_NAME = "detail_cache.json"
 HTTP_RETRIES = 3
 STORE_ASSET_PRIORITY = (
@@ -343,6 +344,9 @@ def fetch_text(url: str, *, timeout: int = 30, retries: int = HTTP_RETRIES) -> s
             last_error = exc
             if exc.code not in {403, 429, 500, 502, 503, 504} or attempt >= retries:
                 raise
+            if exc.code == 429:
+                time.sleep(RATE_LIMIT_COOLDOWN_SECONDS)
+                continue
         except urllib.error.URLError as exc:
             last_error = exc
             if attempt >= retries:
@@ -1103,14 +1107,20 @@ def backfill_potential_items(
     cutoff_date: str,
     min_reviews: int,
     log_lines: list[str],
-) -> list[dict[str, Any]]:
+) -> tuple[list[dict[str, Any]], dict[str, int | bool]]:
+    stats: dict[str, int | bool] = {
+        "fresh_count": len(items),
+        "backfilled_count": 0,
+        "final_count": len(items),
+        "used_previous": False,
+    }
     if len(items) >= target_count:
-        return items
+        return items, stats
 
     previous_items = previous_report.get("potential_items") or []
     if not isinstance(previous_items, list) or not previous_items:
         log_lines.append("Potential backfill skipped: no previous potential_items available.")
-        return items
+        return items, stats
 
     merged: list[dict[str, Any]] = []
     seen: set[str] = set()
@@ -1131,10 +1141,13 @@ def backfill_potential_items(
 
     backfilled = newest_items(merged, target_count)
     added = max(0, len(backfilled) - len(items))
+    stats["backfilled_count"] = added
+    stats["final_count"] = len(backfilled)
+    stats["used_previous"] = added > 0
     log_lines.append(
         f"Potential backfilled from previous report: before={len(items)} added={added} total={len(backfilled)}"
     )
-    return backfilled
+    return backfilled, stats
 
 
 def collect_report(args: argparse.Namespace, *, out_path: Path) -> dict[str, Any]:
@@ -1196,7 +1209,7 @@ def collect_report(args: argparse.Namespace, *, out_path: Path) -> dict[str, Any
         max_pages=args.potential_max_pages,
         log_lines=log_lines,
     )
-    potential_items = backfill_potential_items(
+    potential_items, potential_backfill_meta = backfill_potential_items(
         potential_items,
         previous_report=previous_report,
         target_count=args.potential_count,
@@ -1207,6 +1220,9 @@ def collect_report(args: argparse.Namespace, *, out_path: Path) -> dict[str, Any
     potential_meta["count"] = len(potential_items)
     potential_meta["games"] = sum(1 for item in potential_items if item.get("kind") == "game")
     potential_meta["demos"] = sum(1 for item in potential_items if item.get("kind") == "demo")
+    potential_meta["fresh_count"] = potential_backfill_meta["fresh_count"]
+    potential_meta["backfilled_count"] = potential_backfill_meta["backfilled_count"]
+    potential_meta["used_previous"] = potential_backfill_meta["used_previous"]
     detail_errors.extend(potential_detail_errors)
     save_detail_cache(cache_path, detail_cache)
 
@@ -1618,6 +1634,12 @@ def write_outputs(report: dict[str, Any], out_path: Path) -> None:
         log_lines.append(
             f"Potential total={potential['count']} games={potential['games']} demos={potential['demos']} "
             f"cutoff={potential['cutoff_date']} min_reviews>{potential['min_reviews_exclusive']}"
+        )
+        log_lines.append(
+            f"Potential freshness fresh={potential.get('fresh_count', potential['count'])} "
+            f"backfilled={potential.get('backfilled_count', 0)} "
+            f"used_previous={potential.get('used_previous', False)} "
+            f"rate_limited={potential.get('rate_limited', False)}"
         )
     if report["meta"].get("detail_errors"):
         log_lines.append("Detail errors:")
