@@ -34,8 +34,9 @@ DEFAULT_TARGET_COUNT = 300
 DEFAULT_MAX_PAGES = 12
 DEFAULT_POTENTIAL_COUNT = 100
 DEFAULT_POTENTIAL_DAYS = 365
-DEFAULT_POTENTIAL_MIN_REVIEWS = 100
+DEFAULT_POTENTIAL_MIN_REVIEWS = 50
 DEFAULT_POTENTIAL_MAX_PAGES = 160
+DEFAULT_POTENTIAL_DEMO_EMPTY_PAGE_LIMIT = 12
 DEFAULT_DETAIL_WORKERS = 3
 DEFAULT_STORE_BROWSE_BATCH_SIZE = 50
 PAGE_SIZE = 25
@@ -573,6 +574,15 @@ def collect_potential_items(
             elif page_stats["older_than_window"]:
                 active[kind] = False
                 log_lines.append(f"Potential {kind} reached cutoff date {cutoff_date.isoformat()} on page={page + 1}.")
+            elif (
+                kind == "demo"
+                and stats_by_kind[kind]["qualified"] == 0
+                and stats_by_kind[kind]["pages"] >= DEFAULT_POTENTIAL_DEMO_EMPTY_PAGE_LIMIT
+            ):
+                active[kind] = False
+                log_lines.append(
+                    f"Potential {kind} found no qualified items in first {DEFAULT_POTENTIAL_DEMO_EMPTY_PAGE_LIMIT} pages; stopping {kind}."
+                )
             elif len(raw_items) >= target_count:
                 selected_so_far = newest_items(raw_items, target_count)
                 oldest_selected = parse_release_date(selected_so_far[-1].get("release_date", "")) if selected_so_far else None
@@ -1684,7 +1694,7 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
         "--potential-min-reviews",
         type=int,
         default=DEFAULT_POTENTIAL_MIN_REVIEWS,
-        help="Potential list requires review_count greater than this value, default 100.",
+        help="Potential list requires review_count greater than this value, default 50.",
     )
     parser.add_argument(
         "--potential-max-pages",

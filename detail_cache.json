@@ -11100,6 +11100,23 @@
     "is_free": false,
     "screenshots": null
   },
+  "4709670": {
+    "title": "Your Own Cozy Motel Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4709670/485f616ade46f1cc8f20d03faecaccb8dde126f7/capsule_616x353_2x.jpg?t=1779098447",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4709670/485f616ade46f1cc8f20d03faecaccb8dde126f7/capsule_616x353_2x.jpg?t=1779098447",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Build and run your own roadside motel in a hands-on simulator. Check in guests, clean and repair rooms, manage payments, upgrade facilities, and grow from a small stopover into a thriving, high-reputation business.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "LittleCrispyPickle Studio"
+    ],
+    "publishers": [
+      "LittleCrispyPickle Studio"
+    ],
+    "genres": [],
+    "is_free": true,
+    "screenshots": null
+  },
   "4719640": {
     "title": "Deeper Demo",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4719640/154c36c1687d12e446457b9a359703d41c2c2b83/capsule_616x353_2x.jpg?t=1779097998",
@@ -11120,6 +11137,97 @@
       "探索"
     ],
     "is_free": true,
+    "screenshots": null
+  },
+  "3616260": {
+    "title": "MAZEBOUND: Hunt, Gather, Run!",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3616260/5eff6519ed5423955cd728001ffb93263c413f3f/capsule_616x353_2x.jpg?t=1778871543",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3616260/5eff6519ed5423955cd728001ffb93263c413f3f/capsule_616x353_2x.jpg?t=1778871543",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "在这款生存恐怖游戏中，你被大海包围，前方是一扇高耸的大门。走进迷宫，狩猎、收集，并奔跑求生，无论是独自一人还是与朋友一起。记住：挨饿的不只有你……",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Absam Studios"
+    ],
+    "publishers": [
+      "Absam Studios"
+    ],
+    "genres": [
+      "多人",
+      "单人",
+      "恐怖",
+      "动作",
+      "冒险"
+    ],
+    "is_free": false,
+    "screenshots": null
+  },
+  "2174380": {
+    "title": "古神之呼唤",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2174380/300e06a536e8b0017ba216b63311dd980d69e18d/capsule_616x353_schinese_2x.jpg?t=1778601220",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2174380/300e06a536e8b0017ba216b63311dd980d69e18d/capsule_616x353_schinese_2x.jpg?t=1778601220",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "在这款克苏鲁风格的剧情向解谜冒险游戏中，踏上前往地球偏远角落的旅程，探索远古的恐怖存在。本作为 2020 年广受好评的《海之呼唤》的续篇。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Out of the Blue Games"
+    ],
+    "publishers": [
+      "Kwalee"
+    ],
+    "genres": [
+      "解谜",
+      "剧情丰富",
+      "冒险",
+      "第一人称"
+    ],
+    "is_free": false,
+    "screenshots": null
+  },
+  "3784760": {
+    "title": "Elfie: A Sand Plan",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3784760/0f4645a85ab1d4bcac1f1dd37b3712c1e0899c2a/capsule_616x353_2x.jpg?t=1778584607",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3784760/0f4645a85ab1d4bcac1f1dd37b3712c1e0899c2a/capsule_616x353_2x.jpg?t=1778584607",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Elfie: A Sand Plan is a relaxing and intuitive puzzle game where you help a small ambitious elephant build some sand castles. Enjoy spending time at the beach with your new rotund friend!",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Pressed Elephant",
+      "Sol's Atelier"
+    ],
+    "publishers": [
+      "Pressed Elephant"
+    ],
+    "genres": [
+      "解谜",
+      "放松",
+      "休闲",
+      "逻辑",
+      "家庭友好"
+    ],
+    "is_free": false,
+    "screenshots": null
+  },
+  "3670740": {
+    "title": "Burgle Supply Company",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3670740/271c17693d887231073f7c631cdc9ed334daaae6/capsule_616x353_schinese_2x.jpg?t=1778644588",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3670740/271c17693d887231073f7c631cdc9ed334daaae6/capsule_616x353_schinese_2x.jpg?t=1778644588",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "一款合作类恐怖喜剧游戏，适合与朋友一起游玩，主题是在一个满是变异宠物的噩梦社区中进行盗窃。这活儿肯定不轻松，但你也许能顺手牵羊一台精美的木纹卡带录像机逃出生天。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Terrible Posture Games"
+    ],
+    "publishers": [
+      "Terrible Posture Games"
+    ],
+    "genres": [
+      "恐怖",
+      "独立",
+      "多人",
+      "物理"
+    ],
+    "is_free": false,
     "screenshots": null
   }
 }
