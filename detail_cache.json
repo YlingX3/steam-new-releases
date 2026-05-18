@@ -8686,8 +8686,8 @@
   },
   "4725280": {
     "title": "One Degree Off Demo",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4725280/3f9dc5f58037c9f827125f7c771dc89bd1796f35/capsule_616x353_2x.jpg?t=1779028444",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4725280/3f9dc5f58037c9f827125f7c771dc89bd1796f35/capsule_616x353_2x.jpg?t=1779028444",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4725280/3f9dc5f58037c9f827125f7c771dc89bd1796f35/capsule_616x353_2x.jpg?t=1779100366",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4725280/3f9dc5f58037c9f827125f7c771dc89bd1796f35/capsule_616x353_2x.jpg?t=1779100366",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "One Degree Off is a 2D puzzle game that turns laser physics into captivating brain teasers. Master reflection and refraction to guide multiple lasers through intricate levels, Mix and split colors and, Control your beam's intensity to reach your goals.",
     "description_source": "store_browse_short",
@@ -11563,6 +11563,50 @@
       "氛围"
     ],
     "is_free": false,
+    "screenshots": null
+  },
+  "4694350": {
+    "title": "Nightmare Fishing Tournament",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4694350/de9c18f08047ddfcab3ab3b62888dfc400310fb2/capsule_616x353_2x.jpg?t=1779100244",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4694350/de9c18f08047ddfcab3ab3b62888dfc400310fb2/capsule_616x353_2x.jpg?t=1779100244",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "A fishing sim with a HORRIFYING twist!. It's not enough to simply HOOK a fish, players must ENTER THE WATER and take them on using WEAPONS like spearguns and floating mines! Once a fish is STUNNED, it must be REELED IN before it RECOVERS! Upgrade your ITEMS and use scales to CRAFT PERKS!",
+    "description_source": "store_browse_short",
+    "developers": [
+      "David Mills"
+    ],
+    "publishers": [
+      "David Mills"
+    ],
+    "genres": [
+      "动作",
+      "模拟",
+      "恐怖"
+    ],
+    "is_free": true,
+    "screenshots": null
+  },
+  "4716990": {
+    "title": "Beyond The Plastic Wall Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4716990/140a192172aa3e8ac5aaf377fb0846b181df1c39/capsule_616x353_2x.jpg?t=1779100308",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4716990/140a192172aa3e8ac5aaf377fb0846b181df1c39/capsule_616x353_2x.jpg?t=1779100308",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Set off on an adventure set in a sprawling world that blends satisfying, mechanical puzzles with a rich narrative. Explore a stunning pixel-art world, repair intricate machines & meet unforgettable characters in a story about connection, resilience, and life that clings on in a world left to ruin.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Motvind Studios",
+      "ARTE France"
+    ],
+    "publishers": [
+      "ARTE France"
+    ],
+    "genres": [
+      "冒险",
+      "像素图形",
+      "氛围",
+      "益智平台"
+    ],
+    "is_free": true,
     "screenshots": null
   }
 }
