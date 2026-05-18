@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-18T10:26:13+08:00",
+    "generated_at": "2026-05-18T14:35:12+08:00",
     "timezone": "Asia/Hong_Kong",
     "cc": "CN",
     "lang": "schinese",
@@ -8,14 +8,119 @@
     "source_note": "Steam 公开搜索页提供发售日期而非小时级发布时间；本报告按发售日期从新到旧选取最新条目。",
     "counts": {
       "total": 300,
-      "games": 172,
-      "demos": 128,
+      "games": 171,
+      "demos": 129,
       "free": 156,
-      "discounted": 107
+      "discounted": 105
     },
     "detail_errors": []
   },
   "items": [
+    {
+      "appid": "4310110",
+      "steam_url": "https://store.steampowered.com/app/4310110/_/",
+      "tag_ids": [
+        "3987",
+        "9",
+        "1741",
+        "6426",
+        "16689",
+        "4342",
+        "15172"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4310110/18525bd826b1fbb68acb0f3ec1eba77fbea49c82/capsule_616x353_schinese_2x.jpg?t=1779085825",
+      "title": "黎明村",
+      "release_date_text": "2026 年 5 月 17 日",
+      "price_text": "¥46.80",
+      "discount_text": "-10%",
+      "review_summary": "",
+      "price_final": 4680,
+      "original_price_text": "¥52.00",
+      "release_date": "2026-05-17",
+      "kind": "game",
+      "tag_names": [
+        "策略",
+        "回合制战斗",
+        "时间管理"
+      ],
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4310110/18525bd826b1fbb68acb0f3ec1eba77fbea49c82/capsule_616x353_schinese_2x.jpg?t=1779085825",
+      "asset_source": "store_browse:main_capsule_2x",
+      "short_description": "在饥荒面前，善意本身也成为资源的朝鲜时代生存策略游戏。 在朝鲜时代的大饥荒中，管理同伴与资源，所有关键抉择都由骰子决定。没有完美选择，只有承受结果，在今天生存，为明天做准备。",
+      "description_source": "store_browse_short",
+      "developers": [
+        "Aesthmaris Studio"
+      ],
+      "publishers": [
+        "Aesthmaris Studio"
+      ],
+      "price_value": 4680,
+      "is_discounted": true,
+      "is_free": false,
+      "detail_error": "",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
+      "genres": [
+        "策略",
+        "回合制战斗",
+        "时间管理"
+      ]
+    },
+    {
+      "appid": "4607360",
+      "steam_url": "https://store.steampowered.com/app/4607360/_Demo/",
+      "tag_ids": [
+        "597",
+        "21",
+        "24003",
+        "3799",
+        "5379",
+        "3871",
+        "3839"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4607360/80618fd17f45e8b9c5aace364047d5f2fbf6e465/capsule_616x353_schinese_2x.jpg?t=1779073623",
+      "title": "论道聊斋 Demo",
+      "release_date_text": "2026 年 5 月 17 日",
+      "price_text": "免费",
+      "discount_text": "",
+      "review_summary": "",
+      "price_final": 0,
+      "release_date": "2026-05-17",
+      "kind": "demo",
+      "tag_names": [
+        "休闲",
+        "冒险",
+        "文字游戏",
+        "视觉小说",
+        "2D 平台"
+      ],
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4607360/80618fd17f45e8b9c5aace364047d5f2fbf6e465/capsule_616x353_schinese_2x.jpg?t=1779073623",
+      "asset_source": "store_browse:main_capsule_2x",
+      "short_description": "以《聊斋》为灵感的中国志怪剧情游戏。以章节形式体验一个个独立的聊斋故事，在文字对话、事件触发与剧情推进中，走入充满人心、执念与因果的东方怪谈世界。",
+      "description_source": "store_browse_short",
+      "developers": [
+        "破界游戏"
+      ],
+      "publishers": [
+        "破界游戏"
+      ],
+      "is_free": true,
+      "detail_error": "",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
+      "is_discounted": false,
+      "price_value": 0,
+      "genres": [
+        "休闲",
+        "冒险",
+        "文字游戏",
+        "视觉小说",
+        "2D 平台"
+      ]
+    },
     {
       "appid": "4267580",
       "steam_url": "https://store.steampowered.com/app/4267580/_Die_Deep_Demo/",
@@ -60,7 +165,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -115,7 +220,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -171,7 +276,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -227,7 +332,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "冒险",
         "剧情丰富",
@@ -250,7 +355,7 @@
       "platforms": [
         "Windows"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4281140/bda1b512935aaa020fc507c8a85d5f73c2498ec7/capsule_616x353_2x.jpg?t=1779071097",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4281140/bda1b512935aaa020fc507c8a85d5f73c2498ec7/capsule_616x353_2x.jpg?t=1779072429",
       "title": "仓鼠的贴纸册",
       "release_date_text": "2026 年 5 月 17 日",
       "price_text": "免费",
@@ -264,7 +369,7 @@
         "可爱",
         "放松"
       ],
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4281140/bda1b512935aaa020fc507c8a85d5f73c2498ec7/capsule_616x353_2x.jpg?t=1779071097",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4281140/bda1b512935aaa020fc507c8a85d5f73c2498ec7/capsule_616x353_2x.jpg?t=1779072429",
       "asset_source": "store_browse:main_capsule_2x",
       "short_description": "用可爱的贴纸装饰你的桌面!一款桌面覆盖贴纸册应用,让你在工作时自由地贴上和移除屏幕上的贴纸。",
       "description_source": "store_browse_short",
@@ -276,7 +381,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -327,7 +432,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -335,6 +440,60 @@
         "解谜",
         "单人",
         "免费开玩"
+      ]
+    },
+    {
+      "appid": "4434680",
+      "steam_url": "https://store.steampowered.com/app/4434680/Welcome_to_Elite_Cafe/",
+      "tag_ids": [
+        "597",
+        "599",
+        "9",
+        "1645",
+        "87918",
+        "5379",
+        "3871"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4434680/26f24bbb21e6f3f7033000e658022d8937a3c060/capsule_616x353_2x.jpg?t=1779073220",
+      "title": "Welcome to Elite Cafe",
+      "release_date_text": "2026 年 5 月 17 日",
+      "price_text": "¥36.00",
+      "discount_text": "",
+      "review_summary": "",
+      "price_final": 3600,
+      "release_date": "2026-05-17",
+      "kind": "game",
+      "tag_names": [
+        "休闲",
+        "模拟",
+        "策略",
+        "塔防",
+        "2D 平台"
+      ],
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4434680/26f24bbb21e6f3f7033000e658022d8937a3c060/capsule_616x353_2x.jpg?t=1779073220",
+      "asset_source": "store_browse:main_capsule_2x",
+      "short_description": "心跳加速的咖啡店经营游戏！ 接客、烹饪、研发新菜单 — Elite Cafe 今天也忙个不停！ 还能制作原创曲奇和饮品。 换上服装，你的本命就能当店长？",
+      "description_source": "store_browse_short",
+      "developers": [
+        "さめGames"
+      ],
+      "publishers": [
+        "holo Indie"
+      ],
+      "price_value": 3600,
+      "is_free": false,
+      "detail_error": "",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
+      "is_discounted": false,
+      "genres": [
+        "休闲",
+        "模拟",
+        "策略",
+        "塔防",
+        "2D 平台"
       ]
     },
     {
@@ -366,7 +525,7 @@
       "is_free": true,
       "detail_error": "",
       "short_description": "A Puzzle Roguelike of Risk and Deduction. Combine powers of artifacts, unlock new characters and find your way out of the cursed archipelago.",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -417,7 +576,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "沉浸式模拟",
         "视觉小说",
@@ -454,7 +613,7 @@
       "is_free": true,
       "detail_error": "",
       "short_description": "A cozy cafe living on your taskbar! \"Still Open\" is a peaceful idle game that runs in the background while you work. With an atmosphere that changes based on your system time, 60+ upgrades, mini-games, and built-in Pomodoro/Project Tracking tools, turn your productivity into a coffee break.",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -488,7 +647,7 @@
       "is_free": true,
       "detail_error": "",
       "short_description": "Squavity is a mind-bending, gravity-flipping precision platformer. Navigate through 9 brutal levels with a final boss fight, using your ability to flip gravity to overcome obstacles, evade traps, and unlock secrets hidden within a dynamic world.",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -522,7 +681,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -570,7 +729,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -610,10 +769,65 @@
       "is_free": true,
       "detail_error": "",
       "short_description": "Take on the role of a detective in this comical Guess-Who detective mystery. Investigate absurd crimes in a weird and wacky world. Question suspects, learn their habits, and rule them out one by one until you uncover the truth hiding beneath all the nonsense.",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
+    },
+    {
+      "appid": "4698640",
+      "steam_url": "https://store.steampowered.com/app/4698640/Resurface_Demo/",
+      "tag_ids": [
+        "597",
+        "599",
+        "5981",
+        "9",
+        "3834",
+        "9157",
+        "1773"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4698640/4ff4a6857064b6c71dfe0739c2ce17751989d1cd/capsule_616x353_2x.jpg?t=1779084150",
+      "title": "Resurface Demo",
+      "release_date_text": "2026 年 5 月 17 日",
+      "price_text": "免费",
+      "discount_text": "",
+      "review_summary": "",
+      "price_final": 0,
+      "release_date": "2026-05-17",
+      "kind": "demo",
+      "tag_names": [
+        "休闲",
+        "模拟",
+        "策略",
+        "探索",
+        "街机"
+      ],
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4698640/4ff4a6857064b6c71dfe0739c2ce17751989d1cd/capsule_616x353_2x.jpg?t=1779084150",
+      "asset_source": "store_browse:main_capsule_2x",
+      "short_description": "在这款休闲的增量挖矿游戏中逃离深海。挖矿、升级、探索不同的生物群落，让你的力量成倍疯狂增长！",
+      "description_source": "store_browse_short",
+      "developers": [
+        "r8teful"
+      ],
+      "publishers": [
+        "r8teful"
+      ],
+      "is_free": true,
+      "detail_error": "",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
+      "is_discounted": false,
+      "price_value": 0,
+      "genres": [
+        "休闲",
+        "模拟",
+        "策略",
+        "探索",
+        "街机"
+      ]
     },
     {
       "appid": "3878820",
@@ -661,13 +875,66 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "休闲",
         "益智问答",
         "多人",
         "控制器",
         "彩色"
+      ]
+    },
+    {
+      "appid": "4476380",
+      "steam_url": "https://store.steampowered.com/app/4476380/Prerolled_Demo/",
+      "tag_ids": [
+        "7556",
+        "597",
+        "97376",
+        "1664",
+        "32322",
+        "3959",
+        "1716"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4476380/e2a9e484efc39aa0a8d1bdc26ddb1cc60ad2eca8/capsule_616x353_2x.jpg?t=1779075018",
+      "title": "Prerolled Demo",
+      "release_date_text": "2026 年 5 月 17 日",
+      "price_text": "免费",
+      "discount_text": "",
+      "review_summary": "",
+      "price_final": 0,
+      "release_date": "2026-05-17",
+      "kind": "demo",
+      "tag_names": [
+        "休闲",
+        "解谜",
+        "类魂",
+        "类 Rogue"
+      ],
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4476380/e2a9e484efc39aa0a8d1bdc26ddb1cc60ad2eca8/capsule_616x353_2x.jpg?t=1779075018",
+      "asset_source": "store_browse:main_capsule_2x",
+      "short_description": "Sell prerolled dice to make crazy money in this silly roguelite incremental puzzle mix-up. Pack dice in boxes, make absurd combos and happily overcharge your quirky clients!",
+      "description_source": "store_browse_short",
+      "developers": [
+        "Red Sauce Games"
+      ],
+      "publishers": [
+        "Red Sauce Games"
+      ],
+      "is_free": true,
+      "detail_error": "",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
+      "is_discounted": false,
+      "price_value": 0,
+      "genres": [
+        "休闲",
+        "解谜",
+        "类魂",
+        "类 Rogue"
       ]
     },
     {
@@ -716,7 +983,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "剧情丰富",
         "解谜",
@@ -769,7 +1036,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -778,6 +1045,61 @@
         "策略",
         "单人",
         "物理"
+      ]
+    },
+    {
+      "appid": "3369490",
+      "steam_url": "https://store.steampowered.com/app/3369490/Noxcode/",
+      "tag_ids": [
+        "493",
+        "19",
+        "42804",
+        "1625",
+        "1664",
+        "1716",
+        "5900"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3369490/26fd391da893a17dfb5647554c50342c744cc6cb/capsule_616x353_2x.jpg?t=1779084316",
+      "title": "Noxcode",
+      "release_date_text": "2026 年 5 月 17 日",
+      "price_text": "¥19.80",
+      "discount_text": "-40%",
+      "review_summary": "",
+      "price_final": 1980,
+      "original_price_text": "¥33.00",
+      "release_date": "2026-05-17",
+      "kind": "game",
+      "tag_names": [
+        "抢先体验",
+        "动作",
+        "动作类 Rogue",
+        "平台游戏",
+        "解谜"
+      ],
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3369490/26fd391da893a17dfb5647554c50342c744cc6cb/capsule_616x353_2x.jpg?t=1779084316",
+      "asset_source": "store_browse:main_capsule_2x",
+      "short_description": "Reach the TOP by any means possible. Run, jump, climb, fly, or even fall your way up in this chaotic jump quest platformer. Master crazy movement, discover wild shortcuts, and push your skills to the limit!",
+      "description_source": "store_browse_short",
+      "developers": [
+        "Glitch Squirrel"
+      ],
+      "publishers": [
+        "Glitch Squirrel"
+      ],
+      "price_value": 1980,
+      "is_discounted": true,
+      "is_free": false,
+      "detail_error": "",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
+      "genres": [
+        "抢先体验",
+        "动作",
+        "动作类 Rogue",
+        "平台游戏",
+        "解谜"
       ]
     },
     {
@@ -823,7 +1145,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "休闲",
         "时间管理"
@@ -875,7 +1197,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "动作",
         "冒险",
@@ -904,7 +1226,7 @@
       "release_date_text": "2026 年 5 月 17 日",
       "price_text": "¥53.10",
       "discount_text": "-10%",
-      "review_summary": "好评 此游戏的 11 篇用户评测中有 90% 为好评。",
+      "review_summary": "好评 此游戏的 13 篇用户评测中有 92% 为好评。",
       "price_final": 5310,
       "original_price_text": "¥59.00",
       "release_date": "2026-05-17",
@@ -929,12 +1251,66 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "恐怖",
         "动作",
         "真实",
         "氛围"
+      ]
+    },
+    {
+      "appid": "4455950",
+      "steam_url": "https://store.steampowered.com/app/4455950/Humans_Vs_Orcs/",
+      "tag_ids": [
+        "597",
+        "19",
+        "21",
+        "4736",
+        "4158",
+        "1698",
+        "1646"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4455950/9067446f4ea20d3f397138b10cfda0e1f0258950/capsule_616x353_2x.jpg?t=1779082587",
+      "title": "Humans Vs Orcs",
+      "release_date_text": "2026 年 5 月 17 日",
+      "price_text": "¥22.00",
+      "discount_text": "",
+      "review_summary": "",
+      "price_final": 2200,
+      "release_date": "2026-05-17",
+      "kind": "game",
+      "tag_names": [
+        "休闲",
+        "动作",
+        "冒险",
+        "指向点击",
+        "回合制"
+      ],
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4455950/9067446f4ea20d3f397138b10cfda0e1f0258950/capsule_616x353_2x.jpg?t=1779082587",
+      "asset_source": "store_browse:main_capsule_2x",
+      "short_description": "Hold the line against the orc horde in this side-scrolling incremental strategy game. Recruit humans and mercenaries, master active abilities, and survive escalating waves of orcs, dragons, and bosses. Every run gets harder — and you get stronger.",
+      "description_source": "store_browse_short",
+      "developers": [
+        "ShakyHand"
+      ],
+      "publishers": [
+        "ShakyHand"
+      ],
+      "price_value": 2200,
+      "is_free": false,
+      "detail_error": "",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
+      "is_discounted": false,
+      "genres": [
+        "休闲",
+        "动作",
+        "冒险",
+        "指向点击",
+        "回合制"
       ]
     },
     {
@@ -983,7 +1359,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "冒险",
         "动作",
@@ -1036,7 +1412,7 @@
       "price_value": 2518,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "genres": [
         "动作",
@@ -1092,7 +1468,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "独立",
         "战争",
@@ -1143,7 +1519,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -1182,7 +1558,7 @@
       "is_free": true,
       "detail_error": "",
       "short_description": "Build, Upgrade, and then Move your Towers in this unique twist on the Tower Defence genre. With Rogue-Lite mechanics every run offers new strategies, and every death unlocks new upgrades. Grow. Evolve. Destroy the Robots!",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -1228,7 +1604,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -1277,7 +1653,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -1314,7 +1690,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -1361,7 +1737,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -1414,7 +1790,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -1468,7 +1844,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -1508,10 +1884,116 @@
       "is_free": true,
       "detail_error": "",
       "short_description": "Win the heart of the Emperor by presenting the best gifts and outplaying your rivals in this digital version of the boardgame Consorts of the Emperor!",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
+    },
+    {
+      "appid": "4528050",
+      "steam_url": "https://store.steampowered.com/app/4528050/Cold_Decree_Demo/",
+      "tag_ids": [
+        "9",
+        "1664",
+        "1738",
+        "4191",
+        "3839",
+        "4166",
+        "5613"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4528050/28f3ffb83dcc81ccbe35a3318fc32c83dbd1a3ad/capsule_616x353_2x.jpg?t=1779081508",
+      "title": "Cold Decree Demo",
+      "release_date_text": "2026 年 5 月 17 日",
+      "price_text": "免费",
+      "discount_text": "",
+      "review_summary": "",
+      "price_final": 0,
+      "release_date": "2026-05-17",
+      "kind": "demo",
+      "tag_names": [
+        "策略",
+        "解谜",
+        "3D",
+        "第一人称",
+        "氛围"
+      ],
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4528050/28f3ffb83dcc81ccbe35a3318fc32c83dbd1a3ad/capsule_616x353_2x.jpg?t=1779081508",
+      "asset_source": "store_browse:main_capsule_2x",
+      "short_description": "Cold Decree is an atmospheric detective game that puts you in charge of a forensic laboratory. Scrutinize unsolved case files, analyze objects, and manually query the technical data within massive databases. Stop guessing; identify the perpetrator using only concrete evidence.",
+      "description_source": "store_browse_short",
+      "developers": [
+        "Kadir AKKAS"
+      ],
+      "publishers": [
+        "Fadinglight studios"
+      ],
+      "is_free": true,
+      "detail_error": "",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
+      "is_discounted": false,
+      "price_value": 0,
+      "genres": [
+        "策略",
+        "解谜",
+        "3D",
+        "第一人称",
+        "氛围"
+      ]
+    },
+    {
+      "appid": "4712970",
+      "steam_url": "https://store.steampowered.com/app/4712970/Choppy_Waves_Demo/",
+      "tag_ids": [
+        "7178",
+        "1685",
+        "3859",
+        "3843",
+        "597",
+        "16689",
+        "19"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4712970/ecb1a1b4919ba7d4e0e3415f73cd63353bdc7d63/capsule_616x353_2x.jpg?t=1779084124",
+      "title": "Choppy Waves Demo",
+      "release_date_text": "2026 年 5 月 17 日",
+      "price_text": "免费",
+      "discount_text": "",
+      "review_summary": "",
+      "price_final": 0,
+      "release_date": "2026-05-17",
+      "kind": "demo",
+      "tag_names": [
+        "多人",
+        "休闲",
+        "时间管理",
+        "动作"
+      ],
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4712970/ecb1a1b4919ba7d4e0e3415f73cd63353bdc7d63/capsule_616x353_2x.jpg?t=1779084124",
+      "asset_source": "store_browse:main_capsule_2x",
+      "short_description": "Choppy Waves is an online co-op party game for up to 4 players where you run a floating bar on the open ocean, mixing drinks and serving customers while waves send everyone sliding across the deck.",
+      "description_source": "store_browse_short",
+      "developers": [
+        "Wasted Studios"
+      ],
+      "publishers": [
+        "Wasted Studios"
+      ],
+      "is_free": true,
+      "detail_error": "",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
+      "is_discounted": false,
+      "price_value": 0,
+      "genres": [
+        "多人",
+        "休闲",
+        "时间管理",
+        "动作"
+      ]
     },
     {
       "appid": "4711330",
@@ -1543,7 +2025,7 @@
       "is_free": true,
       "detail_error": "",
       "short_description": "A strategic twist on Battleship where every ship has unique abilities. Build your fleet of 4, outsmart your opponent with cooldown-based powers, and climb the ranked leaderboards. Free to play with cross-platform multiplayer.",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -1592,7 +2074,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -1647,11 +2129,65 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "冒险",
         "剧情丰富",
         "指向点击"
+      ]
+    },
+    {
+      "appid": "4681020",
+      "steam_url": "https://store.steampowered.com/app/4681020/Artificial_Dawn/",
+      "tag_ids": [
+        "19",
+        "1774",
+        "5379",
+        "4255",
+        "4885",
+        "4637",
+        "3871"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4681020/1bd5397d41c48b063ad490c37fdc7d88392a94a8/capsule_616x353_2x.jpg?t=1779084796",
+      "title": "Artificial Dawn",
+      "release_date_text": "2026 年 5 月 17 日",
+      "price_text": "¥6.00",
+      "discount_text": "",
+      "review_summary": "",
+      "price_final": 600,
+      "release_date": "2026-05-17",
+      "kind": "game",
+      "tag_names": [
+        "动作",
+        "射击",
+        "2D 平台",
+        "清版动作",
+        "弹幕射击"
+      ],
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4681020/1bd5397d41c48b063ad490c37fdc7d88392a94a8/capsule_616x353_2x.jpg?t=1779084796",
+      "asset_source": "store_browse:main_capsule_2x",
+      "short_description": "Defeat is not the end. After a game over, return to your base to strengthen with battle points and try again. Artificial Dawn is a shooting game designed to grow stronger the more you try, and anyone can clear it as long as they don't give up.",
+      "description_source": "store_browse_short",
+      "developers": [
+        "Biryeong"
+      ],
+      "publishers": [
+        "Biryeong"
+      ],
+      "price_value": 600,
+      "is_free": false,
+      "detail_error": "",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
+      "is_discounted": false,
+      "genres": [
+        "动作",
+        "射击",
+        "2D 平台",
+        "清版动作",
+        "弹幕射击"
       ]
     },
     {
@@ -1697,7 +2233,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -1751,7 +2287,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -1791,7 +2327,7 @@
       "is_free": true,
       "detail_error": "",
       "short_description": "Some days you just want to dig in the dirt and watch something grow. Agraria gets it. Build your dream farm at your own pace - tilling, planting, harvesting, and slowly building an agricultural empire - all under the caring, non-intrusive guidance of Agraria Inc. (Terms and conditions may apply.)",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -1841,7 +2377,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "探索",
         "冒险",
@@ -1897,7 +2433,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "免费开玩",
         "休闲",
@@ -1921,7 +2457,7 @@
       "platforms": [
         "Windows"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4599890/890b94c2454d650341dc1365d33ee722b3f3832d/capsule_616x353_schinese_2x.jpg?t=1779069018",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4599890/890b94c2454d650341dc1365d33ee722b3f3832d/capsule_616x353_schinese_2x.jpg?t=1779072098",
       "title": "香港恐怖事件：益善楼外卖血案",
       "release_date_text": "2026 年 5 月 16 日",
       "price_text": "¥16.80",
@@ -1937,7 +2473,7 @@
         "角色扮演",
         "独立"
       ],
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4599890/890b94c2454d650341dc1365d33ee722b3f3832d/capsule_616x353_schinese_2x.jpg?t=1779069018",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4599890/890b94c2454d650341dc1365d33ee722b3f3832d/capsule_616x353_schinese_2x.jpg?t=1779072098",
       "asset_source": "store_browse:main_capsule_2x",
       "short_description": "最后一单外卖，送进了一栋再也走不出去的住宅楼。 你以为只是平凡的工作，却在熟悉的益善楼里，逐渐陷入无法逃脱的噩梦。",
       "description_source": "store_browse_short",
@@ -1951,7 +2487,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "冒险",
         "恐怖",
@@ -1988,7 +2524,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -2014,7 +2550,7 @@
       "release_date_text": "2026 年 5 月 16 日",
       "price_text": "¥37.80",
       "discount_text": "-10%",
-      "review_summary": "好评如潮 此游戏的 603 篇用户评测中有 99% 为好评。",
+      "review_summary": "好评如潮 此游戏的 616 篇用户评测中有 99% 为好评。",
       "price_final": 3780,
       "original_price_text": "¥42.00",
       "release_date": "2026-05-16",
@@ -2040,7 +2576,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "休闲",
         "动态叙事",
@@ -2088,7 +2624,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -2138,7 +2674,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -2193,7 +2729,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "休闲",
         "动作类 Rogue",
@@ -2245,7 +2781,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -2300,7 +2836,7 @@
       "price_value": 1500,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "genres": [
         "动作",
@@ -2338,7 +2874,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -2386,7 +2922,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -2412,7 +2948,7 @@
       "platforms": [
         "Windows"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4669230/ade0b6da4498d4bd7336d909145237bb980606ed/capsule_616x353_2x.jpg?t=1779058838",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4669230/ade0b6da4498d4bd7336d909145237bb980606ed/capsule_616x353_2x.jpg?t=1779079687",
       "title": "Traders Life Together",
       "release_date_text": "2026 年 5 月 16 日",
       "price_text": "¥69.30",
@@ -2429,7 +2965,7 @@
         "独立",
         "沉浸式模拟"
       ],
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4669230/ade0b6da4498d4bd7336d909145237bb980606ed/capsule_616x353_2x.jpg?t=1779058838",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4669230/ade0b6da4498d4bd7336d909145237bb980606ed/capsule_616x353_2x.jpg?t=1779079687",
       "asset_source": "store_browse:main_capsule_2x",
       "short_description": "Start your supermarket business and make your own trading Journey! With Co-op support Play solo or team up with friends, featuring over 300 items you can make your dream store, the enjoy it with your friends!",
       "description_source": "store_browse_short",
@@ -2443,7 +2979,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "模拟",
         "休闲",
@@ -2492,7 +3028,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -2541,7 +3077,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -2593,7 +3129,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -2647,7 +3183,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -2701,7 +3237,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -2741,7 +3277,7 @@
       "is_free": true,
       "detail_error": "",
       "short_description": "《SkyRecoil》是一款快节奏动作游戏。挥舞强力锤子粉碎敌人，利用爆炸产生的后坐力高速穿梭战场，在枪林弹雨中灵活闪避、精准击杀。不断解锁强力改装，打造属于你的战斗风格，变得越来越强！",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -2792,7 +3328,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "策略",
         "休闲",
@@ -2846,7 +3382,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "休闲",
         "像素图形",
@@ -2898,7 +3434,7 @@
       "price_value": 5900,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "genres": [
         "模拟",
@@ -2952,7 +3488,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "探索",
         "沙盒",
@@ -3006,7 +3542,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "策略",
         "回合制战术",
@@ -3054,7 +3590,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -3108,7 +3644,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "休闲",
         "策略",
@@ -3160,7 +3696,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -3200,7 +3736,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -3248,7 +3784,7 @@
       "price_value": 600,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "genres": [
         "休闲",
@@ -3286,7 +3822,7 @@
       "is_free": true,
       "detail_error": "",
       "short_description": "合成棋子，击败异变。开口提问，改写旅程。《长夜余烬》是一款结合 2048 式棋盘战斗与 AI 反应式叙事的黑暗幻想 Roguelike。你的对话、选择与构筑，将改变每一轮冒险中的事件、遭遇、同伴关系与隐藏真相。",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -3321,7 +3857,7 @@
       "is_free": true,
       "detail_error": "",
       "short_description": "Unravel the mysteries of your past, protect the ones you love, and shape your destiny in Enigma Heart, a modern new take on a classic action RPG formula. Blend exploration, magic, and combat with a variety of new abilities as you stand against the dark forces threatening your homeland.",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -3369,7 +3905,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -3409,7 +3945,7 @@
       "is_free": true,
       "detail_error": "",
       "short_description": "Draw your spells. Command the elements. DRAWCERY is an online PvP spell-summoning game with unique, draw-to-cast combat. Sketch elemental symbols in the heat of battle to unleash real-time magic and outplay your rivals like a true wizard.",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -3443,7 +3979,7 @@
       "is_free": true,
       "detail_error": "",
       "short_description": "A modern JRPG adventure across the globe. Battle rogue critters with ancient tech, explore real-world cities with your party, uncover hidden secrets and solve the mystery of the Critternauts.",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -3490,7 +4026,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -3528,7 +4064,7 @@
       "is_free": true,
       "detail_error": "",
       "short_description": "RECRUIT, MERGE, and NUKE your board. Build game-breaking pieces and annihilate the enemy in this CHESS Roguelike.",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -3575,7 +4111,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -3632,7 +4168,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "休闲",
         "策略",
@@ -3684,7 +4220,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -3715,7 +4251,7 @@
       "release_date_text": "2026 年 5 月 15 日",
       "price_text": "¥59.99",
       "discount_text": "-40%",
-      "review_summary": "多半好评 此游戏的 397 篇用户评测中有 72% 为好评。",
+      "review_summary": "多半好评 此游戏的 403 篇用户评测中有 71% 为好评。",
       "price_final": 5999,
       "original_price_text": "¥99.99",
       "release_date": "2026-05-15",
@@ -3739,7 +4275,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "策略",
         "游戏开发",
@@ -3792,7 +4328,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "沉浸式模拟",
         "互动小说",
@@ -3820,7 +4356,7 @@
       "release_date_text": "2026 年 5 月 15 日",
       "price_text": "¥19.20",
       "discount_text": "-20%",
-      "review_summary": "特别好评 此游戏的 70 篇用户评测中有 94% 为好评。",
+      "review_summary": "特别好评 此游戏的 73 篇用户评测中有 94% 为好评。",
       "price_final": 1920,
       "original_price_text": "¥24.00",
       "release_date": "2026-05-15",
@@ -3846,7 +4382,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "动作",
         "平台游戏",
@@ -3902,7 +4438,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "模拟",
         "策略",
@@ -3952,7 +4488,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -4006,7 +4542,7 @@
       ],
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -4062,7 +4598,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "时间管理",
         "沉浸式模拟",
@@ -4110,7 +4646,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -4165,7 +4701,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "单人",
         "休闲",
@@ -4220,7 +4756,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "休闲",
         "角色扮演",
@@ -4271,7 +4807,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -4327,7 +4863,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "模拟",
         "策略",
@@ -4356,7 +4892,7 @@
       "release_date_text": "2026 年 5 月 15 日",
       "price_text": "¥28.05",
       "discount_text": "-15%",
-      "review_summary": "特别好评 此游戏的 64 篇用户评测中有 95% 为好评。",
+      "review_summary": "特别好评 此游戏的 65 篇用户评测中有 95% 为好评。",
       "price_final": 2805,
       "original_price_text": "¥33.00",
       "release_date": "2026-05-15",
@@ -4382,7 +4918,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "冒险",
         "视觉小说",
@@ -4435,7 +4971,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -4492,7 +5028,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "模拟",
         "沉浸式模拟",
@@ -4543,7 +5079,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -4596,7 +5132,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -4636,7 +5172,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -4662,7 +5198,7 @@
       "release_date_text": "2026 年 5 月 15 日",
       "price_text": "¥53.10",
       "discount_text": "-10%",
-      "review_summary": "特别好评 此游戏的 138 篇用户评测中有 95% 为好评。",
+      "review_summary": "特别好评 此游戏的 144 篇用户评测中有 95% 为好评。",
       "price_final": 5310,
       "original_price_text": "¥59.00",
       "release_date": "2026-05-15",
@@ -4685,7 +5221,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "抢先体验",
         "类魂"
@@ -4735,7 +5271,7 @@
       "price_value": 2464,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "genres": [
         "休闲",
@@ -4773,7 +5309,7 @@
       "is_free": true,
       "detail_error": "",
       "short_description": "这是一个关于香肠的点击游戏",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -4821,7 +5357,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -4875,7 +5411,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -4929,7 +5465,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -4983,7 +5519,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -5040,7 +5576,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "休闲",
         "冒险",
@@ -5092,7 +5628,7 @@
       "price_value": 2200,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "genres": [
         "动作",
@@ -5144,7 +5680,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -5197,7 +5733,7 @@
       "is_free": true,
       "detail_error": "",
       "short_description": "在这款农场模拟游戏中，以郁金香为颜料，以花田为画布，绘制你的策略与休闲之作。规划种植，让所有花和谐排布，在整片花田上构成优雅的样式。不论是每日仔细照料，还是在休闲模式下任其盛放，你的目标很简单：打造值得国王一观的美景。",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -5252,7 +5788,7 @@
       "price_value": 1100,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "genres": [
         "动作",
@@ -5291,7 +5827,7 @@
       "is_free": true,
       "detail_error": "",
       "short_description": "Secret agent Franklin Benjamin will stop at nothing to save the world. In this single-player interactive spy novel, you play as his greatest adversaries - can the criminal enterprise known as V.I.C.T.O.R. defeat the only man standing between them and world domination? To the VICTOR go the spoils!",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -5325,7 +5861,7 @@
       "is_free": true,
       "detail_error": "",
       "short_description": "为了融入新学校，索尼娅结识了一群自称为乡村女巫的女孩。在完成她们交予的任务时，她发现这些任务一次比一次离奇、诡异和残酷。为了被接纳，她究竟会走多远？",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -5359,7 +5895,7 @@
       "is_free": true,
       "detail_error": "",
       "short_description": "《The Pale Mimic》是一款以阿拉斯加荒野为背景的氛围恐怖游戏。作为一名在逃的高级通缉犯，你和你的爱犬在寒冷的森林中相依为命，直到不速之客的到来。",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -5413,7 +5949,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "平台游戏",
         "动作",
@@ -5468,7 +6004,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "冒险",
         "休闲",
@@ -5521,7 +6057,7 @@
       "price_value": 1500,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "genres": [
         "互动小说",
@@ -5573,7 +6109,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -5613,7 +6149,7 @@
       "is_free": true,
       "detail_error": "",
       "short_description": "A brutal turn-based tactical RPG where you fight on a grid, manage hunger and sanity, and uncover a world breaking apart. Your choices are permanent and the gods are always watching. Who will you serve?",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -5647,7 +6183,7 @@
       "is_free": true,
       "detail_error": "",
       "short_description": "You’re playing a game in the dark. Something in your room is not. In this Sit & Survive type psychological horror game, you're a child playing on your console, while something roams your room. Observe your surroundings, listen carefully and manage your stress to survive this nightmarish night.",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -5698,7 +6234,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "探索",
         "沉浸式模拟",
@@ -5728,7 +6264,7 @@
       "release_date_text": "2026 年 5 月 15 日",
       "price_text": "¥37.80",
       "discount_text": "-10%",
-      "review_summary": "特别好评 此游戏的 202 篇用户评测中有 97% 为好评。",
+      "review_summary": "特别好评 此游戏的 197 篇用户评测中有 96% 为好评。",
       "price_final": 3780,
       "original_price_text": "¥42.00",
       "release_date": "2026-05-15",
@@ -5754,7 +6290,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "沉浸式模拟",
         "沙盒",
@@ -5808,7 +6344,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "休闲",
         "解谜",
@@ -5861,7 +6397,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "策略",
         "角色扮演",
@@ -5914,7 +6450,7 @@
       "price_value": 2600,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "genres": [
         "2D 平台",
@@ -5965,7 +6501,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -6004,7 +6540,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -6029,7 +6565,7 @@
       "release_date_text": "2026 年 5 月 15 日",
       "price_text": "¥44.10",
       "discount_text": "-10%",
-      "review_summary": "褒贬不一 此游戏的 111 篇用户评测中有 63% 为好评。",
+      "review_summary": "褒贬不一 此游戏的 121 篇用户评测中有 61% 为好评。",
       "price_final": 4410,
       "original_price_text": "¥49.00",
       "release_date": "2026-05-15",
@@ -6052,7 +6588,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "沙盒",
         "建造"
@@ -6101,7 +6637,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -6154,7 +6690,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -6208,7 +6744,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "弹幕射击",
         "动作类 Rogue",
@@ -6258,7 +6794,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -6313,7 +6849,7 @@
       "price_value": 2999,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "genres": [
         "街机",
@@ -6368,7 +6904,7 @@
       "price_value": 2200,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "genres": [
         "动作",
@@ -6422,7 +6958,7 @@
       "price_value": 2171,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "genres": [
         "抢先体验",
@@ -6476,7 +7012,7 @@
       "price_value": 1800,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "genres": [
         "休闲",
@@ -6507,7 +7043,7 @@
       "release_date_text": "2026 年 5 月 15 日",
       "price_text": "¥47.20",
       "discount_text": "-20%",
-      "review_summary": "特别好评 此游戏的 643 篇用户评测中有 90% 为好评。",
+      "review_summary": "特别好评 此游戏的 682 篇用户评测中有 90% 为好评。",
       "price_final": 4720,
       "original_price_text": "¥59.00",
       "release_date": "2026-05-15",
@@ -6531,7 +7067,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "2D",
         "动漫",
@@ -6581,7 +7117,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -6633,7 +7169,7 @@
       "price_value": 1500,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "genres": [
         "抢先体验",
@@ -6670,7 +7206,7 @@
       "is_free": true,
       "detail_error": "",
       "short_description": "A young soul lands in Heaven by chance, but he doesn't belong here. To find his way home, he'll need wool. A lot of wool! Shear Heaven is a cozy 3D voxel platformer set among floating sky islands; a playground built for wonder, fluffy sheep, and finding your way back to the people you love.",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -6720,7 +7256,7 @@
       "price_value": 4200,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "genres": [
         "抢先体验",
@@ -6774,7 +7310,7 @@
       "price_value": 2200,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "genres": [
         "动作",
@@ -6813,7 +7349,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -6861,7 +7397,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -6914,7 +7450,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -6968,7 +7504,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -7020,7 +7556,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -7060,7 +7596,7 @@
       "is_free": true,
       "detail_error": "",
       "short_description": "Cyberpunk extraction runner with bhop movement. Speed determines whether enemies can hit you. Race your own ghost through gauntlet levels, slide under barriers, chain crouch-bhops on ramps, and extract before the system catches up.",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -7108,7 +7644,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -7148,7 +7684,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -7196,7 +7732,7 @@
       "price_value": 2600,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "genres": [
         "抢先体验",
@@ -7249,7 +7785,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "抢先体验",
         "休闲",
@@ -7296,7 +7832,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -7348,7 +7884,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -7403,7 +7939,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -7443,7 +7979,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -7477,7 +8013,7 @@
       "is_free": true,
       "detail_error": "",
       "short_description": "Pack My Order is a cozy online shopping simulator. Fill your cart based on the customers' lists and budgets, and enjoy the process without any rush. Cute animations, pleasant sounds, and a calm pace await you. No timers — the perfect way to clear your mind after a long day.",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -7525,7 +8061,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -7582,7 +8118,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "动作",
         "冒险",
@@ -7634,7 +8170,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -7674,7 +8210,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -7723,7 +8259,7 @@
       "price_value": 2600,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "genres": [
         "动作冒险",
@@ -7775,7 +8311,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "恐怖"
       ]
@@ -7800,7 +8336,7 @@
       "release_date_text": "2026 年 5 月 15 日",
       "price_text": "¥15.00",
       "discount_text": "",
-      "review_summary": "特别好评 此游戏的 639 篇用户评测中有 90% 为好评。",
+      "review_summary": "特别好评 此游戏的 640 篇用户评测中有 90% 为好评。",
       "price_final": 1500,
       "release_date": "2026-05-15",
       "kind": "game",
@@ -7824,7 +8360,7 @@
       "price_value": 1500,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "genres": [
         "动作类 Rogue",
@@ -7881,7 +8417,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "动作类 Rogue",
         "弹幕射击",
@@ -7934,7 +8470,7 @@
       ],
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -7974,7 +8510,7 @@
       "is_free": true,
       "detail_error": "",
       "short_description": "The front office sports experience — but for an MMORPG guild. Scout talent, manage your roster, win arena tournaments, build raid teams, and climb the rankings one boss kill at a time.",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -8025,7 +8561,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "探索",
         "回合制战术",
@@ -8077,7 +8613,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -8120,7 +8656,7 @@
       "is_free": true,
       "detail_error": "",
       "short_description": "当主角从梦中醒来时，一切都变了，他将独自对抗一整所庄园的行尸走肉，并发掘其背后的惊天秘密。",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -8171,7 +8707,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "休闲",
         "模拟",
@@ -8200,7 +8736,7 @@
       "release_date_text": "2026 年 5 月 15 日",
       "price_text": "¥25.92",
       "discount_text": "-40%",
-      "review_summary": "多半好评 此游戏的 106 篇用户评测中有 78% 为好评。",
+      "review_summary": "多半好评 此游戏的 109 篇用户评测中有 78% 为好评。",
       "price_final": 2592,
       "original_price_text": "¥43.21",
       "release_date": "2026-05-15",
@@ -8226,7 +8762,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "冒险",
         "街机",
@@ -8278,7 +8814,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -8335,7 +8871,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "恐怖",
         "单人",
@@ -8390,7 +8926,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "模拟",
         "解谜",
@@ -8442,7 +8978,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -8495,7 +9031,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -8549,7 +9085,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -8602,7 +9138,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -8655,7 +9191,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -8710,7 +9246,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "角色扮演",
         "恐怖",
@@ -8761,7 +9297,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -8815,7 +9351,7 @@
       "price_value": 2200,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "genres": [
         "冒险",
@@ -8868,7 +9404,7 @@
       "price_value": 2200,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "genres": [
         "冒险",
@@ -8922,7 +9458,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "恐怖",
         "动作",
@@ -8975,7 +9511,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "弹幕射击",
         "俯视",
@@ -9027,7 +9563,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -9080,7 +9616,7 @@
       "price_value": 14100,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "genres": [
         "动作",
@@ -9117,7 +9653,7 @@
       "is_free": true,
       "detail_error": "",
       "short_description": "Step into the arena in this fast-paced roguelike deckbuilder! Instead of cards, you build the ultimate deadly slot machine. Draft unique symbols, trigger massive synergy combos, and survive endless waves of gladiators. Spin the reels, scale the Bronze League, and break the bank!",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -9166,7 +9702,7 @@
       "price_value": 2200,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "genres": [
         "动作",
@@ -9216,7 +9752,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -9271,7 +9807,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "动作",
         "分数挑战",
@@ -9323,7 +9859,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -9378,7 +9914,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "动作",
         "动作类 Rogue",
@@ -9428,7 +9964,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -9454,7 +9990,7 @@
       "platforms": [
         "Windows"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4702830/b01b1e7edc0115d5d219b7ba4d61fdd4e59b1e37/capsule_616x353_2x.jpg?t=1778837397",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4702830/b01b1e7edc0115d5d219b7ba4d61fdd4e59b1e37/capsule_616x353_2x.jpg?t=1779079068",
       "title": "GummyGom Delivery Demo",
       "release_date_text": "2026 年 5 月 15 日",
       "price_text": "免费",
@@ -9470,7 +10006,7 @@
         "益智平台",
         "3D"
       ],
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4702830/b01b1e7edc0115d5d219b7ba4d61fdd4e59b1e37/capsule_616x353_2x.jpg?t=1778837397",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4702830/b01b1e7edc0115d5d219b7ba4d61fdd4e59b1e37/capsule_616x353_2x.jpg?t=1779079068",
       "asset_source": "store_browse:main_capsule_2x",
       "short_description": "与你的啫喱熊伙伴们一起搬运板上的货物吧！每个人的动作都会影响板子的平衡，哪怕是一个小小的失误也可能让一切崩溃。",
       "description_source": "store_browse_short",
@@ -9487,7 +10023,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -9527,7 +10063,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -9575,7 +10111,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -9629,7 +10165,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "休闲",
         "街机",
@@ -9684,7 +10220,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "冒险",
         "休闲",
@@ -9736,7 +10272,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -9789,7 +10325,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -9845,7 +10381,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "动作",
         "冒险",
@@ -9900,7 +10436,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "策略",
         "解谜",
@@ -9951,7 +10487,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -10006,7 +10542,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "角色扮演",
         "探索",
@@ -10061,7 +10597,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "角色扮演",
         "类 Rogue",
@@ -10112,7 +10648,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "角色扮演",
         "第一人称",
@@ -10139,7 +10675,7 @@
       "release_date_text": "2026 年 5 月 15 日",
       "price_text": "¥18.81",
       "discount_text": "-10%",
-      "review_summary": "多半好评 此游戏的 15 篇用户评测中有 73% 为好评。",
+      "review_summary": "褒贬不一 此游戏的 16 篇用户评测中有 68% 为好评。",
       "price_final": 1881,
       "original_price_text": "¥20.90",
       "release_date": "2026-05-15",
@@ -10163,7 +10699,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "物理",
         "休闲",
@@ -10213,7 +10749,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "动作",
         "战斗"
@@ -10263,7 +10799,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -10303,7 +10839,7 @@
       "is_free": true,
       "detail_error": "",
       "short_description": "Rise from unknown newcomer to Yokozuna in a story-rich RPG where stable life, rivalry, and ritual are just as brutal as the clay.",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -10354,7 +10890,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "策略",
         "塔防",
@@ -10408,7 +10944,7 @@
       "price_value": 1500,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "genres": [
         "恐怖",
@@ -10463,7 +10999,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "休闲",
         "益智平台",
@@ -10515,7 +11051,7 @@
       "price_value": 7700,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "genres": [
         "休闲",
@@ -10568,7 +11104,7 @@
       "price_value": 1800,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "genres": [
         "动作",
@@ -10607,7 +11143,7 @@
       "is_free": true,
       "detail_error": "",
       "short_description": "CrazyDish is a dishwashing simulator where you scrub your way to the top of the Dishwashers' League! Complete challenging contracts using specialized brushes, powerful detergents, and more to dominate the global leaderboards. Ready, set, SCRUB!",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -10657,7 +11193,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "塔防",
         "控制器",
@@ -10709,7 +11245,7 @@
       "price_value": 1800,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "genres": [
         "动作",
@@ -10763,7 +11299,7 @@
       "price_value": 4200,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "genres": [
         "模拟",
@@ -10816,7 +11352,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -10873,7 +11409,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "动作",
         "休闲",
@@ -10927,7 +11463,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "2D",
         "精确平台",
@@ -10979,7 +11515,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -11019,7 +11555,7 @@
       "is_free": true,
       "detail_error": "",
       "short_description": "4人合作农场冒险。控制水豚和动物伙伴拯救破产家园！种植、修理、升级、工作，从森林探索到城市，为农夫偿还债务！",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -11053,7 +11589,7 @@
       "is_free": true,
       "detail_error": "",
       "short_description": "CUBOUNCE 是一款高速物理平台游戏，操控方块，通过弹射和勾爪摆荡在关卡中极限飞行，完成挑战",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -11087,7 +11623,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -11134,7 +11670,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -11190,7 +11726,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "动作",
         "冒险",
@@ -11243,7 +11779,7 @@
       "price_value": 2200,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "genres": [
         "沙盒",
@@ -11299,7 +11835,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "解谜",
         "街机",
@@ -11337,7 +11873,7 @@
       "is_free": true,
       "detail_error": "",
       "short_description": "Simple controls, premium gameplay! Blueblood Arena features a variety of characters with wildly different playstyles, with a free-flowing combo structure where anything is possible!",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -11357,12 +11893,12 @@
       "platforms": [
         "Windows"
       ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3689030/eedf39c9395834ef1860a16ce5df1eb25bddadce/capsule_616x353_2x.jpg?t=1778876477",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3689030/eedf39c9395834ef1860a16ce5df1eb25bddadce/capsule_616x353_2x.jpg?t=1779075465",
       "title": "Blueblood Arena",
       "release_date_text": "2026 年 5 月 15 日",
       "price_text": "¥19.50",
       "discount_text": "-25%",
-      "review_summary": "好评 此游戏的 29 篇用户评测中有 96% 为好评。",
+      "review_summary": "好评 此游戏的 30 篇用户评测中有 96% 为好评。",
       "price_final": 1950,
       "original_price_text": "¥26.00",
       "release_date": "2026-05-15",
@@ -11373,7 +11909,7 @@
         "街机",
         "战斗"
       ],
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3689030/eedf39c9395834ef1860a16ce5df1eb25bddadce/capsule_616x353_2x.jpg?t=1778876477",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3689030/eedf39c9395834ef1860a16ce5df1eb25bddadce/capsule_616x353_2x.jpg?t=1779075465",
       "asset_source": "store_browse:main_capsule_2x",
       "short_description": "Simple controls, premium gameplay! Blueblood Arena features a variety of characters with wildly different playstyles, with a free-flowing combo structure where anything is possible!",
       "description_source": "store_browse_short",
@@ -11387,7 +11923,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "抢先体验",
         "动作",
@@ -11438,7 +11974,7 @@
       "price_value": 1100,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "genres": [
         "模拟",
@@ -11490,7 +12026,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -11544,7 +12080,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -11599,7 +12135,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "探索",
         "解谜",
@@ -11652,7 +12188,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "探索",
         "2D 平台",
@@ -11692,7 +12228,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -11737,7 +12273,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -11788,7 +12324,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -11842,7 +12378,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -11895,7 +12431,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -11948,7 +12484,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -12005,7 +12541,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "模拟",
         "时间管理",
@@ -12043,7 +12579,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -12091,7 +12627,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -12119,7 +12655,7 @@
       "release_date_text": "2026 年 5 月 14 日",
       "price_text": "¥76.44",
       "discount_text": "-22%",
-      "review_summary": "特别好评 此游戏的 1,247 篇用户评测中有 94% 为好评。",
+      "review_summary": "特别好评 此游戏的 1,252 篇用户评测中有 94% 为好评。",
       "price_final": 7644,
       "original_price_text": "¥98.00",
       "release_date": "2026-05-14",
@@ -12145,7 +12681,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "模拟",
         "建造",
@@ -12199,7 +12735,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "抢先体验",
         "动作类 Rogue",
@@ -12254,7 +12790,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "休闲",
         "冒险",
@@ -12309,7 +12845,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "角色扮演",
         "冒险",
@@ -12364,7 +12900,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "精确平台",
         "平台游戏",
@@ -12416,7 +12952,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -12469,7 +13005,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -12499,7 +13035,7 @@
       "release_date_text": "2026 年 5 月 14 日",
       "price_text": "¥49.30",
       "discount_text": "-15%",
-      "review_summary": "特别好评 此游戏的 53 篇用户评测中有 81% 为好评。",
+      "review_summary": "特别好评 此游戏的 57 篇用户评测中有 82% 为好评。",
       "price_final": 4930,
       "original_price_text": "¥58.00",
       "release_date": "2026-05-14",
@@ -12525,7 +13061,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "动作类 Rogue",
         "类魂",
@@ -12554,7 +13090,7 @@
       "release_date_text": "2026 年 5 月 14 日",
       "price_text": "¥30.40",
       "discount_text": "-20%",
-      "review_summary": "特别好评 此游戏的 212 篇用户评测中有 90% 为好评。",
+      "review_summary": "特别好评 此游戏的 218 篇用户评测中有 90% 为好评。",
       "price_final": 3040,
       "original_price_text": "¥38.00",
       "release_date": "2026-05-14",
@@ -12580,7 +13116,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "独立",
         "冒险",
@@ -12632,7 +13168,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -12691,7 +13227,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "冒险",
         "探索",
@@ -12720,7 +13256,7 @@
       "release_date_text": "2026 年 5 月 14 日",
       "price_text": "¥8.00",
       "discount_text": "-20%",
-      "review_summary": "好评 此游戏的 16 篇用户评测中有 100% 为好评。",
+      "review_summary": "好评 此游戏的 17 篇用户评测中有 100% 为好评。",
       "price_final": 800,
       "original_price_text": "¥10.00",
       "release_date": "2026-05-14",
@@ -12744,7 +13280,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "休闲",
         "设计与插画",
@@ -12771,7 +13307,7 @@
       "release_date_text": "2026 年 5 月 14 日",
       "price_text": "免费",
       "discount_text": "",
-      "review_summary": "好评 此游戏的 32 篇用户评测中有 87% 为好评。",
+      "review_summary": "好评 此游戏的 34 篇用户评测中有 88% 为好评。",
       "price_final": 0,
       "release_date": "2026-05-14",
       "kind": "game",
@@ -12794,7 +13330,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -12825,7 +13361,7 @@
       "release_date_text": "2026 年 5 月 14 日",
       "price_text": "¥32.40",
       "discount_text": "-10%",
-      "review_summary": "特别好评 此游戏的 114 篇用户评测中有 81% 为好评。",
+      "review_summary": "多半好评 此游戏的 119 篇用户评测中有 79% 为好评。",
       "price_final": 3240,
       "original_price_text": "¥36.00",
       "release_date": "2026-05-14",
@@ -12851,7 +13387,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "游戏开发",
         "沙盒",
@@ -12905,7 +13441,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "冒险",
         "休闲",
@@ -12932,7 +13468,7 @@
       "release_date_text": "2026 年 5 月 14 日",
       "price_text": "免费",
       "discount_text": "",
-      "review_summary": "褒贬不一 此游戏的 959 篇用户评测中有 69% 为好评。 此产品的总体评价是基于您的偏好用以您语言撰写的评测计算得出的。",
+      "review_summary": "褒贬不一 此游戏的 964 篇用户评测中有 68% 为好评。 此产品的总体评价是基于您的偏好用以您语言撰写的评测计算得出的。",
       "price_final": 0,
       "release_date": "2026-05-14",
       "kind": "game",
@@ -12955,7 +13491,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -13011,7 +13547,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "动作",
         "2D",
@@ -13061,7 +13597,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -13101,7 +13637,7 @@
       "is_free": true,
       "detail_error": "",
       "short_description": "《扑克魔王》是一款基于扑克牌的回合制卡牌Roguelike游戏。在游戏中，你将扮演一个植物，通过扑克对局击败敌人。从各种贴纸，标记和宫廷信物中进行选择，创造独特的构筑，最终击败最后的魔王。",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -13152,7 +13688,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "休闲",
         "2D",
@@ -13206,7 +13742,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "冒险",
         "解谜",
@@ -13224,7 +13760,7 @@
         "4182",
         "12095",
         "1742",
-        "492"
+        "9130"
       ],
       "platforms": [
         "Windows"
@@ -13234,7 +13770,7 @@
       "release_date_text": "2026 年 5 月 14 日",
       "price_text": "¥34.20",
       "discount_text": "-10%",
-      "review_summary": "特别好评 此游戏的 90 篇用户评测中有 90% 为好评。",
+      "review_summary": "特别好评 此游戏的 92 篇用户评测中有 90% 为好评。",
       "price_final": 3420,
       "original_price_text": "¥38.00",
       "release_date": "2026-05-14",
@@ -13260,7 +13796,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "模拟",
         "动漫",
@@ -13312,7 +13848,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -13343,7 +13879,7 @@
       "release_date_text": "2026 年 5 月 14 日",
       "price_text": "¥25.20",
       "discount_text": "-10%",
-      "review_summary": "特别好评 此游戏的 201 篇用户评测中有 97% 为好评。",
+      "review_summary": "特别好评 此游戏的 208 篇用户评测中有 97% 为好评。",
       "price_final": 2520,
       "original_price_text": "¥28.00",
       "release_date": "2026-05-14",
@@ -13368,7 +13904,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "抢先体验",
         "回合制战斗",
@@ -13421,7 +13957,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "冒险",
         "3D",
@@ -13473,7 +14009,7 @@
       "price_value": 600,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "genres": [
         "休闲",
@@ -13527,7 +14063,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "策略",
         "回合制战术",
@@ -13577,7 +14113,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -13607,7 +14143,7 @@
       "release_date_text": "2026 年 5 月 14 日",
       "price_text": "¥57.80",
       "discount_text": "-15%",
-      "review_summary": "褒贬不一 此游戏的 790 篇用户评测中有 62% 为好评。",
+      "review_summary": "褒贬不一 此游戏的 813 篇用户评测中有 62% 为好评。",
       "price_final": 5780,
       "original_price_text": "¥68.00",
       "release_date": "2026-05-14",
@@ -13633,7 +14169,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "武术",
         "角色扮演",
@@ -13662,7 +14198,7 @@
       "release_date_text": "2026 年 5 月 14 日",
       "price_text": "¥102.00",
       "discount_text": "-25%",
-      "review_summary": "特别好评 此游戏的 152 篇用户评测中有 80% 为好评。",
+      "review_summary": "特别好评 此游戏的 157 篇用户评测中有 80% 为好评。",
       "price_final": 10200,
       "original_price_text": "¥136.00",
       "release_date": "2026-05-14",
@@ -13688,7 +14224,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "动作",
         "冒险",
@@ -13739,7 +14275,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -13791,7 +14327,7 @@
       "price_value": 600,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "genres": [
         "动作",
@@ -13845,7 +14381,7 @@
       "price_value": 4163,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "genres": [
         "策略",
@@ -13898,7 +14434,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -13953,7 +14489,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "休闲",
         "解谜",
@@ -14005,7 +14541,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -14063,7 +14599,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "动作",
         "休闲",
@@ -14116,7 +14652,7 @@
       "price_value": 7700,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "genres": [
         "角色扮演",
@@ -14157,7 +14693,7 @@
       "is_free": true,
       "detail_error": "",
       "short_description": "Sling spells and crack the case in a city full of bootleggers, corrupt cops, and vampires. Can you save your partner before a wizard dooms Seattle? A text-based interactive urban fantasy noir novel.",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -14208,7 +14744,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "角色扮演",
         "互动小说",
@@ -14248,7 +14784,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -14296,7 +14832,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "抢先体验",
         "多人"
@@ -14349,7 +14885,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "抢先体验",
         "多人",
@@ -14387,7 +14923,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
@@ -14438,7 +14974,7 @@
       "is_discounted": true,
       "is_free": false,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "genres": [
         "模拟",
         "单人",
@@ -14489,7 +15025,7 @@
       ],
       "is_free": true,
       "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": [
@@ -14529,471 +15065,14 @@
       "is_free": true,
       "detail_error": "",
       "short_description": "🎰 Every chest can make you rich… or end your run. How far will you go?",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
-      "is_discounted": false,
-      "price_value": 0,
-      "genres": []
-    },
-    {
-      "appid": "4598300",
-      "steam_url": "https://store.steampowered.com/app/4598300/Vacanauta/",
-      "tag_ids": [
-        "19",
-        "21",
-        "597",
-        "1773",
-        "916648",
-        "4255",
-        "3871"
-      ],
-      "platforms": [
-        "Windows"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4598300/dde759bb189a96bbdef564c5f2309fa0ea14ad6c/capsule_616x353_2x.jpg?t=1778781625",
-      "title": "Vacanauta",
-      "release_date_text": "2026 年 5 月 14 日",
-      "price_text": "¥9.00",
-      "discount_text": "-40%",
-      "review_summary": "",
-      "price_final": 900,
-      "original_price_text": "¥15.00",
-      "release_date": "2026-05-14",
-      "kind": "game",
-      "tag_names": [
-        "动作",
-        "冒险",
-        "休闲",
-        "街机",
-        "清版动作"
-      ],
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4598300/dde759bb189a96bbdef564c5f2309fa0ea14ad6c/capsule_616x353_2x.jpg?t=1778781625",
-      "asset_source": "store_browse:main_capsule_2x",
-      "short_description": "Abduct and conquer worlds. VACANAUTA: a very irreverent cosmic adventure!",
-      "description_source": "store_browse_short",
-      "developers": [
-        "Spaceboy"
-      ],
-      "publishers": [
-        "Spaceboy"
-      ],
-      "price_value": 900,
-      "is_discounted": true,
-      "is_free": false,
-      "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
-      "genres": [
-        "动作",
-        "冒险",
-        "休闲",
-        "街机",
-        "清版动作"
-      ]
-    },
-    {
-      "appid": "4713400",
-      "steam_url": "https://store.steampowered.com/app/4540810/Throne_of_Shards/",
-      "tag_ids": [],
-      "platforms": [
-        "Windows"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4713400/fa129b80452bf576e8e76ad9bd91e7a7348242bd/capsule_616x353_2x.jpg?t=1778771012",
-      "title": "Throne of Shards Demo",
-      "release_date_text": "2026 年 5 月 14 日",
-      "price_text": "免费",
-      "discount_text": "",
-      "review_summary": "",
-      "price_final": 0,
-      "release_date": "2026-05-14",
-      "kind": "demo",
-      "tag_names": [],
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4713400/fa129b80452bf576e8e76ad9bd91e7a7348242bd/capsule_616x353_2x.jpg?t=1778771012",
-      "asset_source": "store_browse:main_capsule_2x",
-      "description_source": "store_meta",
-      "developers": [
-        "Yaril_Games"
-      ],
-      "publishers": [
-        "Yaril_Games"
-      ],
-      "is_free": true,
-      "detail_error": "",
-      "short_description": "A dark TCG where you explore a massive dungeon, collect cards, and fight brutal battles. Each floor introduces its own unique rules, twisting the experience in this classic card adventure.",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
-      "is_discounted": false,
-      "price_value": 0,
-      "genres": []
-    },
-    {
-      "appid": "4093970",
-      "steam_url": "https://store.steampowered.com/app/4093970/The_Ramen_Shop/",
-      "tag_ids": [
-        "1721",
-        "1667",
-        "599",
-        "3920",
-        "9204",
-        "597",
-        "3839"
-      ],
-      "platforms": [
-        "Windows"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4093970/c9748b581eb61d78ead88bf9c5fb55bd96b79cda/capsule_616x353_2x.jpg?t=1778777732",
-      "title": "The Ramen Shop",
-      "release_date_text": "2026 年 5 月 14 日",
-      "price_text": "¥19.80",
-      "discount_text": "-10%",
-      "review_summary": "好评 此游戏的 25 篇用户评测中有 92% 为好评。",
-      "price_final": 1980,
-      "original_price_text": "¥22.00",
-      "release_date": "2026-05-14",
-      "kind": "game",
-      "tag_names": [
-        "恐怖",
-        "模拟",
-        "沉浸式模拟",
-        "休闲",
-        "第一人称"
-      ],
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4093970/c9748b581eb61d78ead88bf9c5fb55bd96b79cda/capsule_616x353_2x.jpg?t=1778777732",
-      "asset_source": "store_browse:main_capsule_2x",
-      "short_description": "这是一款恐怖游戏，在其中您经营一家拉面店。您需要从顾客那里接单，为饥饿的顾客提供热腾腾的美味拉面和冰镇甜饮。",
-      "description_source": "store_browse_short",
-      "developers": [
-        "samuel"
-      ],
-      "publishers": [
-        "samuel"
-      ],
-      "price_value": 1980,
-      "is_discounted": true,
-      "is_free": false,
-      "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
-      "genres": [
-        "恐怖",
-        "模拟",
-        "沉浸式模拟",
-        "休闲",
-        "第一人称"
-      ]
-    },
-    {
-      "appid": "3788120",
-      "steam_url": "https://store.steampowered.com/app/3788120/The_Island_of_Doctor_Morose/",
-      "tag_ids": [
-        "3871",
-        "4562",
-        "3978",
-        "1698",
-        "7432",
-        "21",
-        "4252"
-      ],
-      "platforms": [
-        "Windows",
-        "Linux"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3788120/70d1117ddad90722215a529f46b9e1e784706504/capsule_616x353_2x.jpg?t=1778824813",
-      "title": "The Island of Doctor Morose",
-      "release_date_text": "2026 年 5 月 14 日",
-      "price_text": "¥42.00",
-      "discount_text": "",
-      "review_summary": "好评 此游戏的 15 篇用户评测中有 93% 为好评。",
-      "price_final": 4200,
-      "release_date": "2026-05-14",
-      "kind": "game",
-      "tag_names": [
-        "2D",
-        "指向点击",
-        "冒险"
-      ],
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3788120/70d1117ddad90722215a529f46b9e1e784706504/capsule_616x353_2x.jpg?t=1778824813",
-      "asset_source": "store_browse:main_capsule_2x",
-      "short_description": "A horror adventure game inspired by the art of Theodor Geisel and the works of HP Lovecraft, featuring a mixture of point and click and survival horror elements.",
-      "description_source": "store_browse_short",
-      "developers": [
-        "Square Butterfly Interactive"
-      ],
-      "publishers": [
-        "Caden Rogers"
-      ],
-      "price_value": 4200,
-      "is_free": false,
-      "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
-      "is_discounted": false,
-      "genres": [
-        "2D",
-        "指向点击",
-        "冒险"
-      ]
-    },
-    {
-      "appid": "3161690",
-      "steam_url": "https://store.steampowered.com/app/3161690/The_Grove/",
-      "tag_ids": [
-        "1667",
-        "3978",
-        "1721",
-        "4191",
-        "3834",
-        "21",
-        "4106"
-      ],
-      "platforms": [
-        "Windows"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3161690/3fdbc047915f067e5b5ce6c5648cd7a81c35a872/capsule_616x353_2x.jpg?t=1778955256",
-      "title": "The Grove",
-      "release_date_text": "2026 年 5 月 14 日",
-      "price_text": "¥12.00",
-      "discount_text": "-20%",
-      "review_summary": "",
-      "price_final": 1200,
-      "original_price_text": "¥15.00",
-      "release_date": "2026-05-14",
-      "kind": "game",
-      "tag_names": [
-        "恐怖",
-        "3D",
-        "探索",
-        "冒险",
-        "动作冒险"
-      ],
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3161690/3fdbc047915f067e5b5ce6c5648cd7a81c35a872/capsule_616x353_2x.jpg?t=1778955256",
-      "asset_source": "store_browse:main_capsule_2x",
-      "short_description": "Scout out an uncanny pine grove for hidden artifacts and discover the fate of the children who went missing from a quiet town in Indiana.",
-      "description_source": "store_browse_short",
-      "developers": [
-        "Scavenger Games"
-      ],
-      "publishers": [
-        "Scavenger Games"
-      ],
-      "price_value": 1200,
-      "is_discounted": true,
-      "is_free": false,
-      "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
-      "genres": [
-        "恐怖",
-        "3D",
-        "探索",
-        "冒险",
-        "动作冒险"
-      ]
-    },
-    {
-      "appid": "3861150",
-      "steam_url": "https://store.steampowered.com/app/3861150/The_Dark_Field/",
-      "tag_ids": [
-        "21",
-        "1721",
-        "6378",
-        "5716",
-        "4166",
-        "4004",
-        "1667"
-      ],
-      "platforms": [
-        "Windows"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3861150/7020a1758bca94d1981fa4224d5f4b31e68df24f/capsule_616x353_2x.jpg?t=1778781634",
-      "title": "The Dark Field",
-      "release_date_text": "2026 年 5 月 14 日",
-      "price_text": "免费",
-      "discount_text": "",
-      "review_summary": "",
-      "price_final": 0,
-      "release_date": "2026-05-14",
-      "kind": "game",
-      "tag_names": [
-        "冒险",
-        "氛围",
-        "战争",
-        "恐怖"
-      ],
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3861150/7020a1758bca94d1981fa4224d5f4b31e68df24f/capsule_616x353_2x.jpg?t=1778781634",
-      "asset_source": "store_browse:main_capsule_2x",
-      "short_description": "After receiving a strange message, Ahmed Raked finds himself at a remote farm with nothing but his phone to guide him. What starts as a simple job slowly twists into a dark, personal mystery—one that may be rooted deep in his past. Some jobs are more than they seem.",
-      "description_source": "store_browse_short",
-      "developers": [
-        "Turki"
-      ],
-      "publishers": [
-        "FT5 Studio"
-      ],
-      "is_free": true,
-      "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
-      "is_discounted": false,
-      "price_value": 0,
-      "genres": [
-        "冒险",
-        "氛围",
-        "战争",
-        "恐怖"
-      ]
-    },
-    {
-      "appid": "4320830",
-      "steam_url": "https://store.steampowered.com/app/4320820/The_Curse_404/",
-      "tag_ids": [
-        "4667"
-      ],
-      "platforms": [
-        "Windows"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4320830/3a5690decff847648ca07575414292a0575a9059/capsule_616x353_2x.jpg?t=1778825371",
-      "title": "The Curse 404 Demo",
-      "release_date_text": "2026 年 5 月 14 日",
-      "price_text": "免费",
-      "discount_text": "",
-      "review_summary": "",
-      "price_final": 0,
-      "release_date": "2026-05-14",
-      "kind": "demo",
-      "tag_names": [],
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4320830/3a5690decff847648ca07575414292a0575a9059/capsule_616x353_2x.jpg?t=1778825371",
-      "asset_source": "store_browse:main_capsule_2x",
-      "short_description": "《The Curse 404》是一款心理恐怖解谜游戏，故事发生在一座被困于无限时间循环之中的神秘宅邸内。每一次从沉睡中醒来，周围的环境都会重置——但你所发现的线索却会保留下来。",
-      "description_source": "store_browse_short",
-      "developers": [
-        "Yash Future Tech Solutions Pvt Ltd"
-      ],
-      "publishers": [
-        "Yash Future Tech Solutions Pvt Ltd"
-      ],
-      "is_free": true,
-      "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
-      "is_discounted": false,
-      "price_value": 0,
-      "genres": []
-    },
-    {
-      "appid": "3065030",
-      "steam_url": "https://store.steampowered.com/app/3065030/The_Caribou_Trail/",
-      "tag_ids": [
-        "5900",
-        "21",
-        "7702",
-        "5382",
-        "3987",
-        "4182",
-        "7250"
-      ],
-      "platforms": [
-        "Windows"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065030/379e65b6116655db231f0b60954811ae227b4156/capsule_616x353_2x.jpg?t=1778770692",
-      "title": "The Caribou Trail",
-      "release_date_text": "2026 年 5 月 14 日",
-      "price_text": "¥46.80",
-      "discount_text": "-10%",
-      "review_summary": "特别好评 此游戏的 182 篇用户评测中有 92% 为好评。",
-      "price_final": 4680,
-      "original_price_text": "¥52.00",
-      "release_date": "2026-05-14",
-      "kind": "game",
-      "tag_names": [
-        "冒险",
-        "单人"
-      ],
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065030/379e65b6116655db231f0b60954811ae227b4156/capsule_616x353_2x.jpg?t=1778770692",
-      "asset_source": "store_browse:main_capsule_2x",
-      "short_description": "The WWI story where your goal isn’t to kill, but to survive. In the still trenches, three soldiers learn the harsh truth of war: reckless missions, digging trenches, collecting dog tags and ghostly whispers in the dark. Home before the leaves fall, they thought.",
-      "description_source": "store_browse_short",
-      "developers": [
-        "Unreliable Narrators",
-        "Manavoid Entertainment"
-      ],
-      "publishers": [
-        "Unreliable Narrators",
-        "Indie Asylum"
-      ],
-      "price_value": 4680,
-      "is_discounted": true,
-      "is_free": false,
-      "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
-      "genres": [
-        "冒险",
-        "单人"
-      ]
-    },
-    {
-      "appid": "4593050",
-      "steam_url": "https://store.steampowered.com/app/4301470/The_Amazing_Bird_Miner/",
-      "tag_ids": [],
-      "platforms": [
-        "Windows"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4593050/c7bcede8881e3b33ecf0a88397a4f5f2342494e3/capsule_616x353_2x.jpg?t=1778761585",
-      "title": "The Amazing Bird Miner Demo",
-      "release_date_text": "2026 年 5 月 14 日",
-      "price_text": "免费",
-      "discount_text": "",
-      "review_summary": "",
-      "price_final": 0,
-      "release_date": "2026-05-14",
-      "kind": "demo",
-      "tag_names": [],
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4593050/c7bcede8881e3b33ecf0a88397a4f5f2342494e3/capsule_616x353_2x.jpg?t=1778761585",
-      "asset_source": "store_browse:main_capsule_2x",
-      "description_source": "store_meta",
-      "developers": [
-        "Hipsterdufus"
-      ],
-      "publishers": [
-        "Hipsterdufus"
-      ],
-      "is_free": true,
-      "detail_error": "",
-      "short_description": "The Amazing Bird Miner is a unique incremental game where you mine ore and capture birds to live with you in your bird grotto. Equip and upgrade your gear to become a better miner. Scavenge for materials and choose your specialization as you save the planet as The Amazing Bird Miner!",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
-      "is_discounted": false,
-      "price_value": 0,
-      "genres": []
-    },
-    {
-      "appid": "4673620",
-      "steam_url": "https://store.steampowered.com/app/4671340/Textvas/",
-      "tag_ids": [],
-      "platforms": [
-        "Windows"
-      ],
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4673620/23275acbfc3b5b24fbe4a8ac23aec6b70d9a9782/capsule_616x353_2x.jpg?t=1778766427",
-      "title": "Textvas Demo",
-      "release_date_text": "2026 年 5 月 14 日",
-      "price_text": "免费",
-      "discount_text": "",
-      "review_summary": "",
-      "price_final": 0,
-      "release_date": "2026-05-14",
-      "kind": "demo",
-      "tag_names": [],
-      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4673620/23275acbfc3b5b24fbe4a8ac23aec6b70d9a9782/capsule_616x353_2x.jpg?t=1778766427",
-      "asset_source": "store_browse:main_capsule_2x",
-      "short_description": "This is the demo version of Textvas. It is intended to let you check system compatibility and try out the gameplay, so some features differ from the full version. The save function and some other features are unavailable in this demo.",
-      "description_source": "store_browse_short",
-      "developers": [
-        "typocraft"
-      ],
-      "publishers": [
-        "typocraft"
-      ],
-      "is_free": true,
-      "detail_error": "",
-      "fetched_at": "2026-05-18T10:26:13+08:00",
+      "fetched_at": "2026-05-18T14:35:12+08:00",
       "is_discounted": false,
       "price_value": 0,
       "genres": []
     }
   ],
   "log": [
-    "Started at 2026-05-18T10:26:13+08:00",
+    "Started at 2026-05-18T14:35:12+08:00",
     "Target latest items: 300",
     "Fetch search game page=1 url=https://store.steampowered.com/search/results/?query=&start=0&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
     "Fetch search game page=2 url=https://store.steampowered.com/search/results/?query=&start=25&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
@@ -15021,11 +15100,11 @@
     "Fetch search demo page=12 url=https://store.steampowered.com/search/results/?query=&start=275&count=25&sort_by=Released_DESC&sort_order=DESC&category1=10&cc=CN&l=schinese&ignore_preferences=1",
     "Selected newest items: 300 from search candidates",
     "Fetch StoreBrowse details batches=6 batch_size=50 items=300",
-    "StoreBrowse batch 1/6 appids=4267580,3965440,4724370,3614170,4281140,4372880,4650210,4669680,4737010,4698750,4732130,4303810,4593280,3878820,2955720,4725280,4565750,3712250,4119360,4213880,4602470,4598880,4578760,4618450,4576290,4527110,4736410,4443800,4665420,4725750,4716480,4711330,4666710,4651320,4739700,4711010,4617760,4651880,4324620,4599890,4718310,3332830,4726890,4729210,3933330,4603810,4503170,4352110,4514280,4669230",
-    "StoreBrowse batch 2/6 appids=3686400,4610560,4669500,4644130,4725490,4718870,4628110,4611750,4584440,4154250,4656380,4372240,4459040,4644780,4642680,4646130,4615420,4717470,4595810,4738440,4727710,4706840,4733260,4329790,4223590,4654660,3133650,3595320,3779380,4223860,4670730,4639190,4182000,4670150,4705550,4486310,4699870,4626410,3995110,4661560,4380000,4619250,4700800,4719860,3523750,4686320,4702180,3950510,4591390,4369630",
-    "StoreBrowse batch 3/6 appids=4610750,4687910,4591700,4539950,4702210,4613260,3373600,4572750,4692210,3990570,4663060,4362760,4592660,4655560,4487420,4527970,2629230,4541390,4578650,4556720,4620720,4661580,3602030,4677460,4512960,1449700,1167180,4645490,3657180,4673130,4662900,4466620,4362720,4073090,4692800,4681200,4588370,4707530,4568930,4698670,4688250,4456590,4715420,4605150,4575090,4360180,4279980,4700170,4446350,4672870",
-    "StoreBrowse batch 4/6 appids=4467650,4696350,4710450,3460440,4627950,4657400,4459140,3325020,1409530,3521220,4615150,4568210,4577630,4605250,4668650,4565430,3826060,4703520,4268430,4338780,4344510,4697340,4713460,4719400,4629250,4624790,4442200,4591720,4607520,4341480,4590020,4304000,4359120,4716790,4621860,4566150,4664970,4716760,3835590,3234910,4702830,4651380,4384820,4396370,2590410,4732910,4051220,3895090,4663010,4355340",
-    "StoreBrowse batch 5/6 appids=4506500,4579170,4628500,4117320,3255170,4458620,4705030,4642610,4519280,3925420,4686990,4619670,4726900,4504430,4630110,4391540,4248200,3922090,4629780,4233080,4730730,4715940,4641480,4701760,4560920,3708060,4290890,4481220,3689030,4662430,4683910,4674800,4618090,3035960,4720560,4714760,3554150,3987160,4697920,4661460,4655400,4612340,4521640,1602000,2369580,4655250,1976540,3566380,4730640,4490870",
-    "StoreBrowse batch 6/6 appids=4265120,3418990,4703490,3181890,4630290,4435810,3030190,2706980,4214820,1896760,4176500,4718520,4264340,3529690,4321500,4501240,3774440,4578060,4638830,4580670,3730810,3313720,2091020,4517240,4635850,4443770,4730930,4610260,4383380,4013840,4656630,4245150,4245140,4700770,3222130,4269100,4595430,3525620,4711840,4724030,4598300,4713400,4093970,3788120,3161690,3861150,4320830,3065030,4593050,4673620"
+    "StoreBrowse batch 1/6 appids=4310110,4607360,4267580,3965440,4724370,3614170,4281140,4372880,4434680,4650210,4669680,4737010,4698750,4732130,4303810,4593280,4698640,3878820,4476380,2955720,4725280,3369490,4565750,3712250,4119360,4455950,4213880,4602470,4598880,4578760,4618450,4576290,4527110,4736410,4443800,4665420,4725750,4716480,4528050,4712970,4711330,4666710,4651320,4681020,4739700,4711010,4617760,4651880,4324620,4599890",
+    "StoreBrowse batch 2/6 appids=4718310,3332830,4726890,4729210,3933330,4603810,4503170,4352110,4514280,4669230,3686400,4610560,4669500,4644130,4725490,4718870,4628110,4611750,4584440,4154250,4656380,4372240,4459040,4644780,4642680,4646130,4615420,4717470,4595810,4738440,4727710,4706840,4733260,4329790,4223590,4654660,3133650,3595320,3779380,4223860,4670730,4639190,4182000,4670150,4705550,4486310,4699870,4626410,3995110,4661560",
+    "StoreBrowse batch 3/6 appids=4380000,4619250,4700800,4719860,3523750,4686320,4702180,3950510,4591390,4369630,4610750,4687910,4591700,4539950,4702210,4613260,3373600,4572750,4692210,3990570,4663060,4362760,4592660,4655560,4487420,4527970,2629230,4541390,4578650,4556720,4620720,4661580,3602030,4677460,4512960,1449700,1167180,4645490,3657180,4673130,4662900,4466620,4362720,4073090,4692800,4681200,4588370,4707530,4568930,4698670",
+    "StoreBrowse batch 4/6 appids=4688250,4456590,4715420,4605150,4575090,4360180,4279980,4700170,4446350,4672870,4467650,4696350,4710450,3460440,4627950,4657400,4459140,3325020,1409530,3521220,4615150,4568210,4577630,4605250,4668650,4565430,3826060,4703520,4268430,4338780,4344510,4697340,4713460,4719400,4629250,4624790,4442200,4591720,4607520,4341480,4590020,4304000,4359120,4716790,4621860,4566150,4664970,4716760,3835590,3234910",
+    "StoreBrowse batch 5/6 appids=4702830,4651380,4384820,4396370,2590410,4732910,4051220,3895090,4663010,4355340,4506500,4579170,4628500,4117320,3255170,4458620,4705030,4642610,4519280,3925420,4686990,4619670,4726900,4504430,4630110,4391540,4248200,3922090,4629780,4233080,4730730,4715940,4641480,4701760,4560920,3708060,4290890,4481220,3689030,4662430,4683910,4674800,4618090,3035960,4720560,4714760,3554150,3987160,4697920,4661460",
+    "StoreBrowse batch 6/6 appids=4655400,4612340,4521640,1602000,2369580,4655250,1976540,3566380,4730640,4490870,4265120,3418990,4703490,3181890,4630290,4435810,3030190,2706980,4214820,1896760,4176500,4718520,4264340,3529690,4321500,4501240,3774440,4578060,4638830,4580670,3730810,3313720,2091020,4517240,4635850,4443770,4730930,4610260,4383380,4013840,4656630,4245150,4245140,4700770,3222130,4269100,4595430,3525620,4711840,4724030"
   ]
 }
