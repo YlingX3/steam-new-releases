@@ -11099,5 +11099,27 @@
     ],
     "is_free": false,
     "screenshots": null
+  },
+  "4719640": {
+    "title": "Deeper Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4719640/154c36c1687d12e446457b9a359703d41c2c2b83/capsule_616x353_2x.jpg?t=1779097998",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4719640/154c36c1687d12e446457b9a359703d41c2c2b83/capsule_616x353_2x.jpg?t=1779097998",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Go on expeditions with your friends to explore the depths in search of treasures, upgrade your gear, and dive back in deeper.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Team Breakout"
+    ],
+    "publishers": [
+      "Team Breakout"
+    ],
+    "genres": [
+      "动作",
+      "冒险",
+      "氛围",
+      "探索"
+    ],
+    "is_free": true,
+    "screenshots": null
   }
 }
