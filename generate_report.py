@@ -1085,10 +1085,63 @@ def newest_items(items: list[dict[str, Any]], target_count: int) -> list[dict[st
     return selected
 
 
+def load_existing_report(path: Path) -> dict[str, Any]:
+    if not path.exists():
+        return {}
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+        return payload if isinstance(payload, dict) else {}
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+
+def backfill_potential_items(
+    items: list[dict[str, Any]],
+    *,
+    previous_report: dict[str, Any],
+    target_count: int,
+    cutoff_date: str,
+    min_reviews: int,
+    log_lines: list[str],
+) -> list[dict[str, Any]]:
+    if len(items) >= target_count:
+        return items
+
+    previous_items = previous_report.get("potential_items") or []
+    if not isinstance(previous_items, list) or not previous_items:
+        log_lines.append("Potential backfill skipped: no previous potential_items available.")
+        return items
+
+    merged: list[dict[str, Any]] = []
+    seen: set[str] = set()
+    for item in [*items, *previous_items]:
+        if not isinstance(item, dict):
+            continue
+        appid = str(item.get("appid") or "")
+        review_count = item.get("review_count")
+        release_date = str(item.get("release_date") or "")
+        if not appid or appid in seen:
+            continue
+        if not isinstance(review_count, int) or review_count <= min_reviews:
+            continue
+        if release_date < cutoff_date:
+            continue
+        seen.add(appid)
+        merged.append(item)
+
+    backfilled = newest_items(merged, target_count)
+    added = max(0, len(backfilled) - len(items))
+    log_lines.append(
+        f"Potential backfilled from previous report: before={len(items)} added={added} total={len(backfilled)}"
+    )
+    return backfilled
+
+
 def collect_report(args: argparse.Namespace, *, out_path: Path) -> dict[str, Any]:
     now = dt.datetime.now(TIMEZONE)
     fetched_at = now.isoformat(timespec="seconds")
     log_lines: list[str] = [f"Started at {fetched_at}", f"Target latest items: {args.target_count}"]
+    previous_report = load_existing_report(out_path.with_suffix(".json"))
 
     raw_items: list[dict[str, Any]] = []
     raw_items.extend(
@@ -1143,6 +1196,17 @@ def collect_report(args: argparse.Namespace, *, out_path: Path) -> dict[str, Any
         max_pages=args.potential_max_pages,
         log_lines=log_lines,
     )
+    potential_items = backfill_potential_items(
+        potential_items,
+        previous_report=previous_report,
+        target_count=args.potential_count,
+        cutoff_date=potential_meta["cutoff_date"],
+        min_reviews=args.potential_min_reviews,
+        log_lines=log_lines,
+    )
+    potential_meta["count"] = len(potential_items)
+    potential_meta["games"] = sum(1 for item in potential_items if item.get("kind") == "game")
+    potential_meta["demos"] = sum(1 for item in potential_items if item.get("kind") == "demo")
     detail_errors.extend(potential_detail_errors)
     save_detail_cache(cache_path, detail_cache)
 
