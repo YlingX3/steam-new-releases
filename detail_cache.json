@@ -8323,11 +8323,11 @@
       "PINIX"
     ],
     "genres": [
-      "回合制",
-      "像素图形",
+      "困难",
       "Boss Rush",
-      "动作",
-      "街机"
+      "像素图形",
+      "氛围",
+      "彩色"
     ],
     "is_free": true,
     "screenshots": null
@@ -8348,9 +8348,9 @@
     "genres": [
       "解谜",
       "指向点击",
-      "休闲",
-      "模拟",
-      "2D"
+      "2D",
+      "可爱",
+      "放松"
     ],
     "is_free": true,
     "screenshots": null
@@ -9223,8 +9223,8 @@
   },
   "4711010": {
     "title": "AirDrive Demo",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4711010/d50f02b7f234ca25b273580752b61169096da7d6/capsule_616x353_2x.jpg?t=1779067023",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4711010/d50f02b7f234ca25b273580752b61169096da7d6/capsule_616x353_2x.jpg?t=1779067023",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4711010/d50f02b7f234ca25b273580752b61169096da7d6/capsule_616x353_2x.jpg?t=1779160200",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4711010/d50f02b7f234ca25b273580752b61169096da7d6/capsule_616x353_2x.jpg?t=1779160200",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "Defend the last stronghold on a ravaged Earth against relentless enemies. Take control of your fighter jet with your whole body and face the overwhelming waves of foes. AirDrive is a defense motion-action roguelite featuring endless dogfights, diverse parts, and webcam-based motion controls.",
     "description_source": "store_browse_short",
@@ -12626,8 +12626,8 @@
   },
   "3641260": {
     "title": "Magnavis Demo",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3641260/1a8defb7a1cdf75e52697346180690ff4daa98c4/capsule_616x353_2x.jpg?t=1779151183",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3641260/1a8defb7a1cdf75e52697346180690ff4daa98c4/capsule_616x353_2x.jpg?t=1779151183",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3641260/1a8defb7a1cdf75e52697346180690ff4daa98c4/capsule_616x353_2x.jpg?t=1779159923",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3641260/1a8defb7a1cdf75e52697346180690ff4daa98c4/capsule_616x353_2x.jpg?t=1779159923",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "Magnavis 是一款支持 1–4 人合作的第一人称 3D 恐怖游戏。驾驶你的潜艇穿越狭窄的洞穴，避免撞击，完成指定任务，修复损坏的系统，无论如何，活下去。",
     "description_source": "store_browse_short",
@@ -13322,6 +13322,176 @@
       "氛围"
     ],
     "is_free": false,
+    "screenshots": null
+  },
+  "2483190": {
+    "title": "极限竞速：地平线 6",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/e8e49b907c171a8036e9430eadf13306a085533d/capsule_616x353_2x.jpg?t=1779166400",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/e8e49b907c171a8036e9430eadf13306a085533d/capsule_616x353_2x.jpg?t=1779166400",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "驾驶超过 550 辆真实存在的赛车，探索日本的绝美风光，在《Forza Horizon》有史以来最宏大的冒险中成为竞速传奇。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Playground Games"
+    ],
+    "publishers": [
+      "Xbox Game Studios"
+    ],
+    "genres": [
+      "多人",
+      "模拟",
+      "探索"
+    ],
+    "is_free": false,
+    "screenshots": null
+  },
+  "4501880": {
+    "title": "无限 Galgame",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4501880/af34f325f8b272785e130c4fb12cc33bd3d8dce9/capsule_616x353_schinese_2x.jpg?t=1779157293",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4501880/af34f325f8b272785e130c4fb12cc33bd3d8dce9/capsule_616x353_schinese_2x.jpg?t=1779157293",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "一款由人工智能驱动的视觉小说，每个故事都是为你量身定制的——实时生成。输入任何内容，见证你独特世界的展开。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "walihuoyan"
+    ],
+    "publishers": [
+      "walihuoyan"
+    ],
+    "genres": [
+      "策略",
+      "角色扮演",
+      "休闲",
+      "游戏开发",
+      "互动小说"
+    ],
+    "is_free": true,
+    "screenshots": null
+  },
+  "4366380": {
+    "title": "午后前线",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4366380/f194d9c091a2c1787a9770992cd50a49fb62bef5/capsule_616x353_schinese_2x.jpg?t=1779163427",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4366380/f194d9c091a2c1787a9770992cd50a49fb62bef5/capsule_616x353_schinese_2x.jpg?t=1779163427",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "《午后前线》是一款免费的轻度 Roguelike 塔防游戏。你需要在随机选择中不断完善队伍，强化角色，构筑适合当前局势的组合，守住防线，击退敌潮。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Renka"
+    ],
+    "publishers": [
+      "Renka M 02.1"
+    ],
+    "genres": [
+      "塔防",
+      "策略",
+      "角色扮演",
+      "类 Rogue",
+      "类魂"
+    ],
+    "is_free": true,
+    "screenshots": null
+  },
+  "4603360": {
+    "title": "One Dumb Wizard Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4603360/d8926dd2fcb07ab0ab24528969f3fc79af1b012b/capsule_616x353_2x.jpg?t=1779156483",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4603360/d8926dd2fcb07ab0ab24528969f3fc79af1b012b/capsule_616x353_2x.jpg?t=1779156483",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "One Dumb Wizard is an action roguelike where you play as a wizard hell-bent on getting their money back from the Bartender. Find charms to power up your wand, parts to craft new wands, and strategically sling spells in your singular mission to GET YOUR MONEY BACK.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Mixel"
+    ],
+    "publishers": [
+      "Mixel"
+    ],
+    "genres": [
+      "动作类 Rogue",
+      "角色扮演",
+      "探索",
+      "动作",
+      "类魂"
+    ],
+    "is_free": true,
+    "screenshots": null
+  },
+  "3535390": {
+    "title": "Mination Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3535390/4da5f6bf07064dfe795b1fb14e391ab48c82d3ca/capsule_616x353_2x.jpg?t=1779163837",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3535390/4da5f6bf07064dfe795b1fb14e391ab48c82d3ca/capsule_616x353_2x.jpg?t=1779163837",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Mination is an arcade twin-stick shooter/survivor with roguelite and story elements. Take control of Minerva as she mines ores, avoids or fight pirates and aims for a high score! Earn space-dollars to upgrade your ship, progress the story to unlock rewards and head back to get on that leaderboard!",
+    "description_source": "store_meta",
+    "developers": [
+      "Sheikh Aquib Mahmood"
+    ],
+    "publishers": [
+      "Sheikh Aquib Mahmood"
+    ],
+    "genres": [
+      "俯视",
+      "双摇杆射击",
+      "类魂",
+      "射击",
+      "街机"
+    ],
+    "is_free": true,
+    "screenshots": null
+  },
+  "4663380": {
+    "title": "Hello Duck",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4663380/4edc04ff2021c78a313eeccb30863d6522235c05/capsule_616x353_2x.jpg?t=1779164061",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4663380/4edc04ff2021c78a313eeccb30863d6522235c05/capsule_616x353_2x.jpg?t=1779164061",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "A cozy idle desktop game where a little duck eats grass, lays eggs, earns coins, and lives a lazy life on a tiny floating island.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Kitti Rujirekanusorn"
+    ],
+    "publishers": [
+      "Kitti Rujirekanusorn"
+    ],
+    "genres": [
+      "休闲",
+      "模拟",
+      "可爱",
+      "单人"
+    ],
+    "is_free": false,
+    "screenshots": null
+  },
+  "4573300": {
+    "title": "Godborne: Ashes of Ramessu Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4573300/7089b87137cf00ddbd1e195215086c91c7c9698f/capsule_616x353_2x.jpg?t=1779163325",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4573300/7089b87137cf00ddbd1e195215086c91c7c9698f/capsule_616x353_2x.jpg?t=1779163325",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "一款合作式第一人称塔防射击游戏，玩家需要建造防御工事，对抗一波又一波的敌人，并揭开古代文明的秘密。",
+    "description_source": "store_meta",
+    "developers": [
+      "Ridgeyboi Studios"
+    ],
+    "publishers": [
+      "Ridgeyboi Studios"
+    ],
+    "genres": [],
+    "is_free": true,
+    "screenshots": null
+  },
+  "4732650": {
+    "title": "Dice Have No Eyes Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4732650/607b15423e4d9d06810867045573b10157caf133/capsule_616x353_2x.jpg?t=1779164143",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4732650/607b15423e4d9d06810867045573b10157caf133/capsule_616x353_2x.jpg?t=1779164143",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "★ Surreal dice-rolling roguelike about luck and greed ★ Feed your dice dumplings, collect game bending trinkets, roll too much and lose it all. Or get lucky, unlock King Fetus, meet God and you might just wake up.",
+    "description_source": "store_meta",
+    "developers": [
+      "Franek",
+      "Max Cahill"
+    ],
+    "publishers": [
+      "Franek"
+    ],
+    "genres": [],
+    "is_free": true,
     "screenshots": null
   }
 }
