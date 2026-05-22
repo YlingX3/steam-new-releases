@@ -60,6 +60,7 @@ REQUEST_HEADERS = {
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/json;q=0.8,*/*;q=0.7",
     "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.7",
     "Cache-Control": "no-cache",
+    "Cookie": "timezoneOffset=28800,0",
     "Pragma": "no-cache",
     "Referer": "https://store.steampowered.com/search/",
 }
@@ -374,7 +375,7 @@ def fetch_store_short_description(item: dict[str, Any], *, cc: str, lang: str) -
     return parser.description
 
 
-def build_search_url(category: int, start: int, count: int, cc: str, lang: str) -> str:
+def build_search_url(category: int | str, start: int, count: int, cc: str, lang: str) -> str:
     params = {
         "query": "",
         "start": start,
@@ -411,7 +412,7 @@ def parse_release_date(text: str) -> dt.date | None:
 def search_kind(
     *,
     kind: str,
-    category: int,
+    category: int | str,
     cc: str,
     lang: str,
     max_pages: int,
@@ -419,6 +420,7 @@ def search_kind(
 ) -> list[dict[str, Any]]:
     results: list[dict[str, Any]] = []
     seen: set[str] = set()
+    source_order = 0
 
     for page in range(max_pages):
         url = build_search_url(category, page * PAGE_SIZE, PAGE_SIZE, cc, lang)
@@ -438,6 +440,8 @@ def search_kind(
             if appid in seen:
                 continue
             seen.add(appid)
+            item["source_order"] = source_order
+            source_order += 1
             results.append(item)
 
         time.sleep(REQUEST_DELAY_SECONDS)
@@ -605,6 +609,9 @@ def collect_potential_items(
             f"Potential {kind}: pages={stats['pages']} candidates={stats['candidates']} qualified={stats['qualified']}"
         )
 
+    for index, item in enumerate(raw_items):
+        item["source_order"] = index
+
     selected = newest_items(raw_items, target_count)
     enriched, detail_errors = enrich_all_apps_store_browse(
         selected,
@@ -761,6 +768,14 @@ def store_browse_people(values: Any) -> list[str]:
 def apply_store_browse_detail(item: dict[str, Any], store_item: dict[str, Any]) -> bool:
     basic_info = store_item.get("basic_info") or {}
     changed = False
+
+    store_type = store_item.get("type")
+    if store_type == 1 and item.get("kind") != "demo":
+        item["kind"] = "demo"
+        changed = True
+    elif store_type == 0 and item.get("kind") != "game":
+        item["kind"] = "game"
+        changed = True
 
     title = clean_text(store_item.get("name") or "")
     if title and title != item.get("title"):
@@ -1000,6 +1015,7 @@ def detail_cache_entry(item: dict[str, Any]) -> dict[str, Any]:
         "publishers",
         "genres",
         "is_free",
+        "kind",
         "screenshots",
     ]
     return {key: item.get(key) for key in keys}
@@ -1060,6 +1076,9 @@ def normalize_price(price_text: str | None) -> int | None:
 
 def finalize_item(item: dict[str, Any], fetched_at: str) -> dict[str, Any]:
     item.pop("_detail_success", None)
+    if item.get("kind") not in {"game", "demo"}:
+        title = str(item.get("title") or "").lower()
+        item["kind"] = "demo" if "demo" in title else "game"
     item["fetched_at"] = fetched_at
     item["discount_text"] = item.get("discount_text") or ""
     item["is_discounted"] = bool(item.get("discount_text"))
@@ -1071,8 +1090,11 @@ def finalize_item(item: dict[str, Any], fetched_at: str) -> dict[str, Any]:
     return item
 
 
-def release_sort_key(item: dict[str, Any]) -> tuple[str, str]:
-    return (str(item.get("release_date") or ""), str(item.get("title") or ""))
+def release_sort_key(item: dict[str, Any]) -> tuple[str, int]:
+    source_order = item.get("source_order")
+    if not isinstance(source_order, int):
+        source_order = 999_999_999
+    return (str(item.get("release_date") or ""), -source_order)
 
 
 def newest_items(items: list[dict[str, Any]], target_count: int) -> list[dict[str, Any]]:
@@ -1156,26 +1178,13 @@ def collect_report(args: argparse.Namespace, *, out_path: Path) -> dict[str, Any
     log_lines: list[str] = [f"Started at {fetched_at}", f"Target latest items: {args.target_count}"]
     previous_report = load_existing_report(out_path.with_suffix(".json"))
 
-    raw_items: list[dict[str, Any]] = []
-    raw_items.extend(
-        search_kind(
-            kind="game",
-            category=998,
-            cc=args.cc,
-            lang=args.lang,
-            max_pages=args.max_pages,
-            log_lines=log_lines,
-        )
-    )
-    raw_items.extend(
-        search_kind(
-            kind="demo",
-            category=10,
-            cc=args.cc,
-            lang=args.lang,
-            max_pages=args.max_pages,
-            log_lines=log_lines,
-        )
+    raw_items = search_kind(
+        kind="combined",
+        category="998,10",
+        cc=args.cc,
+        lang=args.lang,
+        max_pages=args.max_pages,
+        log_lines=log_lines,
     )
 
     if not raw_items:
@@ -1469,7 +1478,7 @@ def render_html(report: dict[str, Any]) -> str:
         if (state.sort === 'price-asc') return (a.price_value ?? 999999999) - (b.price_value ?? 999999999);
         if (state.sort === 'price-desc') return (b.price_value ?? -1) - (a.price_value ?? -1);
         if (state.sort === 'title-asc') return collator.compare(a.title || '', b.title || '');
-        return String(b.release_date || '').localeCompare(String(a.release_date || '')) || collator.compare(a.title || '', b.title || '');
+        return String(b.release_date || '').localeCompare(String(a.release_date || '')) || (a.source_order ?? 999999999) - (b.source_order ?? 999999999);
       }});
     }}
 

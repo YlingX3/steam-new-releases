@@ -112,6 +112,7 @@
       "魔法"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3779380": {
@@ -135,6 +136,7 @@
       "困难"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3925420": {
@@ -227,6 +229,7 @@
       "互动小说"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4591390": {
@@ -406,6 +409,7 @@
       "可爱"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4553530": {
@@ -543,6 +547,7 @@
       "沙盒"
     ],
     "is_free": true,
+    "kind": "game",
     "screenshots": null
   },
   "3313720": {
@@ -566,6 +571,7 @@
       "回合制战斗"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3030190": {
@@ -589,6 +595,7 @@
       "类魂"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3181890": {
@@ -614,6 +621,7 @@
       "可爱"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3418990": {
@@ -637,6 +645,7 @@
       "动作"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4513840": {
@@ -660,6 +669,7 @@
       "角色扮演"
     ],
     "is_free": true,
+    "kind": "game",
     "screenshots": null
   },
   "4265120": {
@@ -683,6 +693,7 @@
       "动作"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "2899880": {
@@ -860,6 +871,7 @@
       "弹幕射击"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4420410": {
@@ -1164,6 +1176,7 @@
       "困难"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3861150": {
@@ -1724,8 +1737,8 @@
   },
   "1962700": {
     "title": "Subnautica 2：异星水域",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/2666dd07d2aa3a146aee1d15b3b24dbe46792dd7/capsule_616x353_schinese_2x.jpg?t=1779360380",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/2666dd07d2aa3a146aee1d15b3b24dbe46792dd7/capsule_616x353_schinese_2x.jpg?t=1779360380",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/2666dd07d2aa3a146aee1d15b3b24dbe46792dd7/capsule_616x353_schinese_2x.jpg?t=1779428636",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/2666dd07d2aa3a146aee1d15b3b24dbe46792dd7/capsule_616x353_schinese_2x.jpg?t=1779428636",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "《Subnautica 2：异星水域》是背景设定在全新外星世界的水下生存冒险游戏，由Unknown Worlds倾力打造。可以单人游玩，也可以与好友组队开启四人合作模式。建造专属基地，制作不同工具，适应环境，水下求生。探索未知世界，揭开深海中隐藏的谜团。",
     "description_source": "store_browse_short",
@@ -1741,6 +1754,7 @@
       "探索"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4522280": {
@@ -1811,6 +1825,7 @@
       "单人"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "2091020": {
@@ -1834,6 +1849,7 @@
       "战斗"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4573210": {
@@ -1971,6 +1987,7 @@
       "休闲"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "1829270": {
@@ -2062,6 +2079,7 @@
       "2D"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4615250": {
@@ -2437,6 +2455,7 @@
       "沙盒"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4635850": {
@@ -2592,6 +2611,7 @@
       "策略"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3928990": {
@@ -2615,6 +2635,7 @@
       "时间管理"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4443770": {
@@ -2657,6 +2678,7 @@
       "类魂"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4214820": {
@@ -2680,6 +2702,7 @@
       "角色扮演"
     ],
     "is_free": true,
+    "kind": "game",
     "screenshots": null
   },
   "4490870": {
@@ -2794,6 +2817,7 @@
       "探索"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3566380": {
@@ -4455,6 +4479,7 @@
       "动作角色扮演"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4686990": {
@@ -4587,6 +4612,7 @@
       "模拟"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3990570": {
@@ -4997,6 +5023,7 @@
       "像素图形"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3987160": {
@@ -5106,6 +5133,7 @@
       "战斗"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "1449700": {
@@ -5235,6 +5263,7 @@
       "类魂"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3554150": {
@@ -5410,6 +5439,7 @@
       "建造"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3922090": {
@@ -5479,6 +5509,7 @@
       "老式"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4670730": {
@@ -5678,6 +5709,7 @@
       "第一人称"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4681200": {
@@ -7439,6 +7471,7 @@
       "互动小说"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4726890": {
@@ -8790,6 +8823,7 @@
       "氛围"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4455950": {
@@ -9413,6 +9447,7 @@
       "指向点击"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "2537470": {
@@ -9436,6 +9471,7 @@
       "探索"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3900120": {
@@ -9459,6 +9495,7 @@
       "单人"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "979110": {
@@ -9479,6 +9516,7 @@
       "沙盒"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3237640": {
@@ -9499,6 +9537,7 @@
       "动作冒险"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "2525510": {
@@ -9523,6 +9562,7 @@
       "冒险"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3100370": {
@@ -9544,6 +9584,7 @@
       "类魂"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4641700": {
@@ -9567,6 +9608,7 @@
       "像素图形"
     ],
     "is_free": true,
+    "kind": "game",
     "screenshots": null
   },
   "2599690": {
@@ -9589,6 +9631,7 @@
       "单人"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "2255370": {
@@ -9609,6 +9652,7 @@
       "恐怖"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4187140": {
@@ -9632,6 +9676,7 @@
       "欢乐"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "2681030": {
@@ -9653,6 +9698,7 @@
       "建造"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3048930": {
@@ -9676,6 +9722,7 @@
       "类 Rogue"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4584240": {
@@ -9700,6 +9747,7 @@
       "单人"
     ],
     "is_free": true,
+    "kind": "game",
     "screenshots": null
   },
   "2535950": {
@@ -9722,6 +9770,7 @@
       "困难"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3582250": {
@@ -9744,6 +9793,7 @@
       "休闲"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3894440": {
@@ -9766,6 +9816,7 @@
       "第一人称"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3526710": {
@@ -9788,6 +9839,7 @@
       "类魂"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4479970": {
@@ -9810,6 +9862,7 @@
       "解谜"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3639010": {
@@ -9835,6 +9888,7 @@
       "指向点击"
     ],
     "is_free": true,
+    "kind": "game",
     "screenshots": null
   },
   "4435720": {
@@ -9858,6 +9912,7 @@
       "动作"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3043760": {
@@ -9881,6 +9936,7 @@
       "射击"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3232380": {
@@ -11158,6 +11214,7 @@
       "冒险"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "2174380": {
@@ -11180,6 +11237,7 @@
       "第一人称"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3784760": {
@@ -11204,6 +11262,7 @@
       "家庭友好"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3670740": {
@@ -11226,6 +11285,7 @@
       "多人"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3432650": {
@@ -11250,6 +11310,7 @@
       "2D"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3670630": {
@@ -11271,6 +11332,7 @@
       "角色扮演"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3968100": {
@@ -11294,6 +11356,7 @@
       "探索"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "2190920": {
@@ -11317,6 +11380,7 @@
       "平台游戏"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3804180": {
@@ -11339,6 +11403,7 @@
       "2D"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "2680670": {
@@ -11407,6 +11472,7 @@
       "刷宝"
     ],
     "is_free": true,
+    "kind": "game",
     "screenshots": null
   },
   "4183230": {
@@ -11686,6 +11752,7 @@
       "建造"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4218780": {
@@ -11754,6 +11821,7 @@
       "生活模拟"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "2397510": {
@@ -11774,6 +11842,7 @@
       "俯视射击"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3866920": {
@@ -11797,6 +11866,7 @@
       "探索"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4596200": {
@@ -11863,6 +11933,7 @@
       "角色扮演"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4395530": {
@@ -12445,6 +12516,7 @@
       "回合制"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4165620": {
@@ -13113,6 +13185,7 @@
       "大型多人在线"
     ],
     "is_free": true,
+    "kind": "game",
     "screenshots": null
   },
   "4275530": {
@@ -13297,6 +13370,7 @@
       "回合制"
     ],
     "is_free": true,
+    "kind": "game",
     "screenshots": null
   },
   "896010": {
@@ -13320,6 +13394,7 @@
       "氛围"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "2483190": {
@@ -13341,6 +13416,7 @@
       "探索"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4501880": {
@@ -13511,6 +13587,7 @@
       "多人"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4693570": {
@@ -13557,6 +13634,7 @@
       "物理"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4676730": {
@@ -14834,6 +14912,7 @@
       "氛围"
     ],
     "is_free": true,
+    "kind": "game",
     "screenshots": null
   },
   "4486400": {
@@ -15037,6 +15116,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4581130": {
@@ -15099,6 +15179,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4341540": {
@@ -15244,6 +15325,7 @@
       "2D"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "3127750": {
@@ -15355,6 +15437,7 @@
       "控制器"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4080320": {
@@ -15399,6 +15482,7 @@
       "冒险"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4332080": {
@@ -15437,6 +15521,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "2804990": {
@@ -15538,6 +15623,7 @@
       "探索"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4698200": {
@@ -15561,6 +15647,7 @@
       "动作类 Rogue"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4628770": {
@@ -15578,6 +15665,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "3710470": {
@@ -15601,6 +15689,7 @@
       "物理"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4719190": {
@@ -15624,6 +15713,7 @@
       "3D"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4535880": {
@@ -15648,6 +15738,7 @@
       "休闲"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4718350": {
@@ -15665,6 +15756,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "2223420": {
@@ -15688,6 +15780,7 @@
       "动漫"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4596120": {
@@ -15711,6 +15804,7 @@
       "恐怖"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4654890": {
@@ -15734,6 +15828,7 @@
       "2D"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4286580": {
@@ -15757,6 +15852,7 @@
       "单人"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4657470": {
@@ -15780,6 +15876,7 @@
       "解谜"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4742090": {
@@ -15802,6 +15899,7 @@
       "独立"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "3735680": {
@@ -15825,6 +15923,7 @@
       "回合制"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4164030": {
@@ -15848,6 +15947,7 @@
       "彩色"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4699200": {
@@ -15871,6 +15971,7 @@
       "单人"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4259060": {
@@ -15892,6 +15993,7 @@
       "街机"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4595710": {
@@ -15914,6 +16016,7 @@
       "探索"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4300150": {
@@ -15936,6 +16039,7 @@
       "休闲"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4734130": {
@@ -15953,6 +16057,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "2313720": {
@@ -15976,6 +16081,7 @@
       "指向点击"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4741730": {
@@ -15999,6 +16105,7 @@
       "回合制战斗"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4732050": {
@@ -16016,6 +16123,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4554420": {
@@ -16038,6 +16146,7 @@
       "3D"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3118140": {
@@ -16060,6 +16169,7 @@
       "回合制战术"
     ],
     "is_free": true,
+    "kind": "game",
     "screenshots": null
   },
   "4683930": {
@@ -16080,6 +16190,7 @@
       "3D"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4675970": {
@@ -16102,6 +16213,7 @@
       "平台游戏"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4671940": {
@@ -16123,6 +16235,7 @@
       "刷宝"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4578700": {
@@ -16140,6 +16253,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4694670": {
@@ -16163,6 +16277,7 @@
       "独立"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3341000": {
@@ -16185,6 +16300,7 @@
       "刷宝"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4738260": {
@@ -16209,6 +16325,7 @@
       "真实"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4711860": {
@@ -16232,6 +16349,7 @@
       "休闲"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4504930": {
@@ -16256,6 +16374,7 @@
       "可爱"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "2605790": {
@@ -16278,6 +16397,7 @@
       "射击"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4654280": {
@@ -16301,6 +16421,7 @@
       "多人"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3123540": {
@@ -16324,6 +16445,7 @@
       "互动小说"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4241840": {
@@ -16345,6 +16467,7 @@
       "放松"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4645280": {
@@ -16368,6 +16491,7 @@
       "类魂"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4231720": {
@@ -16391,6 +16515,7 @@
       "奇幻"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3508170": {
@@ -16414,6 +16539,7 @@
       "可爱"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3397120": {
@@ -16437,6 +16563,7 @@
       "奇幻"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3508150": {
@@ -16459,6 +16586,7 @@
       "动漫"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "1206070": {
@@ -16482,6 +16610,7 @@
       "休闲"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "1356120": {
@@ -16504,6 +16633,7 @@
       "沙盒"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4684010": {
@@ -16526,6 +16656,7 @@
       "冒险"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4098870": {
@@ -16549,6 +16680,7 @@
       "策略"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4533100": {
@@ -16572,6 +16704,7 @@
       "可爱"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "3059250": {
@@ -16594,6 +16727,7 @@
       "剧情丰富"
     ],
     "is_free": true,
+    "kind": "game",
     "screenshots": null
   },
   "3550710": {
@@ -16615,6 +16749,7 @@
       "动作"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4717410": {
@@ -16632,6 +16767,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4743100": {
@@ -16649,6 +16785,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4585260": {
@@ -16671,6 +16808,7 @@
       "3D"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4674350": {
@@ -16688,6 +16826,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4742750": {
@@ -16705,6 +16844,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4617110": {
@@ -16728,6 +16868,7 @@
       "俯视"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4697530": {
@@ -16751,6 +16892,7 @@
       "解谜"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4604260": {
@@ -16772,6 +16914,7 @@
       "3D"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4731060": {
@@ -16794,6 +16937,7 @@
       "动作冒险"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4687060": {
@@ -16817,6 +16961,7 @@
       "街机"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4535670": {
@@ -16838,6 +16983,7 @@
       "2D"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4686280": {
@@ -16860,6 +17006,7 @@
       "类 Rogue"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4019130": {
@@ -16885,6 +17032,7 @@
       "射击"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4688390": {
@@ -16902,6 +17050,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4622640": {
@@ -16925,6 +17074,7 @@
       "弹幕射击"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4651030": {
@@ -16948,6 +17098,7 @@
       "单人"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "1807740": {
@@ -16972,6 +17123,7 @@
       "冒险"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3891080": {
@@ -16995,6 +17147,7 @@
       "射击"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4741240": {
@@ -17012,6 +17165,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4179280": {
@@ -17034,6 +17188,7 @@
       "策略"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4725470": {
@@ -17051,6 +17206,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4692160": {
@@ -17071,6 +17227,7 @@
       "模拟"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4703770": {
@@ -17088,6 +17245,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "3651880": {
@@ -17110,6 +17268,7 @@
       "恐怖"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4704320": {
@@ -17135,6 +17294,7 @@
       "彩色"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4714710": {
@@ -17152,6 +17312,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4653650": {
@@ -17175,6 +17336,7 @@
       "控制器"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4633350": {
@@ -17192,6 +17354,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4258070": {
@@ -17216,6 +17379,7 @@
       "平台游戏"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4646860": {
@@ -17236,6 +17400,7 @@
       "动作"
     ],
     "is_free": true,
+    "kind": "game",
     "screenshots": null
   },
   "3154610": {
@@ -17259,6 +17424,7 @@
       "探索"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4746120": {
@@ -17276,6 +17442,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4290470": {
@@ -17299,6 +17466,7 @@
       "休闲"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4743120": {
@@ -17322,6 +17490,7 @@
       "动作"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "3047800": {
@@ -17344,6 +17513,7 @@
       "奇幻"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4330860": {
@@ -17366,6 +17536,7 @@
       "刷宝"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4731530": {
@@ -17387,6 +17558,7 @@
       "冒险"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4334380": {
@@ -17404,6 +17576,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4615640": {
@@ -17427,6 +17600,7 @@
       "第一人称"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4301540": {
@@ -17447,6 +17621,7 @@
       "教育"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3770700": {
@@ -17470,6 +17645,7 @@
       "街机"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4697030": {
@@ -17493,6 +17669,7 @@
       "2.5D"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4705600": {
@@ -17516,6 +17693,7 @@
       "可爱"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4574380": {
@@ -17533,6 +17711,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4684720": {
@@ -17550,6 +17729,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4625280": {
@@ -17573,6 +17753,7 @@
       "独立"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4666100": {
@@ -17595,6 +17776,7 @@
       "模拟"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4615050": {
@@ -17613,6 +17795,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4726550": {
@@ -17635,6 +17818,7 @@
       "动作类 Rogue"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4638510": {
@@ -17656,6 +17840,7 @@
       "氛围"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4389400": {
@@ -17679,6 +17864,7 @@
       "策略"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4696440": {
@@ -17701,6 +17887,7 @@
       "类 Rogue"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4522140": {
@@ -17721,6 +17908,7 @@
       "策略"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4697430": {
@@ -17744,6 +17932,7 @@
       "视觉小说"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4504020": {
@@ -17767,6 +17956,7 @@
       "彩色"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4737730": {
@@ -17788,6 +17978,7 @@
       "2D"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4228650": {
@@ -17808,6 +17999,7 @@
       "3D"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4689590": {
@@ -17830,6 +18022,7 @@
       "奇幻"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4610020": {
@@ -17853,6 +18046,7 @@
       "解谜"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4552750": {
@@ -17876,6 +18070,7 @@
       "2D"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4669150": {
@@ -17898,6 +18093,7 @@
       "互动小说"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4653600": {
@@ -17915,6 +18111,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "3535360": {
@@ -17961,6 +18158,7 @@
       "可爱"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "2537560": {
@@ -17984,6 +18182,7 @@
       "角色扮演"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4630250": {
@@ -18001,6 +18200,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4667430": {
@@ -18018,6 +18218,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4677180": {
@@ -18039,6 +18240,7 @@
       "像素图形"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4528830": {
@@ -18062,6 +18264,7 @@
       "类魂"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3870810": {
@@ -18085,6 +18288,7 @@
       "独立"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4703350": {
@@ -18107,6 +18311,7 @@
       "单人"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3944190": {
@@ -18130,6 +18335,7 @@
       "动漫"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4713030": {
@@ -18153,6 +18359,7 @@
       "弹幕射击"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4625270": {
@@ -18170,6 +18377,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4449390": {
@@ -18192,6 +18400,7 @@
       "奇幻"
     ],
     "is_free": true,
+    "kind": "game",
     "screenshots": null
   },
   "2164660": {
@@ -18213,6 +18422,7 @@
       "类 Rogue"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4671640": {
@@ -18236,6 +18446,7 @@
       "2D"
     ],
     "is_free": true,
+    "kind": "game",
     "screenshots": null
   },
   "4459370": {
@@ -18253,6 +18464,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "3893830": {
@@ -18276,6 +18488,7 @@
       "策略角色扮演"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "2824000": {
@@ -18298,6 +18511,7 @@
       "可爱"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4153780": {
@@ -18321,6 +18535,7 @@
       "平台游戏"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "2863680": {
@@ -18342,6 +18557,7 @@
       "剧情丰富"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "2560100": {
@@ -18365,6 +18581,7 @@
       "恐怖"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4688520": {
@@ -18388,6 +18605,7 @@
       "2D 平台"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4691990": {
@@ -18411,6 +18629,7 @@
       "精确平台"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4467950": {
@@ -18434,6 +18653,7 @@
       "探索"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4608570": {
@@ -18455,6 +18675,7 @@
       "氛围"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4673800": {
@@ -18476,6 +18697,7 @@
       "单人"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3232870": {
@@ -18495,6 +18717,7 @@
       "3D"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4663660": {
@@ -18518,6 +18741,7 @@
       "冒险"
     ],
     "is_free": true,
+    "kind": "game",
     "screenshots": null
   },
   "4676880": {
@@ -18535,6 +18759,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4374560": {
@@ -18558,6 +18783,7 @@
       "独立"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4337210": {
@@ -18581,6 +18807,7 @@
       "类 Rogue"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4536290": {
@@ -18602,6 +18829,7 @@
       "超现实"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4748640": {
@@ -18619,6 +18847,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4174310": {
@@ -18643,6 +18872,7 @@
       "单人"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3349970": {
@@ -18666,6 +18896,7 @@
       "沉浸式模拟"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4454040": {
@@ -18689,6 +18920,7 @@
       "沉浸式模拟"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "2936190": {
@@ -18710,6 +18942,7 @@
       "生活模拟"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3126340": {
@@ -18731,6 +18964,7 @@
       "探索"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4389120": {
@@ -18755,6 +18989,7 @@
       "像素图形"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "1933000": {
@@ -18778,6 +19013,7 @@
       "射击"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3000970": {
@@ -18799,6 +19035,7 @@
       "第一人称"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3412160": {
@@ -18822,6 +19059,7 @@
       "建造"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3336240": {
@@ -18846,6 +19084,7 @@
       "可爱"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4678280": {
@@ -18869,6 +19108,7 @@
       "塔防"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3196590": {
@@ -18892,6 +19132,7 @@
       "独立"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4689750": {
@@ -18909,6 +19150,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "3206390": {
@@ -18932,6 +19174,7 @@
       "独立"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4658750": {
@@ -18950,6 +19193,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4716510": {
@@ -18967,6 +19211,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4239520": {
@@ -18989,6 +19234,7 @@
       "单人"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4676290": {
@@ -19012,6 +19258,7 @@
       "彩色"
     ],
     "is_free": true,
+    "kind": "game",
     "screenshots": null
   },
   "4462280": {
@@ -19035,6 +19282,7 @@
       "氛围"
     ],
     "is_free": true,
+    "kind": "game",
     "screenshots": null
   },
   "4499200": {
@@ -19052,6 +19300,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "2532480": {
@@ -19075,6 +19324,7 @@
       "回合制战斗"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4338410": {
@@ -19093,6 +19343,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4748870": {
@@ -19114,6 +19365,7 @@
       "单人"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4656570": {
@@ -19137,6 +19389,7 @@
       "动作角色扮演"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4616830": {
@@ -19159,6 +19412,7 @@
       "俯视射击"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "3049020": {
@@ -19180,6 +19434,7 @@
       "策略"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4008200": {
@@ -19203,6 +19458,7 @@
       "可爱"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4280420": {
@@ -19226,6 +19482,7 @@
       "像素图形"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4710140": {
@@ -19247,6 +19504,7 @@
       "休闲"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4748260": {
@@ -19264,6 +19522,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "3507360": {
@@ -19285,6 +19544,7 @@
       "动作"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4362350": {
@@ -19306,6 +19566,7 @@
       "冒险"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "2421950": {
@@ -19330,6 +19591,7 @@
       "单人"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4716600": {
@@ -19352,6 +19614,7 @@
       "类 Rogue"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "3072940": {
@@ -19374,6 +19637,7 @@
       "冒险"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4686400": {
@@ -19396,6 +19660,7 @@
       "单人"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3900190": {
@@ -19419,6 +19684,7 @@
       "动作"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3820020": {
@@ -19442,6 +19708,7 @@
       "恐怖"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4734990": {
@@ -19465,6 +19732,7 @@
       "沉浸式模拟"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "2111550": {
@@ -19488,6 +19756,7 @@
       "可爱"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4483190": {
@@ -19511,6 +19780,7 @@
       "动作"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4454160": {
@@ -19534,6 +19804,7 @@
       "动作"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "2199080": {
@@ -19557,6 +19828,7 @@
       "动漫"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4752400": {
@@ -19574,6 +19846,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4502770": {
@@ -19597,6 +19870,7 @@
       "第一人称"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4694050": {
@@ -19614,6 +19888,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4662050": {
@@ -19631,6 +19906,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4669310": {
@@ -19653,6 +19929,7 @@
       "类 Rogue"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "3916260": {
@@ -19678,6 +19955,7 @@
       "探索"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3183170": {
@@ -19700,6 +19978,7 @@
       "探索"
     ],
     "is_free": true,
+    "kind": "game",
     "screenshots": null
   },
   "4170650": {
@@ -19723,6 +20002,7 @@
       "策略角色扮演"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4699660": {
@@ -19746,6 +20026,7 @@
       "2D"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4654260": {
@@ -19765,6 +20046,7 @@
       "模拟"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4199860": {
@@ -19788,6 +20070,7 @@
       "单人"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4566120": {
@@ -19810,6 +20093,7 @@
       "时间管理"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4725910": {
@@ -19833,6 +20117,7 @@
       "氛围"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "3216800": {
@@ -19854,6 +20139,7 @@
       "老式"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4492070": {
@@ -19874,6 +20160,7 @@
       "模拟"
     ],
     "is_free": true,
+    "kind": "game",
     "screenshots": null
   },
   "1950950": {
@@ -19896,6 +20183,7 @@
       "探索"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4588130": {
@@ -19913,6 +20201,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4703150": {
@@ -19936,6 +20225,7 @@
       "氛围"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3463140": {
@@ -19953,6 +20243,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "3949280": {
@@ -19975,6 +20266,7 @@
       "超现实"
     ],
     "is_free": true,
+    "kind": "game",
     "screenshots": null
   },
   "2341100": {
@@ -19998,6 +20290,7 @@
       "休闲"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4713210": {
@@ -20015,6 +20308,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "3593040": {
@@ -20036,6 +20330,7 @@
       "沉浸式模拟"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4704410": {
@@ -20059,6 +20354,7 @@
       "第一人称"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4644950": {
@@ -20082,6 +20378,7 @@
       "2D 平台"
     ],
     "is_free": true,
+    "kind": "game",
     "screenshots": null
   },
   "4698180": {
@@ -20099,6 +20396,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4701700": {
@@ -20122,6 +20420,7 @@
       "策略"
     ],
     "is_free": true,
+    "kind": "game",
     "screenshots": null
   },
   "4697480": {
@@ -20145,6 +20444,7 @@
       "可爱"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4730110": {
@@ -20162,6 +20462,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4656940": {
@@ -20184,6 +20485,7 @@
       "2D"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4381000": {
@@ -20205,6 +20507,7 @@
       "3D"
     ],
     "is_free": true,
+    "kind": "game",
     "screenshots": null
   },
   "4704040": {
@@ -20228,6 +20531,7 @@
       "沉浸式模拟"
     ],
     "is_free": true,
+    "kind": "game",
     "screenshots": null
   },
   "4012840": {
@@ -20250,6 +20554,7 @@
       "动漫"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4544240": {
@@ -20273,6 +20578,7 @@
       "动作"
     ],
     "is_free": true,
+    "kind": "game",
     "screenshots": null
   },
   "3585520": {
@@ -20295,6 +20601,7 @@
       "放松"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4542660": {
@@ -20317,6 +20624,7 @@
       "互动小说"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3255700": {
@@ -20340,6 +20648,7 @@
       "冒险"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "1823990": {
@@ -20362,6 +20671,7 @@
       "3D"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4476090": {
@@ -20383,6 +20693,7 @@
       "3D"
     ],
     "is_free": true,
+    "kind": "game",
     "screenshots": null
   },
   "4750940": {
@@ -20406,6 +20717,7 @@
       "射击"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "3597390": {
@@ -20427,6 +20739,7 @@
       "像素图形"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4298890": {
@@ -20450,6 +20763,7 @@
       "模拟"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4672460": {
@@ -20467,6 +20781,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "2728420": {
@@ -20489,6 +20804,7 @@
       "2D 平台"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4731930": {
@@ -20506,6 +20822,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "3980800": {
@@ -20527,6 +20844,7 @@
       "3D"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4356840": {
@@ -20547,6 +20865,7 @@
       "沉浸式模拟"
     ],
     "is_free": true,
+    "kind": "game",
     "screenshots": null
   },
   "4561150": {
@@ -20570,6 +20889,7 @@
       "动作冒险"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4686810": {
@@ -20587,6 +20907,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4268890": {
@@ -20609,6 +20930,7 @@
       "模拟"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4513420": {
@@ -20630,6 +20952,7 @@
       "互动小说"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4704310": {
@@ -20655,6 +20978,7 @@
       "可爱"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "2732650": {
@@ -20676,6 +21000,7 @@
       "多人"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4595650": {
@@ -20697,6 +21022,7 @@
       "冒险"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4619590": {
@@ -20720,6 +21046,7 @@
       "动作冒险"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3736980": {
@@ -20743,6 +21070,7 @@
       "平台游戏"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4414730": {
@@ -20760,6 +21088,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "2097150": {
@@ -20783,6 +21112,7 @@
       "欢乐"
     ],
     "is_free": true,
+    "kind": "game",
     "screenshots": null
   },
   "4752600": {
@@ -20800,6 +21130,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4751310": {
@@ -20823,6 +21154,7 @@
       "独立"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "3161220": {
@@ -20847,6 +21179,7 @@
       "放松"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4580760": {
@@ -20870,6 +21203,7 @@
       "2D"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4175980": {
@@ -20893,6 +21227,7 @@
       "3D"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "3176680": {
@@ -20915,6 +21250,7 @@
       "类魂"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4291070": {
@@ -20938,6 +21274,7 @@
       "街机"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4659960": {
@@ -20961,6 +21298,7 @@
       "类魂"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4698970": {
@@ -20984,6 +21322,7 @@
       "物理"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4279040": {
@@ -21007,6 +21346,7 @@
       "动作"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4569660": {
@@ -21024,6 +21364,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4690160": {
@@ -21043,6 +21384,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4728650": {
@@ -21065,6 +21407,7 @@
       "建造"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4682770": {
@@ -21082,6 +21425,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4558170": {
@@ -21105,6 +21449,7 @@
       "俯视"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4551040": {
@@ -21127,6 +21472,7 @@
       "探索"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4712610": {
@@ -21148,6 +21494,7 @@
       "动作"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "3115240": {
@@ -21171,6 +21518,7 @@
       "3D"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4749700": {
@@ -21188,6 +21536,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "3607440": {
@@ -21211,6 +21560,7 @@
       "动作冒险"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "2366100": {
@@ -21232,6 +21582,7 @@
       "射击"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "1089890": {
@@ -21255,6 +21606,7 @@
       "3D"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4169720": {
@@ -21277,6 +21629,7 @@
       "文字游戏"
     ],
     "is_free": true,
+    "kind": "game",
     "screenshots": null
   },
   "4671870": {
@@ -21294,6 +21647,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4694100": {
@@ -21317,6 +21671,7 @@
       "俯视射击"
     ],
     "is_free": true,
+    "kind": "game",
     "screenshots": null
   },
   "4602060": {
@@ -21334,12 +21689,13 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4495510": {
     "title": "Plantation Simulator",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4495510/f0c9c24d9ba9342a9c80b50bea814f946172d324/capsule_616x353_2x.jpg?t=1779426830",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4495510/f0c9c24d9ba9342a9c80b50bea814f946172d324/capsule_616x353_2x.jpg?t=1779426830",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4495510/f0c9c24d9ba9342a9c80b50bea814f946172d324/capsule_616x353_2x.jpg?t=1779427261",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4495510/f0c9c24d9ba9342a9c80b50bea814f946172d324/capsule_616x353_2x.jpg?t=1779427261",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "Plantation Simulator is a simple farming simulator where you motivate friends with kisses to pick your crops! Maintain a beautiful farm by repairing fences to keep friends focused. Choose multiple crops to grow and enhance upgrades to maximize your success!",
     "description_source": "store_browse_short",
@@ -21356,6 +21712,7 @@
       "像素图形"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4639300": {
@@ -21379,6 +21736,7 @@
       "单人"
     ],
     "is_free": true,
+    "kind": "game",
     "screenshots": null
   },
   "4474200": {
@@ -21396,6 +21754,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4528240": {
@@ -21419,6 +21778,7 @@
       "剧情丰富"
     ],
     "is_free": true,
+    "kind": "game",
     "screenshots": null
   },
   "4642940": {
@@ -21440,6 +21800,7 @@
       "休闲"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4691840": {
@@ -21457,6 +21818,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4295730": {
@@ -21480,6 +21842,7 @@
       "欢乐"
     ],
     "is_free": true,
+    "kind": "game",
     "screenshots": null
   },
   "4177730": {
@@ -21503,6 +21866,7 @@
       "视觉小说"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4749440": {
@@ -21526,6 +21890,7 @@
       "可爱"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4175330": {
@@ -21549,6 +21914,7 @@
       "剧情丰富"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4431240": {
@@ -21572,6 +21938,7 @@
       "动作冒险"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4709610": {
@@ -21595,6 +21962,7 @@
       "战争"
     ],
     "is_free": true,
+    "kind": "game",
     "screenshots": null
   },
   "2689000": {
@@ -21618,6 +21986,7 @@
       "彩色"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4651360": {
@@ -21640,6 +22009,7 @@
       "3D"
     ],
     "is_free": true,
+    "kind": "game",
     "screenshots": null
   },
   "4728780": {
@@ -21663,6 +22033,7 @@
       "生活模拟"
     ],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4627600": {
@@ -21684,6 +22055,7 @@
       "3D"
     ],
     "is_free": true,
+    "kind": "game",
     "screenshots": null
   },
   "3204770": {
@@ -21707,6 +22079,7 @@
       "平台游戏"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4559790": {
@@ -21724,6 +22097,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "4664530": {
@@ -21746,6 +22120,7 @@
       "单人"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4736760": {
@@ -21763,6 +22138,7 @@
     ],
     "genres": [],
     "is_free": true,
+    "kind": "demo",
     "screenshots": null
   },
   "3670430": {
@@ -21786,6 +22162,67 @@
       "可爱"
     ],
     "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4733390": {
+    "title": "别惹二奎（试玩版）",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4733390/001c96ac425051704f71b2d1629b08eb75dff337/capsule_616x353_2x.jpg?t=1779428184",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4733390/001c96ac425051704f71b2d1629b08eb75dff337/capsule_616x353_2x.jpg?t=1779428184",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "这是像素独立动作游戏《别惹二奎》的试玩版，游戏目前仍在开发中。完整版即将上线，敬请期待！",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Rizhao Youdian Yisi Animation Design Co., Ltd."
+    ],
+    "publishers": [
+      "Rizhao Youdian Yisi Animation Design Co., Ltd."
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4586400": {
+    "title": "The Calling Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4586400/8be954e2cc868a0c5172d8075681cd4daf916639/capsule_616x353_2x.jpg?t=1779427586",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4586400/8be954e2cc868a0c5172d8075681cd4daf916639/capsule_616x353_2x.jpg?t=1779427586",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Assemble a squad of your favorite live-streamers VTubers and battle for dominance in this PvP shooter featuring a growing cast of over 90 popular and upcoming streamers (with more on the way)! Developed by solo indie developer and streamer, BuriedCandy.",
+    "description_source": "store_meta",
+    "developers": [
+      "BuriedCandy"
+    ],
+    "publishers": [
+      "BuriedCandy Entertainment Inc"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4520140": {
+    "title": "Cinder City",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4520140/b5603adc369bd2dc2e43a3eaabe139d96a6af13d/capsule_616x353_2x.jpg?t=1779426688",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4520140/b5603adc369bd2dc2e43a3eaabe139d96a6af13d/capsule_616x353_2x.jpg?t=1779426688",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Cinder City focuses on puzzles, teamwork, and time-management. Become the best firefighter by traversing through the city in a classic couch co-op setting. Get to work putting out fires and saving those poor citizens!",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Fire Escape Studios LLC"
+    ],
+    "publishers": [
+      "Fire Escape Studios LLC"
+    ],
+    "genres": [
+      "时间管理",
+      "动作",
+      "解谜",
+      "休闲",
+      "动作冒险"
+    ],
+    "is_free": true,
+    "kind": "game",
     "screenshots": null
   }
 }
