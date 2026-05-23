@@ -13361,10 +13361,10 @@
       "USC Games"
     ],
     "genres": [
+      "回合制",
       "动作",
       "冒险",
-      "动作冒险",
-      "回合制"
+      "动作冒险"
     ],
     "is_free": true,
     "kind": "game",
@@ -20933,8 +20933,8 @@
   },
   "4513420": {
     "title": "Dreaming Briar Rose -Demon's Temptation-",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4513420/5774e2abad4a691af38b8ea4801fed89cf8d4d1d/capsule_616x353_2x.jpg?t=1779428796",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4513420/5774e2abad4a691af38b8ea4801fed89cf8d4d1d/capsule_616x353_2x.jpg?t=1779428796",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4513420/5774e2abad4a691af38b8ea4801fed89cf8d4d1d/capsule_616x353_2x.jpg?t=1779503749",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4513420/5774e2abad4a691af38b8ea4801fed89cf8d4d1d/capsule_616x353_2x.jpg?t=1779503749",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "Saved from a near-fatal accident by a demon, you must spend two weeks recovering in the Demon’s Realm. Surrounded by eight dangerous yet alluring demons, your choices will decide whether you return to the human world—or choose a future in theirs.",
     "description_source": "store_browse_short",
@@ -21780,7 +21780,7 @@
     "screenshots": null
   },
   "4642940": {
-    "title": "悠哉钓鱼 Demo",
+    "title": "悠哉捕鱼 Demo",
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4642940/015abda6204defaada2e62abdc32f7d7b7e905c3/capsule_616x353_schinese_2x.jpg?t=1779420672",
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4642940/015abda6204defaada2e62abdc32f7d7b7e905c3/capsule_616x353_schinese_2x.jpg?t=1779420672",
     "asset_source": "store_browse:main_capsule_2x",
@@ -24529,8 +24529,8 @@
   },
   "2215200": {
     "title": "乐高®蝙蝠侠™：黑暗骑士之遗",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/ad4957081ca66a260d74aaab197b0ee75d44ee68/capsule_616x353_2x.jpg?t=1779469737",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/ad4957081ca66a260d74aaab197b0ee75d44ee68/capsule_616x353_2x.jpg?t=1779469737",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/ad4957081ca66a260d74aaab197b0ee75d44ee68/capsule_616x353_2x.jpg?t=1779499107",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/ad4957081ca66a260d74aaab197b0ee75d44ee68/capsule_616x353_2x.jpg?t=1779499107",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "以黑暗骑士的身份崛起，体验蝙蝠侠的精彩故事。在充满刺激和动作的大胆冒险中，体验激烈的战斗、开放世界的哥谭市，以及粉丝熟知和喜爱的乐高标志性魅力。",
     "description_source": "store_browse_short",
@@ -25066,6 +25066,124 @@
     "genres": [],
     "is_free": true,
     "kind": "demo",
+    "screenshots": null
+  },
+  "3174500": {
+    "title": "冬日生存工程",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3174500/412d004a8f15dfd52dad965e9764f44b89c6f6c1/capsule_616x353_schinese_2x.jpg?t=1779509883",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3174500/412d004a8f15dfd52dad965e9764f44b89c6f6c1/capsule_616x353_schinese_2x.jpg?t=1779509883",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "你将作为一名绝境之中的幸存者，在丧尸与未知的危险中搜寻物资制造武器，建立营地，修复你的载具，生存下去并寻找绝境的秘密。游戏可切换第一人称与第三人称视角，本游戏由单人制作完成，联机模式将在测试充分后推出，希望您喜欢。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "RECAST"
+    ],
+    "publishers": [
+      "RECAST"
+    ],
+    "genres": [
+      "冒险",
+      "角色扮演",
+      "模拟",
+      "动作冒险"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4237210": {
+    "title": "纯情房东撬房客",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4237210/3bc4e5a013984e295175c2d80f601be9238ba410/capsule_616x353_schinese_2x.jpg?t=1779508804",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4237210/3bc4e5a013984e295175c2d80f601be9238ba410/capsule_616x353_schinese_2x.jpg?t=1779508804",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "落榜生仲间工面试接连碰壁，父母将一座老旧公寓给他打理，里面住着两位有着各自烦恼的家庭主妇……",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Studio Pork"
+    ],
+    "publishers": [
+      "Kagura Games"
+    ],
+    "genres": [
+      "角色扮演",
+      "休闲",
+      "动漫",
+      "单人",
+      "视觉小说"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4740780": {
+    "title": "ZHEN: Shattered Legacy Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4740780/d521643051d398db1dcbdea10f0fe89cadf97744/capsule_616x353_2x.jpg?t=1779507881",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4740780/d521643051d398db1dcbdea10f0fe89cadf97744/capsule_616x353_2x.jpg?t=1779507881",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "You play as a robot warrior monk sent to the distant lands of Zhen, a fictional, East-Asian inspired world desolated by an ancient war. You begin your journey to challenge the Masters of Kung Fu, become the new Grand Master of the land and restore the righteous way of Kung Fu.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Ghost Machine Games"
+    ],
+    "publishers": [
+      "Soft Source"
+    ],
+    "genres": [
+      "独立",
+      "武术",
+      "动作",
+      "困难"
+    ],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4381200": {
+    "title": "Kami: The Great Guardian",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4381200/be8e77b7da58927ecb5fb0308d29ac4c7b74905b/capsule_616x353_2x.jpg?t=1779500464",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4381200/be8e77b7da58927ecb5fb0308d29ac4c7b74905b/capsule_616x353_2x.jpg?t=1779500464",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "在这款短小精炼的 2D 类银河战士恶魔城游戏中，帮助卡米对抗来自太空的腐化，拯救自然。运用你在冒险中逐步发现的能力，探索世界并消除腐化的威胁。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Endemic Artifacts"
+    ],
+    "publishers": [
+      "Endemic Artifacts"
+    ],
+    "genres": [
+      "探索",
+      "平台游戏",
+      "2D",
+      "冒险",
+      "像素图形"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4645570": {
+    "title": "月光のソードブレイカー ノヴァ編",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4645570/98922c94e7187d6fb1b6eaaafe3e901643f13cb9/capsule_616x353_2x.jpg?t=1779498014",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4645570/98922c94e7187d6fb1b6eaaafe3e901643f13cb9/capsule_616x353_2x.jpg?t=1779498014",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Gekko is the stage where swords, machines and ponytails appear in modern society. A school romantic comedy visual novel that depicts an exciting love pattern with five heroines. This is the fourth installment in the Gekko series, featuring the story of the robot girl “Kikouin Nova.”",
+    "description_source": "store_browse_short",
+    "developers": [
+      "あいあんそぉど"
+    ],
+    "publishers": [
+      "あいあんそぉど"
+    ],
+    "genres": [
+      "冒险",
+      "视觉小说",
+      "动态叙事",
+      "休闲",
+      "动漫"
+    ],
+    "is_free": true,
+    "kind": "game",
     "screenshots": null
   }
 }
