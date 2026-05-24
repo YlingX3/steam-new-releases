@@ -24165,10 +24165,10 @@
   },
   "4574110": {
     "title": "Divine Diner",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4574110/38a60db64bda127d4c73d8c7e477b1a3280c15b0/capsule_616x353_2x.jpg?t=1779480471",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4574110/38a60db64bda127d4c73d8c7e477b1a3280c15b0/capsule_616x353_2x.jpg?t=1779480471",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4574110/38a60db64bda127d4c73d8c7e477b1a3280c15b0/capsule_616x353_2x.jpg?t=1779597231",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4574110/38a60db64bda127d4c73d8c7e477b1a3280c15b0/capsule_616x353_2x.jpg?t=1779597231",
     "asset_source": "store_browse:main_capsule_2x",
-    "short_description": "A Greek Myth-based, hearthfelt narrative game where you're a demigod named Aelius trying to find your godly father and re-forge your family.",
+    "short_description": "A Greek Myth-based, heartfelt narrative game where you're a demigod named Aelius trying to find your godly father and re-forge your family.",
     "description_source": "store_browse_short",
     "developers": [
       "Ambrosia Interactive LLC"
@@ -26230,6 +26230,24 @@
     ],
     "is_free": true,
     "kind": "game",
+    "screenshots": null
+  },
+  "4754170": {
+    "title": "Eggs Must Flow Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4754170/19bf4af20325657466c29cc86748daaeb08ed951/capsule_616x353_2x.jpg?t=1779598516",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4754170/19bf4af20325657466c29cc86748daaeb08ed951/capsule_616x353_2x.jpg?t=1779598516",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "《Eggs Must Flow》是一款可爱的“小鸡点击”游戏，你将通过点击、孵化和自动化一步步迈向鸡蛋霸权！解锁拥有独特被动能力的小鸡，提升你的产量，并保持鸡舍干净整洁……否则事情可能会变得一团糟。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Tabsil"
+    ],
+    "publishers": [
+      "Tabsil"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
     "screenshots": null
   }
 }
