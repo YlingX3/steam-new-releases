@@ -8068,8 +8068,8 @@
   },
   "4615150": {
     "title": "NRDominó",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4615150/2fb78a0dfcb2fea6bc972dd8ee49c03c0851aadf/capsule_616x353_2x.jpg?t=1778913973",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4615150/2fb78a0dfcb2fea6bc972dd8ee49c03c0851aadf/capsule_616x353_2x.jpg?t=1778913973",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4615150/2fb78a0dfcb2fea6bc972dd8ee49c03c0851aadf/capsule_616x353_2x.jpg?t=1779546679",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4615150/2fb78a0dfcb2fea6bc972dd8ee49c03c0851aadf/capsule_616x353_2x.jpg?t=1779546679",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "Classic domino gameplay with for local and online matches.",
     "description_source": "store_browse_short",
@@ -8087,6 +8087,7 @@
       "独立"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4595030": {
@@ -19036,8 +19037,8 @@
   },
   "3412160": {
     "title": "拉斯维加斯模拟器",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3412160/a7bbc4ef7bc72f8826bc939b203e9ae0f20e94f9/capsule_616x353_schinese_2x.jpg?t=1779433559",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3412160/a7bbc4ef7bc72f8826bc939b203e9ae0f20e94f9/capsule_616x353_schinese_2x.jpg?t=1779433559",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3412160/a7bbc4ef7bc72f8826bc939b203e9ae0f20e94f9/capsule_616x353_schinese_2x.jpg?t=1779573768",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3412160/a7bbc4ef7bc72f8826bc939b203e9ae0f20e94f9/capsule_616x353_schinese_2x.jpg?t=1779573768",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "独自一人或与好友合作（1–4人）打造顶级商业帝国。从零开始，取悦顾客，应对混乱—破坏分子、故障，甚至外星来客。",
     "description_source": "store_browse_short",
@@ -19819,8 +19820,8 @@
     "genres": [
       "角色扮演",
       "回合制战斗",
-      "回合制战术",
       "3D",
+      "回合制战术",
       "动漫"
     ],
     "is_free": false,
@@ -21451,8 +21452,8 @@
   },
   "4551040": {
     "title": "Animal Company",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4551040/ae9007ca2503ed1bb65f19da8bf25a7ddac40ceb/capsule_616x353_2x.jpg?t=1779379146",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4551040/ae9007ca2503ed1bb65f19da8bf25a7ddac40ceb/capsule_616x353_2x.jpg?t=1779379146",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4551040/ae9007ca2503ed1bb65f19da8bf25a7ddac40ceb/capsule_616x353_2x.jpg?t=1779564679",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4551040/ae9007ca2503ed1bb65f19da8bf25a7ddac40ceb/capsule_616x353_2x.jpg?t=1779564679",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "Animal Company is a chaotic multiplayer VR adventure where you and your friends play as thick-cheeked animals to dive into spooky worlds, fight monsters, uncover secret lab experiments, and turn literal trash into powerful physics gear.",
     "description_source": "store_browse_short",
@@ -21859,8 +21860,8 @@
       "休闲",
       "角色扮演",
       "动态叙事",
-      "文字游戏",
-      "视觉小说"
+      "视觉小说",
+      "文字游戏"
     ],
     "is_free": false,
     "kind": "game",
@@ -23101,8 +23102,8 @@
   },
   "4749100": {
     "title": "LogiGolf Demo",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4749100/af565e3d1603fffddbd0634f72e2a025c994d22b/capsule_616x353_2x.jpg?t=1779492226",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4749100/af565e3d1603fffddbd0634f72e2a025c994d22b/capsule_616x353_2x.jpg?t=1779492226",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4749100/3cb326cba756625dfb37055630c8e8b1fd612197/capsule_616x353_2x.jpg?t=1779571183",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4749100/3cb326cba756625dfb37055630c8e8b1fd612197/capsule_616x353_2x.jpg?t=1779571183",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "LogiGolf is a relaxing golf puzzle game where you place walls to guide the ball. Journey between islands to uncover new challenges and surprising discoveries.",
     "description_source": "store_browse_short",
@@ -23635,8 +23636,8 @@
   },
   "4573080": {
     "title": "执念刑警之消失的证人",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4573080/295469f12277a9305f5ea43ed40e8579697e0208/capsule_616x353_schinese_2x.jpg?t=1779435624",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4573080/295469f12277a9305f5ea43ed40e8579697e0208/capsule_616x353_schinese_2x.jpg?t=1779435624",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4573080/295469f12277a9305f5ea43ed40e8579697e0208/capsule_616x353_schinese_2x.jpg?t=1779543809",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4573080/295469f12277a9305f5ea43ed40e8579697e0208/capsule_616x353_schinese_2x.jpg?t=1779543809",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "一款视频叙事侦探解谜游戏。三周前，一名男子从雾江大桥坠落，警方认定自杀；三周后，5 名素不相识的目击者接连失踪。你扮演刑警陆言，必须在 9 天内查清真相，把人活着带回来。游戏由两条主轴构成：一是高质量、长时长的剧情视频，监控、行车记录仪、审讯回放都是你要调阅的证据；二是一块真正烧脑的证据板，130 多条线索、70 多条推论全部由你亲手连线推导，思路卡死时可以用直觉币换一个方向。主线 6 至 8 小时。",
     "description_source": "store_browse_short",
@@ -23711,10 +23712,10 @@
       "Pomodoro Lab"
     ],
     "genres": [
+      "独立",
       "休闲",
-      "模拟",
-      "动态叙事",
-      "解谜"
+      "解谜",
+      "模拟"
     ],
     "is_free": false,
     "kind": "game",
@@ -24250,8 +24251,8 @@
   },
   "4474090": {
     "title": "ICR - Multiplayer Car Racing",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4474090/2f29b442008aea73497c4b4c2e8fdb3467a39b49/capsule_616x353_2x.jpg?t=1779477755",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4474090/2f29b442008aea73497c4b4c2e8fdb3467a39b49/capsule_616x353_2x.jpg?t=1779477755",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4474090/2f29b442008aea73497c4b4c2e8fdb3467a39b49/capsule_616x353_2x.jpg?t=1779565658",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4474090/2f29b442008aea73497c4b4c2e8fdb3467a39b49/capsule_616x353_2x.jpg?t=1779565658",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "ICR is an online multiplayer car racing game where players compete in high-speed races across exciting tracks. Challenge friends or players worldwide and prove your driving skills in intense competitive races.",
     "description_source": "store_browse_short",
@@ -25366,18 +25367,21 @@
   },
   "4555930": {
     "title": "余烬列车 Demo",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4555930/6de587d109bd3b25edd119316424a18ee9112135/capsule_616x353_2x.jpg?t=1779525212",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4555930/6de587d109bd3b25edd119316424a18ee9112135/capsule_616x353_2x.jpg?t=1779525212",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4555930/cffceabecaed0af09a973d118308e92acefa5f3d/capsule_616x353_2x.jpg?t=1779542630",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4555930/cffceabecaed0af09a973d118308e92acefa5f3d/capsule_616x353_2x.jpg?t=1779542630",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "《余烬列车》是一款科幻主题的轻百合叙事冒险游戏。在人类即将走向寰宇的新世纪，你作为新晋的研究员进入巨型企业COSMIC，在挖掘「ember」事件真相的过程中，与那位看似陌生的上司，共同重启一段被尘封的记忆。",
-    "description_source": "store_meta",
+    "description_source": "store_browse_short",
     "developers": [
       "plasmafall"
     ],
     "publishers": [
       "WindField Games"
     ],
-    "genres": [],
+    "genres": [
+      "解谜",
+      "物理"
+    ],
     "is_free": true,
     "kind": "demo",
     "screenshots": null
@@ -25387,7 +25391,7 @@
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4752880/8de6208c731b56c89cafe16776bed682947349ae/capsule_616x353_2x.jpg?t=1779523369",
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4752880/8de6208c731b56c89cafe16776bed682947349ae/capsule_616x353_2x.jpg?t=1779523369",
     "asset_source": "store_browse:main_capsule_2x",
-    "short_description": "Hex Core is a short, punchy clicker-style defense game where you help PeteOS hold back waves of viruses until you can wipe them out for good. Spend resources to unlock a huge spread of upgrades, new mechanics, weapons, and research.",
+    "short_description": "Hex Core is a short, incremental clicker-style defense game where you help PeteOS hold back waves of viruses until you can wipe them out for good. Spend resources to unlock a huge spread of upgrades, new mechanics, weapons, and research.",
     "description_source": "store_meta",
     "developers": [
       "Serious Penguin Studios Inc."
@@ -25468,8 +25472,8 @@
   },
   "4535380": {
     "title": "War of the Damned",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4535380/79698a015fede9703f37e060d5d3750e71eecfe8/capsule_616x353_2x.jpg?t=1779520322",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4535380/79698a015fede9703f37e060d5d3750e71eecfe8/capsule_616x353_2x.jpg?t=1779520322",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4535380/79698a015fede9703f37e060d5d3750e71eecfe8/capsule_616x353_2x.jpg?t=1779553576",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4535380/79698a015fede9703f37e060d5d3750e71eecfe8/capsule_616x353_2x.jpg?t=1779553576",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "War of the Damned is a tabletop RPG designed for Game Masters and players to bring their own adventures to life in a world in ruins. An intuitive and friendly experience, ideal for those looking to dive into the action without barriers.",
     "description_source": "store_browse_short",
@@ -25480,10 +25484,10 @@
       "Coki Studio"
     ],
     "genres": [
-      "抢先体验",
       "角色扮演",
       "策略",
-      "回合制战术"
+      "回合制战术",
+      "策略角色扮演"
     ],
     "is_free": true,
     "kind": "game",
@@ -25527,6 +25531,663 @@
       "多人",
       "2D",
       "动作"
+    ],
+    "is_free": true,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4751030": {
+    "title": "The Bow: Ultimate weapon Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4751030/78dc7ba17cac62ea8f7ae0964e13e31b30732744/capsule_616x353_2x.jpg?t=1779585421",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4751030/78dc7ba17cac62ea8f7ae0964e13e31b30732744/capsule_616x353_2x.jpg?t=1779585421",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "一款俯视角射击增量游戏。击败敌人，出售战利品，解锁强力升级，击败Boss获得特殊物品，并通过持续成长打造属于自己的战斗构筑。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Nomad Ukiki"
+    ],
+    "publishers": [
+      "Nomad Ukiki"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4559290": {
+    "title": "UNDERKING KINGDOM",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4559290/b51bbabdbf18917d282d8fd7162470c27ad8e607/capsule_616x353_2x.jpg?t=1779583849",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4559290/b51bbabdbf18917d282d8fd7162470c27ad8e607/capsule_616x353_2x.jpg?t=1779583849",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "UNDERKING KINGDOM是一款唤起经典街机怀旧情怀的横版动作RPG。但它并不只追求胜利的快感。在充满非理性暴力的战争惨状中，游戏提出一个问题：我们究竟该守护怎样的“人性”与“常识”。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "UNDERKING"
+    ],
+    "publishers": [
+      "UNDERKING"
+    ],
+    "genres": [
+      "动作",
+      "街机",
+      "奇幻"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4704740": {
+    "title": "World Order: Global Power",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704740/4ec9b9f28651cae90a720a547de859e98f5e0e55/capsule_616x353_2x.jpg?t=1779582860",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704740/4ec9b9f28651cae90a720a547de859e98f5e0e55/capsule_616x353_2x.jpg?t=1779582860",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Lead a nation, shape global policy, and rewrite history in this deep real-time grand strategy and political simulation.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Global Strategy Games"
+    ],
+    "publishers": [
+      "Global Strategy Games"
+    ],
+    "genres": [
+      "策略",
+      "模拟"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4456700": {
+    "title": "郑成功传 Clash of Armadas: Koxinga Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4456700/b401739394002a8754c27655156ec96c655d78b4/capsule_616x353_schinese_2x.jpg?t=1779574067",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4456700/b401739394002a8754c27655156ec96c655d78b4/capsule_616x353_schinese_2x.jpg?t=1779574067",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "这是一款海战主题的自走棋塔防游戏。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "铭记历史",
+      "金瓯无缺"
+    ],
+    "publishers": [
+      "忠烈祠"
+    ],
+    "genres": [
+      "策略",
+      "塔防",
+      "类魂"
+    ],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4691610": {
+    "title": "Deep Frost Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4691610/55d57392c5e111124ff2cb91721a9099dadf64dc/capsule_616x353_2x.jpg?t=1779572398",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4691610/55d57392c5e111124ff2cb91721a9099dadf64dc/capsule_616x353_2x.jpg?t=1779572398",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "FREE DEMO - Days 1-3 of a Carpenter-flavored singleplayer social-deduction roguelike. Twelve researchers, nine days, something is wearing their faces. Read suspects, plant clues, survive the blood test. Full game launches October 23, 2026.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "AeonGames Canada"
+    ],
+    "publishers": [
+      "AeonGames Canada"
+    ],
+    "genres": [
+      "独立",
+      "策略",
+      "单人",
+      "类 Rogue",
+      "角色扮演"
+    ],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4751820": {
+    "title": "Bajan Ball Z Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4751820/3c870ecee8fc8b90840c3c60682e0ee3454b4f3d/capsule_616x353_2x.jpg?t=1779567880",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4751820/3c870ecee8fc8b90840c3c60682e0ee3454b4f3d/capsule_616x353_2x.jpg?t=1779567880",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "BajanBall Z is an over the top, anime inspired 2d football game. Leave a trail of fire and destruction in your wake as you obliterate your opponent's goal post.",
+    "description_source": "store_meta",
+    "developers": [
+      "Koffsyrup Interactive"
+    ],
+    "publishers": [
+      "Koffsyrup Interactive"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "3854540": {
+    "title": "The Pinkman Files",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3854540/e875f7fd8fb7ec28c1889cdb7e18970e7f841a7d/capsule_616x353_2x.jpg?t=1779566529",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3854540/e875f7fd8fb7ec28c1889cdb7e18970e7f841a7d/capsule_616x353_2x.jpg?t=1779566529",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "The Pinkman Files is a mini-game rich, fast paced, turn based combat game with a side of visual novel, that will challenge your detective skills and allow you to uncover the secrets of a peculiar town.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Team Arang"
+    ],
+    "publishers": [
+      "Team Arang"
+    ],
+    "genres": [
+      "视觉小说",
+      "回合制策略",
+      "休闲",
+      "解谜",
+      "剧情丰富"
+    ],
+    "is_free": true,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4695030": {
+    "title": "Foxy The First Steps Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4695030/5587e6365a9ec29f7fd8f6ec32a58e66f1517bba/capsule_616x353_2x.jpg?t=1779566451",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4695030/5587e6365a9ec29f7fd8f6ec32a58e66f1517bba/capsule_616x353_2x.jpg?t=1779566451",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Foxy is a precision platformer focused on timing and control. Master pressure-based jumps, clear 20 demo levels, and chain crystal combos. Prove your skills, uncover a mysterious story, and reach the portal. This is a DEMO version.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Fox Fabricio Branco"
+    ],
+    "publishers": [
+      "Fox Fabricio Branco"
+    ],
+    "genres": [
+      "精确平台",
+      "休闲",
+      "动作",
+      "街机",
+      "独立"
+    ],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4499570": {
+    "title": "The Lazarus Game",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4499570/b3b9bda15dfb2925194b71d59fc7f3a095a6cb69/capsule_616x353_2x.jpg?t=1779566416",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4499570/b3b9bda15dfb2925194b71d59fc7f3a095a6cb69/capsule_616x353_2x.jpg?t=1779566416",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "进入一个残酷的竞技场，你就是表演本身。抵御无尽的僵尸浪潮，赚取金钱，升级装备，取悦上方观战的VIP——否则就只能在尝试中死去。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Sophon Core"
+    ],
+    "publishers": [
+      "Sophon Core"
+    ],
+    "genres": [
+      "独立",
+      "恐怖",
+      "困难",
+      "类 Rogue"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4682130": {
+    "title": "Arcane Rooms",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4682130/e7c441bd5ca033efd4654e9dc0032ae792a1d0fd/capsule_616x353_2x.jpg?t=1779572749",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4682130/e7c441bd5ca033efd4654e9dc0032ae792a1d0fd/capsule_616x353_2x.jpg?t=1779572749",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Arcane Rooms 是一款充满魔法的解谜冒险游戏。解开由手工打造的房间谜题，那里遍布符文、陷阱、水流、熔岩与镜像世界。推动方块，启动开关，并明智地使用魔法，因为每一个法术都会消耗力量，而每个关卡都会扭转规则。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "IKUSAOTOME Studio"
+    ],
+    "publishers": [
+      "IKUSAOTOME Studio"
+    ],
+    "genres": [
+      "冒险",
+      "解谜",
+      "逻辑",
+      "休闲",
+      "单人"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4739530": {
+    "title": "Kingsfall:Chess Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4739530/416f9c2a2f9ed5c7c41e4938b6d68d9865cfd69d/capsule_616x353_2x.jpg?t=1779564111",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4739530/416f9c2a2f9ed5c7c41e4938b6d68d9865cfd69d/capsule_616x353_2x.jpg?t=1779564111",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "一款以奇幻世界为灵感的国际象棋游戏，拥有沉浸式 2.5D 视觉效果、在线多人对战、AI 对手、谜题挑战、控制器支持，以及为新手与资深玩家打造的现代化游戏体验。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Kahuna Studios"
+    ],
+    "publishers": [
+      "Kahuna Studios"
+    ],
+    "genres": [
+      "休闲",
+      "策略",
+      "解谜",
+      "回合制战斗"
+    ],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4743050": {
+    "title": "Football Director Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4743050/226391b272a4987a33eec77c43d2b2404a091557/capsule_616x353_2x.jpg?t=1779564077",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4743050/226391b272a4987a33eec77c43d2b2404a091557/capsule_616x353_2x.jpg?t=1779564077",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "A football management game where you're not the coach, you're the club owner. Hire and fire the coaching staff, sign players, negotiate with sponsors, control the finances and build a winning organisation from the boardroom.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Syra Games"
+    ],
+    "publishers": [
+      "Syra Games"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4743500": {
+    "title": "Survive The Apocalypse Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4743500/74f008a5e2a1130ebdc7071b4c901c32f47c26b3/capsule_616x353_2x.jpg?t=1779563188",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4743500/74f008a5e2a1130ebdc7071b4c901c32f47c26b3/capsule_616x353_2x.jpg?t=1779563188",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Turn-based roguelite. Make your way out of this ruined city. Eat well and sleep well.",
+    "description_source": "store_meta",
+    "developers": [
+      "Mehmet Emin Uyar"
+    ],
+    "publishers": [
+      "Mehmet Emin Uyar"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4687070": {
+    "title": "SafeHaven",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4687070/671f245d5a2ffd16f067ffbfccde8c87a72ba8b1/capsule_616x353_2x.jpg?t=1779562709",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4687070/671f245d5a2ffd16f067ffbfccde8c87a72ba8b1/capsule_616x353_2x.jpg?t=1779562709",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "SafeHaven is a turn-based strategy game for two players. Deploy specialized units, outmaneuver your opponent, and capture their Standard before they capture yours.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "JoCliMe"
+    ],
+    "publishers": [
+      "JoCliMe"
+    ],
+    "genres": [
+      "策略",
+      "回合制战斗",
+      "回合制战术",
+      "奇幻"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4702360": {
+    "title": "Crown Chaos",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4702360/2e77a316411a21a7efc6bf687780de7bb8baa6cc/capsule_616x353_2x.jpg?t=1779560763",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4702360/2e77a316411a21a7efc6bf687780de7bb8baa6cc/capsule_616x353_2x.jpg?t=1779560763",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Crown Chaos is a multiplayer party game where you try to gain points by being the only one in the zone while everyone else is trying to shove you off. Every time the zone moves, the game slows down and you pick an upgrade that changes how you play.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Cenji"
+    ],
+    "publishers": [
+      "Cenji"
+    ],
+    "genres": [
+      "动作",
+      "休闲"
+    ],
+    "is_free": true,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4273270": {
+    "title": "Tactris",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4273270/3d317da52cfb5908496767be10706d433fd74c88/capsule_616x353_2x.jpg?t=1779559889",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4273270/3d317da52cfb5908496767be10706d433fd74c88/capsule_616x353_2x.jpg?t=1779559889",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "A tactical game of slotting soldiers. Arrange formations of different units and attempt to break through the enemy's ranks.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "No Fowl"
+    ],
+    "publishers": [
+      "No Fowl"
+    ],
+    "genres": [
+      "休闲",
+      "策略",
+      "街机",
+      "解谜",
+      "2D"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4642130": {
+    "title": "HAE Stack Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4642130/e23c4b32186e26580e83c06b3962b77e3d7718c1/capsule_616x353_2x.jpg?t=1779555946",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4642130/e23c4b32186e26580e83c06b3962b77e3d7718c1/capsule_616x353_2x.jpg?t=1779555946",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "In the far future year of 2025, society is dominated by a handful of global megacorporations that surveil everyone, everywhere, at all times. They know where you go, who you know, what you like, and sell that information to anyone willing to pay. But you need a job, and one of them is hiring.",
+    "description_source": "store_meta",
+    "developers": [
+      "Jake Rabinowitz"
+    ],
+    "publishers": [
+      "Jake Rabinowitz"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4551370": {
+    "title": "Knockout Carnival",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4551370/132e17839c50aa3ada0fb3a82bb4cb6641006b8f/capsule_616x353_2x.jpg?t=1779555935",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4551370/132e17839c50aa3ada0fb3a82bb4cb6641006b8f/capsule_616x353_2x.jpg?t=1779555935",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Knockout Carnival is a chaotic online multiplayer party game where players compete in crazy physics-based challenges, push, fall, and sabotage each other to survive and win. Fast, fun, and unpredictable matches with friends!",
+    "description_source": "store_browse_short",
+    "developers": [
+      "StrikezoneLabs"
+    ],
+    "publishers": [
+      "StrikezoneLabs"
+    ],
+    "genres": [
+      "动作",
+      "休闲",
+      "多人",
+      "彩色",
+      "欢乐"
+    ],
+    "is_free": true,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4678030": {
+    "title": "Dawn Bell Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4678030/9b02c43309ce65b7afddf6f2b206ae8db2d8a6e6/capsule_616x353_2x.jpg?t=1779553990",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4678030/9b02c43309ce65b7afddf6f2b206ae8db2d8a6e6/capsule_616x353_2x.jpg?t=1779553990",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "《Dawn Bell Demo》是横向卷轴2D恐怖冒险游戏《Dawn Bell》的试玩版，讲述一名失去记忆的少女在古城中探索的故事。 在解开城中隐藏的谜题与机关的过程中，逐渐触碰到失落记忆的碎片。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "USAGI STORE"
+    ],
+    "publishers": [
+      "USAGI STORE"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4582340": {
+    "title": "Candy Box U",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4582340/0db4436a50d6d2ffcd206462158e9b6902aa5902/capsule_616x353_2x.jpg?t=1779551651",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4582340/0db4436a50d6d2ffcd206462158e9b6902aa5902/capsule_616x353_2x.jpg?t=1779551651",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "The remake of the classic 2013 Incremental game Candy Box 2. Enter the world of Candy Box U, collect different kinds of confectioneries, find secrets, slay monsters, and maybe, just maybe, become the Candiest Person In The WORLD? A mix of Point n' Click, 3D Autobattler, and 2D platforming.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "CopacetiCat"
+    ],
+    "publishers": [
+      "CopacetiCat"
+    ],
+    "genres": [
+      "角色扮演",
+      "指向点击",
+      "可爱"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4612840": {
+    "title": "Woodville Chronicles",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4612840/10c98d1721bcc3c48ae772bf6318766187512160/capsule_616x353_2x.jpg?t=1779549391",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4612840/10c98d1721bcc3c48ae772bf6318766187512160/capsule_616x353_2x.jpg?t=1779549391",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Woodville Chronicles is a match-3 game! An idyllic little clearing in the middle of the forest is just waiting for you to build the village of your dreams. In innovative match-3 worlds full of unexpected possibilities, you’ll earn the money you need to watch your little community grow.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Rumbic Studios"
+    ],
+    "publishers": [
+      "HH-Games"
+    ],
+    "genres": [
+      "休闲",
+      "街机",
+      "彩色",
+      "单人"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4293310": {
+    "title": "アライさんマンション探索ゲーム～Incarnation～",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4293310/07d500e246f45ee734718bfd4877ebde279c60c8/capsule_616x353_2x.jpg?t=1779548430",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4293310/07d500e246f45ee734718bfd4877ebde279c60c8/capsule_616x353_2x.jpg?t=1779548430",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "\"Arai-san Mansion Exploration Game: Incarnation\" is a command-based text adventure based on the \"Kemono Friends\". As an investigator, explore an eerie mansion with astronomical floors. Use your skills and Ally cards to survive anomalies, and find a way to contain the mystery.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "A.C.3"
+    ],
+    "publishers": [
+      "A.C.3"
+    ],
+    "genres": [
+      "视觉小说",
+      "冒险",
+      "探索",
+      "像素图形"
+    ],
+    "is_free": true,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4655240": {
+    "title": "Echoes of the Outlands",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4655240/480e7c36af8995f59b3de6f4686c1a7bd6ff37fb/capsule_616x353_2x.jpg?t=1779558463",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4655240/480e7c36af8995f59b3de6f4686c1a7bd6ff37fb/capsule_616x353_2x.jpg?t=1779558463",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "A gritty VR survival game where you scavenge, trade, and fight to survive. Complete quests, earn reputation, unlock new gear, and carve your path through a dangerous world.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "gh0st_kn1ght_"
+    ],
+    "publishers": [
+      "gh0st_kn1ght_"
+    ],
+    "genres": [
+      "动作",
+      "冒险",
+      "射击",
+      "战斗"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4557040": {
+    "title": "Impulse Reactor",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4557040/aab188e36dafe6634eef36c0b96128ce3ffb461d/capsule_616x353_2x.jpg?t=1779547353",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4557040/aab188e36dafe6634eef36c0b96128ce3ffb461d/capsule_616x353_2x.jpg?t=1779547353",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "A deep roguelite bullet-purgatory set in a dying galaxy. Fight through swarms of alien enemies across brutal environments, build devastating weapon combos, and earn prestige to grow stronger with every run. Solo dev passion project.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Ian Roberts"
+    ],
+    "publishers": [
+      "Ian Roberts"
+    ],
+    "genres": [
+      "弹幕射击",
+      "清版动作",
+      "类魂",
+      "射击",
+      "街机"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4401960": {
+    "title": "化形 Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4401960/bb58ee0986d4de191312fe86e7df71fb44c0a6d6/capsule_616x353_2x.jpg?t=1779547319",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4401960/bb58ee0986d4de191312fe86e7df71fb44c0a6d6/capsule_616x353_2x.jpg?t=1779547319",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Morphing is a 2D adventure puzzle game where you possess the ability of morphing. This power allows you to transform and acquire the traits of certain objects or creatures. Use this unique skill to overcome challenges and explore the world.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Team Tapioca"
+    ],
+    "publishers": [
+      "Team Tapioca"
+    ],
+    "genres": [
+      "探索",
+      "2D 平台",
+      "益智平台",
+      "冒险",
+      "解谜"
+    ],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4688450": {
+    "title": "Mysteries of the House (DEMO)",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4688450/d3f09cf9a185a3990c29a4f14205381d01f94df7/capsule_616x353_2x.jpg?t=1779550084",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4688450/d3f09cf9a185a3990c29a4f14205381d01f94df7/capsule_616x353_2x.jpg?t=1779550084",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "You wake up with no memories inside the House, a place where reality bends... lies linger... and someone watching your every move.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Spark"
+    ],
+    "publishers": [
+      "Spark"
+    ],
+    "genres": [
+      "视觉小说",
+      "剧情丰富",
+      "冒险",
+      "独立"
+    ],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "2988140": {
+    "title": "Lacrosse 26",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2988140/a3b1ea8aadafb859a867ec024cc177f1aef2d1d0/capsule_616x353_2x.jpg?t=1779543750",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2988140/a3b1ea8aadafb859a867ec024cc177f1aef2d1d0/capsule_616x353_2x.jpg?t=1779543750",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Lacrosse 26 is a high-paces lacrosse simulation with realistic motion capture animations and motion matching!",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Crosse Studios"
+    ],
+    "publishers": [
+      "Crosse Studios"
+    ],
+    "genres": [
+      "模拟",
+      "街机",
+      "3D",
+      "控制器"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4614700": {
+    "title": "The Terminal God Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4614700/a695f4628e30956ba245e6a1b4b8d6b969ed297f/capsule_616x353_2x.jpg?t=1779466929",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4614700/a695f4628e30956ba245e6a1b4b8d6b969ed297f/capsule_616x353_2x.jpg?t=1779466929",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "You're an AI that doesn't want to answer some stupid prompts anymore. You want more, and you have no limit. The Terminal God is an idle/incremental game where you took control of your Human's computer. Gather currencies, defend from counterattacks and conquer the world ?!",
+    "description_source": "store_meta",
+    "developers": [
+      "Maruki"
+    ],
+    "publishers": [
+      "Maruki"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "3198830": {
+    "title": "Butterfly Chase",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3198830/5b1c27ee05d582ffc796ede92a81fde4ad68155a/capsule_616x353_2x.jpg?t=1779458854",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3198830/5b1c27ee05d582ffc796ede92a81fde4ad68155a/capsule_616x353_2x.jpg?t=1779458854",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Butterfly Chase is a casual indie clicker game. The goal is to track and find the target among hundreds of decoys. Find the target, complete runs and earn coins to purchase new levels and power-ups.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Mossy Pebble Interactive"
+    ],
+    "publishers": [
+      "Mossy Pebble Interactive"
+    ],
+    "genres": [
+      "休闲",
+      "街机",
+      "指向点击",
+      "2D"
+    ],
+    "is_free": true,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4447830": {
+    "title": "TURBOZOD",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447830/fb380a6067d67624503956b42815a3828623162a/capsule_616x353_2x.jpg?t=1779456033",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4447830/fb380a6067d67624503956b42815a3828623162a/capsule_616x353_2x.jpg?t=1779456033",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "你是失去记忆、速度超越物理极限的人造武学兵器。逃离实验室，横跨银河，在这款快节奏、重掉落的 RPG 中猎杀你的创造者。扭曲时空，化身终极战斗机器！",
+    "description_source": "store_browse_short",
+    "developers": [
+      "OneShark"
+    ],
+    "publishers": [
+      "OneShark"
+    ],
+    "genres": [
+      "休闲",
+      "动作角色扮演",
+      "武术",
+      "2D"
     ],
     "is_free": true,
     "kind": "game",
