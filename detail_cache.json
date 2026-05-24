@@ -1759,8 +1759,8 @@
   },
   "4522280": {
     "title": "Luna's Room",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4522280/1b56a5a2e3ca314971641001bebee1936fcf926d/capsule_616x353_2x.jpg?t=1778770816",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4522280/1b56a5a2e3ca314971641001bebee1936fcf926d/capsule_616x353_2x.jpg?t=1778770816",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4522280/1b56a5a2e3ca314971641001bebee1936fcf926d/capsule_616x353_2x.jpg?t=1779182957",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4522280/1b56a5a2e3ca314971641001bebee1936fcf926d/capsule_616x353_2x.jpg?t=1779182957",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "An unfamiliar room. Vague memories. Explore Luna's room through the objects inside it in this intimate narrative experience about loss, told as a classic-style graphic adventure.",
     "description_source": "store_browse_short",
@@ -1768,15 +1768,17 @@
       "DonutDroid"
     ],
     "publishers": [
-      "Save Games Publishing"
+      "Save Games Studio"
     ],
     "genres": [
       "冒险",
       "指向点击",
       "像素图形",
-      "奇幻"
+      "奇幻",
+      "剧情丰富"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4288460": {
@@ -19710,8 +19712,8 @@
   },
   "4734990": {
     "title": "Serve Or Die Demo",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4734990/9f5a58f7aac3a753d02abba95438c2f9f7c2a886/capsule_616x353_2x.jpg?t=1779391625",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4734990/9f5a58f7aac3a753d02abba95438c2f9f7c2a886/capsule_616x353_2x.jpg?t=1779391625",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4734990/9f5a58f7aac3a753d02abba95438c2f9f7c2a886/capsule_616x353_2x.jpg?t=1779609413",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4734990/9f5a58f7aac3a753d02abba95438c2f9f7c2a886/capsule_616x353_2x.jpg?t=1779609413",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "In Serve Or Die, you work alone in a small sandwich shop during the night shift. With a VHS-inspired style and an increasingly unsettling atmosphere, survive as simple orders turn into something far more disturbing.",
     "description_source": "store_browse_short",
@@ -23144,16 +23146,16 @@
   },
   "4595170": {
     "title": "深渊兽潮 Demo",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4595170/42a6d03ab2cba4c4da27a04d666c65bc71bc6802/capsule_616x353_schinese_2x.jpg?t=1779448498",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4595170/42a6d03ab2cba4c4da27a04d666c65bc71bc6802/capsule_616x353_schinese_2x.jpg?t=1779448498",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4595170/42a6d03ab2cba4c4da27a04d666c65bc71bc6802/capsule_616x353_schinese_2x.jpg?t=1779601461",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4595170/42a6d03ab2cba4c4da27a04d666c65bc71bc6802/capsule_616x353_schinese_2x.jpg?t=1779601461",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "黑暗正在撕裂现实，来自深渊的魔物如潮水般涌出，野兽、怪物、深渊恶魔……它们没有理智，只有毁灭的本能。冒险者，防线需要你！在《深渊兽潮》中，抵御一波又一波越来越强的深渊浪潮。每一局都是全新的防线，每一次升级都改变战局。",
     "description_source": "store_browse_short",
     "developers": [
-      "Lonely Game"
+      "Solo Gaming"
     ],
     "publishers": [
-      "Lonely Game"
+      "Solo Gaming"
     ],
     "genres": [
       "休闲",
@@ -23273,8 +23275,8 @@
   },
   "4698780": {
     "title": "Voidline",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4698780/e7750937ac2b81dd883bf24679d819e43a97f4fc/capsule_616x353_2x.jpg?t=1779446871",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4698780/e7750937ac2b81dd883bf24679d819e43a97f4fc/capsule_616x353_2x.jpg?t=1779446871",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4698780/e7750937ac2b81dd883bf24679d819e43a97f4fc/capsule_616x353_2x.jpg?t=1779605788",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4698780/e7750937ac2b81dd883bf24679d819e43a97f4fc/capsule_616x353_2x.jpg?t=1779605788",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "Survive relentless machine swarms in the collapsing Voidline. Loot upgrades, evolve your ship, and stack game-breaking builds as each run grows faster, harder, and more chaotic. Unlock new ships and become unstoppable.",
     "description_source": "store_browse_short",
@@ -23636,8 +23638,8 @@
   },
   "4573080": {
     "title": "执念刑警之消失的证人",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4573080/295469f12277a9305f5ea43ed40e8579697e0208/capsule_616x353_schinese_2x.jpg?t=1779543809",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4573080/295469f12277a9305f5ea43ed40e8579697e0208/capsule_616x353_schinese_2x.jpg?t=1779543809",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4573080/295469f12277a9305f5ea43ed40e8579697e0208/capsule_616x353_schinese_2x.jpg?t=1779628049",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4573080/295469f12277a9305f5ea43ed40e8579697e0208/capsule_616x353_schinese_2x.jpg?t=1779628049",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "一款视频叙事侦探解谜游戏。三周前，一名男子从雾江大桥坠落，警方认定自杀；三周后，5 名素不相识的目击者接连失踪。你扮演刑警陆言，必须在 9 天内查清真相，把人活着带回来。游戏由两条主轴构成：一是高质量、长时长的剧情视频，监控、行车记录仪、审讯回放都是你要调阅的证据；二是一块真正烧脑的证据板，130 多条线索、70 多条推论全部由你亲手连线推导，思路卡死时可以用直觉币换一个方向。主线 6 至 8 小时。",
     "description_source": "store_browse_short",
@@ -23765,8 +23767,8 @@
   },
   "4658900": {
     "title": "兔哥救我",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4658900/b470d98e2a046bca103d59d21acee5b2e587d7d4/capsule_616x353_schinese_2x.jpg?t=1779432137",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4658900/b470d98e2a046bca103d59d21acee5b2e587d7d4/capsule_616x353_schinese_2x.jpg?t=1779432137",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4658900/b470d98e2a046bca103d59d21acee5b2e587d7d4/capsule_616x353_schinese_2x.jpg?t=1779617748",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4658900/b470d98e2a046bca103d59d21acee5b2e587d7d4/capsule_616x353_schinese_2x.jpg?t=1779617748",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "《兔哥救我》是一款融合了塔防元素的第三人称射击游戏（TPS）。仅凭一把手枪，击退一波波怪兽，保护你的女朋友。体验飞行射击的快感，以及多种升级策略。",
     "description_source": "store_browse_short",
@@ -23788,8 +23790,8 @@
   },
   "3979350": {
     "title": "Butcherman",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979350/e49eb5702e110ef2ed8dec7c20ceac10bdb68acf/capsule_616x353_2x.jpg?t=1779429835",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979350/e49eb5702e110ef2ed8dec7c20ceac10bdb68acf/capsule_616x353_2x.jpg?t=1779429835",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979350/e49eb5702e110ef2ed8dec7c20ceac10bdb68acf/capsule_616x353_2x.jpg?t=1779618350",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3979350/e49eb5702e110ef2ed8dec7c20ceac10bdb68acf/capsule_616x353_2x.jpg?t=1779618350",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "体验被连环杀手绑架的心理恐怖。在逃生的欲望驱使下，探索周围的一切，运用你的智慧，揭开秘密，并面对身处受害者境地的无法想象的恐惧。灵感源自真实故事。",
     "description_source": "store_browse_short",
@@ -24573,8 +24575,8 @@
   },
   "4348000": {
     "title": "DeadWave Demo",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348000/98cb3152a20637c8273d98650c35cc3a75f4d18b/capsule_616x353_2x.jpg?t=1779536863",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348000/98cb3152a20637c8273d98650c35cc3a75f4d18b/capsule_616x353_2x.jpg?t=1779536863",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348000/98cb3152a20637c8273d98650c35cc3a75f4d18b/capsule_616x353_2x.jpg?t=1779623535",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348000/98cb3152a20637c8273d98650c35cc3a75f4d18b/capsule_616x353_2x.jpg?t=1779623535",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "Chaotic co-op zombie survival where every round escalates into panic. Earn credits, gamble on pickups, trigger devastating nukes, and try to keep your friends alive as hordes and bosses overwhelm beautifully crafted locations with unique playable characters.",
     "description_source": "store_browse_short",
@@ -24824,8 +24826,8 @@
   },
   "4728220": {
     "title": "Mother ZERO Demo",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4728220/85fb07c62875100d374210dc3fdef76106dd2270/capsule_616x353_2x.jpg?t=1779466034",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4728220/85fb07c62875100d374210dc3fdef76106dd2270/capsule_616x353_2x.jpg?t=1779466034",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4728220/85fb07c62875100d374210dc3fdef76106dd2270/capsule_616x353_2x.jpg?t=1779612005",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4728220/85fb07c62875100d374210dc3fdef76106dd2270/capsule_616x353_2x.jpg?t=1779612005",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "In Mother ZERO, a cyberpunk action-adventure game, fight your way through a decaying world full of mysteries and threats. Explore deep underground bunkers, battle corrupted creatures, and encounter bizarre characters.",
     "description_source": "store_browse_short",
@@ -25034,8 +25036,8 @@
   },
   "4744580": {
     "title": "红或黑RedorBlack Demo",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4744580/d6b68b685b39e125344237941f07247bc4002e45/capsule_616x353_2x.jpg?t=1779464055",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4744580/d6b68b685b39e125344237941f07247bc4002e45/capsule_616x353_2x.jpg?t=1779464055",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4744580/d6b68b685b39e125344237941f07247bc4002e45/capsule_616x353_2x.jpg?t=1779615397",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4744580/d6b68b685b39e125344237941f07247bc4002e45/capsule_616x353_2x.jpg?t=1779615397",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "是杀牌？单机游戏《红或黑》——回合制卡牌战斗，类似《三国杀》的不同杀牌体验。依托名叫“红或黑”的基础规则，只需2副扑克牌，迎接一场场随机的旅途挑战。100+名迷失的少女魂灵阻拦在路途前方，我‘杀’你‘闪’去战胜未知的敌人——也可能是“朋友”？用“精灵球”去“捕获”那些少女魂灵，解锁和收集她们的技能，在战斗旅途中强化自身吧！",
     "description_source": "store_meta",
@@ -25599,8 +25601,8 @@
   },
   "4456700": {
     "title": "郑成功传 Clash of Armadas: Koxinga Demo",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4456700/b401739394002a8754c27655156ec96c655d78b4/capsule_616x353_schinese_2x.jpg?t=1779574067",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4456700/b401739394002a8754c27655156ec96c655d78b4/capsule_616x353_schinese_2x.jpg?t=1779574067",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4456700/2eefdd296457cb03d49bcf255f0c5232051ac3ca/capsule_616x353_schinese_2x.jpg?t=1779607479",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4456700/2eefdd296457cb03d49bcf255f0c5232051ac3ca/capsule_616x353_schinese_2x.jpg?t=1779607479",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "这是一款海战主题的自走棋塔防游戏。",
     "description_source": "store_browse_short",
@@ -26244,6 +26246,362 @@
     ],
     "publishers": [
       "Tabsil"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4751930": {
+    "title": "1992: Rasputie Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4751930/dd2b5b85be159711641e5312a82215c83fbbd4f7/capsule_616x353_2x.jpg?t=1779628738",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4751930/dd2b5b85be159711641e5312a82215c83fbbd4f7/capsule_616x353_2x.jpg?t=1779628738",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Take a place of a politician in the post-Soviet space and immerse yourself in the struggle for power amid the ruins of the former empire. Your decisions will determine the path of the young state's development.",
+    "description_source": "store_meta",
+    "developers": [
+      "A2B"
+    ],
+    "publishers": [
+      "A2B"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4595250": {
+    "title": "性无能者的空庭 Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4595250/15d9dcaa27c572c006ae730fcc708290c058cc84/capsule_616x353_2x.jpg?t=1779624605",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4595250/15d9dcaa27c572c006ae730fcc708290c058cc84/capsule_616x353_2x.jpg?t=1779624605",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "《性无能者的空庭》是一款章节式视觉小说类游戏，以无志青年陆紫末为主角，讲述她荒诞的社畜故事。内容包含加班、失眠、绩效等成人内容，以及活着的意大利面等恐怖内容。",
+    "description_source": "store_meta",
+    "developers": [
+      "疯情一种"
+    ],
+    "publishers": [
+      "疯情一种"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4733530": {
+    "title": "Bomber Cats: Napalm Strike Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4733530/fcab350a748679027e41525bba97b30cad5bacbe/capsule_616x353_2x.jpg?t=1779624107",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4733530/fcab350a748679027e41525bba97b30cad5bacbe/capsule_616x353_2x.jpg?t=1779624107",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "An explosive cat-themed action game with rogue-lite elements - a sea of ​​bombs, hordes of rats, and an inexorable Wall of Napalm that incinerates everything in its path! Arcade chaos, pixel explosions, and furry valor set to the rhythms of jungle and drum & bass.",
+    "description_source": "store_meta",
+    "developers": [
+      "Radio Decadance"
+    ],
+    "publishers": [
+      "Radio Decadance"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4560640": {
+    "title": "Filemu Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560640/32ef96c4481cced840ffc389dc202f3506d7e8f8/capsule_616x353_2x.jpg?t=1779618729",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560640/32ef96c4481cced840ffc389dc202f3506d7e8f8/capsule_616x353_2x.jpg?t=1779618729",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Filemu is a powerful photo editing software designed to allow sophisticated color grading and realistic film simulations. Breathe life into photos with powerful filters, simulate film with realistic halation and grain, create your own presets and automate editing, or even script your own filters.",
+    "description_source": "store_meta",
+    "developers": [
+      "Reckoner Industries"
+    ],
+    "publishers": [
+      "Reckoner Industries"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4536410": {
+    "title": "Soul Injector Commando Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4536410/b56ab5b2b8ab3470cc65311e7b19724118b71a8a/capsule_616x353_2x.jpg?t=1779618881",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4536410/b56ab5b2b8ab3470cc65311e7b19724118b71a8a/capsule_616x353_2x.jpg?t=1779618881",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "An over the top, cacophonic smash stuff FPS challenge that serves as a very short supplement to the main game.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Jeremy Couillard"
+    ],
+    "publishers": [
+      "Jeremy Couillard"
+    ],
+    "genres": [
+      "动作",
+      "冒险",
+      "休闲",
+      "街机",
+      "射击"
+    ],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "3063240": {
+    "title": "Streets Adventure: Medina Motors",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3063240/capsule_616x353.jpg?t=1779617086",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3063240/capsule_616x353.jpg?t=1779617086",
+    "asset_source": "store_browse:main_capsule",
+    "short_description": "An open-world driving adventure where you explore Marrakech, customize your car, and take on dynamic street challenges in a vibrant Moroccan-inspired city.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Chentoui issam"
+    ],
+    "publishers": [
+      "Artistry Games"
+    ],
+    "genres": [
+      "街机",
+      "3D",
+      "彩色"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4547570": {
+    "title": "Recall Rogue",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4547570/2787476b8503c22c70416dc78c72c9bfb598b338/capsule_616x353_2x.jpg?t=1779616004",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4547570/2787476b8503c22c70416dc78c72c9bfb598b338/capsule_616x353_2x.jpg?t=1779616004",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "The knowledge roguelite. Answer questions to hit harder, skip them to die faster. The deeper you go, the more the dungeon punishes ignorance. Bosses shrug off everything but proven knowledge. 98 decks, 7 languages, 67,000 real facts. Guilt-free gaming.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "BramblegateGames"
+    ],
+    "publishers": [
+      "BramblegateGames"
+    ],
+    "genres": [
+      "抢先体验",
+      "类魂",
+      "回合制策略"
+    ],
+    "is_free": true,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4741380": {
+    "title": "SUBOPTIMAL Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4741380/42be4a17d47f18e8ad081f87a13031be49820ada/capsule_616x353_2x.jpg?t=1779615817",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4741380/42be4a17d47f18e8ad081f87a13031be49820ada/capsule_616x353_2x.jpg?t=1779615817",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Team up with your crew in this chaotic co-op adventure. Pilot a falling-apart submarine to the bottom of the ocean to find Captain Mega-Hook’s treasure. Repair leaks, dodge dangerous wildlife, and work together to keep from sinking. It’s suboptimal, but the loot is real.",
+    "description_source": "store_meta",
+    "developers": [
+      "WeCanDoBetter Games"
+    ],
+    "publishers": [
+      "WeCanDoBetter Games"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4714670": {
+    "title": "Neon Fantasy: Dinosaurs",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4714670/a894d5631ca9d81e29b25c5a5530c6bf0b27ac84/capsule_616x353_2x.jpg?t=1779614024",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4714670/a894d5631ca9d81e29b25c5a5530c6bf0b27ac84/capsule_616x353_2x.jpg?t=1779614024",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Neon Fantasy: Dinosaurs is the perfect puzzle game for a fun and rewarding pastime. Collect pictures, develop your attention, and feel like a part of the beautiful neon world.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Quantum Quiver Games"
+    ],
+    "publishers": [
+      "Quantum Quiver Games"
+    ],
+    "genres": [
+      "休闲",
+      "解谜",
+      "彩色",
+      "可爱",
+      "氛围"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4483740": {
+    "title": "Straying Rules Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4483740/6aaeeeadbdea26be22544eff01469498a9bbabae/capsule_616x353_schinese_2x.jpg?t=1779621395",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4483740/6aaeeeadbdea26be22544eff01469498a9bbabae/capsule_616x353_schinese_2x.jpg?t=1779621395",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "迷途守则是一款1-4人合作的恐怖冒险游戏。你需要独自或和队友一起想尽一切办法在12小时内从各种规则怪谈的诡异世界中逃脱。每一次游戏中，关卡、任务和危险都会随着规则和时间不断变化，你们必须发现并阅读规则，逐渐熟悉规则然后学会利用规则，才能找到生还的希望。",
+    "description_source": "store_meta",
+    "developers": [
+      "Blind Point Games"
+    ],
+    "publishers": [
+      "Blind Point Games"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4581240": {
+    "title": "功德无量Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4581240/01ce05110424c7bb6c36f36f2f0e508c408fca29/capsule_616x353_schinese_2x.jpg?t=1779613036",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4581240/01ce05110424c7bb6c36f36f2f0e508c408fca29/capsule_616x353_schinese_2x.jpg?t=1779613036",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "一款佛系放置休闲游戏。玩家通过点击敲击木鱼获得功德值，积累功德可解锁12款生肖主题木鱼和6款神兽木鱼，以及与之搭配的木鱼锤。游戏采用全局键盘鼠标钩子技术实现挂机功能，玩家即使将游戏窗口最小化或切换到其他程序，也能通过预设快捷键继续进行敲击操作。游戏内置36项成就系统，从初学者到资深修行者，陪伴玩家一步步走上功德无量之道。每当达成成就还可获得点数奖励，用于解锁更多精美收藏品。游戏支持简体中文和English双语切换，满足不同语言玩家的需求。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "WH"
+    ],
+    "publishers": [
+      "WH"
+    ],
+    "genres": [
+      "休闲",
+      "模拟",
+      "2D",
+      "像素图形"
+    ],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4560100": {
+    "title": "Floors of Fate Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560100/9275329542afe8209829c447f8ebd36ad0f8ed3f/capsule_616x353_2x.jpg?t=1779611866",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560100/9275329542afe8209829c447f8ebd36ad0f8ed3f/capsule_616x353_2x.jpg?t=1779611866",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "踏入《Floors of Fate》无情的11层试玩版！在黑暗奇幻世界中穿越兽人洞穴，发现2种不同武器，并在高难度动作RPG战斗中生存下来。立即开始你的攀登，揭开高塔的秘密！",
+    "description_source": "store_browse_short",
+    "developers": [
+      "EmreSezer"
+    ],
+    "publishers": [
+      "EmreSezer"
+    ],
+    "genres": [
+      "动作角色扮演",
+      "回合制",
+      "角色扮演"
+    ],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4703450": {
+    "title": "Another Zombie Shooter",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4703450/89e482e842aff051b77322eb69e82b5048dae45b/capsule_616x353_2x.jpg?t=1779607119",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4703450/89e482e842aff051b77322eb69e82b5048dae45b/capsule_616x353_2x.jpg?t=1779607119",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Every shot counts. A real-time accuracy tracker keeps you honest, rewarding precision over panic. Bullet spray, shell casings, muzzle flash, and tracer rounds bring every firefight to life. Headshots are rewarded. Missed shots are punished. Clear every wave to win. How long can you last?",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Daniel James Dukat"
+    ],
+    "publishers": [
+      "Daniel James Dukat"
+    ],
+    "genres": [
+      "单人",
+      "动作",
+      "射击",
+      "休闲",
+      "3D"
+    ],
+    "is_free": true,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4688580": {
+    "title": "Fun Park Simulator: Prologue",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4688580/dde3f9aebab94e476d36b12ed2424c560d22c1dc/capsule_616x353_2x.jpg?t=1779603950",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4688580/dde3f9aebab94e476d36b12ed2424c560d22c1dc/capsule_616x353_2x.jpg?t=1779603950",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "在这款第一人称模拟游戏中重建一座废弃的主题乐园。建造游乐设施、商店和装饰，让游客满意，赚取星级，解锁升级，雇佣员工，阻止捣乱者，把你的公园打造成著名景点。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Flugames"
+    ],
+    "publishers": [
+      "Flugames"
+    ],
+    "genres": [
+      "休闲",
+      "模拟",
+      "生活模拟",
+      "沙盒"
+    ],
+    "is_free": true,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4692360": {
+    "title": "英雄公司",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4692360/6cd715b7b1b54c4f3a59f6645efcc77ca1d37127/capsule_616x353_2x.jpg?t=1779602305",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4692360/6cd715b7b1b54c4f3a59f6645efcc77ca1d37127/capsule_616x353_2x.jpg?t=1779602305",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "营一家英雄招募公司！提问试探应聘者，识破造假简历，在金币耗尽前招募真正的英雄。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Pana Pororo"
+    ],
+    "publishers": [
+      "Pana Pororo"
+    ],
+    "genres": [
+      "回合制战术",
+      "策略",
+      "角色扮演",
+      "休闲"
+    ],
+    "is_free": true,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4663040": {
+    "title": "Lazy Boxing",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4663040/859abdeda924b039493ffaf9a1d509d5c07e085f/capsule_616x353_2x.jpg?t=1779601523",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4663040/859abdeda924b039493ffaf9a1d509d5c07e085f/capsule_616x353_2x.jpg?t=1779601523",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Welcome to the Boxing Test Room. I’ve never seen a robot as lazy as you. You must use your spineless, invertebrate-like upper body to clear this boxing test. Good luck.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "LazyLife108"
+    ],
+    "publishers": [
+      "LazyLife108"
+    ],
+    "genres": [
+      "物理",
+      "动作",
+      "3D",
+      "单人"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4699230": {
+    "title": "5hit Rocket Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4699230/369c6aeb7ead75d817f8c7fd7db8568cd6700a25/capsule_616x353_2x.jpg?t=1779542834",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4699230/369c6aeb7ead75d817f8c7fd7db8568cd6700a25/capsule_616x353_2x.jpg?t=1779542834",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "A physics-based lander about precision flying and chaos. Explore Titan’s mines, land on the Moon, deliver kebabs across space and test your relationship in 2-player “Divorce Mode” with chain-linked spacecraft.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Beardy Ramblin Games"
+    ],
+    "publishers": [
+      "Beardy Ramblin Games"
     ],
     "genres": [],
     "is_free": true,
