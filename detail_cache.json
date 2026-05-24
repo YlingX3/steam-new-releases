@@ -11239,8 +11239,8 @@
   },
   "3784760": {
     "title": "Elfie: A Sand Plan",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3784760/0f4645a85ab1d4bcac1f1dd37b3712c1e0899c2a/capsule_616x353_2x.jpg?t=1778584607",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3784760/0f4645a85ab1d4bcac1f1dd37b3712c1e0899c2a/capsule_616x353_2x.jpg?t=1778584607",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3784760/0f4645a85ab1d4bcac1f1dd37b3712c1e0899c2a/capsule_616x353_2x.jpg?t=1779592109",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3784760/0f4645a85ab1d4bcac1f1dd37b3712c1e0899c2a/capsule_616x353_2x.jpg?t=1779592109",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "Elfie: A Sand Plan is a relaxing and intuitive puzzle game where you help a small ambitious elephant build some sand castles. Enjoy spending time at the beach with your new rotund friend!",
     "description_source": "store_browse_short",
@@ -22361,8 +22361,8 @@
   },
   "4077400": {
     "title": "血脉贲张！",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4077400/777e1b1a9d8af1b2d80eab70c61604c82c3cf780/capsule_616x353_2x.jpg?t=1779461421",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4077400/777e1b1a9d8af1b2d80eab70c61604c82c3cf780/capsule_616x353_2x.jpg?t=1779461421",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4077400/777e1b1a9d8af1b2d80eab70c61604c82c3cf780/capsule_616x353_2x.jpg?t=1779592561",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4077400/777e1b1a9d8af1b2d80eab70c61604c82c3cf780/capsule_616x353_2x.jpg?t=1779592561",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "被诅咒而头身分离的吸血鬼。 将鲜血当作子弹射出，投掷头颅处决敌人。 当生命值爆表，Blood High 模式启动！ 血浆四溅的硬核 Boomer Shooter 动作正式开始。",
     "description_source": "store_browse_short",
@@ -26188,6 +26188,45 @@
       "动作角色扮演",
       "武术",
       "2D"
+    ],
+    "is_free": true,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4745720": {
+    "title": "盖亚传说：重生 Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4745720/34826c358dfba15ed79ba068d5e8863f42a3549d/capsule_616x353_2x.jpg?t=1779593306",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4745720/34826c358dfba15ed79ba068d5e8863f42a3549d/capsule_616x353_2x.jpg?t=1779593306",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "盖亚传说：重生是一款类银河恶魔城动作游戏。神权、盖亚派与罪恶势力三方交错的永恒大陆，是她唯一的战场。深入奥林帕斯山，收集散落的重生圣物碎片，这是她的任务，也是她以为的终点。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Yusheng"
+    ],
+    "publishers": [
+      "Yusheng"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4465440": {
+    "title": "Mulligan Keep",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4465440/d41cdcfa6a96c398aecc728b2a05bb9e3d108aff/capsule_616x353_2x.jpg?t=1779588675",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4465440/d41cdcfa6a96c398aecc728b2a05bb9e3d108aff/capsule_616x353_2x.jpg?t=1779588675",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Mulligan Keep is a cooperative deck building dungeon crawler where you play as one of four adventurers delving into a mages castle with up to three of your closest friends. Play cards to help you dodge monsters, escape traps and find your way closer to the hidden artifact.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Maven Studios LLC"
+    ],
+    "publishers": [
+      "Maven Studios LLC"
+    ],
+    "genres": [
+      "休闲",
+      "冒险"
     ],
     "is_free": true,
     "kind": "game",
