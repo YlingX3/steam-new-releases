@@ -23105,8 +23105,8 @@
   },
   "4749100": {
     "title": "LogiGolf Demo",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4749100/3cb326cba756625dfb37055630c8e8b1fd612197/capsule_616x353_2x.jpg?t=1779571183",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4749100/3cb326cba756625dfb37055630c8e8b1fd612197/capsule_616x353_2x.jpg?t=1779571183",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4749100/3cb326cba756625dfb37055630c8e8b1fd612197/capsule_616x353_2x.jpg?t=1779670974",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4749100/3cb326cba756625dfb37055630c8e8b1fd612197/capsule_616x353_2x.jpg?t=1779670974",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "LogiGolf is a relaxing golf puzzle game where you place walls to guide the ball. Journey between islands to uncover new challenges and surprising discoveries.",
     "description_source": "store_browse_short",
@@ -25601,8 +25601,8 @@
   },
   "4456700": {
     "title": "郑成功传 Clash of Armadas: Koxinga Demo",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4456700/2eefdd296457cb03d49bcf255f0c5232051ac3ca/capsule_616x353_schinese_2x.jpg?t=1779607479",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4456700/2eefdd296457cb03d49bcf255f0c5232051ac3ca/capsule_616x353_schinese_2x.jpg?t=1779607479",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4456700/2eefdd296457cb03d49bcf255f0c5232051ac3ca/capsule_616x353_schinese_2x.jpg?t=1779674795",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4456700/2eefdd296457cb03d49bcf255f0c5232051ac3ca/capsule_616x353_schinese_2x.jpg?t=1779674795",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "这是一款海战主题的自走棋塔防游戏。",
     "description_source": "store_browse_short",
@@ -25820,8 +25820,8 @@
   },
   "4687070": {
     "title": "SafeHaven",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4687070/671f245d5a2ffd16f067ffbfccde8c87a72ba8b1/capsule_616x353_2x.jpg?t=1779645729",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4687070/671f245d5a2ffd16f067ffbfccde8c87a72ba8b1/capsule_616x353_2x.jpg?t=1779645729",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4687070/671f245d5a2ffd16f067ffbfccde8c87a72ba8b1/capsule_616x353_2x.jpg?t=1779670535",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4687070/671f245d5a2ffd16f067ffbfccde8c87a72ba8b1/capsule_616x353_2x.jpg?t=1779670535",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "SafeHaven is a turn-based strategy game for two players. Deploy specialized units, outmaneuver your opponent, and capture their Standard before they capture yours.",
     "description_source": "store_browse_short",
@@ -26610,8 +26610,8 @@
   },
   "4663910": {
     "title": "Dungeon Settlers Demo",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4663910/b381258f8ca89ff7342082f7367b99b541f7e4b7/capsule_616x353_2x.jpg?t=1779667330",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4663910/b381258f8ca89ff7342082f7367b99b541f7e4b7/capsule_616x353_2x.jpg?t=1779667330",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4663910/b381258f8ca89ff7342082f7367b99b541f7e4b7/capsule_616x353_2x.jpg?t=1779677602",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4663910/b381258f8ca89ff7342082f7367b99b541f7e4b7/capsule_616x353_2x.jpg?t=1779677602",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "这是一款基于殖民地模拟的地牢爬行游戏，您要管理自己的部族，在贫瘠的土地上建立定居点，为族人提供食物和住所，带领他们深入无情的地牢，通过自己的策略战胜各种挑战。",
     "description_source": "store_browse_short",
@@ -26993,6 +26993,244 @@
       "平台游戏",
       "解谜",
       "2D 平台"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4646050": {
+    "title": "No.13813",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4646050/d7ca0ceedaa4fecea185bb2a26537e2e4ffe319a/capsule_616x353_2x.jpg?t=1779682109",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4646050/d7ca0ceedaa4fecea185bb2a26537e2e4ffe319a/capsule_616x353_2x.jpg?t=1779682109",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "一款通过操控房间内时间来逃脱的密室逃脱游戏。 在陌生的空间中，一名男子戴着神秘的头盔醒来。 回溯并改变时间，揭开头盔的秘密与被困的原因，成功逃脱。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Typebits"
+    ],
+    "publishers": [
+      "Typebits"
+    ],
+    "genres": [
+      "策略",
+      "休闲",
+      "视觉小说",
+      "解谜",
+      "2D 平台"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4658780": {
+    "title": "我的鼠标会打工 Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4658780/0d65d5e1ef5fd500a6e860c93d4a2bd6218cabfb/capsule_616x353_2x.jpg?t=1779681416",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4658780/0d65d5e1ef5fd500a6e860c93d4a2bd6218cabfb/capsule_616x353_2x.jpg?t=1779681416",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "切换不同主题鼠标，点击触发独特互动与随机奖励，收集金币与物品，解锁更多奇妙鼠标主题，享受轻松解压的点击收集乐趣。 这里没有枯燥的点击，只有层出不穷的奇妙互动。 解锁一系列“稀奇古怪”的鼠标，从奇幻到搞笑，从荒诞到精致，每一种都拥有独特的互动方式与隐藏机制。你永远不知道下一次滑动会触发什么，但可以确定的是——越用越上瘾。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "MouseWorks"
+    ],
+    "publishers": [
+      "MouseWorks"
+    ],
+    "genres": [
+      "休闲",
+      "独立",
+      "生活模拟",
+      "2D 平台",
+      "可爱"
+    ],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4630570": {
+    "title": "RUNNING TRAIN | 走ル列車！",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4630570/e42498876d3362ebac906e3204db0f679d61808f/capsule_616x353_2x.jpg?t=1779678066",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4630570/e42498876d3362ebac906e3204db0f679d61808f/capsule_616x353_2x.jpg?t=1779678066",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "New realistic 3DCG Train Game is here! Step into the crew's cabin and immerse yourself as train operator. Navigate 40km+ across Japanese Rural Railway with breathtakingly detailed scenery through the seaside and heart of countryside.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Novatetsu Games"
+    ],
+    "publishers": [
+      "Novatetsu Games"
+    ],
+    "genres": [
+      "模拟",
+      "独立",
+      "3D",
+      "沉浸式模拟"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "3422460": {
+    "title": "Transpawt Train",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3422460/ce23e3f25016b65271aef8697922fb9333c1c515/capsule_616x353_2x.jpg?t=1779677994",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3422460/ce23e3f25016b65271aef8697922fb9333c1c515/capsule_616x353_2x.jpg?t=1779677994",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "一款轻松惬意的策略游戏，带你设计“爪子城”的第一条铁路！ 在动物村之间铺设铁路，开启列车运行吧。 为可爱的动物居民高效设计铁路，打造属于你自己的“爪子城”吧！",
+    "description_source": "store_browse_short",
+    "developers": [
+      "ORIN SOFT"
+    ],
+    "publishers": [
+      "ORIN SOFT"
+    ],
+    "genres": [
+      "策略",
+      "可爱",
+      "解谜",
+      "建造"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4671840": {
+    "title": "来吃！小兔面包房 Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4671840/2c6272afb6673bed84c83cb5b02d307a94b13f2e/capsule_616x353_schinese_2x.jpg?t=1779677841",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4671840/2c6272afb6673bed84c83cb5b02d307a94b13f2e/capsule_616x353_schinese_2x.jpg?t=1779677841",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "（Demo）现在，开始在桌面经营面包坊吧！从一块饼干，第一张餐桌开始。布置小店、提升厨艺、雇佣特色店员、学习新菜品……满足一个个生动有趣的兔子顾客的点单，同时相遇一个个或温情、或古怪、或让人忍俊不禁的小兔，收获它们的菜谱与故事。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "猫咪猫猫人",
+      "Mosscat"
+    ],
+    "publishers": [
+      "头猫兔工作室"
+    ],
+    "genres": [
+      "休闲",
+      "模拟",
+      "策略",
+      "生活模拟",
+      "像素图形"
+    ],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4755070": {
+    "title": "Pachinko Life Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4755070/6f8dc707e49b00af5cc512f9cd4b7c3880efa499/capsule_616x353_2x.jpg?t=1779677954",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4755070/6f8dc707e49b00af5cc512f9cd4b7c3880efa499/capsule_616x353_2x.jpg?t=1779677954",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "a pachinko roguelike where every run is a life. every country, class, and choice changes how the board plays.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "xdjt"
+    ],
+    "publishers": [
+      "xdjt"
+    ],
+    "genres": [
+      "休闲",
+      "独立",
+      "策略",
+      "类 Rogue",
+      "类魂"
+    ],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4683580": {
+    "title": "我的解体史Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4683580/53493217993ce868bdb00c50e31c794d0cb06e70/capsule_616x353_2x.jpg?t=1779676787",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4683580/53493217993ce868bdb00c50e31c794d0cb06e70/capsule_616x353_2x.jpg?t=1779676787",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "权力结构可以解体，人也可以。 在一间封闭的出租屋里，点击物件、拼合爱与暴虐的故事、见证回忆消逝，看一个被时代遗弃的人如何一步步瓦解自己。",
+    "description_source": "store_meta",
+    "developers": [
+      "Pop Elephant Studio"
+    ],
+    "publishers": [
+      "Pop Elephant Studio"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4699840": {
+    "title": "Spooker Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4699840/3c6bd95ae6cd8906239c9cb4ad023ac635d80e6b/capsule_616x353_2x.jpg?t=1779674328",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4699840/3c6bd95ae6cd8906239c9cb4ad023ac635d80e6b/capsule_616x353_2x.jpg?t=1779674328",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "A roguelite pool-like game where you play for your freedom against your host and lightly cursed ventriloquist dummy, Ralphie. Steady your shots, build your combos and rack up enough points to make your escape. Good luck!",
+    "description_source": "store_meta",
+    "developers": [
+      "Space Dragon Games"
+    ],
+    "publishers": [
+      "Space Dragon Games"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4049700": {
+    "title": "Boxed In Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4049700/760bfd2616595328bc5646be7d8e7394c2969e54/capsule_616x353_2x.jpg?t=1779671511",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4049700/760bfd2616595328bc5646be7d8e7394c2969e54/capsule_616x353_2x.jpg?t=1779671511",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "A Puzzle Game About Boxes. Goal? Find A Way Out. Most Importantly, Think Outside The Box",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Snowstorm Productions"
+    ],
+    "publishers": [
+      "Snowstorm Productions"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4359430": {
+    "title": "SnatchDeck Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4359430/c0d8b369caa9420ca87e40e9b198e7a96598f17e/capsule_616x353_2x.jpg?t=1779670835",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4359430/c0d8b369caa9420ca87e40e9b198e7a96598f17e/capsule_616x353_2x.jpg?t=1779670835",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Steal, Adapt, Survive! SnatchDeck is a fast-paced and addicting card game that can be played both casually and strategically. Build a powerful deck on the fly by stealing cards from your opponents mid-round. You'll have to adapt your strategy round by round to avoid death.",
+    "description_source": "store_meta",
+    "developers": [
+      "DeepWyrm"
+    ],
+    "publishers": [
+      "DeepWyrm"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4667250": {
+    "title": "Mycelium Conquest",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4667250/ed823aa45de46a1fb6b039b004e6c5f13081b6b3/capsule_616x353_2x.jpg?t=1779670512",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4667250/ed823aa45de46a1fb6b039b004e6c5f13081b6b3/capsule_616x353_2x.jpg?t=1779670512",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "一款深度自动化游戏，在异星上生长出活体菌丝网络。吞噬当地植物与生物，建造生物生产链，从一颗微小孢子进化为吞噬世界的宇宙实体。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "YCF Productions"
+    ],
+    "publishers": [
+      "YCF Productions"
+    ],
+    "genres": [
+      "探索",
+      "策略",
+      "沙盒",
+      "模拟"
     ],
     "is_free": false,
     "kind": "game",
