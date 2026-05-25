@@ -25601,8 +25601,8 @@
   },
   "4456700": {
     "title": "郑成功传 Clash of Armadas: Koxinga Demo",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4456700/2eefdd296457cb03d49bcf255f0c5232051ac3ca/capsule_616x353_schinese_2x.jpg?t=1779674795",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4456700/2eefdd296457cb03d49bcf255f0c5232051ac3ca/capsule_616x353_schinese_2x.jpg?t=1779674795",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4456700/14bb6b836db7b522b511880e7a020fb3f113eeb7/capsule_616x353_schinese_2x.jpg?t=1779686373",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4456700/14bb6b836db7b522b511880e7a020fb3f113eeb7/capsule_616x353_schinese_2x.jpg?t=1779686373",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "这是一款海战主题的自走棋塔防游戏。",
     "description_source": "store_browse_short",
@@ -26758,8 +26758,8 @@
   },
   "4674470": {
     "title": "After Hue Demo",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4674470/12ccbe8b96c92c897c88172efb1e8538f744fdcd/capsule_616x353_2x.jpg?t=1779649220",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4674470/12ccbe8b96c92c897c88172efb1e8538f744fdcd/capsule_616x353_2x.jpg?t=1779649220",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4674470/12ccbe8b96c92c897c88172efb1e8538f744fdcd/capsule_616x353_2x.jpg?t=1779688137",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4674470/12ccbe8b96c92c897c88172efb1e8538f744fdcd/capsule_616x353_2x.jpg?t=1779688137",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "《After Hue》是一款由可爱变色龙展开冒险的解谜平台游戏！切换颜色、穿透障碍，解开隐藏在每种色彩中的秘密吧！",
     "description_source": "store_browse_short",
@@ -27234,6 +27234,83 @@
     ],
     "is_free": false,
     "kind": "game",
+    "screenshots": null
+  },
+  "4651210": {
+    "title": "RAZE Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4651210/372b382a59d8e9bd05150c4ec735c27cb33a7ad6/capsule_616x353_2x.jpg?t=1779685820",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4651210/372b382a59d8e9bd05150c4ec735c27cb33a7ad6/capsule_616x353_2x.jpg?t=1779685820",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "RAZE — is a arena roguelike game based on randomized events, where you battle countless hordes of enemies. There are no saves or easy solutions here - everything depends on your skill and ability to adapt to the situation.",
+    "description_source": "store_meta",
+    "developers": [
+      "RAZE CLUB"
+    ],
+    "publishers": [
+      "RAZE CLUB"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "3935260": {
+    "title": "一日时光：园林与山野（Lofi）",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935260/848ed0c134de42f27c13d0f8b68f70660d2331a4/capsule_616x353_schinese_2x.jpg?t=1779685070",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935260/848ed0c134de42f27c13d0f8b68f70660d2331a4/capsule_616x353_schinese_2x.jpg?t=1779685070",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "《一日时光》是一款帮助你快速进入心流的效率与专注工具，为你带来平静高效、轻松有趣的一天。 四时四景，一室一色，朝暮流转，四季更迭，带你穿行于中式园林与山野清幽之间。 效率工具升级：加强版待办事项、日记、钓鱼番茄钟、关联一切的日历、丰富的Lofi曲库； 专注与解压，从《一日时光》开始。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "猫可力游戏_MoreCreative"
+    ],
+    "publishers": [
+      "猫可力游戏_MoreCreative"
+    ],
+    "genres": [
+      "休闲",
+      "模拟",
+      "教育",
+      "生活模拟"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4704360": {
+    "title": "The Cursed Ward Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704360/8fb955924938b8aa067e2a2d1226f34e7b2278b9/capsule_616x353_2x.jpg?t=1779685065",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704360/8fb955924938b8aa067e2a2d1226f34e7b2278b9/capsule_616x353_2x.jpg?t=1779685065",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "A system-driven psychological horror game where every threat has a pattern and every death has a reason. Each run is unique and will be timed.",
+    "description_source": "store_meta",
+    "developers": [
+      "Psychoception Productions"
+    ],
+    "publishers": [
+      "Psychoception Productions"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4695870": {
+    "title": "NAMCO LEGENDARY Mountains Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4695870/cf537d1b5a5a6264ec24d5e276bb136950fa61b6/capsule_616x353_2x.jpg?t=1779683619",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4695870/cf537d1b5a5a6264ec24d5e276bb136950fa61b6/capsule_616x353_2x.jpg?t=1779683619",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Classic Namco arcades, reborn as a 3D puzzle! 80s legends return in a brand-new form!",
+    "description_source": "store_meta",
+    "developers": [
+      "BeXide Inc."
+    ],
+    "publishers": [
+      "BeXide Inc."
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
     "screenshots": null
   }
 }
