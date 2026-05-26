@@ -4463,8 +4463,8 @@
   },
   "4466620": {
     "title": "SiNiSistar 2",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4466620/9ceef8e15438cd53a6b1c21ef971ba30118ef0b2/capsule_616x353_2x.jpg?t=1778889257",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4466620/9ceef8e15438cd53a6b1c21ef971ba30118ef0b2/capsule_616x353_2x.jpg?t=1778889257",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4466620/9ceef8e15438cd53a6b1c21ef971ba30118ef0b2/capsule_616x353_2x.jpg?t=1779777015",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4466620/9ceef8e15438cd53a6b1c21ef971ba30118ef0b2/capsule_616x353_2x.jpg?t=1779777015",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "化身退魔修女，踏足正在灭亡的异世界。以精致的像素画绘制而成的末日般的世界。恶心恐怖地蠕动着的异形怪物。然后是无数次阻挡住主角的强大boss——描绘抵抗着破灭与绝望，祓除污秽的修女的冒险的暗黑动作RPG。",
     "description_source": "store_browse_short",
@@ -25580,8 +25580,8 @@
   },
   "4704740": {
     "title": "World Order: Global Power",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704740/4ec9b9f28651cae90a720a547de859e98f5e0e55/capsule_616x353_2x.jpg?t=1779582860",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704740/4ec9b9f28651cae90a720a547de859e98f5e0e55/capsule_616x353_2x.jpg?t=1779582860",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704740/4ec9b9f28651cae90a720a547de859e98f5e0e55/capsule_616x353_2x.jpg?t=1779773056",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704740/4ec9b9f28651cae90a720a547de859e98f5e0e55/capsule_616x353_2x.jpg?t=1779773056",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "Lead a nation, shape global policy, and rewrite history in this deep real-time grand strategy and political simulation.",
     "description_source": "store_browse_short",
@@ -29397,8 +29397,8 @@
   },
   "3921670": {
     "title": "Brewed and Battered",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3921670/082aee67a02becd7f78d4802d8a483fa022b4d35/capsule_616x353_2x.jpg?t=1779771740",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3921670/082aee67a02becd7f78d4802d8a483fa022b4d35/capsule_616x353_2x.jpg?t=1779771740",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3921670/082aee67a02becd7f78d4802d8a483fa022b4d35/capsule_616x353_2x.jpg?t=1779772887",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3921670/082aee67a02becd7f78d4802d8a483fa022b4d35/capsule_616x353_2x.jpg?t=1779772887",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "从零开始酿造药水并用作武器，荡平成群炼金傀儡！在这款生存 Roguelite 游戏中，每种原材料组合都能制成一种药水，并拥有独一无二的轨迹、范围与反应。发掘奇异的药剂协同效果，拯救你的炼金术士同僚，踏上追寻贤者之石的旅途。",
     "description_source": "store_browse_short",
@@ -29734,6 +29734,139 @@
       "模拟",
       "像素图形",
       "可爱"
+    ],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "1805320": {
+    "title": "罗马拓荒录",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1805320/a3528b1dd9d8863471ed542a572dc8c220e4993d/capsule_616x353_schinese_2x.jpg?t=1779777082",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1805320/a3528b1dd9d8863471ed542a572dc8c220e4993d/capsule_616x353_schinese_2x.jpg?t=1779777082",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "罗马已然陨落！但是这不影响你白天种田搞搞基建，晚上开荒刷刷僵尸。你可以享受单人的惬意时光，没事陪一下罗马的神明，抑或是和你的最多7位朋友们共同享受共同经营的乐趣！",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Beartwigs"
+    ],
+    "publishers": [
+      "Three Friends"
+    ],
+    "genres": [
+      "抢先体验",
+      "2D",
+      "冒险",
+      "角色扮演"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4731410": {
+    "title": "奉魔 Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4731410/d529ed0b691bb7743a1706c4b8f5b250397188e4/capsule_616x353_schinese_2x.jpg?t=1779775956",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4731410/d529ed0b691bb7743a1706c4b8f5b250397188e4/capsule_616x353_schinese_2x.jpg?t=1779775956",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "《奉魔》是一款2D类幸存者游戏，采用二次元画风结合仙侠题材。玩家将在游戏中扮演四大魔门中的修行者，在各种秘境中历练，探索遗迹，修炼道法，探寻失落的遗迹，失传的法术。击败拦路的强敌，上百种功法与天赋组合自成一道，铸就专属于你的无上仙途。",
+    "description_source": "store_meta",
+    "developers": [
+      "森罗游戏Senlo Game"
+    ],
+    "publishers": [
+      "森罗游戏Senlo Game"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "2100280": {
+    "title": "World of Tanks: HEAT",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2100280/a42d2699f9a79d9dbd05b1e289f4147b427bb633/capsule_616x353_2x.jpg?t=1779775385",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2100280/a42d2699f9a79d9dbd05b1e289f4147b427bb633/capsule_616x353_2x.jpg?t=1779775385",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "《World of Tanks: HEAT》为第一款以英雄人物为核心的坦克战斗游戏。选择您的特工，自定义坦克，然后利用技术与战略来主宰战场。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Wargaming Group Limited"
+    ],
+    "publishers": [
+      "Wargaming Group Limited"
+    ],
+    "genres": [
+      "动作",
+      "免费开玩",
+      "射击",
+      "多人"
+    ],
+    "is_free": true,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4752820": {
+    "title": "Apoikia Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4752820/17ca37627b24a3730c2970a9c6730e133b168539/capsule_616x353_2x.jpg?t=1779776547",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4752820/17ca37627b24a3730c2970a9c6730e133b168539/capsule_616x353_2x.jpg?t=1779776547",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Apoikia 是一款城市建造与经济模拟游戏，你将把边境定居点发展为繁荣枢纽，通过掌控供应链、区域市场与法律政策，并在未来迎来战斗系统与自由市场投资机制。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Apoikia"
+    ],
+    "publishers": [
+      "Apoikia"
+    ],
+    "genres": [
+      "模拟",
+      "策略",
+      "沉浸式模拟"
+    ],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4440680": {
+    "title": "Horrors Above Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4440680/76829c16d6da7856b05a48790d1846ad545616e1/capsule_616x353_2x.jpg?t=1779773317",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4440680/76829c16d6da7856b05a48790d1846ad545616e1/capsule_616x353_2x.jpg?t=1779773317",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "A dark fantasy sci-fi rougelite first person fighting game where you create and cast spells to fight off never ending waves of monsters from centuries past. Fight, die, collect currency to purchase permanent upgrades, fight, die, collect, upgrade, fight, die, collect, upgrade, fight, die.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Rotwallington Games"
+    ],
+    "publishers": [
+      "Rotwallington Games"
+    ],
+    "genres": [
+      "动作",
+      "动作类 Rogue",
+      "类 Rogue",
+      "类魂",
+      "3D"
+    ],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4738970": {
+    "title": "冷泉-阈限空间 Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4738970/0bcf30d23e9485b25ceed4d432f35e234302b8f6/capsule_616x353_2x.jpg?t=1779775084",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4738970/0bcf30d23e9485b25ceed4d432f35e234302b8f6/capsule_616x353_2x.jpg?t=1779775084",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "没有战斗的 2D 心理恐怖生存游戏。地图每次进入都会重组，墙壁可以被登山镐破坏，不可视实体只能通过脚步声判断距离。在无限循环的阈限走廊中，找到出口是你唯一的生路。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Li Jun"
+    ],
+    "publishers": [
+      "Li Jun"
+    ],
+    "genres": [
+      "探索",
+      "2D",
+      "氛围",
+      "角色扮演"
     ],
     "is_free": true,
     "kind": "demo",
