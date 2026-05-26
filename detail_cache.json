@@ -2278,6 +2278,7 @@
       "指向点击"
     ],
     "is_free": false,
+    "kind": "game",
     "screenshots": null
   },
   "4384290": {
@@ -7795,8 +7796,8 @@
   },
   "4372240": {
     "title": "MONOPHOBIA",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4372240/0880fa906f5ac1c91898a28c9269ece23d7390be/capsule_616x353_2x.jpg?t=1778935837",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4372240/0880fa906f5ac1c91898a28c9269ece23d7390be/capsule_616x353_2x.jpg?t=1778935837",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4372240/0880fa906f5ac1c91898a28c9269ece23d7390be/capsule_616x353_2x.jpg?t=1779370556",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4372240/0880fa906f5ac1c91898a28c9269ece23d7390be/capsule_616x353_2x.jpg?t=1779370556",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "Follow a recluse who is the only being left in the world as she struggles with little things in her everyday life. This game was made entirely out of scanned traditional watercolor art.",
     "description_source": "store_browse_short",
@@ -7812,6 +7813,7 @@
       "恐怖"
     ],
     "is_free": true,
+    "kind": "game",
     "screenshots": null
   },
   "4459040": {
@@ -14895,8 +14897,8 @@
   },
   "4275420": {
     "title": "93, Kuindzhi",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4275420/eb2dab636d534769c6faa685915d0d96e88899d8/capsule_616x353_2x.jpg?t=1779358933",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4275420/eb2dab636d534769c6faa685915d0d96e88899d8/capsule_616x353_2x.jpg?t=1779358933",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4275420/eb2dab636d534769c6faa685915d0d96e88899d8/capsule_616x353_2x.jpg?t=1779712904",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4275420/eb2dab636d534769c6faa685915d0d96e88899d8/capsule_616x353_2x.jpg?t=1779712904",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "《奎因吉，93》是一款沉浸式第一人称氛围小品游戏，讲述了一个来自顿巴斯的18岁男孩的故事。故事将我们带到2022年3月——那个世界永远改变的时刻，进入一个过去、恐惧与疑虑获得声音的空间。",
     "description_source": "store_browse_short",
@@ -17518,8 +17520,8 @@
   },
   "4330860": {
     "title": "Desktop Nard: Dice Idle",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4330860/05286bdf4ba75394fe2c316780f4e9e9650803d2/capsule_616x353_2x.jpg?t=1779296033",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4330860/05286bdf4ba75394fe2c316780f4e9e9650803d2/capsule_616x353_2x.jpg?t=1779296033",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4330860/05286bdf4ba75394fe2c316780f4e9e9650803d2/capsule_616x353_2x.jpg?t=1779731422",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4330860/05286bdf4ba75394fe2c316780f4e9e9650803d2/capsule_616x353_2x.jpg?t=1779731422",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "放置骰子会自动滚动，释放技能，在桌面角落刷取稀有掉落，拥有大量内容和丰富的掉落类型。",
     "description_source": "store_browse_short",
@@ -18947,8 +18949,8 @@
   },
   "3126340": {
     "title": "烦恼驿站",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3126340/09c2fc69e8fd997eea578647f60879a81ec71156/capsule_616x353_schinese_2x.jpg?t=1779380423",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3126340/09c2fc69e8fd997eea578647f60879a81ec71156/capsule_616x353_schinese_2x.jpg?t=1779380423",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3126340/09c2fc69e8fd997eea578647f60879a81ec71156/capsule_616x353_schinese_2x.jpg?t=1779721617",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3126340/09c2fc69e8fd997eea578647f60879a81ec71156/capsule_616x353_schinese_2x.jpg?t=1779721617",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "一款超现实叙事冒险游戏，你将在对话中变形，揭开神明失踪之谜。",
     "description_source": "store_browse_short",
@@ -19055,8 +19057,7 @@
     "genres": [
       "模拟",
       "欢乐",
-      "生活模拟",
-      "建造"
+      "生活模拟"
     ],
     "is_free": false,
     "kind": "game",
@@ -22340,8 +22341,8 @@
   },
   "4568640": {
     "title": "House of Anomalies",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4568640/2fb7231f3ada953a33dd3ab277685401ad7a4f07/capsule_616x353_2x.jpg?t=1779461761",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4568640/2fb7231f3ada953a33dd3ab277685401ad7a4f07/capsule_616x353_2x.jpg?t=1779461761",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4568640/2fb7231f3ada953a33dd3ab277685401ad7a4f07/capsule_616x353_2x.jpg?t=1779743207",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4568640/2fb7231f3ada953a33dd3ab277685401ad7a4f07/capsule_616x353_2x.jpg?t=1779743207",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "Explore a shifting haunted house alone or with friends in online co-op. Watch every room carefully, uncover disturbing anomalies, and question what is real as the house grows stranger with every new discovery.",
     "description_source": "store_browse_short",
@@ -23105,8 +23106,8 @@
   },
   "4749100": {
     "title": "LogiGolf Demo",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4749100/3cb326cba756625dfb37055630c8e8b1fd612197/capsule_616x353_2x.jpg?t=1779670974",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4749100/3cb326cba756625dfb37055630c8e8b1fd612197/capsule_616x353_2x.jpg?t=1779670974",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4749100/3cb326cba756625dfb37055630c8e8b1fd612197/capsule_616x353_2x.jpg?t=1779735220",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4749100/3cb326cba756625dfb37055630c8e8b1fd612197/capsule_616x353_2x.jpg?t=1779735220",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "LogiGolf is a relaxing golf puzzle game where you place walls to guide the ball. Journey between islands to uncover new challenges and surprising discoveries.",
     "description_source": "store_browse_short",
@@ -24322,8 +24323,8 @@
   },
   "2600960": {
     "title": "HoverGrease 2",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2600960/9321cea723e7587c68a686b9e9bc0f7425c401f7/capsule_616x353_2x.jpg?t=1779486892",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2600960/9321cea723e7587c68a686b9e9bc0f7425c401f7/capsule_616x353_2x.jpg?t=1779486892",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2600960/9321cea723e7587c68a686b9e9bc0f7425c401f7/capsule_616x353_2x.jpg?t=1779733980",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2600960/9321cea723e7587c68a686b9e9bc0f7425c401f7/capsule_616x353_2x.jpg?t=1779733980",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "俯视角×英雄射击：融合团队竞技的精髓与双摇杆射击的畅快体验。超高速战斗节奏，极限反应，团队默契，三者合一， 打造极致竞技体验！提供单人故事模式和5v5竞技对战的双重爽感。",
     "description_source": "store_browse_short",
@@ -25689,8 +25690,8 @@
   },
   "4695030": {
     "title": "Foxy The First Steps Demo",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4695030/5587e6365a9ec29f7fd8f6ec32a58e66f1517bba/capsule_616x353_2x.jpg?t=1779566451",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4695030/5587e6365a9ec29f7fd8f6ec32a58e66f1517bba/capsule_616x353_2x.jpg?t=1779566451",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4695030/5587e6365a9ec29f7fd8f6ec32a58e66f1517bba/capsule_616x353_2x.jpg?t=1779725356",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4695030/5587e6365a9ec29f7fd8f6ec32a58e66f1517bba/capsule_616x353_2x.jpg?t=1779725356",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "Foxy is a precision platformer focused on timing and control. Master pressure-based jumps, clear 20 demo levels, and chain crystal combos. Prove your skills, uncover a mysterious story, and reach the portal. This is a DEMO version.",
     "description_source": "store_browse_short",
@@ -25863,8 +25864,8 @@
   },
   "4273270": {
     "title": "Tactris",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4273270/3d317da52cfb5908496767be10706d433fd74c88/capsule_616x353_2x.jpg?t=1779559889",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4273270/3d317da52cfb5908496767be10706d433fd74c88/capsule_616x353_2x.jpg?t=1779559889",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4273270/3d317da52cfb5908496767be10706d433fd74c88/capsule_616x353_2x.jpg?t=1779721652",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4273270/3d317da52cfb5908496767be10706d433fd74c88/capsule_616x353_2x.jpg?t=1779721652",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "A tactical game of slotting soldiers. Arrange formations of different units and attempt to break through the enemy's ranks.",
     "description_source": "store_browse_short",
@@ -27062,7 +27063,8 @@
       "模拟",
       "独立",
       "3D",
-      "沉浸式模拟"
+      "沉浸式模拟",
+      "真实"
     ],
     "is_free": false,
     "kind": "game",
@@ -27070,8 +27072,8 @@
   },
   "3422460": {
     "title": "Transpawt Train",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3422460/ce23e3f25016b65271aef8697922fb9333c1c515/capsule_616x353_2x.jpg?t=1779677994",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3422460/ce23e3f25016b65271aef8697922fb9333c1c515/capsule_616x353_2x.jpg?t=1779677994",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3422460/ce23e3f25016b65271aef8697922fb9333c1c515/capsule_616x353_2x.jpg?t=1779715771",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3422460/ce23e3f25016b65271aef8697922fb9333c1c515/capsule_616x353_2x.jpg?t=1779715771",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "一款轻松惬意的策略游戏，带你设计“爪子城”的第一条铁路！ 在动物村之间铺设铁路，开启列车运行吧。 为可爱的动物居民高效设计铁路，打造属于你自己的“爪子城”吧！",
     "description_source": "store_browse_short",
@@ -27332,8 +27334,8 @@
   },
   "3496890": {
     "title": "Slot or Not",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3496890/fb859f7f36227955528c2577b76cf12edf2c88d6/capsule_616x353_2x.jpg?t=1779710430",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3496890/fb859f7f36227955528c2577b76cf12edf2c88d6/capsule_616x353_2x.jpg?t=1779710430",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3496890/fb859f7f36227955528c2577b76cf12edf2c88d6/capsule_616x353_2x.jpg?t=1779740681",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3496890/fb859f7f36227955528c2577b76cf12edf2c88d6/capsule_616x353_2x.jpg?t=1779740681",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "Slot or Not is a turn-based slot machine battling adventure. Fight evil fruits alongside your battle buddy slot machine to save your village. Spin your destiny and grab the precious loot in a fast-paced, colorful adventure.",
     "description_source": "store_browse_short",
@@ -27718,7 +27720,7 @@
     "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4742620/da4fdc1b55c973604ffd214a91413014b081dc76/capsule_616x353_2x.jpg?t=1779699058",
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4742620/da4fdc1b55c973604ffd214a91413014b081dc76/capsule_616x353_2x.jpg?t=1779699058",
     "asset_source": "store_browse:main_capsule_2x",
-    "short_description": "Ocean Cleaner Idle is an incremental clicker game. You collect trash from the sea and recycle the materials to improve your ship. It’s time to clean up the ocean!",
+    "short_description": "“Ocean Cleaner Idle” is a cozy incremental clicker game where you relax while cleaning the ocean! As an Atlantean, your sacred duty is to collect the waste humans left behind and help Mother Nature to improve the ecosystem.",
     "description_source": "store_meta",
     "developers": [
       "Watt a Day Games"
@@ -27865,10 +27867,10 @@
   },
   "4218680": {
     "title": "Bird Game 3",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4218680/a78241262bb3d8067c5b1250b9b5ceda18eaf5af/capsule_616x353_2x.jpg?t=1779692414",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4218680/a78241262bb3d8067c5b1250b9b5ceda18eaf5af/capsule_616x353_2x.jpg?t=1779692414",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4218680/a78241262bb3d8067c5b1250b9b5ceda18eaf5af/capsule_616x353_2x.jpg?t=1779716048",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4218680/a78241262bb3d8067c5b1250b9b5ceda18eaf5af/capsule_616x353_2x.jpg?t=1779716048",
     "asset_source": "store_browse:main_capsule_2x",
-    "short_description": "《Bird Game 3》是一款沉浸式的多人对战（BvB，即鸟对鸟）游戏，现已正式登陆 Steam！与其他鸟类展开激战，争夺鸟类王国的霸主地位！",
+    "short_description": "Bird Game 3 是一款适合 2-8 名玩家的欢乐多人游戏。与朋友们一起化身渡鸦或雄鹰，争夺鸟蛋，打造专属鸟儿造型！",
     "description_source": "store_browse_short",
     "developers": [
       "Birdgame Studios"
@@ -27898,6 +27900,1495 @@
     ],
     "publishers": [
       "Enders Workshop"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4727020": {
+    "title": "MyBiz: Pomodoro Desk Tycoon Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4727020/0ae8f2154e07fe9ae7bdd4e9949b6dffc70e27e7/capsule_616x353_2x.jpg?t=1779754582",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4727020/0ae8f2154e07fe9ae7bdd4e9949b6dffc70e27e7/capsule_616x353_2x.jpg?t=1779754582",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "A cozy pixel-art office sim powered by your real Pomodoros. Focus sessions earn cash + XP — decorate, hire staff, level up. Music, ambience, break-time minigames. Productivity tool by day, tycoon by every minute.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Bizpro Games"
+    ],
+    "publishers": [
+      "Bizpro Games"
+    ],
+    "genres": [
+      "休闲",
+      "模拟",
+      "生活模拟",
+      "指向点击",
+      "沙盒"
+    ],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4744410": {
+    "title": "模联人 Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4744410/6541c09a83e7e34a5c3928174311b5897ef7cc6f/capsule_616x353_2x.jpg?t=1779754137",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4744410/6541c09a83e7e34a5c3928174311b5897ef7cc6f/capsule_616x353_2x.jpg?t=1779754137",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "本世纪初，一场学生时代的模拟联合国活动交织着感情冲突和情感悲剧改变了在场者的人生，多年后，星散的少年们展开了一系列复仇和重逢，交织着友情，爱情，野心与梦想的破碎。本游戏是一款情节曲折，层次丰富的视觉小说游戏。",
+    "description_source": "store_meta",
+    "developers": [
+      "小熊猫工作室",
+      "Otter club"
+    ],
+    "publishers": [
+      "小熊猫工作室"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4364790": {
+    "title": "Snooker Billiard Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4364790/36ce3db4ae708284fb34f0c4ae05c89d0f60186f/capsule_616x353_2x.jpg?t=1779753863",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4364790/36ce3db4ae708284fb34f0c4ae05c89d0f60186f/capsule_616x353_2x.jpg?t=1779753863",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "这是一款虚拟现实斯诺克游戏。你可以感受到球桌、球杆和球。你可以运用各种物理旋转击球，并将其送入袋中。当你在这款游戏中单人或者多人游玩时，可以随时随地享受这项运动。",
+    "description_source": "store_meta",
+    "developers": [
+      "DotStudio"
+    ],
+    "publishers": [
+      "DotStudio"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "3009300": {
+    "title": "Teamfight Manager 2",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3009300/686958185c8f2e09449f2f9dba416a3943601cee/capsule_616x353_2x.jpg?t=1779753613",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3009300/686958185c8f2e09449f2f9dba416a3943601cee/capsule_616x353_2x.jpg?t=1779753613",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "《Teamfight Manager》以更细致的战术、管理和全新MOBA风格的比赛方式回归！执掌虚拟电竞战队，打造最强阵容，成为顶尖经理！",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Team Samoyed"
+    ],
+    "publishers": [
+      "Team Samoyed"
+    ],
+    "genres": [
+      "模拟",
+      "像素图形",
+      "休闲"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "3105960": {
+    "title": "遥远行星：建造师",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3105960/bf4626c5fcb0b882a26f87cc720093f1694d8442/capsule_616x353_schinese_2x.jpg?t=1779753237",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3105960/bf4626c5fcb0b882a26f87cc720093f1694d8442/capsule_616x353_schinese_2x.jpg?t=1779753237",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "一款AI驱动的太空跑商游戏，穿梭于150+颗星球，600+智能NPC的动态宇宙。你可以从一名新手商人起步，经营店铺、打造商会，成为联结各方势力的大老板，影响整个星系的走向。游戏的经济系统由AI驱动，供需与价格并非固定数值，而是通过 NPC 的立场、关系与选择共同塑造。跑商不只是赚钱，也是在参与并改变文明的运行规则。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "wastudio"
+    ],
+    "publishers": [
+      "wastudio"
+    ],
+    "genres": [
+      "抢先体验",
+      "建造",
+      "探索",
+      "策略角色扮演"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4735840": {
+    "title": "Crabgrass Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4735840/a0a044ce847f86a725664b0040969c3cfac1d6ef/capsule_616x353_2x.jpg?t=1779752569",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4735840/a0a044ce847f86a725664b0040969c3cfac1d6ef/capsule_616x353_2x.jpg?t=1779752569",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Crabgrass is a cozy narrative management game where players get the satisfying experience of yard maintenance with none of the real world consequences like sore muscles or a lawn that simply just won’t grow no matter what you do.",
+    "description_source": "store_meta",
+    "developers": [
+      "bSoftGames"
+    ],
+    "publishers": [
+      "bSoftGames"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4736230": {
+    "title": "Faybound : Veils of Magic Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4736230/717071ee971942feb487d8e5171c60a282d80a99/capsule_616x353_2x.jpg?t=1779751584",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4736230/717071ee971942feb487d8e5171c60a282d80a99/capsule_616x353_2x.jpg?t=1779751584",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "An ancient darkness threatens the balance of a magical world. Take on the roles of different fairies. Use their unique abilities to confront the emerging threat.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "GTGames"
+    ],
+    "publishers": [
+      "GTGames"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4581930": {
+    "title": "S.A.L.A.M.E.",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4581930/8843468812fab65585d023e2c3f79029f61d1f7d/capsule_616x353_2x.jpg?t=1779754139",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4581930/8843468812fab65585d023e2c3f79029f61d1f7d/capsule_616x353_2x.jpg?t=1779754139",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Decidí qué se autoriza y qué se rechaza. Gozá de tener toda la autoridad del estado y llevá el país para donde sabés que tendría que ir. Eso sí, acordate que esto es Argentina y no va a ser tan fácil.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "LTP Argentina"
+    ],
+    "publishers": [
+      "LTP Argentina"
+    ],
+    "genres": [
+      "休闲",
+      "模拟",
+      "策略",
+      "生活模拟"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4178900": {
+    "title": "Sketch Royale - Draw Something",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4178900/63b77460322cace950c323c35705d3e74f32186b/capsule_616x353_2x.jpg?t=1779750339",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4178900/63b77460322cace950c323c35705d3e74f32186b/capsule_616x353_2x.jpg?t=1779750339",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Draw your best (or worst) interpretation before time runs out! Start a room, invite your friends (or total strangers), and get ready for a round of ridiculous AI-generated prompts — or create your own with unlimited custom topic!",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Tinny Studios"
+    ],
+    "publishers": [
+      "Tinny Studios"
+    ],
+    "genres": [
+      "休闲",
+      "文字游戏",
+      "家庭友好",
+      "益智问答"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4766740": {
+    "title": "Rogue Breaker Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4766740/7df5a916887ab12a974aca6dfe18bbc04ab492e4/capsule_616x353_2x.jpg?t=1779749188",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4766740/7df5a916887ab12a974aca6dfe18bbc04ab492e4/capsule_616x353_2x.jpg?t=1779749188",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Break, blast, and crash through this arcade style Rgouelike. Assemble the perfect item set and leave no brick standing.",
+    "description_source": "store_meta",
+    "developers": [
+      "Collective Soul Games"
+    ],
+    "publishers": [
+      "Collective Soul Games"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4134680": {
+    "title": "Ropeman",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4134680/46ebed80afc83d83e40e7b982334c039635cc9b4/capsule_616x353_2x.jpg?t=1779748354",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4134680/46ebed80afc83d83e40e7b982334c039635cc9b4/capsule_616x353_2x.jpg?t=1779748354",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "A two dimensional platformer where you throw a knife into a wall, attach your rope to it, and swing like a pendulum. With only your rope swing skill, you must keep climbing upward until you finally reach the moon.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "1K Project"
+    ],
+    "publishers": [
+      "1K Project"
+    ],
+    "genres": [
+      "动作",
+      "困难",
+      "单人",
+      "平台游戏"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4713310": {
+    "title": "Night Rolls Cozy Store Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4713310/d4a4b37f8b272580d7411f3f39a5b146f65d2124/capsule_616x353_2x.jpg?t=1779748010",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4713310/d4a4b37f8b272580d7411f3f39a5b146f65d2124/capsule_616x353_2x.jpg?t=1779748010",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "经营一家温馨的深夜小店。准备新鲜的寿司和卷物，补满货架，接待顾客直到天亮。一款轻松惬意的商店管理游戏，每个夜班都由你掌控",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Polytale Games"
+    ],
+    "publishers": [
+      "Polytale Games"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4750020": {
+    "title": "Pitch & Pixel Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4750020/650fdbc3a26b33353b9d9e05100e99359f06a791/capsule_616x353_2x.jpg?t=1779747449",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4750020/650fdbc3a26b33353b9d9e05100e99359f06a791/capsule_616x353_2x.jpg?t=1779747449",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "征战30年的数字营销机构发展史——优化销售与营销，交付项目，壮大团队，并智取竞争对手。完全模拟的市场以及自由选择的成功之路——是打造高品质的精品工作室，还是庞大的机构集团？一切由你决定。",
+    "description_source": "store_meta",
+    "developers": [
+      "Robert Kolloch"
+    ],
+    "publishers": [
+      "Robert Kolloch"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4728400": {
+    "title": "TORR Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4728400/e3279bd6ea2668848316bd8621a304aed8552b2b/capsule_616x353_2x.jpg?t=1779746210",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4728400/e3279bd6ea2668848316bd8621a304aed8552b2b/capsule_616x353_2x.jpg?t=1779746210",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "A retro turn-based exploration game reminiscent of 80s RPGS! Explore the land of TORR by fighting daemons, solving puzzles, and uncovering the origins of the cloud sea that separates the world from the land below...",
+    "description_source": "store_browse_short",
+    "developers": [
+      "tohomoko"
+    ],
+    "publishers": [
+      "tohomoko"
+    ],
+    "genres": [
+      "冒险",
+      "解谜",
+      "回合制战斗",
+      "探索",
+      "2D"
+    ],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4712450": {
+    "title": "Breakdown: Silent Riot Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4712450/9745ba6332eec0f04736ca08e3a821739a667277/capsule_616x353_2x.jpg?t=1779743890",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4712450/9745ba6332eec0f04736ca08e3a821739a667277/capsule_616x353_2x.jpg?t=1779743890",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "一款设定在黑暗东欧城市的残酷剧情向清版动作游戏。被黑手党追捕，你必须在高精度的近距离战斗中求生，没有轻松取胜的可能，而你内心的某种东西开始崩裂，暴力逐渐演变为执念。",
+    "description_source": "store_meta",
+    "developers": [
+      "Breaksoft"
+    ],
+    "publishers": [
+      "Salient Games"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4760850": {
+    "title": "Vaethorn: Realm of Legends Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4760850/0d21e121f02450dfaceaeb2e988cbd35b6ae1846/capsule_616x353_2x.jpg?t=1779742660",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4760850/0d21e121f02450dfaceaeb2e988cbd35b6ae1846/capsule_616x353_2x.jpg?t=1779742660",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "A tactical roguelite card game set within the pages of an ancient, living storybook, where every card is a fate. Choose your Lord, cross the realms of Vaethorn, and write your own legend.",
+    "description_source": "store_meta",
+    "developers": [
+      "yankuu games"
+    ],
+    "publishers": [
+      "yankuu games"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4764770": {
+    "title": "Loot The World: Three Kings Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4764770/4fc84071f1ec2f854956f0229f6f4b0f2d669be3/capsule_616x353_2x.jpg?t=1779741155",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4764770/4fc84071f1ec2f854956f0229f6f4b0f2d669be3/capsule_616x353_2x.jpg?t=1779741155",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "An endless procedural RPG — explore a dangerous world, roll dice in combat, loot everything, and hunt down the Three Kings.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "SuleDev"
+    ],
+    "publishers": [
+      "SuleDev"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4737740": {
+    "title": "DYLIA Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4737740/65c0044ef5962ef163690765f332c1b9b766e79e/capsule_616x353_2x.jpg?t=1779740805",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4737740/65c0044ef5962ef163690765f332c1b9b766e79e/capsule_616x353_2x.jpg?t=1779740805",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "DYLIA是一款注重探索与叙事的 2D 冒险游戏。一个名为Dylia的女孩跌落至一个苍白的世界。拿起你手中的口琴，用旋律为世界添上一点颜色，尽管它们转瞬即逝。随着游戏的深入，你会结识新的伙伴，获得新的能力，窥见世界的全貌，寻找被尘封的回忆。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Davy Lee"
+    ],
+    "publishers": [
+      "Studio Dyno"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4672010": {
+    "title": "Virurama Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4672010/954c0d88f7e4d619977d9345d61a7372352c4ec1/capsule_616x353_2x.jpg?t=1779739687",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4672010/954c0d88f7e4d619977d9345d61a7372352c4ec1/capsule_616x353_2x.jpg?t=1779739687",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Fast arcade action inside the human body. Move your antibody on a grid, dodge viruses, place bio‑blocks and use antibiotics to eliminate threats. Complete 16 short stages with increasing difficulty and master precise movement to survive",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Fernando Menta"
+    ],
+    "publishers": [
+      "Enjoyrama"
+    ],
+    "genres": [
+      "动作",
+      "街机",
+      "分数挑战",
+      "单人",
+      "控制器"
+    ],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "3339860": {
+    "title": "Unbound Drift",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3339860/020d12981dfbbf89d85ac7aaecd126a39771f6c7/capsule_616x353_2x.jpg?t=1779739332",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3339860/020d12981dfbbf89d85ac7aaecd126a39771f6c7/capsule_616x353_2x.jpg?t=1779739332",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Take a swing through space in this unique precision based physics game. Embrace the rush chasing the elusive golden speed trail, or relax as you trace perfect paths through the terrain. Either way, the graceful arcs and cosmic challenges will leave you in the perfect flow state: The Unbound Drift",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Elusive Space Inc."
+    ],
+    "publishers": [
+      "Elusive Space Inc."
+    ],
+    "genres": [
+      "单人",
+      "物理",
+      "探索",
+      "氛围",
+      "放松"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4681280": {
+    "title": "Last Signal",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4681280/1991fad452eb59647b618e2c457ace14d20c82af/capsule_616x353_2x.jpg?t=1779738704",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4681280/1991fad452eb59647b618e2c457ace14d20c82af/capsule_616x353_2x.jpg?t=1779738704",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Last Signal 是一款极具氛围感的恐怖第一人称射击游戏。在资源有限的情况下，你需要在黑暗的走廊中艰难求生。管理弹药、启动发电机并发送求救信号。在5个充满挑战的关卡中对抗4种各具能力的变异敌人。每一颗子弹和医疗包都至关重要。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "CEVSAA"
+    ],
+    "publishers": [
+      "CEVSAA"
+    ],
+    "genres": [
+      "动作",
+      "恐怖",
+      "冒险",
+      "氛围"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4730430": {
+    "title": "Arcade World Cups Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4730430/9a3bd0112ae258a0eb6365c02552ff5bfc94c5e7/capsule_616x353_2x.jpg?t=1779734631",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4730430/9a3bd0112ae258a0eb6365c02552ff5bfc94c5e7/capsule_616x353_2x.jpg?t=1779734631",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Pure arcade football, inspired by an unforgettable classic. Fast matches, goals, and nonstop excitment.",
+    "description_source": "store_meta",
+    "developers": [
+      "NicoSoftArg"
+    ],
+    "publishers": [
+      "NicoSoftArg"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "3631410": {
+    "title": "AUTO DERBY CASINO",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3631410/60ae07bef00fc8cdc7e9950ee36ae2038f3e71aa/capsule_616x353_2x.jpg?t=1779734168",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3631410/60ae07bef00fc8cdc7e9950ee36ae2038f3e71aa/capsule_616x353_2x.jpg?t=1779734168",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "1-4 players gamble on robot horse races at this casino without rules. Sabotage the horses, manipulate bets, or even blow up the track. Outplay your friends, or at the very least make sure they lose too. All that matters is the payout.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Jake"
+    ],
+    "publishers": [
+      "Jake"
+    ],
+    "genres": [
+      "多人",
+      "模拟",
+      "欢乐",
+      "策略"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "2579620": {
+    "title": "Wild Horse Racing",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2579620/f0fdef1cba1286ea936818d902f9929646227c43/capsule_616x353_2x.jpg?t=1779744803",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2579620/f0fdef1cba1286ea936818d902f9929646227c43/capsule_616x353_2x.jpg?t=1779744803",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Wild Horse Racing is a fast-paced arcade horse racing game where timing is everything! Master the rhythm-based controls, leap over big jumps, and race through hand-crafted tracks around the world. Climb the leagues, manage your horse, and gallop from bronze to gold!",
+    "description_source": "store_browse_short",
+    "developers": [
+      "idlesoul"
+    ],
+    "publishers": [
+      "idlesoul"
+    ],
+    "genres": [
+      "独立",
+      "像素图形",
+      "街机",
+      "平台游戏"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4713420": {
+    "title": "Consorts of the Emperor",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4713420/4bab228ef42b855345ee2a411033b73e80ec8639/capsule_616x353_2x.jpg?t=1779732668",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4713420/4bab228ef42b855345ee2a411033b73e80ec8639/capsule_616x353_2x.jpg?t=1779732668",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Win the heart of the Emperor by presenting the best gifts and outplaying your rivals in this digital version of the boardgame Consorts of the Emperor!",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Turtle & Owl Games"
+    ],
+    "publishers": [
+      "Turtle & Owl Games"
+    ],
+    "genres": [
+      "策略",
+      "休闲",
+      "2D"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4633800": {
+    "title": "Still Lost",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4633800/b27b8de16020327e3a8efca476bcceca8b1c214f/capsule_616x353_2x.jpg?t=1779732311",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4633800/b27b8de16020327e3a8efca476bcceca8b1c214f/capsule_616x353_2x.jpg?t=1779732311",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Navigate twisting mazes by torchlight in this atmospheric 2D puzzle game. Find your way through 10 handcrafted themes, avoid lurking creatures, and race the clock in Timed Mode. How far can you go before you're still lost?",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Project571"
+    ],
+    "publishers": [
+      "Project571"
+    ],
+    "genres": [
+      "探索",
+      "解谜",
+      "动作冒险",
+      "俯视射击",
+      "2D"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4548960": {
+    "title": "this SHORT indie game made me MISS MY FRIENDS | Rainy Plays Lonely Game Livestream",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4548960/01bb0398a9a47185618df21d3bd1c5341239c3b8/capsule_616x353_2x.jpg?t=1779732622",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4548960/01bb0398a9a47185618df21d3bd1c5341239c3b8/capsule_616x353_2x.jpg?t=1779732622",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Tidy up after a sleepover birthday party by finding a home for each decoration and belonging in this story-rich, fully narrated, block-fitting puzzle game. Play alongside a commentating vtuber as you delve into their experience with loneliness evoked by this cleaning indie game.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "MangoPower"
+    ],
+    "publishers": [
+      "MangoPower"
+    ],
+    "genres": [
+      "模拟",
+      "解谜",
+      "休闲"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "3892910": {
+    "title": "SkyShard: City Battler",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892910/8e774044f161f30e7b7ec23432280aa26261f1b5/capsule_616x353_2x.jpg?t=1779732012",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892910/8e774044f161f30e7b7ec23432280aa26261f1b5/capsule_616x353_2x.jpg?t=1779732012",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "City Building Auto Battler! Build your kingdom with powerful weapons, walls, houses, and endless synergies, then battle other players in asynchronous multiplayer, or overcome various solo challenges.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "ItsBen321"
+    ],
+    "publishers": [
+      "RegisKillbin"
+    ],
+    "genres": [
+      "抢先体验",
+      "类 Rogue",
+      "2D"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4746980": {
+    "title": "White Ward Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4746980/651c11d5cc97006d00920d8c2400eeb4eed8ece7/capsule_616x353_2x.jpg?t=1779732587",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4746980/651c11d5cc97006d00920d8c2400eeb4eed8ece7/capsule_616x353_2x.jpg?t=1779732587",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "You Are Trapped In A Endless White Hospital Ward. The Nurse Asks You To Wait Patiently, But Something Tells You That Is Not A Good Idea. Examine Each Ward Carefully To Escape The White Ward.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Caleb Breithaupt"
+    ],
+    "publishers": [
+      "Crawfish Games"
+    ],
+    "genres": [
+      "解谜",
+      "3D",
+      "第一人称",
+      "独立",
+      "恐怖"
+    ],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "3581700": {
+    "title": "N/A Museum",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3581700/a55b54a786415f0931392cfe35dc6cbe121b912a/capsule_616x353_2x.jpg?t=1779731946",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3581700/a55b54a786415f0931392cfe35dc6cbe121b912a/capsule_616x353_2x.jpg?t=1779731946",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Welcome to Hanun Art Museum. The rules here are ever-changing. In this enigmatic museum, shrouded in mystery, you step into the shoes of Kang Min-soo, an Anomaly Investigator determined to uncover the truth behind a series of strange phenomena—and find a way to escape.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "TheObserverStudio"
+    ],
+    "publishers": [
+      "TheObserverStudio"
+    ],
+    "genres": [
+      "冒险",
+      "角色扮演",
+      "互动小说",
+      "解谜",
+      "探索"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4555900": {
+    "title": "Farmnana Defence",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4555900/9d0dba66eec263d34146b65c1dd1ccdfbdfc5717/capsule_616x353_2x.jpg?t=1779731307",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4555900/9d0dba66eec263d34146b65c1dd1ccdfbdfc5717/capsule_616x353_2x.jpg?t=1779731307",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "▎ Defend your farm with magical bananas! Collect and enhance 20+ bananas across 5 tiers, build your farm by day, and survive monster waves by night. Face 5 epic bosses in 25 waves and endless Infinite Mode.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "JAI"
+    ],
+    "publishers": [
+      "JAI"
+    ],
+    "genres": [
+      "动作",
+      "射击",
+      "街机",
+      "俯视",
+      "俯视射击"
+    ],
+    "is_free": true,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4731540": {
+    "title": "Spooky Market Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4731540/763fcbeb27e2d53c09398292736e29c9d84bea56/capsule_616x353_2x.jpg?t=1779730236",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4731540/763fcbeb27e2d53c09398292736e29c9d84bea56/capsule_616x353_2x.jpg?t=1779730236",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Spooky Market 是一款适合 1–4 名玩家的合作商店模拟游戏，设定在永恒万圣节的世界。经营自己的店铺，售卖各种商品，服务吸血鬼、骷髅等生物，招募特别员工，逐步发展并扩大你的商店。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "NAMJI Games"
+    ],
+    "publishers": [
+      "NAMJI Games"
+    ],
+    "genres": [
+      "模拟",
+      "多人",
+      "奇幻",
+      "魔法",
+      "沉浸式模拟"
+    ],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "2738950": {
+    "title": "The Wolf Is Dead Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2738950/61aa3360dadcb2f950d30cd9323326431d2afb96/capsule_616x353_2x.jpg?t=1779729379",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2738950/61aa3360dadcb2f950d30cd9323326431d2afb96/capsule_616x353_2x.jpg?t=1779729379",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "The Wolf is Dead is a murder mystery game. When the Big Bad Wolf is found murdered at a party for his biopic, you're called in. Interrogate suspects, investigate the scene of the crime and use this to travel back in time and reconstruct the events of the evening. Who killed Alexander Wolff?",
+    "description_source": "store_meta",
+    "developers": [
+      "Fat Toad Games"
+    ],
+    "publishers": [
+      "Fat Toad Games"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4348710": {
+    "title": "Mountain Crew",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348710/cebb6a78e1702b93ab760d7a6fbdf6e825920243/capsule_616x353_2x.jpg?t=1779729288",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4348710/cebb6a78e1702b93ab760d7a6fbdf6e825920243/capsule_616x353_2x.jpg?t=1779729288",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Mountain Crew is a simulator focused on MTB biking. It joins both realistic biking on mountain shrubs and forests in a trail mode and map exploration in a freeride mode.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "WeeklyCatsGames"
+    ],
+    "publishers": [
+      "WeeklyCatsGames"
+    ],
+    "genres": [
+      "模拟",
+      "益智平台",
+      "3D"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4618260": {
+    "title": "Dirt Clicker Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4618260/c1122ed4cec49bf910c8e266bb50be3926caa3bd/capsule_616x353_2x.jpg?t=1779730151",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4618260/c1122ed4cec49bf910c8e266bb50be3926caa3bd/capsule_616x353_2x.jpg?t=1779730151",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Dirt Clicker is a charming incremental game about digging to the hidden center of the world.",
+    "description_source": "store_meta",
+    "developers": [
+      "Sailing Bears"
+    ],
+    "publishers": [
+      "Sailing Bears"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4317700": {
+    "title": "真爱坤vs小黑子",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4317700/4ef09e9d5ee02cfedae0e338bc4e8c5cb29403c1/capsule_616x353_schinese_2x.jpg?t=1779728930",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4317700/4ef09e9d5ee02cfedae0e338bc4e8c5cb29403c1/capsule_616x353_schinese_2x.jpg?t=1779728930",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "化身爱坤，用篮球与鸡爪武装自己，夺回被抢走的鸡蛋，在250个关卡中对抗无穷无尽的小黑子。独特的死亡惩罚与真爱榜系统，让每一次战斗都充满挑战与乐子。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "烤烤山药"
+    ],
+    "publishers": [
+      "烤烤山药"
+    ],
+    "genres": [
+      "动作",
+      "塔防",
+      "类 Rogue",
+      "恐怖",
+      "射击"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4218480": {
+    "title": "The Dream of Jacob",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4218480/fa3ade81566041d07b41d39ba3969d4b4a90b352/capsule_616x353_2x.jpg?t=1779728705",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4218480/fa3ade81566041d07b41d39ba3969d4b4a90b352/capsule_616x353_2x.jpg?t=1779728705",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Travel as Jacob through the most transcendent astral dream ever told. Discover heaven and hell, overcoming unexpected challenges and fighting your inner demons. Will you reach the top of the ladder?",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Tasiria"
+    ],
+    "publishers": [
+      "Tasiria"
+    ],
+    "genres": [
+      "动作",
+      "冒险",
+      "动作冒险",
+      "平台游戏",
+      "2D 平台"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "2317640": {
+    "title": "JUMP KING QUEST",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2317640/1f0c5e492b6f03902fcd69e912dea762baab590d/capsule_616x353_2x.jpg?t=1779729416",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2317640/1f0c5e492b6f03902fcd69e912dea762baab590d/capsule_616x353_2x.jpg?t=1779729416",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "在《JUMP KING QUEST》中投身于高风险惩罚式平台跳跃！体验动态在线攀爬行动——独自探索，或一起坠落，在攀登至高塔顶那个性感火热美人的疯狂旅程中奋力向上。 在这个世界里，每一处落脚点都是战场……",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Nexile"
+    ],
+    "publishers": [
+      "Nexile"
+    ],
+    "genres": [
+      "精确平台",
+      "多人",
+      "2D 平台"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "1634360": {
+    "title": "EMUUROM",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1634360/056f1a6e70c7efa5d4cce3c2f7aac93b20fc4f40/capsule_616x353_2x.jpg?t=1779728554",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1634360/056f1a6e70c7efa5d4cce3c2f7aac93b20fc4f40/capsule_616x353_2x.jpg?t=1779728554",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "一款生物观测类银河恶魔城游戏。在远古乐园永远消失之前去探索它。研究EMUUROM生物，在EMUUDEX中记录发现，用所学知识开辟新道路。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "borbware"
+    ],
+    "publishers": [
+      "Coyote Time Publishing"
+    ],
+    "genres": [
+      "像素图形",
+      "探索",
+      "战争",
+      "解谜",
+      "益智平台"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "1969810": {
+    "title": "超时空地牢",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1969810/72ed87430727fc2d669be11c9e2fae22175b88f6/capsule_616x353_schinese_2x.jpg?t=1779731490",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1969810/72ed87430727fc2d669be11c9e2fae22175b88f6/capsule_616x353_schinese_2x.jpg?t=1779731490",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "在 《Enter the Chronosphere》 这款回合制弹幕roguelike中，一切随你移动。每个时间球都是程序生成的，内有防御者和被吞噬世界的生物群落。闯入其中，寻找异域武器和小工具，智胜敌对外星人，并战斗到核心。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Effort Star"
+    ],
+    "publishers": [
+      "Joystick Ventures",
+      "Gamirror Games",
+      "Beep Japan Inc."
+    ],
+    "genres": [
+      "动作类 Rogue",
+      "回合制战术",
+      "弹幕射击",
+      "俯视",
+      "类 Rogue"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "2529010": {
+    "title": "One More Try: Prologue",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2529010/0ed7f40199188c20f4802706df1558ec307cc7ac/capsule_616x353_schinese_2x.jpg?t=1779727869",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2529010/0ed7f40199188c20f4802706df1558ec307cc7ac/capsule_616x353_schinese_2x.jpg?t=1779727869",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "在这个回合制的Roguelike卡牌构建游戏中，穿越魔法王国的土地奋勇战斗。通过组合强大的扑克组合来对抗敌人，增强它们的效果，赋予它们新的属性，寻找魔法遗物，并为你的英雄选择新的职业。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "4Cats"
+    ],
+    "publishers": [
+      "4Cats"
+    ],
+    "genres": [
+      "策略",
+      "角色扮演",
+      "冒险",
+      "单人",
+      "2D"
+    ],
+    "is_free": true,
+    "kind": "game",
+    "screenshots": null
+  },
+  "3705550": {
+    "title": "Internal Incident",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3705550/a63bd765f5c86d39b335a3489abc173000c6d1f1/capsule_616x353_2x.jpg?t=1779727681",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3705550/a63bd765f5c86d39b335a3489abc173000c6d1f1/capsule_616x353_2x.jpg?t=1779727681",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Internal Incident – a top-down survival horror extraction shooter. Explore the hidden corners of a vast facility in search of resources while fighting off terrifying creatures lurking in the dark. Unveil the secrets of the abandoned complex and do everything you can to make it out alive.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Deadly Donut"
+    ],
+    "publishers": [
+      "Deadly Donut"
+    ],
+    "genres": [
+      "动作",
+      "俯视射击",
+      "俯视",
+      "射击"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4598390": {
+    "title": "Spell Knight: Abyss Cleaver Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4598390/efdb233360dc4d15e78758cfdcb75748d46ef20d/capsule_616x353_2x.jpg?t=1779727492",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4598390/efdb233360dc4d15e78758cfdcb75748d46ef20d/capsule_616x353_2x.jpg?t=1779727492",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "深入黑暗深渊，消灭源源不断涌来的怪物军团。 化身魔法骑士，挥舞强大的武器，享受快速成长带来的刺激体验。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Golden Pick Games"
+    ],
+    "publishers": [
+      "Golden Pick Games"
+    ],
+    "genres": [
+      "动作类 Rogue",
+      "动作",
+      "像素图形",
+      "街机",
+      "2D 平台"
+    ],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4716870": {
+    "title": "Game Show But Evil Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4716870/7ee53579eb74df2f614b6447510163893b6ad9de/capsule_616x353_2x.jpg?t=1779726634",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4716870/7ee53579eb74df2f614b6447510163893b6ad9de/capsule_616x353_2x.jpg?t=1779726634",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "A quiz show… but with real stakes?",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Portal Zebra"
+    ],
+    "publishers": [
+      "Portal Zebra"
+    ],
+    "genres": [
+      "益智问答",
+      "视觉小说",
+      "2D",
+      "恐怖",
+      "剧情丰富"
+    ],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4732970": {
+    "title": "邪恶厨师大战 Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4732970/7b4408480a52345b0fbc6c317061f9385afc7c54/capsule_616x353_2x.jpg?t=1779725752",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4732970/7b4408480a52345b0fbc6c317061f9385afc7c54/capsule_616x353_2x.jpg?t=1779725752",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "一款基于虚幻五引擎搭建的卡通风格2.5D游戏，玩家将扮演梦想参加九狱除房夺冠、却在报名参赛《九狱除房》时不慎点错网页、错报了名为邪恶厨师大战的山寨奇葩真人秀的厨师。但她有所不知的是，这款山寨了《九狱除房》的奇葩真人秀邪恶厨师大战，实际上是由真正来自地狱的魔鬼主厨所主持。真人秀阵容涵盖主厨/副厨/吉祥物/侍者等节目组工作人员及来自各界的参赛选手。在开局与节目组签约后，一旦游戏失败就会被吞噬灵魂。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "地表最强吉娃娃",
+      "高凯峰"
+    ],
+    "publishers": [
+      "地表最强吉娃娃"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "3805000": {
+    "title": "Steam & Clicks",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3805000/e55685b2e0f787a1c23493a34ed2354094cfac4f/capsule_616x353_2x.jpg?t=1779749766",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3805000/e55685b2e0f787a1c23493a34ed2354094cfac4f/capsule_616x353_2x.jpg?t=1779749766",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Build, upgrade, and fight! In a steampunk world overrun by the undead, Rose Mary uses her workshop to craft weapons and armor in this strategic clicker. Forge powerful gear and face turn-based battles to save her city!",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Victorian Studio"
+    ],
+    "publishers": [
+      "Victorian Studio"
+    ],
+    "genres": [
+      "休闲",
+      "回合制战斗",
+      "2D"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4700010": {
+    "title": "InCowMental Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4700010/01bf89ef02bc1862b7a05cc5a4a3e72f1a6caf23/capsule_616x353_2x.jpg?t=1779725035",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4700010/01bf89ef02bc1862b7a05cc5a4a3e72f1a6caf23/capsule_616x353_2x.jpg?t=1779725035",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "InCowMental is a \"cowsy\", cute and absurd incremental game where you build a dairy empire from a small countryside field. Milk your cows, grow your wheat, age your cheese, set out to conquer the world and boost your production with mini-games.",
+    "description_source": "store_meta",
+    "developers": [
+      "Skorvaltz"
+    ],
+    "publishers": [
+      "Skorvaltz"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4425820": {
+    "title": "Skyos",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4425820/ab7571dfeb3d63b09e06c9fd376506b3b3d4b275/capsule_616x353_2x.jpg?t=1779723740",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4425820/ab7571dfeb3d63b09e06c9fd376506b3b3d4b275/capsule_616x353_2x.jpg?t=1779723740",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "SKYOS is a real-time 3D space simulation where Earth, satellites, constellations, weather imagery, and orbital events evolve in sync with the living sky, while cinematic Earth-to-Moon missions unfold through real-time launch windows and orbital transfers.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "SkyOS Labs"
+    ],
+    "publishers": [
+      "SkyOS Labs"
+    ],
+    "genres": [
+      "模拟",
+      "探索",
+      "沉浸式模拟",
+      "真实",
+      "物理"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4677910": {
+    "title": "CELESTIAL: FIRE & FORGE Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4677910/b43c5c628f0a8ed1a148cb8a4cbc1da8ae24f88d/capsule_616x353_2x.jpg?t=1779723350",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4677910/b43c5c628f0a8ed1a148cb8a4cbc1da8ae24f88d/capsule_616x353_2x.jpg?t=1779723350",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "An incremental clicker game where you HEROICALLY… click a button to light a fire. That’s it... The fire makes ash, you assign recipes to arcane forges, materials appear, upgrades unlock, numbers go up, and somehow.... you’re still optimizing it all. Repeat forever.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "ERA Soft Studio"
+    ],
+    "publishers": [
+      "ERA Soft Studio"
+    ],
+    "genres": [
+      "独立",
+      "策略",
+      "休闲"
+    ],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4715190": {
+    "title": "Only Farming - Cozy Harvesting Game",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4715190/e48c60d7fd24f1813f89e8535c10758861cb809d/capsule_616x353_2x.jpg?t=1779722292",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4715190/e48c60d7fd24f1813f89e8535c10758861cb809d/capsule_616x353_2x.jpg?t=1779722292",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Take pleasure in harvest season in a quiet, charming village. On this journey, enjoy watching yourself evolution and progress as you transform from a novice harvester into an expert harvester. Harvest plenty, upgrade your tools, and get ready for the new harvest season.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Musa GUNGOR"
+    ],
+    "publishers": [
+      "Musa GUNGOR"
+    ],
+    "genres": [
+      "休闲",
+      "街机",
+      "策略",
+      "放松"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4702330": {
+    "title": "Torment Hexus Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4702330/7958351b9ec0056f6dfc577e3abe8673a75cd45f/capsule_616x353_2x.jpg?t=1779722279",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4702330/7958351b9ec0056f6dfc577e3abe8673a75cd45f/capsule_616x353_2x.jpg?t=1779722279",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Technofascist cyberpunk CEOs must die! Charge spells with the match-3 grid, then cast them on your enemies in turn-based tactical roguelike combat. Climb the tower, kill the boss, and maybe make the world a better place.",
+    "description_source": "store_meta",
+    "developers": [
+      "TMA Games LLC"
+    ],
+    "publishers": [
+      "TMA Games LLC"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4762450": {
+    "title": "Shape Sift Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4762450/4ac5eeb2f94b088bfdea697f1ef9746c9c35e023/capsule_616x353_2x.jpg?t=1779721280",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4762450/4ac5eeb2f94b088bfdea697f1ef9746c9c35e023/capsule_616x353_2x.jpg?t=1779721280",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Build experimental sorting systems to separate, transform, and route flowing shapes in this minimalist physics-based automation puzzle game.",
+    "description_source": "store_meta",
+    "developers": [
+      "Emile Esterhuizen"
+    ],
+    "publishers": [
+      "Emile Esterhuizen"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4278360": {
+    "title": "Crawl To The Depths Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4278360/91a096230be50d2222ddfdd8db562a5931ead794/capsule_616x353_2x.jpg?t=1779721258",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4278360/91a096230be50d2222ddfdd8db562a5931ead794/capsule_616x353_2x.jpg?t=1779721258",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Crawl to the Depths is a first-person roguelite where you adventure through destructible caverns.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Efficacious Software Ltd"
+    ],
+    "publishers": [
+      "Efficacious Software Ltd"
+    ],
+    "genres": [
+      "类 Rogue",
+      "探索",
+      "冒险",
+      "类魂",
+      "动作类 Rogue"
+    ],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4675110": {
+    "title": "GeoFlag Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4675110/c94ffef2080d324ff9712f495406aef0abd11c0f/capsule_616x353_2x.jpg?t=1779721175",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4675110/c94ffef2080d324ff9712f495406aef0abd11c0f/capsule_616x353_2x.jpg?t=1779721175",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "A geography game for the curious. Match flags. Place countries. Race the daily challenge. Four game modes covering 154 countries, with two visual themes — vintage parchment or modern aerial — to set the mood.",
+    "description_source": "store_meta",
+    "developers": [
+      "Ogo Studio"
+    ],
+    "publishers": [
+      "Ogo Studio"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4656240": {
+    "title": "Math Warudo: Grassland & Beyond",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656240/117d64a513d7b76a91bcb518c267732424352f1d/capsule_616x353_2x.jpg?t=1779719968",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656240/117d64a513d7b76a91bcb518c267732424352f1d/capsule_616x353_2x.jpg?t=1779719968",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "A math adventure game featuring Toppy and Ame across multiple Warudos. Train your skills, collect equipment, and uncover their story in this casual yet rewarding math and dungeon-crawl like experience.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Meiyokaze Games"
+    ],
+    "publishers": [
+      "Meiyokaze Games"
+    ],
+    "genres": [
+      "休闲",
+      "冒险",
+      "单人",
+      "动作冒险",
+      "教育"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4761860": {
+    "title": "COLORIZED Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4761860/d138012f1c6b8f03f5921b3d266ff41200880291/capsule_616x353_2x.jpg?t=1779738824",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4761860/d138012f1c6b8f03f5921b3d266ff41200880291/capsule_616x353_2x.jpg?t=1779738824",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "COLORIZED is the perfect escape from the monotony of everyday life. This 3D coloring game has you transforming interiors and solving aesthetic puzzles.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Enoops"
+    ],
+    "publishers": [
+      "Enoops"
+    ],
+    "genres": [
+      "休闲",
+      "解谜",
+      "3D",
+      "彩色",
+      "氛围"
+    ],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4296860": {
+    "title": "BunnyFly: Season of Summer",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296860/d907cd7c74f64f8b5088b859a555f6ff0a310825/capsule_616x353_2x.jpg?t=1779720006",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4296860/d907cd7c74f64f8b5088b859a555f6ff0a310825/capsule_616x353_2x.jpg?t=1779720006",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Fly in a relaxing world as a rare BunnyFly in this cozy collectathon! Master your flight, collect pollen, and create honey or wax to share with others. Collect Royal Jelly to strengthen your cheeks and become the next BunnyFly Queen!",
+    "description_source": "store_browse_short",
+    "developers": [
+      "RocketMooseX"
+    ],
+    "publishers": [
+      "RocketMooseX"
+    ],
+    "genres": [
+      "探索",
+      "3D",
+      "平台游戏"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4696080": {
+    "title": "No More Demon",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4696080/b3c9efdb1b07d4b03ebc70e61e7bbb8e51a5e72d/capsule_616x353_2x.jpg?t=1779717676",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4696080/b3c9efdb1b07d4b03ebc70e61e7bbb8e51a5e72d/capsule_616x353_2x.jpg?t=1779717676",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Fight relentlessly in a fast-paced FPS roguelite against relentless yokai hordes. Choose your elite anime heroines, unlock powerful weapons, craft unique builds, and descend into the deepest realms to face the Yokai Lord.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Mundus Games"
+    ],
+    "publishers": [
+      "Mundus Games"
+    ],
+    "genres": [
+      "抢先体验",
+      "动作类 Rogue",
+      "弹幕射击",
+      "清版动作"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "1118520": {
+    "title": "平行人生 Paralives",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/f09e889246fc55c06afcf538f61c96f530399a2a/capsule_616x353_2x.jpg?t=1779721278",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/f09e889246fc55c06afcf538f61c96f530399a2a/capsule_616x353_2x.jpg?t=1779721278",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "《平行人生》是一款围绕“家、人生与羁绊”展开的生活模拟游戏。无论顺境逆境，你的故事，会走向何方？",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Alex Massé and team"
+    ],
+    "publishers": [
+      "Paralives Studio"
+    ],
+    "genres": [
+      "生活模拟",
+      "模拟",
+      "建造",
+      "独立",
+      "单人"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4622500": {
+    "title": "Ice Cream Together: A Cozy Parlor Simulator Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4622500/2728a719dad705d25867b69d735a7d1b95e3ac2a/capsule_616x353_2x.jpg?t=1779717921",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4622500/2728a719dad705d25867b69d735a7d1b95e3ac2a/capsule_616x353_2x.jpg?t=1779717921",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "通过制作不同口味的冰淇淋、为顾客提供服务和管理库存，与好友一起在线打造你的梦想冰淇淋店。舒适的氛围、多种自定义选项和 4 人在线合作！",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Hyper Vyper"
+    ],
+    "publishers": [
+      "Hyper Vyper"
+    ],
+    "genres": [
+      "放松",
+      "模拟",
+      "多人"
+    ],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "2980170": {
+    "title": "Vortica",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2980170/fa999f40969c896aba534e459b6d17019e5a9e0b/capsule_616x353_alt_assets_0_2x.jpg?t=1779736769",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2980170/fa999f40969c896aba534e459b6d17019e5a9e0b/capsule_616x353_alt_assets_0_2x.jpg?t=1779736769",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Vortica is a 2D action roguelite set in a solar system overrun by hostile aliens. Suit up, loot up, and shoot up as you battle against enemy hordes, explore derelict outposts, and hunt giant bosses. Each mission gets you one step closer to returning to Earth and saving the human race.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Vortical Studios"
+    ],
+    "publishers": [
+      "Caketown Interactive"
+    ],
+    "genres": [
+      "动作类 Rogue",
+      "弹幕射击",
+      "类魂"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4733320": {
+    "title": "爱丽丝之眼 Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4733320/eab99fdfce2de196373480ae358064e71461cf8e/capsule_616x353_2x.jpg?t=1779717123",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4733320/eab99fdfce2de196373480ae358064e71461cf8e/capsule_616x353_2x.jpg?t=1779717123",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "《爱丽丝之眼》是一款氛围诡异的点击挂机游戏，融入轻度解谜和放置战斗元素。爱丽丝从黑暗中醒来，被困在一座奇怪的宅邸中，她需要在这里探索离开的方法。猫神的祭坛掉落金币、兔人会帮忙采集胡萝卜、地牢的怪物挡住去路……你能陪伴爱丽丝抵达最后的真相吗？",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Starmoon Cat"
+    ],
+    "publishers": [
+      "Starmoon Cat"
+    ],
+    "genres": [
+      "休闲",
+      "模拟",
+      "角色扮演",
+      "指向点击",
+      "像素图形"
+    ],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4589470": {
+    "title": "Point Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4589470/752c3217bc83f0c0c17cc53d3b22c103d79f0d70/capsule_616x353_2x.jpg?t=1779715958",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4589470/752c3217bc83f0c0c17cc53d3b22c103d79f0d70/capsule_616x353_2x.jpg?t=1779715958",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Point is a mouse-only precision rogue-lite where one mistake can end your run. Navigate a branching map, complete escalating mini-games, and collect powerful items and upgrades to shape your build. Lou, your learning partner, will guide you through the POINT program.",
+    "description_source": "store_meta",
+    "developers": [
+      "Vangue Games"
+    ],
+    "publishers": [
+      "Vangue Games"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4669610": {
+    "title": "Rogue Quest",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4669610/907cde1177851814631f9d845201fc0fba78e133/capsule_616x353_2x.jpg?t=1779714372",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4669610/907cde1177851814631f9d845201fc0fba78e133/capsule_616x353_2x.jpg?t=1779714372",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "通过打出扑克牌型来造成伤害。一对可造成伤害，同花可造成重创，同花顺则能终结战斗。组建涵盖5个职业的卡组，叠加88张强力卡牌，并攀登这座诅咒之塔——每次挑战都会重新洗牌，改变胜负的几率。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Curds & Crowns"
+    ],
+    "publishers": [
+      "Curds & Crowns"
+    ],
+    "genres": [
+      "抢先体验",
+      "回合制战术",
+      "类魂"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4135750": {
+    "title": "喂蚁后吃饼",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4135750/59eeead3d211478b2bc3e18156d04dc8e00878cb/capsule_616x353_schinese_2x.jpg?t=1779714103",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4135750/59eeead3d211478b2bc3e18156d04dc8e00878cb/capsule_616x353_schinese_2x.jpg?t=1779714103",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "广积粮，扩地盘。进化兵种，各显神通。探索羁绊，组合奇效。优化产线，定制策略，为女王献上堆积如山的贡品！",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Quiétude"
+    ],
+    "publishers": [
+      "Quiétude"
+    ],
+    "genres": [
+      "策略",
+      "2D",
+      "可爱",
+      "放松"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4279120": {
+    "title": "Budgie's Bug Shop",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4279120/775b3245b1893a68ba7cee96a1849769e7d0f4d1/capsule_616x353_2x.jpg?t=1779724107",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4279120/775b3245b1893a68ba7cee96a1849769e7d0f4d1/capsule_616x353_2x.jpg?t=1779724107",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "在这款轻松解压的放置小游戏中，一边体验欢乐捕虫，一边经营由虎皮鹦鹉当家的神奇小店。强化装备，解锁逆天神技，将小店做大做强，打造日进斗金的皮皮商业帝国！",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Moon Lagoon"
+    ],
+    "publishers": [
+      "Moon Lagoon"
+    ],
+    "genres": [
+      "模拟",
+      "休闲",
+      "彩色"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4739030": {
+    "title": "Pulsebreaker Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4739030/4e37835d2e72ede47a7438458fc83af82ed0a6e3/capsule_616x353_2x.jpg?t=1779714027",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4739030/4e37835d2e72ede47a7438458fc83af82ed0a6e3/capsule_616x353_2x.jpg?t=1779714027",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Pulsebreaker is a classic survival horror game. Explore environments, collect resources, and fight zombies. Manage your inventory, solve light puzzles, and survive with limited supplies. Includes melee and ranged combat. Single-player only.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Anthony D. Valles"
+    ],
+    "publishers": [
+      "Anthony D. Valles"
+    ],
+    "genres": [
+      "动作",
+      "射击",
+      "氛围"
+    ],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4603480": {
+    "title": "Click Build Repeat Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4603480/b44d0aea0cd0d36d9ff5b840a639575e3837cf73/capsule_616x353_2x.jpg?t=1779713643",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4603480/b44d0aea0cd0d36d9ff5b840a639575e3837cf73/capsule_616x353_2x.jpg?t=1779713643",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "《Click, Build, Repeat》是一款放置类模型建造和收集游戏。",
+    "description_source": "store_meta",
+    "developers": [
+      "Don Pachi"
+    ],
+    "publishers": [
+      "Don Pachi"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4403770": {
+    "title": "NOSBALL Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4403770/257d77522c19073d470b921b726caf7d417a6bd2/capsule_616x353_2x.jpg?t=1779650355",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4403770/257d77522c19073d470b921b726caf7d417a6bd2/capsule_616x353_2x.jpg?t=1779650355",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Nosball is a fast-paced car drifting soccer game with demolition derby chaos. Smash rivals, master physics-based control, and score goals on dangerous pinball-style arenas set in global locations with dynamic weather.",
+    "description_source": "store_meta",
+    "developers": [
+      "Saviour Developments"
+    ],
+    "publishers": [
+      "Saviour Developments"
     ],
     "genres": [],
     "is_free": true,
