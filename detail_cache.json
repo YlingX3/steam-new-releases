@@ -29052,8 +29052,8 @@
   },
   "4675110": {
     "title": "GeoFlag Demo",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4675110/c94ffef2080d324ff9712f495406aef0abd11c0f/capsule_616x353_2x.jpg?t=1779721175",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4675110/c94ffef2080d324ff9712f495406aef0abd11c0f/capsule_616x353_2x.jpg?t=1779721175",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4675110/c94ffef2080d324ff9712f495406aef0abd11c0f/capsule_616x353_2x.jpg?t=1779849730",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4675110/c94ffef2080d324ff9712f495406aef0abd11c0f/capsule_616x353_2x.jpg?t=1779849730",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "A geography game for the curious. Match flags. Place countries. Race the daily challenge. Four game modes covering 154 countries, with two visual themes — vintage parchment or modern aerial — to set the mood.",
     "description_source": "store_meta",
@@ -30449,8 +30449,8 @@
   },
   "4594750": {
     "title": "Decay",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4594750/d76571c6c31bbc6e0b59dd2da54fdb42338f6b6d/capsule_616x353_2x.jpg?t=1779804105",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4594750/d76571c6c31bbc6e0b59dd2da54fdb42338f6b6d/capsule_616x353_2x.jpg?t=1779804105",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4594750/d76571c6c31bbc6e0b59dd2da54fdb42338f6b6d/capsule_616x353_2x.jpg?t=1779847140",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4594750/d76571c6c31bbc6e0b59dd2da54fdb42338f6b6d/capsule_616x353_2x.jpg?t=1779847140",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "Decay is an incremental game in which you are tasked with using your trusty particle launcher to create ever-larger and more unstable atomic nuclei, witnessing longer and more complex atomic decay chains and aiming to discover all the isotopes!",
     "description_source": "store_browse_short",
@@ -31437,8 +31437,8 @@
   },
   "4724240": {
     "title": "Vector Storm",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724240/1375dee40bafcaeaf2e1e5941c5b4a57670ddbd4/capsule_616x353_2x.jpg?t=1779841815",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724240/1375dee40bafcaeaf2e1e5941c5b4a57670ddbd4/capsule_616x353_2x.jpg?t=1779841815",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724240/1375dee40bafcaeaf2e1e5941c5b4a57670ddbd4/capsule_616x353_2x.jpg?t=1779846547",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4724240/1375dee40bafcaeaf2e1e5941c5b4a57670ddbd4/capsule_616x353_2x.jpg?t=1779846547",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "A relentless top-down arcade shooter with roguelite progression. Blast through escalating waves, battle massive bosses, and build your loadout with boss-dropped gear. Earn tokens to permanently upgrade your fleet and unlock new ships between runs.",
     "description_source": "store_browse_short",
@@ -32462,6 +32462,235 @@
     ],
     "is_free": true,
     "kind": "demo",
+    "screenshots": null
+  },
+  "4748780": {
+    "title": "SUBJECT 404 Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4748780/db013338e62393af92a0149b2dcfc9933fe874df/capsule_616x353_2x.jpg?t=1779854681",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4748780/db013338e62393af92a0149b2dcfc9933fe874df/capsule_616x353_2x.jpg?t=1779854681",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "一款 PSX 风格心理恐怖游戏，将快节奏微型游戏变成服从系统。阅读面板的命令，在时间耗尽前反应，活过每个房间——否则面对处刑者。",
+    "description_source": "store_meta",
+    "developers": [
+      "BESK Entertainment"
+    ],
+    "publishers": [
+      "BESK Entertainment"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4726750": {
+    "title": "NEVER SAFE IN DELAWARE Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4726750/1a6bd0469aa72ef7fe08baa102385562655ca4c5/capsule_616x353_2x.jpg?t=1779855667",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4726750/1a6bd0469aa72ef7fe08baa102385562655ca4c5/capsule_616x353_2x.jpg?t=1779855667",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "A throwdown between 3 of the most wanted men on the East Coast and the powers that be who want them dead.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Team Lumba"
+    ],
+    "publishers": [
+      "Team Lumba"
+    ],
+    "genres": [
+      "射击",
+      "动作",
+      "单人",
+      "剧情丰富"
+    ],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "2894540": {
+    "title": "Ex Libris",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2894540/329cbe43a41d4c80dc2272c8b6fba38bb1cabf7f/capsule_616x353_2x.jpg?t=1779853084",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2894540/329cbe43a41d4c80dc2272c8b6fba38bb1cabf7f/capsule_616x353_2x.jpg?t=1779853084",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Ex Libris is a library-crawling RPG adventure set in a 16th century monastery, inspired by the writings of Umberto Eco, Francois Rabelais, and Clark Ashton Smith.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Inpatient Interactive"
+    ],
+    "publishers": [
+      "Inpatient Interactive"
+    ],
+    "genres": [
+      "探索",
+      "角色扮演",
+      "互动小说",
+      "动作冒险"
+    ],
+    "is_free": true,
+    "kind": "game",
+    "screenshots": null
+  },
+  "3959160": {
+    "title": "你的体重",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3959160/afc184eaefba9b47868b269414d74f7c6a7b33ca/capsule_616x353_schinese_2x.jpg?t=1779851571",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3959160/afc184eaefba9b47868b269414d74f7c6a7b33ca/capsule_616x353_schinese_2x.jpg?t=1779851571",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "一款关于减肥的轻策略生活模拟游戏。管理运动、饮食、休息、意志力、体力和饥饿，在随机事件与角色特性中，努力让体重一点点降下来。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "HaoHao Games"
+    ],
+    "publishers": [
+      "HaoHao Games"
+    ],
+    "genres": [
+      "独立",
+      "生活模拟",
+      "模拟",
+      "时间管理",
+      "策略"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4602970": {
+    "title": "King Of The Hollow Circuit",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4602970/359d7433b0221c349d891ea04416467ab7a21e2c/capsule_616x353_2x.jpg?t=1779851433",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4602970/359d7433b0221c349d891ea04416467ab7a21e2c/capsule_616x353_2x.jpg?t=1779851433",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Rebuild a dead techno-gothic empire in this dark idle clicker. Click the reactor, summon ritual servitors, decode forbidden archives, and ascend the hollow throne. Features random puzzles, dark curses, prestige ascension, and a haunting atmospheric soundtrack.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "SavicNode"
+    ],
+    "publishers": [
+      "SavicNode"
+    ],
+    "genres": [
+      "指向点击",
+      "休闲",
+      "像素图形"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "2539910": {
+    "title": "XF Extreme Formula",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2539910/148cc617faeed8bff6697e7b2a39bb2b1f957624/capsule_616x353_2x.jpg?t=1779852437",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2539910/148cc617faeed8bff6697e7b2a39bb2b1f957624/capsule_616x353_2x.jpg?t=1779852437",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Race at the speed of sound and beyond in the great XF Extreme Formula championship! Taking place in the year 3000, you will tour trough the solar system proving you’re worthy of the title of champion.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Feperd Games"
+    ],
+    "publishers": [
+      "Feperd Games"
+    ],
+    "genres": [
+      "街机",
+      "3D"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4737670": {
+    "title": "方块之地 Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4737670/44d3cab3f327fc251e1ee52a5e69da2acb3ba9c5/capsule_616x353_2x.jpg?t=1779851241",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4737670/44d3cab3f327fc251e1ee52a5e69da2acb3ba9c5/capsule_616x353_2x.jpg?t=1779851241",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "一款LowPoly风格的轻量化城市建造游戏，这里没有复杂的运营与资源管理，只有纯粹简单的建造。拥有科幻、幻想等风格建筑，能让你充分发挥想象力。选择你喜欢的建筑根据你的喜好搭建理想之城。",
+    "description_source": "store_meta",
+    "developers": [
+      "Soft Fire"
+    ],
+    "publishers": [
+      "Soft Fire"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4718840": {
+    "title": "Unmixable Syrup Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4718840/08cc5d6364f53c4f7c806fbda116808a9cd36ef2/capsule_616x353_2x.jpg?t=1779849443",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4718840/08cc5d6364f53c4f7c806fbda116808a9cd36ef2/capsule_616x353_2x.jpg?t=1779849443",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "I wolf down a cold, lonely meal. Work's wearing me down, and money's shaky. The syrup I pour into my cold coffee never mixes, no matter how much I stir.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "asobiniku"
+    ],
+    "publishers": [
+      "Waku Waku Games"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4710780": {
+    "title": "Card Eater Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4710780/715357c7382f4fbc657e1d90ea6442b3e93ff8d1/capsule_616x353_2x.jpg?t=1779851021",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4710780/715357c7382f4fbc657e1d90ea6442b3e93ff8d1/capsule_616x353_2x.jpg?t=1779851021",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Combine cards to build the strongest deck and vanquish monsters! A deck-building roguelike FPS where you fight with a peculiar right hand.",
+    "description_source": "store_meta",
+    "developers": [
+      "Ikeda Akihira"
+    ],
+    "publishers": [
+      "Waku Waku Games"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4522520": {
+    "title": "若诅咒以爱之名",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4522520/7833aa47be786ace7d6ef8fe7fbfc85654c8998e/capsule_616x353_schinese_2x.jpg?t=1779847183",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4522520/7833aa47be786ace7d6ef8fe7fbfc85654c8998e/capsule_616x353_schinese_2x.jpg?t=1779847183",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "超重力百合x心理恐怖x悬疑怪谈x毒电波视觉小说。内含：全员重女、姬恋直、病娇、监禁、犯罪、姐妹骨科、修罗场、青梅战天降、重力女铜养娃等魔幻元素。主角将周旋于伪人妹妹、电波上司与掌控欲爆棚的青梅之间，解开十五年前妹妹神秘失踪之谜，探寻掩藏在记忆中的残忍真相。",
+    "description_source": "store_browse_short",
+    "developers": [
+      "小橘子糖_official"
+    ],
+    "publishers": [
+      "小橘子糖_official"
+    ],
+    "genres": [
+      "视觉小说",
+      "角色扮演"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4195160": {
+    "title": "Iron & Ivory",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4195160/768d99f90d56e3209f0ad378300f03748b29e223/capsule_616x353_2x.jpg?t=1779845374",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4195160/768d99f90d56e3209f0ad378300f03748b29e223/capsule_616x353_2x.jpg?t=1779845374",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Iron & Ivory is an asymmetric head-to-head VR showdown; you either take command of the submersible as the VR captain or use the desktop and play as the Sea Beast. Battle alone or against your friends and use strategy, reflexes, and stealth to destroy your opponent.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "OutReach Games"
+    ],
+    "publishers": [
+      "OutReach Games"
+    ],
+    "genres": [
+      "动作",
+      "策略",
+      "独立",
+      "休闲"
+    ],
+    "is_free": false,
+    "kind": "game",
     "screenshots": null
   }
 }
