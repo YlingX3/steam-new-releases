@@ -35044,8 +35044,8 @@
   },
   "3345810": {
     "title": "E9uations",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3345810/5af9930a6a349aa36d609838bd4f10d96c6a6924/capsule_616x353_2x.jpg?t=1779943401",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3345810/5af9930a6a349aa36d609838bd4f10d96c6a6924/capsule_616x353_2x.jpg?t=1779943401",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3345810/5af9930a6a349aa36d609838bd4f10d96c6a6924/capsule_616x353_2x.jpg?t=1779945688",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3345810/5af9930a6a349aa36d609838bd4f10d96c6a6924/capsule_616x353_2x.jpg?t=1779945688",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "您就是等号（=）！ 重新排列数字和运算符来组成方程式，解开谜题。",
     "description_source": "store_browse_short",
@@ -35458,6 +35458,50 @@
     "genres": [],
     "is_free": true,
     "kind": "demo",
+    "screenshots": null
+  },
+  "4764590": {
+    "title": "IDLE_DIRECTIVE Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4764590/91a00ab2fad7f7ea545e376f5d8924d4d17cf1c2/capsule_616x353_2x.jpg?t=1779946201",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4764590/91a00ab2fad7f7ea545e376f5d8924d4d17cf1c2/capsule_616x353_2x.jpg?t=1779946201",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Idly gather and manage resources to repair what's left of a decaying world. Scavenge forgotten ruins, meet scattered survivors, and push back against the inevitable collapse. IDLE_DIRECTIVE is a grid-based inventory and resource management idle game.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Kevinfu510"
+    ],
+    "publishers": [
+      "Kevinfu510"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4016760": {
+    "title": "Balkan Shop Simulator",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4016760/9def279a261bdd3e291a983706b68b5dff1fac38/capsule_616x353_2x.jpg?t=1779945964",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4016760/9def279a261bdd3e291a983706b68b5dff1fac38/capsule_616x353_2x.jpg?t=1779945964",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "“Balkan Shop Simulator” lets you manage your own store in the Balkans – stock shelves, serve customers, and grow your businesses. From a small local shop to a thriving retail chain, success depends on your skills!",
+    "description_source": "store_browse_short",
+    "developers": [
+      "VankoKN05",
+      "GalaxyCommunityDEV TEAM"
+    ],
+    "publishers": [
+      "VankoKN05",
+      "GalaxyCommunityDEV TEAM"
+    ],
+    "genres": [
+      "模拟",
+      "第一人称",
+      "多人",
+      "单人",
+      "生活模拟"
+    ],
+    "is_free": false,
+    "kind": "game",
     "screenshots": null
   }
 }
