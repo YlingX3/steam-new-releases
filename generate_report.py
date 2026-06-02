@@ -1280,6 +1280,7 @@ def render_html(report: dict[str, Any]) -> str:
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <title>Steam 最新 300 款报告</title>
   <style>
     :root {{
@@ -1486,6 +1487,56 @@ def render_html(report: dict[str, Any]) -> str:
       state.page = 1;
     }}
 
+    function steamImageCandidates(src) {{
+      if (!src) return [];
+      const candidates = [src];
+      try {{
+        const url = new URL(src);
+        const fallbackHosts = ['shared.fastly.steamstatic.com', 'shared.akamai.steamstatic.com'];
+        if (url.hostname.endsWith('steamstatic.com')) {{
+          fallbackHosts.forEach(host => {{
+            if (host !== url.hostname) {{
+              const next = new URL(url.href);
+              next.hostname = host;
+              candidates.push(next.href);
+            }}
+          }});
+        }}
+      }} catch (error) {{}}
+      return [...new Set(candidates)];
+    }}
+
+    function imageAttributes(item) {{
+      const candidates = steamImageCandidates(item.header_image || item.image || '');
+      return {{
+        src: candidates[0] || '',
+        candidates: candidates.join('|'),
+      }};
+    }}
+
+    function retryImage(img) {{
+      const candidates = (img.dataset.candidates || '').split('|').filter(Boolean);
+      const nextIndex = Number(img.dataset.retryIndex || 0) + 1;
+      if (nextIndex < candidates.length) {{
+        img.dataset.retryIndex = String(nextIndex);
+        img.src = candidates[nextIndex];
+        return;
+      }}
+
+      const attempts = Number(img.dataset.attempts || 0);
+      if (attempts < 2 && candidates[0]) {{
+        img.dataset.attempts = String(attempts + 1);
+        img.dataset.retryIndex = '0';
+        const separator = candidates[0].includes('?') ? '&' : '?';
+        window.setTimeout(() => {{
+          img.src = `${{candidates[0]}}${{separator}}retry=${{Date.now()}}`;
+        }}, 500 * (attempts + 1));
+        return;
+      }}
+
+      img.classList.add('broken');
+    }}
+
     function card(item) {{
       const kindLabel = item.kind === 'demo' ? 'Demo' : '普通游戏';
       const genreChips = (item.genres && item.genres.length ? item.genres : item.tag_names || []).slice(0, 4);
@@ -1494,11 +1545,12 @@ def render_html(report: dict[str, Any]) -> str:
       const original = item.original_price_text && item.original_price_text !== item.price_text ? `<span class="original">${{esc(item.original_price_text)}}</span>` : '';
       const discount = item.discount_text ? `<span class="badge discount">${{esc(item.discount_text)}}</span>` : '';
       const review = item.review_count ? `<span class="chip review">${{Number(item.review_count).toLocaleString('zh-CN')}} 篇 · ${{item.review_positive_percent ?? '?'}}% 好评</span>` : '';
+      const image = imageAttributes(item);
       return `
         <article class="card" data-appid="${{esc(item.appid)}}">
           <div class="cover">
             <div class="placeholder"></div>
-            <img src="${{esc(item.header_image || item.image)}}" alt="${{esc(item.title)}} 封面" loading="lazy" onerror="this.classList.add('broken')">
+            <img src="${{esc(image.src)}}" data-candidates="${{esc(image.candidates)}}" data-retry-index="0" alt="${{esc(item.title)}} 封面" loading="lazy" onload="this.classList.remove('broken')" onerror="retryImage(this)">
             <div class="badge-row">
               <span class="badge ${{item.kind === 'demo' ? 'demo' : ''}}">${{kindLabel}}</span>
               ${{discount}}
