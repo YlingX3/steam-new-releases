@@ -31015,8 +31015,8 @@
   },
   "2665680": {
     "title": "巴别塔 ：混乱的幸存者",
-    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2665680/0d2a378d5a3326c96b4cb12b7fbc883cb8fe8f84/capsule_616x353_alt_assets_0_schinese_2x.jpg?t=1780401266",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2665680/0d2a378d5a3326c96b4cb12b7fbc883cb8fe8f84/capsule_616x353_alt_assets_0_schinese_2x.jpg?t=1780401266",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2665680/0d2a378d5a3326c96b4cb12b7fbc883cb8fe8f84/capsule_616x353_alt_assets_0_schinese_2x.jpg?t=1780402080",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2665680/0d2a378d5a3326c96b4cb12b7fbc883cb8fe8f84/capsule_616x353_alt_assets_0_schinese_2x.jpg?t=1780402080",
     "asset_source": "store_browse:main_capsule_2x",
     "short_description": "与成群的怪物战斗，习得新技能并增强能力。通过数百种物品组合自定义自己的构建，达到顶峰实现最深的欲望。在这款令人兴奋的Roguelite砍杀生存游戏中征服高塔！",
     "description_source": "store_browse_short",
@@ -55013,6 +55013,72 @@
       "Alex Djenkov"
     ],
     "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4789300": {
+    "title": "Just Shoot Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4789300/2ba1d249ee01924a2eb5a0f3d141618ec6d0f844/capsule_616x353_2x.jpg?t=1780401954",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4789300/2ba1d249ee01924a2eb5a0f3d141618ec6d0f844/capsule_616x353_2x.jpg?t=1780401954",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "在这款动作 Roguelite 游戏中对抗成群的敌人，寻找随机武器并发现隐藏的卡牌组合，打造毁灭性的构筑，在混乱中生存下来。",
+    "description_source": "store_meta",
+    "developers": [
+      "Ernandes Dias"
+    ],
+    "publishers": [
+      "Texcine"
+    ],
+    "genres": [],
+    "is_free": true,
+    "kind": "demo",
+    "screenshots": null
+  },
+  "4743550": {
+    "title": "Cakey & Tanaka : CandyLand Adventure",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4743550/0013555c44739c2dd46c918c5d042a6ec561b654/capsule_616x353_2x.jpg?t=1780401672",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4743550/0013555c44739c2dd46c918c5d042a6ec561b654/capsule_616x353_2x.jpg?t=1780401672",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Protect the world’s sweetest cupcake! Cakey & Tanaka is a 3D roguelite shooter where you lead a fated duo. If either falls, it’s Game Over! Combine unique spells and unleash Rapid Fire to blast through candy monsters and survive the perils of CandyLand in this high-stakes, sweet adventure.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "MemangStudio"
+    ],
+    "publishers": [
+      "MemangStudio"
+    ],
+    "genres": [
+      "休闲",
+      "类魂",
+      "家庭友好",
+      "可爱",
+      "街机"
+    ],
+    "is_free": false,
+    "kind": "game",
+    "screenshots": null
+  },
+  "4755620": {
+    "title": "Mostly Delivered Demo",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4755620/930dc573a7d6cca6a20a453207d3bf1b89cee025/capsule_616x353_2x.jpg?t=1780401621",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4755620/930dc573a7d6cca6a20a453207d3bf1b89cee025/capsule_616x353_2x.jpg?t=1780401621",
+    "asset_source": "store_browse:main_capsule_2x",
+    "short_description": "Deliver packages and passengers through a chaotic open world city on two wheels, and try not to crash too much. A free taste of the full arcade courier mayhem: ragdoll passengers, wild physics, and an endless score chasing rush that ends in spectacular wipeouts.",
+    "description_source": "store_browse_short",
+    "developers": [
+      "Could Be Worse Games"
+    ],
+    "publishers": [
+      "Could Be Worse Games"
+    ],
+    "genres": [
+      "动作",
+      "休闲",
+      "3D",
+      "街机",
+      "独立"
+    ],
     "is_free": true,
     "kind": "demo",
     "screenshots": null
