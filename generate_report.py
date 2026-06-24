@@ -1341,7 +1341,7 @@ def render_html(report: dict[str, Any]) -> str:
       padding: 11px 12px;
       outline: none;
     }}
-    .toggle, .tab, .page-btn {{
+    .toggle, .tab, .page-btn, .bulk-open {{
       border: 1px solid var(--line);
       border-radius: 7px;
       background: #131c23;
@@ -1351,8 +1351,10 @@ def render_html(report: dict[str, Any]) -> str:
       white-space: nowrap;
     }}
     .toggle.active, .tab.active, .page-btn.active {{ border-color: rgba(120,221,178,.72); background: rgba(120,221,178,.12); color: #e7fff3; }}
+    .bulk-open {{ margin-left: auto; border-color: rgba(119,183,232,.42); background: rgba(119,183,232,.12); color: #d7ecff; }}
+    .bulk-open:disabled {{ cursor: wait; opacity: .7; }}
     .page-btn:disabled {{ cursor: not-allowed; opacity: .42; }}
-    .tabs {{ display: flex; gap: 8px; margin: 0 0 14px; flex-wrap: wrap; }}
+    .tabs {{ display: flex; gap: 8px; margin: 0 0 14px; flex-wrap: wrap; align-items: center; }}
     .section-title {{ display: flex; align-items: end; justify-content: space-between; gap: 16px; margin: 20px 0 14px; }}
     .section-title h2 {{ margin: 0; font-size: 22px; }}
     .section-title p {{ margin: 0; color: var(--muted); }}
@@ -1451,6 +1453,7 @@ def render_html(report: dict[str, Any]) -> str:
       <button class="tab" type="button" data-kind="game">普通游戏</button>
       <button class="tab" type="button" data-kind="demo">Demo</button>
       <button class="tab" type="button" data-kind="potential">潜力游戏</button>
+      <button id="bulkOpen" class="bulk-open" type="button">打开当前列表</button>
     </div>
 
     <main id="app"></main>
@@ -1569,7 +1572,7 @@ def render_html(report: dict[str, Any]) -> str:
               ${{genreChips.map(value => `<span class="chip">${{esc(value)}}</span>`).join('')}}
             </div>
             <div class="footer">
-              <a class="open" href="${{esc(item.steam_url || `https://store.steampowered.com/app/${{item.appid}}/`)}}" target="_blank" rel="noreferrer">打开 Steam</a>
+              <a class="open" href="${{esc(itemUrl(item))}}" target="_blank" rel="noreferrer">打开 Steam</a>
             </div>
           </div>
         </article>
@@ -1622,6 +1625,37 @@ def render_html(report: dict[str, Any]) -> str:
       app.innerHTML = render();
     }}
 
+    function itemUrl(item) {{
+      return item.steam_url || `https://store.steampowered.com/app/${{item.appid}}/`;
+    }}
+
+    function openCurrentList() {{
+      const button = document.getElementById('bulkOpen');
+      const urls = [...new Set(currentItems().map(itemUrl).filter(Boolean))];
+      if (!urls.length) {{
+        button.textContent = '没有可打开的游戏';
+        window.setTimeout(() => {{ button.textContent = '打开当前列表'; }}, 1400);
+        return;
+      }}
+
+      const delayMs = 100;
+      button.disabled = true;
+      button.textContent = `准备打开 ${{urls.length}} 个...`;
+      urls.forEach((url, index) => {{
+        window.setTimeout(() => {{
+          window.open(url, '_blank', 'noopener,noreferrer');
+          button.textContent = `已打开 ${{index + 1}} / ${{urls.length}}`;
+          if (index === urls.length - 1) {{
+            window.setTimeout(() => {{
+              button.disabled = false;
+              button.textContent = '打开当前列表';
+            }}, 900);
+          }}
+        }}, index * delayMs);
+      }});
+    }}
+
+    document.getElementById('bulkOpen').addEventListener('click', openCurrentList);
     document.getElementById('sort').addEventListener('change', event => {{ state.sort = event.target.value; resetPage(); update(); }});
     document.getElementById('paidToggle').addEventListener('click', event => {{
       state.paidOnly = !state.paidOnly;
