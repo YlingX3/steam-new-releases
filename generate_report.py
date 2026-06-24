@@ -1453,7 +1453,7 @@ def render_html(report: dict[str, Any]) -> str:
       <button class="tab" type="button" data-kind="game">普通游戏</button>
       <button class="tab" type="button" data-kind="demo">Demo</button>
       <button class="tab" type="button" data-kind="potential">潜力游戏</button>
-      <button id="bulkOpen" class="bulk-open" type="button">打开当前列表</button>
+      <button id="bulkOpen" class="bulk-open" type="button">打开本页游戏</button>
     </div>
 
     <main id="app"></main>
@@ -1600,13 +1600,18 @@ def render_html(report: dict[str, Any]) -> str:
       `;
     }}
 
+    function currentPageItems(list = currentItems()) {{
+      const totalPages = Math.max(1, Math.ceil(list.length / pageSize));
+      state.page = Math.min(state.page, totalPages);
+      const start = (state.page - 1) * pageSize;
+      return list.slice(start, start + pageSize);
+    }}
+
     function render() {{
       const titleMap = {{ all: '全部新品', game: '普通游戏', demo: 'Demo', potential: '潜力游戏' }};
       const list = currentItems();
       const totalPages = Math.max(1, Math.ceil(list.length / pageSize));
-      state.page = Math.min(state.page, totalPages);
-      const start = (state.page - 1) * pageSize;
-      const pageItems = list.slice(start, start + pageSize);
+      const pageItems = currentPageItems(list);
       const body = pageItems.length ? `<div class="grid">${{pageItems.map(card).join('')}}</div>` : `<div class="empty">当前筛选下没有结果。</div>`;
       return `
         <section>
@@ -1631,10 +1636,10 @@ def render_html(report: dict[str, Any]) -> str:
 
     function openCurrentList() {{
       const button = document.getElementById('bulkOpen');
-      const urls = [...new Set(currentItems().map(itemUrl).filter(Boolean))];
+      const urls = [...new Set(currentPageItems().map(itemUrl).filter(Boolean))];
       if (!urls.length) {{
         button.textContent = '没有可打开的游戏';
-        window.setTimeout(() => {{ button.textContent = '打开当前列表'; }}, 1400);
+        window.setTimeout(() => {{ button.textContent = '打开本页游戏'; }}, 1400);
         return;
       }}
 
@@ -1648,7 +1653,7 @@ def render_html(report: dict[str, Any]) -> str:
           if (index === urls.length - 1) {{
             window.setTimeout(() => {{
               button.disabled = false;
-              button.textContent = '打开当前列表';
+              button.textContent = '打开本页游戏';
             }}, 900);
           }}
         }}, index * delayMs);
