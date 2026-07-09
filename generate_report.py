@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import argparse
-import concurrent.futures
 import datetime as dt
 import html
 import json
@@ -21,7 +20,6 @@ from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
 BASE_URL = "https://store.steampowered.com"
 SEARCH_URL = f"{BASE_URL}/search/results/"
-APPDETAILS_URL = f"{BASE_URL}/api/appdetails"
 STORE_BROWSE_URL = "https://api.steampowered.com/IStoreBrowseService/GetItems/v1/"
 STORE_ASSET_CDN = "https://shared.akamai.steamstatic.com/store_item_assets/"
 try:
@@ -35,9 +33,9 @@ DEFAULT_MAX_PAGES = 12
 DEFAULT_POTENTIAL_COUNT = 100
 DEFAULT_POTENTIAL_DAYS = 365
 DEFAULT_POTENTIAL_MIN_REVIEWS = 50
+DEFAULT_POTENTIAL_MIN_REVIEWS_DEMO = 10
 DEFAULT_POTENTIAL_MAX_PAGES = 160
 DEFAULT_POTENTIAL_DEMO_EMPTY_PAGE_LIMIT = 12
-DEFAULT_DETAIL_WORKERS = 3
 DEFAULT_STORE_BROWSE_BATCH_SIZE = 50
 PAGE_SIZE = 25
 REQUEST_DELAY_SECONDS = 1.2
@@ -165,9 +163,14 @@ class SearchResultParser(HTMLParser):
         attrs = {key: value or "" for key, value in attrs_list}
         classes = set(attrs.get("class", "").split())
 
-        if tag == "a" and "search_result_row" in classes and attrs.get("data-ds-appid"):
+        appid = attrs.get("data-ds-appid", "").strip()
+        # Bundle rows carry a comma-separated list of member appids (and a
+        # data-ds-bundleid); the member games appear as standalone rows, so
+        # skip the bundle row itself.
+        is_bundle = "," in appid or bool(attrs.get("data-ds-bundleid"))
+        if tag == "a" and "search_result_row" in classes and appid and not is_bundle:
             self._item = {
-                "appid": attrs.get("data-ds-appid", "").strip(),
+                "appid": appid,
                 "steam_url": attrs.get("href", "").split("?")[0],
                 "tag_ids": self._parse_tag_ids(attrs.get("data-ds-tagids", "")),
                 "platforms": [],
@@ -535,12 +538,14 @@ def collect_potential_items(
     target_count: int,
     days: int,
     min_reviews: int,
+    min_reviews_demo: int,
     max_pages: int,
     log_lines: list[str],
 ) -> tuple[list[dict[str, Any]], dict[str, Any], list[str]]:
     cutoff_date = today - dt.timedelta(days=days)
     log_lines.append(
-        f"Potential target={target_count} min_reviews>{min_reviews} cutoff={cutoff_date.isoformat()} max_pages={max_pages}"
+        f"Potential target={target_count} min_reviews>{min_reviews} min_reviews_demo>{min_reviews_demo} "
+        f"cutoff={cutoff_date.isoformat()} max_pages={max_pages}"
     )
     raw_items: list[dict[str, Any]] = []
     sources = {"game": 998, "demo": 10}
@@ -562,7 +567,7 @@ def collect_potential_items(
                 lang=lang,
                 page=page,
                 cutoff_date=cutoff_date,
-                min_reviews=min_reviews,
+                min_reviews=min_reviews_demo if kind == "demo" else min_reviews,
                 seen=seen_by_kind[kind],
                 log_lines=log_lines,
             )
@@ -629,6 +634,7 @@ def collect_potential_items(
         "days": days,
         "cutoff_date": cutoff_date.isoformat(),
         "min_reviews_exclusive": min_reviews,
+        "min_reviews_demo_exclusive": min_reviews_demo,
         "games": sum(1 for item in potential_items if item.get("kind") == "game"),
         "demos": sum(1 for item in potential_items if item.get("kind") == "demo"),
         "pages": {kind: stats["pages"] for kind, stats in stats_by_kind.items()},
@@ -640,57 +646,6 @@ def collect_potential_items(
         f"raw_qualified={len(selected)}"
     )
     return potential_items, meta, detail_errors
-
-
-def enrich_app(item: dict[str, Any], *, cc: str, lang: str) -> tuple[dict[str, Any], str | None]:
-    appid = item["appid"]
-    params = {"appids": appid, "cc": cc, "l": lang}
-    url = f"{APPDETAILS_URL}?{urllib.parse.urlencode(params)}"
-    try:
-        payload = fetch_json(url)
-        app_payload = payload.get(str(appid), {})
-        if not app_payload.get("success"):
-            item["detail_error"] = "详情接口返回失败"
-            return item, f"{appid}: appdetails success=false"
-        data = app_payload.get("data", {})
-        item["title"] = data.get("name") or item.get("title") or ""
-        item["header_image"] = data.get("header_image") or item.get("image") or ""
-        item["image"] = data.get("capsule_image") or item.get("image") or data.get("header_image") or ""
-        item["short_description"] = clean_text(data.get("short_description") or "")
-        item["description_source"] = "appdetails_short" if item["short_description"] else "none"
-        if not item["short_description"]:
-            try:
-                item["short_description"] = fetch_store_short_description(item, cc=cc, lang=lang)
-                item["description_source"] = "store_meta" if item["short_description"] else "none"
-            except Exception:
-                item["description_source"] = "none"
-        item["developers"] = data.get("developers") or []
-        item["publishers"] = data.get("publishers") or []
-        item["genres"] = [genre.get("description", "") for genre in data.get("genres", []) if genre.get("description")]
-        item["is_free"] = bool(data.get("is_free")) or normalize_price(item.get("price_text")) == 0
-        item["screenshots"] = [
-            shot.get("path_thumbnail")
-            for shot in data.get("screenshots", [])[:3]
-            if shot.get("path_thumbnail")
-        ]
-        item["_detail_success"] = True
-        item["detail_error"] = ""
-        return item, None
-    except Exception as exc:  # Keep the report useful when a single app fails.
-        item["header_image"] = item.get("image") or ""
-        try:
-            item["short_description"] = fetch_store_short_description(item, cc=cc, lang=lang)
-            item["description_source"] = "store_meta" if item["short_description"] else "none"
-        except Exception:
-            item["short_description"] = ""
-            item["description_source"] = "none"
-        item["developers"] = []
-        item["publishers"] = []
-        item["genres"] = item.get("tag_names", [])
-        item["is_free"] = normalize_price(item.get("price_text")) == 0
-        item["screenshots"] = []
-        item["detail_error"] = "详情暂不可用"
-        return item, f"{appid}: {type(exc).__name__}: {exc}"
 
 
 def store_browse_url(appids: list[str], *, cc: str, lang: str) -> str:
@@ -945,64 +900,6 @@ def enrich_all_apps_store_browse(
     return [enriched_by_appid[item["appid"]] for item in items if item["appid"] in enriched_by_appid], detail_errors
 
 
-def enrich_all_apps(
-    items: list[dict[str, Any]],
-    *,
-    cc: str,
-    lang: str,
-    fetched_at: str,
-    workers: int,
-    cache: dict[str, Any],
-    log_lines: list[str],
-) -> tuple[list[dict[str, Any]], list[str]]:
-    enriched_by_appid: dict[str, dict[str, Any]] = {}
-    detail_errors: list[str] = []
-    workers = max(1, min(workers, 12))
-    log_lines.append(f"Fetch details with workers={workers} items={len(items)}")
-
-    with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as executor:
-        future_map = {
-            executor.submit(enrich_app, item, cc=cc, lang=lang): item["appid"]
-            for item in items
-        }
-        completed = 0
-        for future in concurrent.futures.as_completed(future_map):
-            appid = future_map[future]
-            completed += 1
-            try:
-                enriched_item, error = future.result()
-            except Exception as exc:
-                fallback = next(item for item in items if item["appid"] == appid)
-                fallback["detail_error"] = "详情暂不可用"
-                fallback["header_image"] = fallback.get("image") or ""
-                fallback["short_description"] = ""
-                fallback["description_source"] = "none"
-                fallback["developers"] = []
-                fallback["publishers"] = []
-                fallback["genres"] = fallback.get("tag_names", [])
-                fallback["is_free"] = normalize_price(fallback.get("price_text")) == 0
-                fallback["screenshots"] = []
-                enriched_item = fallback
-                error = f"{appid}: {type(exc).__name__}: {exc}"
-            if error:
-                cached = cache.get(appid)
-                if cached:
-                    enriched_item = apply_cached_detail(enriched_item, cached)
-                    error = f"{error}; used cached detail"
-                elif enriched_item.get("short_description"):
-                    cache[appid] = detail_cache_entry(enriched_item)
-                detail_errors.append(error)
-                log_lines.append(f"Detail warning: {error}")
-            elif enriched_item.get("_detail_success"):
-                cache[appid] = detail_cache_entry(enriched_item)
-            if completed % 25 == 0 or completed == len(items):
-                log_lines.append(f"Detail progress {completed}/{len(items)}")
-            enriched_item.pop("_detail_success", None)
-            enriched_by_appid[appid] = finalize_item(enriched_item, fetched_at)
-
-    return [enriched_by_appid[item["appid"]] for item in items if item["appid"] in enriched_by_appid], detail_errors
-
-
 def detail_cache_entry(item: dict[str, Any]) -> dict[str, Any]:
     keys = [
         "title",
@@ -1043,19 +940,19 @@ def load_detail_cache(path: Path) -> dict[str, Any]:
     return {}
 
 
-def save_detail_cache(path: Path, cache: dict[str, Any]) -> None:
-    atomic_write(path, json.dumps(cache, ensure_ascii=False, indent=2))
+def save_detail_cache(path: Path, cache: dict[str, Any], *, keep_appids: set[str] | None = None) -> None:
+    if keep_appids is not None:
+        cache = {appid: entry for appid, entry in cache.items() if appid in keep_appids}
+    atomic_write(path, json.dumps(cache, ensure_ascii=False, separators=(",", ":")))
 
 
-def detail_platforms(platforms: dict[str, Any]) -> list[str]:
-    names: list[str] = []
-    if platforms.get("windows"):
-        names.append("Windows")
-    if platforms.get("mac"):
-        names.append("macOS")
-    if platforms.get("linux"):
-        names.append("Linux")
-    return names
+def report_appids(report: dict[str, Any]) -> set[str]:
+    return {
+        str(item.get("appid"))
+        for key in ("items", "potential_items")
+        for item in report.get(key) or []
+        if isinstance(item, dict) and item.get("appid")
+    }
 
 
 def normalize_price(price_text: str | None) -> int | None:
@@ -1128,6 +1025,7 @@ def backfill_potential_items(
     target_count: int,
     cutoff_date: str,
     min_reviews: int,
+    min_reviews_demo: int,
     log_lines: list[str],
 ) -> tuple[list[dict[str, Any]], dict[str, int | bool]]:
     stats: dict[str, int | bool] = {
@@ -1152,9 +1050,10 @@ def backfill_potential_items(
         appid = str(item.get("appid") or "")
         review_count = item.get("review_count")
         release_date = str(item.get("release_date") or "")
-        if not appid or appid in seen:
+        if not appid.isdigit() or appid in seen:
             continue
-        if not isinstance(review_count, int) or review_count <= min_reviews:
+        threshold = min_reviews_demo if item.get("kind") == "demo" else min_reviews
+        if not isinstance(review_count, int) or review_count <= threshold:
             continue
         if release_date < cutoff_date:
             continue
@@ -1215,6 +1114,7 @@ def collect_report(args: argparse.Namespace, *, out_path: Path) -> dict[str, Any
         target_count=args.potential_count,
         days=args.potential_days,
         min_reviews=args.potential_min_reviews,
+        min_reviews_demo=args.potential_min_reviews_demo,
         max_pages=args.potential_max_pages,
         log_lines=log_lines,
     )
@@ -1224,6 +1124,7 @@ def collect_report(args: argparse.Namespace, *, out_path: Path) -> dict[str, Any
         target_count=args.potential_count,
         cutoff_date=potential_meta["cutoff_date"],
         min_reviews=args.potential_min_reviews,
+        min_reviews_demo=args.potential_min_reviews_demo,
         log_lines=log_lines,
     )
     potential_meta["count"] = len(potential_items)
@@ -1233,11 +1134,13 @@ def collect_report(args: argparse.Namespace, *, out_path: Path) -> dict[str, Any
     potential_meta["backfilled_count"] = potential_backfill_meta["backfilled_count"]
     potential_meta["used_previous"] = potential_backfill_meta["used_previous"]
     detail_errors.extend(potential_detail_errors)
-    save_detail_cache(cache_path, detail_cache)
 
     all_items = newest_items(enriched, args.target_count)
     games = [item for item in all_items if item["kind"] == "game"]
     demos = [item for item in all_items if item["kind"] == "demo"]
+
+    keep_appids = {str(item.get("appid")) for item in [*all_items, *potential_items] if item.get("appid")}
+    save_detail_cache(cache_path, detail_cache, keep_appids=keep_appids)
 
     report = {
         "meta": {
@@ -1735,7 +1638,8 @@ def write_outputs(report: dict[str, Any], out_path: Path) -> None:
     if potential:
         log_lines.append(
             f"Potential total={potential['count']} games={potential['games']} demos={potential['demos']} "
-            f"cutoff={potential['cutoff_date']} min_reviews>{potential['min_reviews_exclusive']}"
+            f"cutoff={potential['cutoff_date']} min_reviews>{potential['min_reviews_exclusive']} "
+            f"min_reviews_demo>{potential.get('min_reviews_demo_exclusive', 'n/a')}"
         )
         log_lines.append(
             f"Potential freshness fresh={potential.get('fresh_count', potential['count'])} "
@@ -1784,7 +1688,7 @@ def backfill_short_descriptions(
             detail_cache[str(item["appid"])] = detail_cache_entry(item)
             filled += 1
             time.sleep(REQUEST_DELAY_SECONDS)
-    save_detail_cache(cache_path, detail_cache)
+    save_detail_cache(cache_path, detail_cache, keep_appids=report_appids(report))
     report.setdefault("log", []).append(
         f"Backfilled short descriptions: {filled}; attempted={attempted} at "
         f"{dt.datetime.now(TIMEZONE).isoformat(timespec='seconds')}"
@@ -1833,7 +1737,7 @@ def backfill_assets(
         if before.get(appid) != after:
             changed += 1
     report["items"] = enriched
-    save_detail_cache(cache_path, detail_cache)
+    save_detail_cache(cache_path, detail_cache, keep_appids=report_appids(report))
     report.setdefault("meta", {})["detail_errors"] = detail_errors
     log_lines.append(
         f"Backfilled StoreBrowse assets: changed={changed}; warnings={len(detail_errors)} at "
@@ -1885,6 +1789,12 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
         help="Potential list requires review_count greater than this value, default 50.",
     )
     parser.add_argument(
+        "--potential-min-reviews-demo",
+        type=int,
+        default=DEFAULT_POTENTIAL_MIN_REVIEWS_DEMO,
+        help="Potential list requires demo review_count greater than this value, default 10.",
+    )
+    parser.add_argument(
         "--potential-max-pages",
         type=int,
         default=DEFAULT_POTENTIAL_MAX_PAGES,
@@ -1912,12 +1822,6 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
         help="Maximum missing descriptions to fetch with --backfill-descriptions; 0 means no limit.",
     )
     parser.add_argument(
-        "--detail-workers",
-        type=int,
-        default=DEFAULT_DETAIL_WORKERS,
-        help="Legacy appdetails worker setting kept for compatibility; StoreBrowse is used by default.",
-    )
-    parser.add_argument(
         "--store-browse-batch-size",
         type=int,
         default=DEFAULT_STORE_BROWSE_BATCH_SIZE,
@@ -1936,6 +1840,8 @@ def main(argv: list[str] | None = None) -> int:
         raise SystemExit("--potential-days must be at least 1")
     if args.potential_min_reviews < 0:
         raise SystemExit("--potential-min-reviews must be at least 0")
+    if args.potential_min_reviews_demo < 0:
+        raise SystemExit("--potential-min-reviews-demo must be at least 0")
     if args.potential_max_pages < 1:
         raise SystemExit("--potential-max-pages must be at least 1")
     out_path = Path(args.out).resolve()
