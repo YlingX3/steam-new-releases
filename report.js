@@ -88,7 +88,7 @@
   }
 
   if (typeof module !== "undefined" && module.exports) {
-    module.exports = { filterItems, pageOf, selectBulkTargets, esc };
+    module.exports = { filterItems, pageOf, selectBulkTargets, esc, aiBadge };
   }
 
   if (typeof document === "undefined") return;
@@ -173,6 +173,12 @@
     return item.steam_url || `https://store.steampowered.com/app/${item.appid}/`;
   }
 
+  function aiBadge(item) {
+    if (!item || !item.ai_involved) return "";
+    const tip = String(item.ai_disclosure || "").trim() || "Steam 商店页标注了 AI 生成内容披露";
+    return `<span class="badge ai" title="${esc(tip)}">AI</span>`;
+  }
+
   function card(item) {
     const kindLabel = item.kind === "demo" ? "Demo" : "普通游戏";
     const genreChips = (item.genres && item.genres.length ? item.genres : item.tag_names || []).slice(0, 4);
@@ -185,22 +191,16 @@
       ? `<span class="chip review">${Number(item.review_count).toLocaleString("zh-CN")} 篇 · ${item.review_positive_percent ?? "?"}% 好评</span>`
       : "";
     const seen = !!(auth.user && auth.seen.has(String(item.appid)));
-    const aiBadge = item.ai_involved
-      ? `<span class="badge ai" title="${esc(item.ai_disclosure || "Steam 商店页标注了 AI 生成内容披露")}">AI 参与</span>`
-      : "";
     const seenBadge = seen ? `<span class="badge seen">已看</span>` : "";
-    const aiNote = item.ai_involved && item.ai_disclosure
-      ? `<p class="ai-note">AI 披露：${esc(item.ai_disclosure)}</p>`
-      : "";
     const image = imageAttributes(item);
     return `
-      <article class="card${item.ai_involved ? " ai-involved" : ""}${seen ? " seen" : ""}" data-appid="${esc(item.appid)}">
+      <article class="card${seen ? " seen" : ""}" data-appid="${esc(item.appid)}">
         <div class="cover">
           <div class="placeholder"></div>
           <img src="${esc(image.src)}" data-candidates="${esc(image.candidates)}" data-retry-index="0" alt="${esc(item.title)} 封面" loading="lazy" onload="this.classList.remove('broken')" onerror="retryImage(this)">
           <div class="badge-row">
             <span class="badge ${item.kind === "demo" ? "demo" : ""}">${kindLabel}</span>
-            ${aiBadge}
+            ${aiBadge(item)}
             ${seenBadge}
             ${discount}
           </div>
@@ -211,7 +211,6 @@
             <div class="price">${esc(item.price_text || "价格未显示")}${original}</div>
           </div>
           ${descHtml}
-          ${aiNote}
           <div class="meta">
             <span class="chip">${esc(item.release_date || item.release_date_text || "日期未知")}</span>
             ${review}
