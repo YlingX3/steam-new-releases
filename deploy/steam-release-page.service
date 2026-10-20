@@ -1,0 +1,19 @@
+[Unit]
+Description=Steam new releases report
+After=network.target
+
+[Service]
+Type=simple
+# Use the same User= and WorkingDirectory as the previous
+# `python3 -m http.server 10001` unit. Paths below must match that directory.
+WorkingDirectory=/path/to/steam-release-page
+ExecStart=/usr/bin/python3 /path/to/steam-release-page/server.py --host 127.0.0.1 --port 10001
+Restart=on-failure
+RestartSec=3
+Environment=STEAM_REPORT_COOKIE_SECURE=1
+Environment=STEAM_REPORT_ALLOW_REGISTER=1
+# Uncomment if login returns 403 behind the tunnel because Host and Origin differ:
+# Environment=STEAM_REPORT_ALLOWED_ORIGINS=https://steamreleasepage.ylingplot.cc
+
+[Install]
+WantedBy=multi-user.target

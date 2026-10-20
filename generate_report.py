@@ -41,7 +41,20 @@ PAGE_SIZE = 25
 REQUEST_DELAY_SECONDS = 1.2
 RATE_LIMIT_COOLDOWN_SECONDS = 45
 DETAIL_CACHE_NAME = "detail_cache.json"
+AI_CACHE_MAX_AGE_DAYS = 7
 HTTP_RETRIES = 3
+# Steam publishes the AI Generated Content Disclosure on the store page only.
+# StoreBrowse and /api/appdetails do not carry it (verified against live responses).
+AI_DISCLOSURE_HEADINGS = frozenset({
+    "ai generated content disclosure",
+    "ai 生成内容披露",
+    "ai 生成內容披露",
+})
+AI_DISCLOSURE_BOILERPLATE = frozenset({
+    "the developers describe how their game uses ai generated content like this",
+    "开发者对其游戏如何使用 ai 生成内容的描述如下",
+    "開發者對其遊戲如何使用 ai 生成內容的描述如下",
+})
 STORE_ASSET_PRIORITY = (
     "main_capsule_2x",
     "main_capsule",
@@ -294,6 +307,266 @@ class StoreMetaParser(HTMLParser):
             self.description = clean_text(attrs.get("content", ""))
 
 
+class AiDisclosureUnavailable(Exception):
+    """The store page was not readable, so AI involvement must stay unknown."""
+
+
+def normalize_heading(value: str) -> str:
+    return clean_text(value).strip().rstrip(".:：。").lower()
+
+
+class AiDisclosureParser(HTMLParser):
+    """Read Steam's store-page AI Generated Content Disclosure block.
+
+    The block is a repeated `#game_area_content_descriptors` section. Mature-content
+    notes use the same wrapper, so the heading is what distinguishes AI disclosure.
+    """
+
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.found = False
+        self.text = ""
+        self._in_block = False
+        self._block_depth = 0
+        self._heading_matched = False
+        self._in_h2 = False
+        self._h2_chunks: list[str] = []
+        self._in_p = False
+        self._p_chunks: list[str] = []
+        self._paragraphs: list[str] = []
+        self._in_i = False
+        self._i_chunks: list[str] = []
+
+    def handle_starttag(self, tag: str, attrs_list: list[tuple[str, str | None]]) -> None:
+        attrs = {key: value or "" for key, value in attrs_list}
+        if tag == "div" and attrs.get("id") == "game_area_content_descriptors":
+            if self._in_block and self._heading_matched:
+                self._save_text()
+            self._in_block = True
+            self._block_depth = 1
+            self._heading_matched = False
+            self._in_h2 = False
+            self._in_p = False
+            self._in_i = False
+            self._paragraphs = []
+            self._i_chunks = []
+            return
+        if tag == "div" and self._in_block:
+            self._block_depth += 1
+        if not self._in_block:
+            return
+        if tag == "h2":
+            self._in_h2 = True
+            self._h2_chunks = []
+        elif self._heading_matched and tag == "p":
+            self._in_p = True
+            self._p_chunks = []
+        elif self._heading_matched and tag == "i":
+            self._in_i = True
+
+    def handle_data(self, data: str) -> None:
+        if self._in_h2:
+            self._h2_chunks.append(data)
+        elif self._in_p:
+            self._p_chunks.append(data)
+        elif self._in_i and self._heading_matched:
+            self._i_chunks.append(data)
+
+    def handle_endtag(self, tag: str) -> None:
+        if self._in_h2 and tag == "h2":
+            self._heading_matched = normalize_heading("".join(self._h2_chunks)) in AI_DISCLOSURE_HEADINGS
+            if self._heading_matched:
+                self.found = True
+            self._in_h2 = False
+            self._h2_chunks = []
+            return
+        if self._in_p and tag == "p":
+            self._paragraphs.append("".join(self._p_chunks))
+            self._in_p = False
+            self._p_chunks = []
+            return
+        if self._in_i and tag == "i":
+            self._in_i = False
+            return
+        if self._in_block and tag == "div":
+            self._block_depth -= 1
+            if self._block_depth <= 0:
+                if self._heading_matched:
+                    self._save_text()
+                self._in_block = False
+                self._heading_matched = False
+
+    def finish(self) -> None:
+        if self._heading_matched:
+            self._save_text()
+
+    def _save_text(self) -> None:
+        paragraphs: list[str] = []
+        for raw in self._paragraphs:
+            text = clean_text(raw)
+            if not text or normalize_heading(text) in AI_DISCLOSURE_BOILERPLATE:
+                continue
+            paragraphs.append(text)
+        text = clean_text(" ".join(paragraphs))
+        if not text:
+            text = clean_text("".join(self._i_chunks))
+        self.text = text[:800]
+        self.found = True
+
+
+def parse_ai_disclosure(page_html: str) -> tuple[bool, str]:
+    parser = AiDisclosureParser()
+    parser.feed(page_html)
+    parser.finish()
+    return parser.found, parser.text
+
+
+def classify_store_page(page_html: str, final_url: str) -> str:
+    """Return 'app', 'agegate', or 'other'."""
+    url = (final_url or "").lower()
+    if "/agecheck/" in url or "/login/" in url:
+        return "agegate" if "/agecheck/" in url else "other"
+    sample = page_html[:30000].lower()
+    if 'name="ageyear"' in sample or "app_agegate" in sample or 'id="agegate' in sample:
+        return "agegate"
+    lowered = page_html.lower()
+    if "apphubappname" in lowered or "game_area_purchase" in lowered or "glance_ctn" in lowered:
+        return "app"
+    return "other"
+
+
+def fetch_store_app_page(appid: str, *, cc: str, lang: str) -> tuple[str, str]:
+    params = urllib.parse.urlencode({"cc": cc, "l": lang})
+    url = f"{BASE_URL}/app/{appid}/?{params}"
+    language_cookie = "schinese" if lang == "schinese" else lang
+    headers = dict(REQUEST_HEADERS)
+    headers["Cookie"] = (
+        "birthtime=568022401; lastagecheckage=1-January-1988; "
+        "wants_mature_content=1; mature_content=1; timezoneOffset=28800,0; "
+        f"Steam_Language={language_cookie}"
+    )
+    headers["Referer"] = "https://store.steampowered.com/"
+    return fetch_response(url, timeout=30, headers=headers)
+
+
+def fetch_ai_disclosure(appid: str, *, cc: str, lang: str) -> tuple[bool, str]:
+    body, final_url = fetch_store_app_page(appid, cc=cc, lang=lang)
+    kind = classify_store_page(body, final_url)
+    if kind != "app":
+        raise AiDisclosureUnavailable(f"{appid}: store page unreadable ({kind}); AI disclosure left unknown")
+    return parse_ai_disclosure(body)
+
+
+def ai_cache_is_fresh(cached: Any, now: dt.datetime, max_age_days: int) -> bool:
+    if max_age_days <= 0 or not isinstance(cached, dict) or "ai_involved" not in cached:
+        return False
+    checked = cached.get("ai_checked_at")
+    if not isinstance(checked, str) or not checked:
+        return False
+    try:
+        parsed = dt.datetime.fromisoformat(checked)
+    except ValueError:
+        return False
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=TIMEZONE)
+    return now - parsed <= dt.timedelta(days=max_age_days)
+
+
+def copy_cached_ai(item: dict[str, Any], cached: Any) -> None:
+    if not isinstance(cached, dict):
+        return
+    for key in ("ai_involved", "ai_disclosure", "ai_checked_at"):
+        if key in cached and key not in item:
+            item[key] = cached[key]
+
+
+def attach_ai_disclosures(
+    items: list[dict[str, Any]],
+    *,
+    cache: dict[str, Any],
+    cc: str,
+    lang: str,
+    log_lines: list[str],
+    max_age_days: int = AI_CACHE_MAX_AGE_DAYS,
+    cache_path: Path | None = None,
+    now: dt.datetime | None = None,
+) -> dict[str, int | bool]:
+    """Fill ai_involved / ai_disclosure, reusing detail_cache.json when it is fresh."""
+    now = now or dt.datetime.now(TIMEZONE)
+    unique: list[dict[str, Any]] = []
+    by_appid: dict[str, dict[str, Any]] = {}
+    for item in items:
+        appid = str(item.get("appid") or "")
+        if not appid or appid in by_appid:
+            continue
+        by_appid[appid] = item
+        unique.append(item)
+
+    stats: dict[str, int | bool] = {
+        "checked": 0,
+        "cache_hits": 0,
+        "involved": 0,
+        "failed": 0,
+        "stopped": False,
+    }
+    stopped = False
+    for item in unique:
+        appid = str(item["appid"])
+        cached = cache.get(appid)
+        if ai_cache_is_fresh(cached, now, max_age_days):
+            item["ai_involved"] = bool(cached.get("ai_involved"))
+            item["ai_disclosure"] = cached.get("ai_disclosure") or ""
+            item["ai_checked_at"] = cached.get("ai_checked_at") or ""
+            stats["cache_hits"] = int(stats["cache_hits"]) + 1
+            continue
+        if stopped:
+            continue
+        try:
+            involved, disclosure = fetch_ai_disclosure(appid, cc=cc, lang=lang)
+        except urllib.error.HTTPError as exc:
+            stats["failed"] = int(stats["failed"]) + 1
+            log_lines.append(f"{appid}: AI disclosure HTTP {exc.code}")
+            if exc.code == 429:
+                stopped = True
+                stats["stopped"] = True
+                log_lines.append("AI disclosure fetch hit Steam rate limit; left remaining items unchecked.")
+                if cache_path is not None:
+                    save_detail_cache(cache_path, cache)
+            continue
+        except AiDisclosureUnavailable as exc:
+            stats["failed"] = int(stats["failed"]) + 1
+            log_lines.append(str(exc))
+            continue
+        except (urllib.error.URLError, TimeoutError, OSError) as exc:
+            stats["failed"] = int(stats["failed"]) + 1
+            log_lines.append(f"{appid}: AI disclosure failed: {type(exc).__name__}: {exc}")
+            continue
+
+        item["ai_involved"] = involved
+        item["ai_disclosure"] = disclosure
+        item["ai_checked_at"] = now.isoformat(timespec="seconds")
+        remember_detail_cache(cache, item)
+        stats["checked"] = int(stats["checked"]) + 1
+        if int(stats["checked"]) % 25 == 0 and cache_path is not None:
+            save_detail_cache(cache_path, cache)
+        time.sleep(REQUEST_DELAY_SECONDS)
+
+    for item in items:
+        source = by_appid.get(str(item.get("appid") or ""))
+        if source is None or source is item:
+            continue
+        for key in ("ai_involved", "ai_disclosure", "ai_checked_at"):
+            if key in source:
+                item[key] = source[key]
+
+    stats["involved"] = sum(1 for item in by_appid.values() if item.get("ai_involved"))
+    log_lines.append(
+        f"AI disclosure checked={stats['checked']} cache_hits={stats['cache_hits']} "
+        f"involved={stats['involved']} failed={stats['failed']} stopped={stats['stopped']}"
+    )
+    return stats
+
+
 def clean_text(value: str) -> str:
     value = html.unescape(value)
     value = re.sub(r"<[^>]+>", " ", value)
@@ -336,14 +609,22 @@ def parse_review_summary(value: str) -> dict[str, Any]:
     return summary
 
 
-def fetch_text(url: str, *, timeout: int = 30, retries: int = HTTP_RETRIES) -> str:
-    request = urllib.request.Request(url, headers=REQUEST_HEADERS)
+def fetch_response(
+    url: str,
+    *,
+    timeout: int = 30,
+    retries: int = HTTP_RETRIES,
+    headers: dict[str, str] | None = None,
+    max_bytes: int = 4_000_000,
+) -> tuple[str, str]:
+    request = urllib.request.Request(url, headers=headers or REQUEST_HEADERS)
     last_error: Exception | None = None
     for attempt in range(retries + 1):
         try:
             with urllib.request.urlopen(request, timeout=timeout) as response:
                 charset = response.headers.get_content_charset() or "utf-8"
-                return response.read().decode(charset, errors="replace")
+                body = response.read(max_bytes).decode(charset, errors="replace")
+                return body, response.geturl()
         except urllib.error.HTTPError as exc:
             last_error = exc
             if exc.code not in {403, 429, 500, 502, 503, 504} or attempt >= retries:
@@ -358,6 +639,11 @@ def fetch_text(url: str, *, timeout: int = 30, retries: int = HTTP_RETRIES) -> s
         time.sleep(min(18, 2 ** attempt * 2))
     assert last_error is not None
     raise last_error
+
+
+def fetch_text(url: str, *, timeout: int = 30, retries: int = HTTP_RETRIES) -> str:
+    body, _final_url = fetch_response(url, timeout=timeout, retries=retries)
+    return body
 
 
 def fetch_json(url: str, *, timeout: int = 30) -> dict[str, Any]:
@@ -818,7 +1104,7 @@ def apply_cached_or_fallback_detail(
         if description:
             item["short_description"] = description
             item["description_source"] = "store_meta"
-            cache[appid] = detail_cache_entry(item)
+            remember_detail_cache(cache, item)
             return item, None
 
     item["detail_error"] = item.get("detail_error") or "详情暂不可用"
@@ -860,6 +1146,7 @@ def enrich_all_apps_store_browse(
 
         for appid in batch_appids:
             item = item_by_appid[appid]
+            copy_cached_ai(item, cache.get(appid))
             store_item = store_items.get(appid)
             if store_item:
                 changed = apply_store_browse_detail(item, store_item)
@@ -877,7 +1164,7 @@ def enrich_all_apps_store_browse(
                         changed = True
                 item = finalize_item(item, fetched_at)
                 if changed or item.get("short_description") or item.get("asset_source"):
-                    cache[appid] = detail_cache_entry(item)
+                    remember_detail_cache(cache, item)
                 enriched_by_appid[appid] = item
                 continue
 
@@ -915,7 +1202,28 @@ def detail_cache_entry(item: dict[str, Any]) -> dict[str, Any]:
         "kind",
         "screenshots",
     ]
-    return {key: item.get(key) for key in keys}
+    entry = {key: item.get(key) for key in keys}
+    if "ai_involved" in item:
+        entry["ai_involved"] = bool(item.get("ai_involved"))
+        entry["ai_disclosure"] = clean_text(str(item.get("ai_disclosure") or ""))[:800]
+        entry["ai_checked_at"] = str(item.get("ai_checked_at") or "")
+    return entry
+
+
+def remember_detail_cache(cache: dict[str, Any], item: dict[str, Any]) -> None:
+    """Merge item details into the cache without dropping a previous AI check."""
+    appid = str(item.get("appid") or "")
+    if not appid:
+        return
+    current = cache.get(appid)
+    entry = dict(current) if isinstance(current, dict) else {}
+    fresh = detail_cache_entry(item)
+    if "ai_involved" not in item:
+        fresh.pop("ai_involved", None)
+        fresh.pop("ai_disclosure", None)
+        fresh.pop("ai_checked_at", None)
+    entry.update(fresh)
+    cache[appid] = entry
 
 
 def apply_cached_detail(item: dict[str, Any], cached: dict[str, Any]) -> dict[str, Any]:
@@ -1140,6 +1448,15 @@ def collect_report(args: argparse.Namespace, *, out_path: Path) -> dict[str, Any
     demos = [item for item in all_items if item["kind"] == "demo"]
 
     keep_appids = {str(item.get("appid")) for item in [*all_items, *potential_items] if item.get("appid")}
+    attach_ai_disclosures(
+        [*all_items, *potential_items],
+        cache=detail_cache,
+        cc=args.cc,
+        lang=args.lang,
+        log_lines=log_lines,
+        max_age_days=args.ai_cache_days,
+        cache_path=cache_path,
+    )
     save_detail_cache(cache_path, detail_cache, keep_appids=keep_appids)
 
     report = {
@@ -1177,6 +1494,9 @@ def render_html(report: dict[str, Any]) -> str:
     generated_label = format_datetime(meta["generated_at"])
     target_label = f"最新 {meta.get('target_count', counts['total'])} 款"
     potential_count = potential_meta.get("count", len(potential_items))
+    ai_checked = sum(1 for item in report.get("items") or [] if isinstance(item, dict) and "ai_involved" in item)
+    ai_count = sum(1 for item in report.get("items") or [] if isinstance(item, dict) and item.get("ai_involved"))
+    ai_metric = str(ai_count) if ai_checked else "—"
 
     return f"""<!doctype html>
 <html lang="zh-CN">
@@ -1214,19 +1534,39 @@ def render_html(report: dict[str, Any]) -> str:
     h1 {{ margin: 0; font-size: clamp(30px, 4.5vw, 48px); line-height: 1.05; letter-spacing: 0; }}
     .stamp {{ color: var(--muted); text-align: right; min-width: 260px; line-height: 1.65; }}
     .stamp strong {{ color: var(--ink); font-weight: 700; }}
-    .metrics {{ display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 10px; }}
+    .metrics {{ display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 10px; }}
     .metric {{ background: rgba(255,255,255,.052); border: 1px solid var(--line); border-radius: 8px; padding: 13px 14px; }}
     .metric span {{ display: block; color: var(--muted); font-size: 13px; }}
     .metric strong {{ display: block; margin-top: 5px; font-size: 26px; }}
+    .account-bar {{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+      justify-content: flex-end;
+      margin-top: 14px;
+    }}
+    .account-bar form {{ display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }}
+    .account-bar input {{
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      background: #0f171d;
+      color: var(--ink);
+      padding: 10px 12px;
+      outline: none;
+      min-width: 0;
+    }}
+    .account-user {{ color: var(--muted); }}
+    .account-msg {{ margin: 0; color: #ffb4a8; font-size: 13px; }}
     .controls {{
       position: sticky;
       top: 0;
       z-index: 4;
-      display: grid;
-      grid-template-columns: auto minmax(190px, 240px);
+      display: flex;
+      flex-wrap: wrap;
       gap: 10px;
       align-items: center;
-      justify-content: end;
+      justify-content: flex-end;
       padding: 12px 14px;
       margin: 22px 0;
       background: rgba(16,20,24,.88);
@@ -1236,7 +1576,7 @@ def render_html(report: dict[str, Any]) -> str:
       box-shadow: var(--shadow);
     }}
     select {{
-      width: 100%;
+      width: min(240px, 100%);
       border: 1px solid var(--line);
       border-radius: 7px;
       background: #0f171d;
@@ -1254,7 +1594,8 @@ def render_html(report: dict[str, Any]) -> str:
       white-space: nowrap;
     }}
     .toggle.active, .tab.active, .page-btn.active {{ border-color: rgba(120,221,178,.72); background: rgba(120,221,178,.12); color: #e7fff3; }}
-    .bulk-open {{ margin-left: auto; border-color: rgba(119,183,232,.42); background: rgba(119,183,232,.12); color: #d7ecff; }}
+    #continueBtn {{ margin-left: auto; }}
+    .bulk-open {{ border-color: rgba(119,183,232,.42); background: rgba(119,183,232,.12); color: #d7ecff; }}
     .bulk-open:disabled {{ cursor: wait; opacity: .7; }}
     .page-btn:disabled {{ cursor: not-allowed; opacity: .42; }}
     .tabs {{ display: flex; gap: 8px; margin: 0 0 14px; flex-wrap: wrap; align-items: center; }}
@@ -1284,6 +1625,25 @@ def render_html(report: dict[str, Any]) -> str:
     .badge {{ border-radius: 999px; padding: 5px 8px; font-size: 12px; background: rgba(0,0,0,.62); border: 1px solid rgba(255,255,255,.18); }}
     .badge.demo {{ color: #d7ecff; }}
     .badge.discount {{ color: #fff0b8; }}
+    .badge.ai {{
+      color: #ffe7c2;
+      background: rgba(92, 48, 8, .82);
+      border-color: rgba(227, 161, 90, .85);
+      padding: 2px 6px;
+      font-size: 11px;
+      line-height: 1.4;
+      letter-spacing: .04em;
+    }}
+    .badge.seen {{ color: #d5dde0; }}
+    .card.seen {{ opacity: .68; }}
+    .mark {{
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      background: transparent;
+      color: var(--muted);
+      padding: 9px 12px;
+      cursor: pointer;
+    }}
     .content {{ display: flex; flex: 1; flex-direction: column; padding: 14px; gap: 10px; }}
     .title-row {{ display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 12px; align-items: start; }}
     .title-row h3 {{ margin: 0; min-width: 0; font-size: 18px; line-height: 1.35; overflow-wrap: anywhere; }}
@@ -1304,13 +1664,14 @@ def render_html(report: dict[str, Any]) -> str:
       .topbar {{ display: block; }}
       .stamp {{ text-align: left; margin-top: 12px; }}
       .metrics {{ grid-template-columns: repeat(2, minmax(0, 1fr)); }}
-      .controls {{ grid-template-columns: 1fr 1fr; }}
       .grid {{ grid-template-columns: repeat(2, minmax(0, 1fr)); }}
     }}
     @media (max-width: 560px) {{
       .shell {{ width: min(100% - 20px, 1440px); padding-top: 18px; }}
       .metrics {{ grid-template-columns: 1fr; }}
-      .controls {{ position: static; grid-template-columns: 1fr; }}
+      .controls {{ position: static; }}
+      .account-bar, .account-bar form {{ justify-content: flex-start; }}
+      .account-bar input {{ flex: 1 1 140px; }}
       .grid {{ grid-template-columns: 1fr; }}
       .title-row {{ display: block; }}
       .price {{ text-align: left; margin-top: 8px; }}
@@ -1337,12 +1698,16 @@ def render_html(report: dict[str, Any]) -> str:
         <div class="metric"><span>Demo</span><strong>{counts["demos"]}</strong></div>
         <div class="metric"><span>潜力游戏</span><strong>{potential_count}</strong></div>
         <div class="metric"><span>免费</span><strong>{counts["free"]}</strong></div>
+        <div class="metric" title="来自 Steam 商店页的「AI 生成内容披露」。尚未检查时显示为横线。"><span>AI 参与</span><strong>{ai_metric}</strong></div>
         <div class="metric"><span>折扣中</span><strong>{counts["discounted"]}</strong></div>
       </div>
+      <div id="accountBar" class="account-bar"></div>
     </header>
 
     <div class="controls" role="region" aria-label="筛选">
-      <button id="paidToggle" class="toggle" type="button">只看付费</button>
+      <button id="paidToggle" class="toggle" type="button" aria-pressed="false">只看付费</button>
+      <button id="hideAiToggle" class="toggle" type="button" aria-pressed="false">隐藏 AI 参与作品</button>
+      <button id="unseenToggle" class="toggle" type="button" aria-pressed="false">只看未看</button>
       <select id="sort">
         <option value="release-desc">发售日期：新到旧</option>
         <option value="price-asc">价格：低到高</option>
@@ -1356,6 +1721,7 @@ def render_html(report: dict[str, Any]) -> str:
       <button class="tab" type="button" data-kind="game">普通游戏</button>
       <button class="tab" type="button" data-kind="demo">Demo</button>
       <button class="tab" type="button" data-kind="potential">潜力游戏</button>
+      <button id="continueBtn" class="toggle" type="button">从上次继续</button>
       <button id="bulkOpen" class="bulk-open" type="button">打开本页游戏</button>
     </div>
 
@@ -1364,235 +1730,7 @@ def render_html(report: dict[str, Any]) -> str:
 
   <script id="report-data" type="application/json">{items_json}</script>
   <script id="potential-report-data" type="application/json">{potential_items_json}</script>
-  <script>
-    const items = JSON.parse(document.getElementById('report-data').textContent);
-    const potentialItems = JSON.parse(document.getElementById('potential-report-data').textContent || '[]');
-    const pageSize = 30;
-    const state = {{ kind: 'all', paidOnly: false, sort: 'release-desc', page: 1 }};
-    const app = document.getElementById('app');
-    const collator = new Intl.Collator('zh-CN', {{ numeric: true, sensitivity: 'base' }});
-
-    function esc(value) {{
-      return String(value ?? '').replace(/[&<>"']/g, ch => ({{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}}[ch]));
-    }}
-
-    function currentItems() {{
-      const source = state.kind === 'potential' ? potentialItems : items;
-      return source.filter(item => {{
-        if (!['all', 'potential'].includes(state.kind) && item.kind !== state.kind) return false;
-        if (state.paidOnly && item.is_free && item.kind !== 'demo') return false;
-        return true;
-      }}).sort((a, b) => {{
-        if (state.sort === 'price-asc') return (a.price_value ?? 999999999) - (b.price_value ?? 999999999);
-        if (state.sort === 'price-desc') return (b.price_value ?? -1) - (a.price_value ?? -1);
-        if (state.sort === 'title-asc') return collator.compare(a.title || '', b.title || '');
-        return String(b.release_date || '').localeCompare(String(a.release_date || '')) || (a.source_order ?? 999999999) - (b.source_order ?? 999999999);
-      }});
-    }}
-
-    function resetPage() {{
-      state.page = 1;
-    }}
-
-    function steamImageCandidates(src) {{
-      if (!src) return [];
-      const candidates = [src];
-      try {{
-        const url = new URL(src);
-        const fallbackHosts = ['shared.fastly.steamstatic.com', 'shared.akamai.steamstatic.com'];
-        if (url.hostname.endsWith('steamstatic.com')) {{
-          fallbackHosts.forEach(host => {{
-            if (host !== url.hostname) {{
-              const next = new URL(url.href);
-              next.hostname = host;
-              candidates.push(next.href);
-            }}
-          }});
-        }}
-      }} catch (error) {{}}
-      return [...new Set(candidates)];
-    }}
-
-    function imageAttributes(item) {{
-      const candidates = steamImageCandidates(item.header_image || item.image || '');
-      return {{
-        src: candidates[0] || '',
-        candidates: candidates.join('|'),
-      }};
-    }}
-
-    function retryImage(img) {{
-      const candidates = (img.dataset.candidates || '').split('|').filter(Boolean);
-      const nextIndex = Number(img.dataset.retryIndex || 0) + 1;
-      if (nextIndex < candidates.length) {{
-        img.dataset.retryIndex = String(nextIndex);
-        img.src = candidates[nextIndex];
-        return;
-      }}
-
-      const attempts = Number(img.dataset.attempts || 0);
-      if (attempts < 2 && candidates[0]) {{
-        img.dataset.attempts = String(attempts + 1);
-        img.dataset.retryIndex = '0';
-        const separator = candidates[0].includes('?') ? '&' : '?';
-        window.setTimeout(() => {{
-          img.src = `${{candidates[0]}}${{separator}}retry=${{Date.now()}}`;
-        }}, 500 * (attempts + 1));
-        return;
-      }}
-
-      img.classList.add('broken');
-    }}
-
-    function card(item) {{
-      const kindLabel = item.kind === 'demo' ? 'Demo' : '普通游戏';
-      const genreChips = (item.genres && item.genres.length ? item.genres : item.tag_names || []).slice(0, 4);
-      const desc = (item.short_description || '').trim();
-      const descHtml = desc ? `<p class="desc">${{esc(desc)}}</p>` : '';
-      const original = item.original_price_text && item.original_price_text !== item.price_text ? `<span class="original">${{esc(item.original_price_text)}}</span>` : '';
-      const discount = item.discount_text ? `<span class="badge discount">${{esc(item.discount_text)}}</span>` : '';
-      const review = item.review_count ? `<span class="chip review">${{Number(item.review_count).toLocaleString('zh-CN')}} 篇 · ${{item.review_positive_percent ?? '?'}}% 好评</span>` : '';
-      const image = imageAttributes(item);
-      return `
-        <article class="card" data-appid="${{esc(item.appid)}}">
-          <div class="cover">
-            <div class="placeholder"></div>
-            <img src="${{esc(image.src)}}" data-candidates="${{esc(image.candidates)}}" data-retry-index="0" alt="${{esc(item.title)}} 封面" loading="lazy" onload="this.classList.remove('broken')" onerror="retryImage(this)">
-            <div class="badge-row">
-              <span class="badge ${{item.kind === 'demo' ? 'demo' : ''}}">${{kindLabel}}</span>
-              ${{discount}}
-            </div>
-          </div>
-          <div class="content">
-            <div class="title-row">
-              <h3>${{esc(item.title)}}</h3>
-              <div class="price">${{esc(item.price_text || '价格未显示')}}${{original}}</div>
-            </div>
-            ${{descHtml}}
-            <div class="meta">
-              <span class="chip">${{esc(item.release_date || item.release_date_text || '日期未知')}}</span>
-              ${{review}}
-              ${{genreChips.map(value => `<span class="chip">${{esc(value)}}</span>`).join('')}}
-            </div>
-            <div class="footer">
-              <a class="open" href="${{esc(itemUrl(item))}}" target="_blank" rel="noreferrer">打开 Steam</a>
-            </div>
-          </div>
-        </article>
-      `;
-    }}
-
-    function pageNumbers(current, total) {{
-      return Array.from({{ length: total }}, (_, index) => index + 1);
-    }}
-
-    function renderPagination(totalItems, totalPages) {{
-      if (totalItems === 0) return '';
-      const buttons = pageNumbers(state.page, totalPages).map(page => (
-        `<button class="page-btn ${{page === state.page ? 'active' : ''}}" type="button" data-page="${{page}}">${{page}}</button>`
-      )).join('');
-      return `
-        <div class="pagination">
-          <div>第 ${{state.page}} / ${{totalPages}} 页，共 ${{totalItems}} 个结果</div>
-          <div class="pages">
-            <button class="page-btn" type="button" data-page="prev" ${{state.page === 1 ? 'disabled' : ''}}>上一页</button>
-            ${{buttons}}
-            <button class="page-btn" type="button" data-page="next" ${{state.page === totalPages ? 'disabled' : ''}}>下一页</button>
-          </div>
-        </div>
-      `;
-    }}
-
-    function currentPageItems(list = currentItems()) {{
-      const totalPages = Math.max(1, Math.ceil(list.length / pageSize));
-      state.page = Math.min(state.page, totalPages);
-      const start = (state.page - 1) * pageSize;
-      return list.slice(start, start + pageSize);
-    }}
-
-    function render() {{
-      const titleMap = {{ all: '全部新品', game: '普通游戏', demo: 'Demo', potential: '潜力游戏' }};
-      const list = currentItems();
-      const totalPages = Math.max(1, Math.ceil(list.length / pageSize));
-      const pageItems = currentPageItems(list);
-      const body = pageItems.length ? `<div class="grid">${{pageItems.map(card).join('')}}</div>` : `<div class="empty">当前筛选下没有结果。</div>`;
-      return `
-        <section>
-          <div class="section-title">
-            <h2>${{titleMap[state.kind]}}</h2>
-            <p>${{list.length}} 个结果 · 每页 ${{pageSize}} 个</p>
-          </div>
-          ${{body}}
-          ${{renderPagination(list.length, totalPages)}}
-          <div class="credit">Made by Yling</div>
-        </section>
-      `;
-    }}
-
-    function update() {{
-      app.innerHTML = render();
-    }}
-
-    function itemUrl(item) {{
-      return item.steam_url || `https://store.steampowered.com/app/${{item.appid}}/`;
-    }}
-
-    function openCurrentList() {{
-      const button = document.getElementById('bulkOpen');
-      const urls = [...new Set(currentPageItems().map(itemUrl).filter(Boolean))];
-      if (!urls.length) {{
-        button.textContent = '没有可打开的游戏';
-        window.setTimeout(() => {{ button.textContent = '打开本页游戏'; }}, 1400);
-        return;
-      }}
-
-      const delayMs = 100;
-      button.disabled = true;
-      button.textContent = `准备打开 ${{urls.length}} 个...`;
-      urls.forEach((url, index) => {{
-        window.setTimeout(() => {{
-          window.open(url, '_blank', 'noopener,noreferrer');
-          button.textContent = `已打开 ${{index + 1}} / ${{urls.length}}`;
-          if (index === urls.length - 1) {{
-            window.setTimeout(() => {{
-              button.disabled = false;
-              button.textContent = '打开本页游戏';
-            }}, 900);
-          }}
-        }}, index * delayMs);
-      }});
-    }}
-
-    document.getElementById('bulkOpen').addEventListener('click', openCurrentList);
-    document.getElementById('sort').addEventListener('change', event => {{ state.sort = event.target.value; resetPage(); update(); }});
-    document.getElementById('paidToggle').addEventListener('click', event => {{
-      state.paidOnly = !state.paidOnly;
-      event.currentTarget.classList.toggle('active', state.paidOnly);
-      resetPage();
-      update();
-    }});
-    document.querySelectorAll('.tab').forEach(button => {{
-      button.addEventListener('click', () => {{
-        state.kind = button.dataset.kind;
-        document.querySelectorAll('.tab').forEach(tab => tab.classList.toggle('active', tab === button));
-        resetPage();
-        update();
-      }});
-    }});
-    app.addEventListener('click', event => {{
-      const button = event.target.closest('[data-page]');
-      if (!button) return;
-      const list = currentItems();
-      const totalPages = Math.max(1, Math.ceil(list.length / pageSize));
-      const target = button.dataset.page;
-      if (target === 'prev') state.page = Math.max(1, state.page - 1);
-      else if (target === 'next') state.page = Math.min(totalPages, state.page + 1);
-      else state.page = Number(target);
-      update();
-      window.scrollTo({{ top: 0, behavior: 'smooth' }});
-    }});
-    update();
-  </script>
+  <script src="report.js"></script>
 </body>
 </html>
 """
@@ -1647,10 +1785,53 @@ def write_outputs(report: dict[str, Any], out_path: Path) -> None:
             f"used_previous={potential.get('used_previous', False)} "
             f"rate_limited={potential.get('rate_limited', False)}"
         )
+    ai_checked = sum(1 for item in report.get("items") or [] if isinstance(item, dict) and "ai_involved" in item)
+    ai_involved = sum(1 for item in report.get("items") or [] if isinstance(item, dict) and item.get("ai_involved"))
+    log_lines.append(f"AI disclosure on latest list checked={ai_checked} involved={ai_involved}")
     if report["meta"].get("detail_errors"):
         log_lines.append("Detail errors:")
         log_lines.extend(report["meta"]["detail_errors"])
     atomic_write(log_path, "\n".join(log_lines) + "\n")
+    ensure_index_symlink(out_path)
+
+
+def ensure_index_symlink(out_path: Path) -> None:
+    if out_path.name != "latest.html":
+        return
+    index_path = out_path.parent / "index.html"
+    if index_path.exists() or index_path.is_symlink():
+        return
+    index_path.symlink_to(out_path.name)
+
+
+def backfill_ai_disclosures(
+    report: dict[str, Any],
+    *,
+    cc: str,
+    lang: str,
+    out_path: Path,
+    max_age_days: int,
+) -> dict[str, int | bool]:
+    cache_path = out_path.parent / DETAIL_CACHE_NAME
+    detail_cache = load_detail_cache(cache_path)
+    log_lines = report.setdefault("log", [])
+    items = [
+        item
+        for key in ("items", "potential_items")
+        for item in report.get(key) or []
+        if isinstance(item, dict)
+    ]
+    stats = attach_ai_disclosures(
+        items,
+        cache=detail_cache,
+        cc=cc,
+        lang=lang,
+        log_lines=log_lines,
+        max_age_days=max_age_days,
+        cache_path=cache_path,
+    )
+    save_detail_cache(cache_path, detail_cache, keep_appids=report_appids(report))
+    return stats
 
 
 def backfill_short_descriptions(
@@ -1685,7 +1866,7 @@ def backfill_short_descriptions(
         if description:
             item["short_description"] = description
             item["description_source"] = "store_meta"
-            detail_cache[str(item["appid"])] = detail_cache_entry(item)
+            remember_detail_cache(detail_cache, item)
             filled += 1
             time.sleep(REQUEST_DELAY_SECONDS)
     save_detail_cache(cache_path, detail_cache, keep_appids=report_appids(report))
@@ -1827,6 +2008,17 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
         default=DEFAULT_STORE_BROWSE_BATCH_SIZE,
         help="StoreBrowse appids per request, default 50.",
     )
+    parser.add_argument(
+        "--backfill-ai",
+        action="store_true",
+        help="When used with --render-from, fetch missing or stale AI disclosures before rendering.",
+    )
+    parser.add_argument(
+        "--ai-cache-days",
+        type=int,
+        default=AI_CACHE_MAX_AGE_DAYS,
+        help="Reuse a cached AI disclosure for this many days, default 7. 0 refetches every run.",
+    )
     return parser.parse_args(argv)
 
 
@@ -1844,6 +2036,8 @@ def main(argv: list[str] | None = None) -> int:
         raise SystemExit("--potential-min-reviews-demo must be at least 0")
     if args.potential_max_pages < 1:
         raise SystemExit("--potential-max-pages must be at least 1")
+    if args.ai_cache_days < 0:
+        raise SystemExit("--ai-cache-days must be at least 0")
     out_path = Path(args.out).resolve()
 
     try:
@@ -1871,6 +2065,19 @@ def main(argv: list[str] | None = None) -> int:
                     limit=args.backfill_limit,
                 )
                 print(f"Backfilled short descriptions: {filled}")
+            if args.backfill_ai:
+                ai_stats = backfill_ai_disclosures(
+                    report,
+                    cc=args.cc,
+                    lang=args.lang,
+                    out_path=out_path,
+                    max_age_days=args.ai_cache_days,
+                )
+                print(
+                    "Backfilled AI disclosures: "
+                    f"checked={ai_stats['checked']} cache_hits={ai_stats['cache_hits']} "
+                    f"involved={ai_stats['involved']} failed={ai_stats['failed']}"
+                )
         else:
             report = collect_report(args, out_path=out_path)
         write_outputs(report, out_path)

@@ -133,7 +133,10 @@
         "可爱",
         "像素图形",
         "俯视"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Some visual and audio assets were created with the assistance of AI tools and further refined by the development team.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4140190",
@@ -192,7 +195,10 @@
         "类 Rogue",
         "策略",
         "2D"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4806800",
@@ -249,7 +255,10 @@
         "策略",
         "俯视射击",
         "俯视"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4866810",
@@ -308,7 +317,10 @@
         "指向点击",
         "2D",
         "动漫"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Cat & Fox Studios used generative AI image tools (Pollinations FLUX) to create the store-page art assets for this game, including: the Main Capsule, Library Hero, Library Logo, Vertical Capsule, Page Background, small/header capsules, and the character illustrations of Mora the cat shown on the store page and in gallery posts. These AI-generated assets are used for marketing imagery and Steam store presentation only. The original music in the game was composed by Dr. Jenna Fox of Cat & Fox Studios. The game itself does not call any AI service during gameplay — all play is fully deterministic.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4825510",
@@ -368,7 +380,10 @@
         "奇幻",
         "模拟",
         "2D"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "1511740",
@@ -427,7 +442,10 @@
         "剧情丰富",
         "单人",
         "独立"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4927810",
@@ -483,7 +501,10 @@
         "冒险",
         "氛围",
         "剧情丰富"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3692680",
@@ -538,7 +559,10 @@
         "探索",
         "回合制",
         "平台游戏"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4840910",
@@ -597,7 +621,10 @@
         "弹幕射击",
         "俯视",
         "冒险"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4825850",
@@ -635,7 +662,10 @@
       "fetched_at": "2026-07-10T05:15:50+08:00",
       "is_discounted": false,
       "price_value": 0,
-      "genres": []
+      "genres": [],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4932380",
@@ -679,7 +709,10 @@
       "price_value": 0,
       "genres": [
         "休闲"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4849860",
@@ -737,7 +770,10 @@
         "动作",
         "3D",
         "第一人称"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4068360",
@@ -792,7 +828,10 @@
         "休闲",
         "塔防",
         "2D"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "We use AI for capsules (Store Page)",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3630480",
@@ -851,7 +890,10 @@
         "动作",
         "动作角色扮演",
         "策略角色扮演"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Some Artworks/Sounds have been made with the help of LLM AIs",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4032350",
@@ -903,7 +945,10 @@
       "genres": [
         "模拟",
         "多人"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Dynasty and RTG Modes - Storyline content in hub screen, Design Implementation and tuning Commentary scripting support Trophy Room Support Creating more realistic play calls made by CPU teams",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3227320",
@@ -962,7 +1007,10 @@
         "回合制战术",
         "老式",
         "回合制战斗"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4534300",
@@ -1012,7 +1060,10 @@
       "is_discounted": false,
       "genres": [
         "氛围"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Certain promotional materials and development processes may have incorporated the use of AI-assisted tools, including but not limited to content generation, code assistance, debugging support, and workflow acceleration. All final creative, design, and implementation decisions were reviewed and approved by the developer.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4665930",
@@ -1072,7 +1123,10 @@
         "解谜",
         "休闲",
         "类魂"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "AI tools were used during development to assist with localizing in-game text into 13 non-English languages and with drafting in-game flavor text and store page copy. All AI-assisted text was reviewed and edited by the developers. Visual assets used for marketing and promotional purposes were created with the assistance of generative AI. No content is generated by AI during gameplay.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4713470",
@@ -1110,7 +1164,10 @@
       "fetched_at": "2026-07-10T05:15:50+08:00",
       "is_discounted": false,
       "price_value": 0,
-      "genres": []
+      "genres": [],
+      "ai_involved": true,
+      "ai_disclosure": "This game makes use of generative AI as part of the creative pipeline across art, text, sound, and voice. None of it is dumped in raw — every asset is curated, edited, and reworked by hand, and every line of dialogue is agonized over until it earns its place. AI is a tool here, not the author; the taste, the pacing, and the final call on what stays are all made by people. The codebase, in the interest of full honesty, is held together with AI-assisted spaghetti and sheer willpower — but it works, and every line is reviewed before shipping.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4870310",
@@ -1227,7 +1284,10 @@
         "角色扮演",
         "冒险",
         "独立"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Some of the images and monster models in the game are generated using artificial intelligence. I can guarantee that all AI elements are compliant, legal, and commercially usable.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4720870",
@@ -1286,7 +1346,10 @@
         "探索",
         "冒险",
         "模拟"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3265230",
@@ -1343,7 +1406,10 @@
         "多人",
         "探索",
         "第一人称"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4596160",
@@ -1397,7 +1463,10 @@
       "genres": [
         "休闲",
         "独立"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4436830",
@@ -1435,7 +1504,10 @@
       "fetched_at": "2026-07-10T05:15:50+08:00",
       "is_discounted": false,
       "price_value": 0,
-      "genres": []
+      "genres": [],
+      "ai_involved": true,
+      "ai_disclosure": "AI工具仅用于生成预先录制的日语角色配音。所有其他音频资源、音效和音乐均未采用AI生成。",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4889230",
@@ -1486,7 +1558,10 @@
         "冒险",
         "独立",
         "休闲"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4849630",
@@ -1540,7 +1615,10 @@
         "模拟",
         "第一人称",
         "休闲"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4790520",
@@ -1599,7 +1677,10 @@
         "战争",
         "氛围",
         "解谜"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "我们的开发过程融入了部分 AI 辅助工具，用于帮助制作环境贴图和资产。所有资产均经过我们艺术家的深度优化和整合，以确保符合游戏的 PSX/VHS 美学。我们致力于保持以人为本的高质量艺术方向。",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4897740",
@@ -1657,7 +1738,10 @@
         "回合制",
         "独立",
         "动作"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "1349930",
@@ -1716,7 +1800,10 @@
         "冒险",
         "老式",
         "射击"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4329100",
@@ -1774,7 +1861,10 @@
         "恐怖",
         "剧情丰富",
         "互动小说"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4809010",
@@ -1834,7 +1924,10 @@
         "探索",
         "2D",
         "可爱"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4820270",
@@ -1891,7 +1984,10 @@
         "休闲",
         "策略",
         "剧情丰富"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4867060",
@@ -1947,7 +2043,10 @@
         "休闲",
         "指向点击",
         "2D"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3534790",
@@ -2004,7 +2103,10 @@
         "视觉小说",
         "指向点击",
         "2D"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4806090",
@@ -2059,7 +2161,10 @@
         "模拟",
         "3D",
         "可爱"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "SonderSoft uses generative AI for localization to make games accessible to more players worldwide. This free game with no monetization uses generated music that can be disabled in the settings. Whenever possible, SonderSoft prioritizes paying artists, creators, and actors.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4867550",
@@ -2118,7 +2223,10 @@
         "互动小说",
         "视觉小说",
         "冒险"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4900730",
@@ -2168,7 +2276,10 @@
         "策略",
         "独立",
         "抢先体验"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4887320",
@@ -2224,7 +2335,10 @@
         "休闲",
         "生活模拟",
         "沉浸式模拟"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Some images in this game were generated with the assistance of AI tools during development.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4668040",
@@ -2283,7 +2397,10 @@
         "像素图形",
         "俯视射击",
         "家庭友好"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "We used AI to help make the store page artwork, some of the in game items, and some of the capybaras.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4175650",
@@ -2338,7 +2455,10 @@
         "2D",
         "视觉小说",
         "冒险"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4825940",
@@ -2396,7 +2516,10 @@
         "动作类 Rogue",
         "角色扮演",
         "弹幕射击"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4793460",
@@ -2434,7 +2557,10 @@
       "fetched_at": "2026-07-10T05:15:50+08:00",
       "is_discounted": false,
       "price_value": 0,
-      "genres": []
+      "genres": [],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4809670",
@@ -2493,7 +2619,10 @@
         "冒险",
         "战斗",
         "休闲"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "本游戏使用生成式人工智能辅助制作了部分预生成内容，包括角色、敌人、场景背景、UI 图标、特效视觉参考、商店页宣传视觉素材，以及部分游戏音效。这些内容在发布前经过人工筛选、编辑、整合和测试。 游戏运行过程中不会根据玩家输入实时生成新的 AI 内容，也不会使用生成式 AI 与玩家进行实时对话或创作。",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4834000",
@@ -2552,7 +2681,10 @@
         "3D",
         "第一人称",
         "恐怖"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4815620",
@@ -2611,7 +2743,10 @@
         "2D 平台",
         "动作冒险",
         "2D"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4809360",
@@ -2669,7 +2804,10 @@
         "射击",
         "动作",
         "独立"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "部分音乐、图标以及宣传美术资源使用了生成式 AI 制作。",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4906550",
@@ -2728,7 +2866,10 @@
         "2D 平台",
         "2D",
         "可爱"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4380490",
@@ -2788,7 +2929,10 @@
         "生活模拟",
         "可爱",
         "氛围"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4893830",
@@ -2838,7 +2982,10 @@
         "动作",
         "独立",
         "休闲"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4530260",
@@ -2895,7 +3042,10 @@
         "动作冒险",
         "解谜",
         "探索"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4912550",
@@ -2942,7 +3092,10 @@
       "genres": [
         "策略",
         "独立"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "本游戏的宣传视频以及游戏中使用的大部分美术素材由生成式人工智能辅助制作。游戏中的所有谜题均由开发团队手工设计与制作。",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4864450",
@@ -2997,7 +3150,10 @@
         "策略",
         "模拟",
         "休闲"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Generative AI (OpenAI ChatGPT) was used to create the title/boot key art and the 20 achievement badge icons. The game's code — which procedurally generates the city, UI and synthesized music — was written with AI coding assistance (Anthropic Claude).",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4930230",
@@ -3055,7 +3211,10 @@
         "动作类 Rogue",
         "塔防",
         "回合制"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4877230",
@@ -3112,7 +3271,10 @@
         "休闲",
         "角色扮演",
         "单人"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4862400",
@@ -3169,7 +3331,10 @@
         "策略",
         "沙盒",
         "沉浸式模拟"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Some of the artwork on this game's Steam store page and library/marketing assets — including the capsule images and library hero — was created with the assistance of generative AI image tools. All such artwork was reviewed and edited by us prior to use to ensure it is appropriate and does not contain any content that infringes the intellectual property rights of any third party. The game itself does not generate any content using AI at runtime.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4594240",
@@ -3227,7 +3392,10 @@
         "模拟",
         "回合制战斗",
         "回合制战术"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3751950",
@@ -3289,7 +3457,10 @@
       "genres": [
         "动作冒险",
         "探索"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3897960",
@@ -3348,7 +3519,10 @@
         "独立",
         "探索",
         "像素图形"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4556460",
@@ -3406,7 +3580,10 @@
         "休闲",
         "回合制战术",
         "逻辑"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4879230",
@@ -3456,7 +3633,10 @@
         "动作",
         "独立",
         "休闲"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "AI tools were used to assist with the creation of some audio assets and with localization for this game.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4048500",
@@ -3512,7 +3692,10 @@
         "3D",
         "俯视射击",
         "策略"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4856460",
@@ -3564,7 +3747,10 @@
       "genres": [
         "视觉小说",
         "剧情丰富"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "本游戏使用了 AI 辅助生成的美术资源（ComfyUI / Stable Diffusion XL）和音乐（AceStep）。所有 AI 生成内容在开发阶段完成，最终版本已固定，运行时不调用任何 AI API。",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4634940",
@@ -3623,7 +3809,10 @@
         "动作",
         "类 Rogue",
         "单人"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "As a solo developer, I used generative AI tools to assist with certain parts of development, including the creation of some visual assets. All generated content has been carefully reviewed, adjusted, and manually integrated to ensure artistic consistency, and overall game quality. No AI generated content is produced in real time during gameplay.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3620130",
@@ -3680,7 +3869,10 @@
         "独立",
         "物理",
         "街机"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Generative AI tools were used to assist with the creation and editing of artwork for some Steam Store and Library assets, as well as with the translation and localization of game-related text. All AI-assisted content was reviewed, edited, and finalized by the development team. Generative AI is not used to generate content during gameplay, and the game does not connect to any external AI services.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4589040",
@@ -3740,7 +3932,10 @@
         "冒险",
         "探索",
         "氛围"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Several animated videos and images in this game were generated using artificial intelligence tools.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4365920",
@@ -3798,7 +3993,10 @@
         "3D",
         "可爱",
         "俯视射击"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4919300",
@@ -3849,7 +4047,10 @@
         "策略",
         "动作",
         "独立"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3935020",
@@ -3902,7 +4103,10 @@
       "genres": [
         "街机",
         "角色扮演"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4548160",
@@ -3960,7 +4164,10 @@
         "困难",
         "单人",
         "休闲"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4540330",
@@ -4019,7 +4226,10 @@
         "奇幻",
         "指向点击",
         "单人"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Certain in-game images and visual assets within this title were generated with the assistance of artificial intelligence (AI) tools.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4854210",
@@ -4077,7 +4287,10 @@
         "3D",
         "第一人称",
         "动作"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4604330",
@@ -4131,7 +4344,10 @@
         "动作冒险",
         "动作",
         "射击"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3748630",
@@ -4190,7 +4406,10 @@
         "解谜",
         "街机",
         "休闲"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4876730",
@@ -4249,7 +4468,10 @@
         "类 Rogue",
         "清版动作",
         "2D"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "AI tools were used to enhance development productivity and to create a few visual assets such as logos.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "2988050",
@@ -4307,7 +4529,10 @@
         "动作冒险",
         "3D",
         "剧情丰富"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4929040",
@@ -4365,7 +4590,10 @@
         "生活模拟",
         "单人",
         "沉浸式模拟"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4784870",
@@ -4415,7 +4643,10 @@
       "genres": [
         "模拟",
         "独立"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4861030",
@@ -4471,7 +4702,10 @@
         "动作",
         "超现实",
         "冒险"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4868650",
@@ -4588,7 +4822,10 @@
         "动漫",
         "奇幻",
         "单人"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4866620",
@@ -4646,7 +4883,10 @@
         "益智平台",
         "3D",
         "独立"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4868710",
@@ -4705,7 +4945,10 @@
         "2D",
         "彩色",
         "像素图形"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "The in-game interface text is translated into the supported languages using AI / machine translation. Parts of this store page description were drafted with AI. Parts of the source code were written with the help of an AI coding assistant.The in-game interface text is translated into the supported languages using AI. Parts of this store page description were drafted with AI. Parts of the source code were written with the help of an AI coding assistant.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4877150",
@@ -4762,7 +5005,10 @@
         "角色扮演",
         "独立",
         "抢先体验"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3298430",
@@ -4814,7 +5060,10 @@
       "genres": [
         "剧情丰富",
         "2D"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4911720",
@@ -4867,7 +5116,10 @@
         "动作",
         "独立",
         "抢先体验"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Some 2D art (icons and illustrations) was created with the help of generative AI tools and refined by the developer. No AI content is generated during gameplay.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4308440",
@@ -4921,7 +5173,10 @@
         "抢先体验",
         "动作",
         "单人"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "The capsule images (header, small/large capsule, and library assets) for our store page were generated using AI image generation tools. All other game content — including in-game assets, gameplay systems, code, and audio — was created manually by our team without AI generation. We've updated our Content Survey to accurately disclose that AI-generated content is limited to the store page capsule artwork only.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4874470",
@@ -4978,7 +5233,10 @@
         "休闲",
         "单人",
         "独立"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4851820",
@@ -5016,7 +5274,10 @@
       "fetched_at": "2026-07-10T05:15:50+08:00",
       "is_discounted": false,
       "price_value": 0,
-      "genres": []
+      "genres": [],
+      "ai_involved": true,
+      "ai_disclosure": "Generative AI tools were utilized to assist in the creation of promotional materials. Portions of the game's code were developed with the assistance of AI tools. All AI-assisted output is reviewed and tested by the developer. The game itself does not contain any live AI generation.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4334120",
@@ -5072,7 +5333,10 @@
         "2D 平台",
         "视觉小说",
         "第一人称"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "All characters, CG, and UI resources in the game were either commissioned or self-drawn by the developer. Currently, the background resources are placeholders generated using commercial AI to match the overall artistic style. All content is reviewed and finalized by the developer. Once developers secure sufficient budget, these AI-generated contents will be replaced.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4894160",
@@ -5128,7 +5392,10 @@
         "模拟",
         "策略",
         "独立"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Card illustration, Sound, Model, Localization",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3789070",
@@ -5187,7 +5454,10 @@
         "休闲",
         "角色扮演",
         "指向点击"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4692030",
@@ -5241,7 +5511,10 @@
         "模拟",
         "休闲",
         "2D 平台"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "本游戏在开发过程中使用了生成式人工智能辅助部分视觉素材、文本内容与本地化内容的创作。所有相关内容均经过开发者人工筛选、修改、整合与审核后才被加入游戏。游戏本身不会在玩家游玩过程中实时生成 AI 内容。",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4481560",
@@ -5297,7 +5570,10 @@
         "可爱",
         "独立",
         "氛围"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Generative AI was used to assist with the translation and localization of menu text and interface elements, and to help create graphic assets for the Steam store page. All content was reviewed and approved by the developer before publication.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4829980",
@@ -5354,7 +5630,10 @@
         "策略",
         "文字游戏",
         "刷宝"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "I am writing to provide further explanation regarding the AI content disclosure. We used an AI-assisted video and image editing tool, specifically CapCut (also known as JianYing), to help edit and generate some of the assets for our promotional trailer and store page images. The AI features within this software were utilized to assist in the editing, effects, and visual generation process for these store page assets.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4872690",
@@ -5412,7 +5691,10 @@
         "像素图形",
         "2D",
         "类 Rogue"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "[Generative AI Disclosure]Some visual concepts, promotional images, text drafts, and background music were created or edited with the assistance of generative AI tools. The final materials were reviewed, selected, modified, and integrated by the developer.The game does not include real-time generative AI features during gameplay.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4797420",
@@ -5468,7 +5750,10 @@
         "射击",
         "清版动作",
         "3D"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4282450",
@@ -5527,7 +5812,10 @@
         "动作冒险",
         "平台游戏",
         "2D 平台"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4199030",
@@ -5585,7 +5873,10 @@
         "回合制战术",
         "模拟",
         "教育"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4659040",
@@ -5641,7 +5932,10 @@
         "类 Rogue",
         "回合制策略",
         "2D"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4752830",
@@ -5734,7 +6028,10 @@
         "独立",
         "休闲",
         "模拟"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4599400",
@@ -5789,7 +6086,10 @@
         "策略",
         "奇幻",
         "魔法"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4804250",
@@ -5848,7 +6148,10 @@
         "弹幕射击",
         "3D",
         "战斗"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4775010",
@@ -5906,7 +6209,10 @@
         "角色扮演",
         "动作类 Rogue",
         "动作角色扮演"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4787300",
@@ -5965,7 +6271,10 @@
         "模拟",
         "大型多人在线",
         "探索"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Some promotional art assets and in-game artwork were created with the assistance of AI image generation tools. All AI-generated output was reviewed, edited, and curated by the development team before inclusion.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4917950",
@@ -6018,7 +6327,10 @@
         "冒险",
         "独立",
         "休闲"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4774490",
@@ -6073,7 +6385,10 @@
         "模拟",
         "休闲",
         "生活模拟"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "The core game (art, code, writing) is 100% human-made. A third-party background music pack contains pre-generated AI audio. This music will be completely replaced by a human-made soundtrack in an upcoming free update.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4508570",
@@ -6130,7 +6445,10 @@
         "角色扮演",
         "剧情丰富",
         "老式"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4781720",
@@ -6189,7 +6507,10 @@
         "解谜",
         "单人",
         "2D"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "部分谜题插图和宣传视觉素材使用 AI 辅助生成，开发者后期筛选和编辑；游戏运行时没有实时生成 AI 内容。",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4521970",
@@ -6243,7 +6564,10 @@
         "视觉小说",
         "剧情丰富",
         "休闲"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "在开发过程中，我们使用AI工具辅助代码编写，文本本地化采用了AI翻译。 游戏的所有创意、内容和最终体验均来自人类开发者。",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4928570",
@@ -6295,7 +6619,10 @@
         "策略",
         "动作",
         "独立"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4927970",
@@ -6399,7 +6726,10 @@
         "物理",
         "休闲",
         "像素图形"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4888370",
@@ -6457,7 +6787,10 @@
         "动态叙事",
         "休闲",
         "冒险"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4834080",
@@ -6516,7 +6849,10 @@
         "动作",
         "分数挑战",
         "街机"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4581510",
@@ -6572,7 +6908,10 @@
         "奇幻",
         "解谜",
         "模拟"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4866530",
@@ -6629,7 +6968,10 @@
         "策略",
         "休闲",
         "模拟"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4875720",
@@ -6684,7 +7026,10 @@
         "休闲",
         "街机",
         "2D"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4078750",
@@ -6723,7 +7068,10 @@
       "fetched_at": "2026-07-10T05:15:50+08:00",
       "is_discounted": false,
       "price_value": 0,
-      "genres": []
+      "genres": [],
+      "ai_involved": true,
+      "ai_disclosure": "This game uses generative artificial intelligence tools only during development to create certain visual and audio assets. All content experienced by players is pre-rendered and reviewed, with no automatic real-time generation during gameplay.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3916610",
@@ -6781,7 +7129,10 @@
         "解谜",
         "策略",
         "逻辑"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4129340",
@@ -6876,7 +7227,10 @@
         "策略",
         "解谜",
         "探索"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4927390",
@@ -6920,7 +7274,10 @@
       "price_value": 0,
       "genres": [
         "休闲"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Some of this game's code and the tools that procedurally generate its visual assets were created with the assistance of an AI development assistant. All output was reviewed, edited, and tested by the developer. The game contains no AI-generated artwork from image-generation models, and no AI runs during gameplay.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4912920",
@@ -6967,7 +7324,10 @@
       "genres": [
         "冒险",
         "独立"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4260190",
@@ -7024,7 +7384,10 @@
         "氛围",
         "剧情丰富",
         "探索"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4637560",
@@ -7081,7 +7444,10 @@
         "休闲",
         "角色扮演",
         "模拟"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Some content in this game was created with the assistance of generative AI tools during development, including certain visual assets, store artwork, capsule art, and text. All AI-assisted content was reviewed, edited, and integrated by the developer to ensure it fits the game’s design and overall player experience. Some art assets are sourced from the CC0 asset libraries provided by Kenney. Music and sound effects used in the game are sourced from Phat Phrog Studio and ZapSplat.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4773260",
@@ -7134,7 +7500,10 @@
       "genres": [
         "多人",
         "休闲"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Some language translations were reviewed by AI.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4576570",
@@ -7193,7 +7562,10 @@
         "动作冒险",
         "解谜",
         "3D"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "This game uses minimal AI Image generation for some scenes.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4330950",
@@ -7252,7 +7624,10 @@
         "角色扮演",
         "回合制战斗",
         "类 Rogue"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4457130",
@@ -7311,7 +7686,10 @@
         "冒险",
         "视觉小说",
         "欢乐"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4924730",
@@ -7369,7 +7747,10 @@
         "动作类 Rogue",
         "动作冒险",
         "类 Rogue"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "\"We used generative AI tools during the development of this game. Specifically, pre-generated AI tools were utilized to create and refine some of the 2D visual assets, including concept art, UI elements, and promotional store graphics. All AI-generated content was reviewed, edited, and curated by our team to ensure quality and compliance with Steam's content policies. The game itself does not generate any live AI content during runtime.\"",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4787550",
@@ -7426,7 +7807,10 @@
         "策略",
         "回合制战斗",
         "回合制战术"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "We use AI for code review and task scheduling.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4767420",
@@ -7484,7 +7868,10 @@
         "第一人称",
         "恐怖",
         "单人"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4717660",
@@ -7542,7 +7929,10 @@
         "解谜",
         "2D",
         "彩色"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4760110",
@@ -7598,7 +7988,10 @@
         "休闲",
         "独立",
         "3D"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4926320",
@@ -7645,7 +8038,10 @@
       "genres": [
         "动作",
         "免费开玩"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4104650",
@@ -7686,7 +8082,10 @@
       "fetched_at": "2026-07-10T05:15:50+08:00",
       "is_discounted": false,
       "price_value": 0,
-      "genres": []
+      "genres": [],
+      "ai_involved": true,
+      "ai_disclosure": "AI tools were used in a limited capacity during development to assist with concept art, promotional material, background music, design ideation, and co-writing some descriptive text. No AI is used in actual gameplay, player interaction, or game logic.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4766440",
@@ -7744,7 +8143,10 @@
         "双摇杆射击",
         "2.5D",
         "俯视射击"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4848170",
@@ -7798,7 +8200,10 @@
         "动作",
         "冒险",
         "策略"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "I use generative AI exclusively as a temporary tool for rapid prototyping and placeholder content during early solo development. All AI-generated elements in Vigilum are planned to be fully replaced with custom, human-made assets for the final v1.0 release. -> 3D Models: I used generative AI tools to create two 3D assets (the Vylem gem and the Blood Sigil element). These are temporary placeholders, and I am currently prioritizing remaking them myself during the Early Access phase. -> 2D Assets: A few UI icons and images were generated with AI. I intend to commission a professional artist to completely replace these 2D elements as soon as funding allows.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4601840",
@@ -7855,7 +8260,10 @@
         "恐怖",
         "动作冒险",
         "探索"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Some sound effects are created using AI.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4918410",
@@ -7911,7 +8319,10 @@
         "角色扮演",
         "独立",
         "模拟"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4093240",
@@ -8020,7 +8431,10 @@
         "动作",
         "冒险",
         "独立"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Generative AI tools were used during development to assist in the creation of certain visual assets, including Steam store capsules, and some UI button icons (keyboard and controller prompts). AI was also used to assist with text translation, writing improvements, and programming assistance during development. All AI-assisted content has been reviewed, edited, and integrated by the developer before being included in the game or on the Steam store page. The game does not generate AI content during gameplay.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4798350",
@@ -8075,7 +8489,10 @@
         "模拟",
         "沙盒",
         "2D"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "This game uses generative AI tools to create certain static visual assets, including background images, loading screens, character portraits, marketing materials, and ship illustrations. No generative AI is used during gameplay to create game mechanics, simulations, text content, or dynamic systems. All gameplay mechanics and simulation systems are entirely handcrafted and deterministic.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4917790",
@@ -8122,7 +8539,10 @@
       "genres": [
         "冒险",
         "角色扮演"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Some textures and 3D models, video",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3957810",
@@ -8181,7 +8601,10 @@
         "俯视射击",
         "控制器",
         "剧情丰富"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4856990",
@@ -8237,7 +8660,10 @@
         "放松",
         "可爱",
         "彩色"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4861010",
@@ -8295,7 +8721,10 @@
         "2D 平台",
         "回合制战术",
         "2D"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "The developer used generative AI tools during development to help create some of the game's code, sound effects, and music. All AI-assisted content was reviewed and curated by the developer.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4856860",
@@ -8333,7 +8762,10 @@
       "fetched_at": "2026-07-10T05:15:50+08:00",
       "is_discounted": false,
       "price_value": 0,
-      "genres": []
+      "genres": [],
+      "ai_involved": true,
+      "ai_disclosure": "本游戏少部分美术素材借鉴了AI生成的结果，并对其进行了人工重绘或修改，不会影响游戏体验",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4851300",
@@ -8386,7 +8818,10 @@
       "genres": [
         "休闲",
         "像素图形"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4656420",
@@ -8444,7 +8879,10 @@
         "文字游戏",
         "3D",
         "教育"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Suno AI was used to generate the game's background music. And one of the friars is created with Meshy AI.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4870090",
@@ -8488,7 +8926,10 @@
       "price_value": 0,
       "genres": [
         "独立"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4860070",
@@ -8549,7 +8990,10 @@
         "2D",
         "俯视射击",
         "逻辑"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "The 2D visual assets (backgrounds, character art, non-gameplay store images and some UI elements) in this game were pre-generated using AI image generation tools during development and subsequently edited. All game mechanics, puzzle logic and game design were entirely created by a solo independent developer.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4045460",
@@ -8587,7 +9031,10 @@
       "fetched_at": "2026-07-10T05:15:50+08:00",
       "is_discounted": false,
       "price_value": 0,
-      "genres": []
+      "genres": [],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3863770",
@@ -8645,7 +9092,10 @@
         "解谜",
         "益智平台",
         "类魂"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Some of the game's art assets were generated using AI.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4856470",
@@ -8705,7 +9155,10 @@
         "动作",
         "平台游戏",
         "街机"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4924250",
@@ -8756,7 +9209,10 @@
         "策略",
         "独立",
         "休闲"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Generative AI tools were used to help create some of the 2D store and marketing graphics (e.g. store capsule images). These assets were reviewed and finalized by the developer, who holds the rights to use them. No generative AI is used for content inside the game, and no AI-generated content is produced live during gameplay.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4904960",
@@ -8803,7 +9259,10 @@
       "genres": [
         "策略",
         "独立"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4904820",
@@ -8859,7 +9318,10 @@
         "3D",
         "俯视射击",
         "家庭友好"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "AI is used in some of the store images and the title screen.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4798820",
@@ -8918,7 +9380,10 @@
         "回合制战斗",
         "2D",
         "奇幻"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "部分图片 翻译",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3041280",
@@ -8978,7 +9443,10 @@
         "2D",
         "氛围",
         "动漫"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4791950",
@@ -9032,7 +9500,10 @@
         "欢乐",
         "物理",
         "动作"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4773850",
@@ -9088,7 +9559,10 @@
         "角色扮演",
         "游戏开发",
         "策略角色扮演"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4855490",
@@ -9143,7 +9617,10 @@
         "视觉小说",
         "2D",
         "模拟"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4827360",
@@ -9183,7 +9660,10 @@
       "fetched_at": "2026-07-10T05:15:50+08:00",
       "is_discounted": false,
       "price_value": 0,
-      "genres": []
+      "genres": [],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4890640",
@@ -9227,7 +9707,10 @@
       "price_value": 0,
       "genres": [
         "角色扮演"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "本游戏的部分美术素材使用了AI辅助生成。所有AI相关内容均为开发阶段预先生成，游戏运行期间不包含任何实时生成的AI内容。",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4345460",
@@ -9285,7 +9768,10 @@
         "解谜",
         "2D",
         "像素图形"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4851600",
@@ -9345,7 +9831,10 @@
         "指向点击",
         "解谜",
         "2D 平台"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4799480",
@@ -9386,7 +9875,10 @@
       "fetched_at": "2026-07-10T05:15:50+08:00",
       "is_discounted": false,
       "price_value": 0,
-      "genres": []
+      "genres": [],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4733540",
@@ -9445,7 +9937,10 @@
         "类 Rogue",
         "3D",
         "抢先体验"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "AI used to make pieces of capsule art then assembled and edited in photopea (free online photoshop). All the content in the game, dialogues, colors, quests, items, icons, layouts, proc gen, easter eggs, everything is handcrafted, handpicked and intentionally placed by me, or is a CC0 licenced asset which will be credited upon game's full release.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4899790",
@@ -9504,7 +9999,10 @@
         "沉浸式模拟",
         "动作角色扮演",
         "动作冒险"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4868140",
@@ -9562,7 +10060,10 @@
         "类魂",
         "困难",
         "休闲"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Some of Gap Storm's assets — including card art, character/enemy avatars, table and background art, certain UI icons, and some audio — were created with the assistance of generative AI tools (Google Gemini) during development. These assets were reviewed, edited, curated, and integrated by the developer. Gap Storm does NOT generate any AI content live during gameplay; all AI-assisted content is pre-made and fixed in the build.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3821830",
@@ -9617,7 +10118,10 @@
         "冒险",
         "独立",
         "3D"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "The watercolor paintings that appear in the game, depicting the situation at the crime scene, use AI for editing.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4924670",
@@ -9667,7 +10171,10 @@
       "genres": [
         "可爱",
         "动漫"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4817530",
@@ -9724,7 +10231,10 @@
         "模拟",
         "2D",
         "可爱"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4923670",
@@ -9774,7 +10284,10 @@
         "动作",
         "独立",
         "休闲"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "《麦田幸存者》中的部分非交互内容借助 AI 工具制作: - 背景音乐由 AI 音乐合成模型生成,再由开发者筛选与混音。 - 音效使用 AI 辅助的音频生成工具制作。 - 英语、日语、俄语、西班牙语、巴西葡萄牙语和德语的游戏内文本由 AI 翻译辅助起草,并经开发者校对。简体中文为原始撰写文本。 关卡设计、精灵美术与角色动画均由手写代码程序化绘制,未使用 AI 生图。运行时不生成任何 AI 内容。",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4655610",
@@ -9832,7 +10345,10 @@
         "沙盒",
         "弹幕射击",
         "俯视射击"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4297450",
@@ -9889,7 +10405,10 @@
         "休闲",
         "指向点击",
         "2D 平台"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Using Claude code for translation",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4401900",
@@ -9947,7 +10466,10 @@
         "角色扮演",
         "互动小说",
         "动态叙事"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "本游戏在开发过程中使用生成式人工智能工具辅助创建一些预生成的背景图像和概念艺术图。所有人工智能生成的素材都经过人工美术师的大量编辑和润色，以确保原创性和质量。游戏过程中未使用任何实时/游戏内人工智能生成技术，也未连接任何外部人工智能服务。",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4907990",
@@ -10005,7 +10527,10 @@
         "独立",
         "休闲",
         "模拟"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4922710",
@@ -10063,7 +10588,10 @@
         "策略",
         "指向点击",
         "塔防"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Some Assets, SFX, BGM and Artwork were used in the making of this game.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4443070",
@@ -10121,7 +10649,10 @@
         "单人",
         "3D",
         "第一人称"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4888190",
@@ -10168,7 +10699,10 @@
       "genres": [
         "冒险",
         "角色扮演"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "本游戏仅含有三首人工智能生成的背景音乐，其余部分均由人工完成！",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4858890",
@@ -10226,7 +10760,10 @@
         "生活模拟",
         "互动小说",
         "视觉小说"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Using AIGC only for background picture",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4838190",
@@ -10282,7 +10819,10 @@
         "策略",
         "2D 平台",
         "彩色"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4823800",
@@ -10340,7 +10880,10 @@
         "第一人称",
         "恐怖",
         "单人"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4444690",
@@ -10394,7 +10937,10 @@
         "模拟",
         "欢乐",
         "剧情丰富"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "a note on how this got made. i'm a small team, and ai-assisted tools are what let me build a game this size at all. every confession, every joke, and every design choice is human. the ai handled some of the art and the character voices. the voices come from performers who licensed their voice for commercial use, so there's real consent behind them, not scraped work. ai isn't the finished vision, it's the bridge that gets a small team to a game worth playing. as confessional grows, the goal is to bring on human artists to remake the art, funded by the game itself.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4533740",
@@ -10453,7 +10999,10 @@
         "探索",
         "3D",
         "真实"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "AI is currently used to generate speech to text for main character dialogue. this will eventually be phased out and replaced by voice acting.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4914160",
@@ -10511,7 +11060,10 @@
         "类 Rogue",
         "回合制战斗",
         "类魂"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Part of the game uses AI in Illustration, music.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4856250",
@@ -10567,7 +11119,10 @@
         "回合制战术",
         "类 Rogue",
         "2D"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Spire of Legends uses generative AI as part of the development process for certain visual assets, sound effects, and localization content. AI-generated content is not used directly without review; assets and text are edited, refined, and integrated by the developer to meet the game's artistic and gameplay requirements. All game design, programming, mechanics, balance decisions, and overall creative direction are created by the developer.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4279050",
@@ -10624,7 +11179,10 @@
         "策略",
         "解谜",
         "放松"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "I used AI helped me to design the main character; however, the final looking is vastly different then the AI generated. I also plan to use Ai to generate background music for my game.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4904610",
@@ -10671,7 +11229,10 @@
       "genres": [
         "动作",
         "独立"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4848340",
@@ -10730,7 +11291,10 @@
         "角色扮演",
         "回合制",
         "冒险"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "部分图片素材使用AI生成。",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4798960",
@@ -10788,7 +11352,10 @@
         "清版动作",
         "单人",
         "街机"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "The splash page images were generated by xAI Grok, the music is by Suno. CoPilot and Claude helped me with the coding.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4775200",
@@ -10847,7 +11414,10 @@
         "类 Rogue",
         "单人",
         "2D"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "AI was used to polish the code and produce marketing materials.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4400900",
@@ -10904,7 +11474,10 @@
         "冒险",
         "多人",
         "恐怖"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4611050",
@@ -10979,7 +11552,10 @@
         "探索",
         "3D",
         "第一人称"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3990210",
@@ -11039,7 +11615,10 @@
         "可爱",
         "逻辑",
         "益智平台"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4918970",
@@ -11095,7 +11674,10 @@
         "动作类 Rogue",
         "类魂",
         "策略"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Some visual assets used in this game were created or assisted using generative AI during development and have been reviewed and edited by the developer before being included in the final game.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4877610",
@@ -11146,7 +11728,10 @@
       "price_value": 0,
       "genres": [
         "时间竞速"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4417490",
@@ -11205,7 +11790,10 @@
         "休闲",
         "2D",
         "俯视射击"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4891310",
@@ -11263,7 +11851,10 @@
         "角色扮演",
         "独立",
         "休闲"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "2377930",
@@ -11320,7 +11911,10 @@
         "角色扮演",
         "剧情丰富",
         "探索"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4735570",
@@ -11358,7 +11952,10 @@
       "fetched_at": "2026-07-10T05:15:50+08:00",
       "is_discounted": false,
       "price_value": 0,
-      "genres": []
+      "genres": [],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4522470",
@@ -11417,7 +12014,10 @@
         "解谜",
         "平台游戏",
         "冒险"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4522440",
@@ -11476,7 +12076,10 @@
         "动作冒险",
         "街机",
         "3D"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4522460",
@@ -11533,7 +12136,10 @@
         "动作冒险",
         "3D",
         "动漫"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4522430",
@@ -11592,7 +12198,10 @@
         "街机",
         "探索",
         "3D"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3706280",
@@ -11645,7 +12254,10 @@
       "genres": [
         "探索",
         "动作冒险"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3914980",
@@ -11701,7 +12313,10 @@
         "回合制战斗",
         "单人",
         "2D"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4794570",
@@ -11760,7 +12375,10 @@
         "回合制",
         "动作角色扮演",
         "2D"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Generative AI tools were used during development to assist in creating select pre-rendered 2D background environments, UI icons, and character voice-over audio for cutscenes and narration. All AI-generated content was pre-generated and manually reviewed to ensure quality and compliance before being integrated into the game. The game does not generate any AI content live during gameplay.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4282880",
@@ -11813,7 +12431,10 @@
       "genres": [
         "互动小说",
         "模拟"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4727270",
@@ -11871,7 +12492,10 @@
         "解谜",
         "彩色",
         "逻辑"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Help in creating images",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "562770",
@@ -11929,7 +12553,10 @@
         "物理",
         "模拟",
         "沙盒"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4727280",
@@ -11988,7 +12615,10 @@
         "解谜",
         "彩色",
         "单人"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Help in creating images",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3946050",
@@ -12026,7 +12656,10 @@
       "fetched_at": "2026-07-10T05:15:50+08:00",
       "is_discounted": false,
       "price_value": 0,
-      "genres": []
+      "genres": [],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4772820",
@@ -12085,7 +12718,10 @@
         "逻辑",
         "独立",
         "物理"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4828210",
@@ -12144,7 +12780,10 @@
         "视觉小说",
         "文字游戏",
         "2D"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "This game uses generative AI tools to assist in the creation of visual assets (characters, backgrounds) and narrative content. All AI-generated content has been reviewed and curated by the development team to ensure it meets our quality and safety standards.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4373150",
@@ -12201,7 +12840,10 @@
         "多人",
         "欢乐",
         "物理"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "The developers use AI to control bots during combat.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4689290",
@@ -12259,7 +12901,10 @@
         "塔防",
         "解谜",
         "彩色"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Generative AI was used as a development assistant for pre-release asset iteration, writing support, localization drafts, ideation and productivity tasks. Some visual assets and draft text/assets may have been assisted or iterated with generative AI before being reviewed and integrated into the game. This content is static and does not generate new content at runtime. The game does not use live generative AI to create content during gameplay. No player prompts are sent to an AI service at runtime. AI-assisted material is reviewed manually before inclusion. It is adjusted to match the game's style, naming, tone and technical requirements, and content that would be inappropriate, infringing or inconsistent with the project is not intentionally included.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4822060",
@@ -12297,7 +12942,10 @@
       "fetched_at": "2026-07-10T05:15:50+08:00",
       "is_discounted": false,
       "price_value": 0,
-      "genres": []
+      "genres": [],
+      "ai_involved": true,
+      "ai_disclosure": "部分图片素材以及音乐, 还有多语言翻译等",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4787290",
@@ -12356,7 +13004,10 @@
         "策略",
         "沉浸式模拟",
         "指向点击"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4796940",
@@ -12416,7 +13067,10 @@
         "指向点击",
         "探索",
         "3D"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4862010",
@@ -12475,7 +13129,10 @@
         "休闲",
         "策略",
         "探索"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Some objects and character voices in this game were created with the assistance of AI",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4905200",
@@ -12529,7 +13186,10 @@
         "角色扮演",
         "回合制策略",
         "像素图形"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4909370",
@@ -12587,7 +13247,10 @@
         "类 Rogue",
         "类魂",
         "2D"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4700250",
@@ -12645,7 +13308,10 @@
         "解谜",
         "游戏开发",
         "3D"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4836100",
@@ -12703,7 +13369,10 @@
         "沙盒",
         "物理",
         "教育"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4633320",
@@ -12757,7 +13426,10 @@
       "genres": [
         "抢先体验",
         "回合制战术"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Some music tracks in Gridhammer were composed using AI music generation tools (Suno). All other game content including artwork, writing, and game design is human-created.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4838940",
@@ -12816,7 +13488,10 @@
         "精确平台",
         "像素图形",
         "单人"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "In this work, AI-powered image generation technology was used to create some of the background images.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4101270",
@@ -12873,7 +13548,10 @@
         "多人",
         "独立",
         "放松"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "1835420",
@@ -12931,7 +13609,10 @@
         "多人",
         "类 Rogue",
         "单人"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4724520",
@@ -12990,7 +13671,10 @@
         "俯视",
         "射击",
         "动作"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4916210",
@@ -13040,7 +13724,10 @@
         "动作",
         "独立",
         "休闲"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4732390",
@@ -13099,7 +13786,10 @@
         "互动小说",
         "像素图形",
         "视觉小说"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "We utilize generative AI for most of our artwork and some of our music. A little (5%) of the game was coded with AI assistance - this includes sdk integrations mostly for steam API.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "2618160",
@@ -13157,7 +13847,10 @@
         "回合制战斗",
         "探索",
         "回合制战术"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4268060",
@@ -13216,7 +13909,10 @@
         "物理",
         "欢乐",
         "动作"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4773390",
@@ -13274,7 +13970,10 @@
         "指向点击",
         "欢乐",
         "2.5D"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4856850",
@@ -13332,7 +14031,10 @@
         "益智平台",
         "物理",
         "冒险"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "The game includes cinematic video sequences that were generated or assisted using AI tools. These AI-assisted elements are used as non-interactive intro/ending cutscenes and visual presentation material. The game design, level design, gameplay systems, characters, dialogue integration, voice implementation, part of cinematic and final editing were created and assembled by the developer.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4697170",
@@ -13383,7 +14085,10 @@
       "fetched_at": "2026-07-10T05:15:50+08:00",
       "genres": [
         "恐怖"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "This game uses generative AI to create some of its audio, visual, and localization content. The music was generated with AI tools, certain sound effects were produced using AI-based audio synthesis, and some in‑game images and artwork were created with the assistance of generative AI. Part of the game's translations were also assisted by AI. All content has been manually reviewed, edited, and adapted to maintain the artistic and narrative coherence of the project.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3515060",
@@ -13441,7 +14146,10 @@
         "2D",
         "可爱",
         "独立"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4873170",
@@ -13497,7 +14205,10 @@
         "休闲",
         "控制器",
         "单人"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Some of the game’s assets, were created with AI.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4872970",
@@ -13550,7 +14261,10 @@
       "genres": [
         "冒险",
         "休闲"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Some of the logos are made with AI",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4876460",
@@ -13608,7 +14322,10 @@
         "独立",
         "解谜",
         "3D"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "本游戏中出现的虚构奖品的包装插画，采用了图像生成AI技术。",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4841480",
@@ -13668,7 +14385,10 @@
         "街机",
         "解谜",
         "塔防"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "本游戏中的大部分素材与资源均利用生成式 AI 工具制作，涵盖视觉资源、音频内容及其他创意要素。所有由 AI 生成的内容均经过开发者的审核、筛选、编辑、润色与整合，以确保其与游戏的艺术风格、设计理念及整体创意愿景保持一致。",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4881510",
@@ -13714,7 +14434,10 @@
       "price_value": 0,
       "genres": [
         "设计与插画"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4851270",
@@ -13830,7 +14553,10 @@
         "策略",
         "指向点击",
         "2D"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "AI tools were used to assist with concept art direction, store artwork iteration, written content, UI text refinement, and creative planning. All final content was reviewed, edited, and implemented by the developer.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4753990",
@@ -13887,7 +14613,10 @@
         "休闲",
         "教育",
         "街机"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "TYPE HYPE's static visual assets — the main-menu skyline background, achievement icons (34 color + 34 grayscale variants = 68 PNGs), exhibition-level theme backgrounds (15 themes × 6 layer files = 90 PNGs), and Steam capsule backgrounds — were created with the assistance of generative AI image tools (primarily OpenAI's GPT image generation). All AI-generated assets were curated, selected, and approved by the developer. No AI runs at runtime in the shipped product. Music (59 tracks) is human-composed and sourced from Pixabay under the Pixabay Content License. Code was written collaboratively by the developer with an AI coding assistant. The game contains no AI-generated content shown to players during gameplay (procedural music layering is rule-based, not AI).",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4909770",
@@ -13934,7 +14663,10 @@
       "genres": [
         "独立",
         "模拟"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Some of the visual assets in Iron Ledger, including the game icon and splash/menu artwork, were created with the assistance of generative AI image tools. All AI-assisted assets were reviewed and curated by the developer. No AI-generated content is produced live during gameplay.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4855940",
@@ -14048,7 +14780,10 @@
         "动作冒险",
         "3D",
         "奇幻"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "人物、怪物、图片、logo使用了AI生成。 角色、怪物3D模型由V2Fun生成创作，素材基于 CC BY 4.0 协议授权商用使用。",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4868590",
@@ -14106,7 +14841,10 @@
         "射击",
         "弹幕射击",
         "清版动作"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4389170",
@@ -14163,7 +14901,10 @@
         "冒险",
         "氛围",
         "探索"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3873040",
@@ -14216,7 +14957,10 @@
       "genres": [
         "探索",
         "建造"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "AI used for some inventory items and for images on the game's store page, and edited with a graphics editor.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4829530",
@@ -14274,7 +15018,10 @@
         "像素图形",
         "2.5D",
         "动作"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4733840",
@@ -14332,7 +15079,10 @@
         "2D",
         "像素图形",
         "奇幻"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4859790",
@@ -14391,7 +15141,10 @@
         "模拟",
         "建造",
         "分数挑战"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "OUTWORKS was developed with the help of AI-based coding assistants, which we used to write parts of the game's source code. Everything you see and hear in the game is then generated procedurally by that code — all graphics are drawn in code (SVG/CSS) and all sound is synthesized in code (Web Audio). The game contains no AI-generated image or audio assets, and no generative AI runs while you play.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4907050",
@@ -14432,7 +15185,10 @@
       "fetched_at": "2026-07-10T05:15:50+08:00",
       "is_discounted": false,
       "price_value": 0,
-      "genres": []
+      "genres": [],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4917990",
@@ -14476,7 +15232,10 @@
       "price_value": 0,
       "genres": [
         "模拟"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Generative AI was used only to assist in editing and enhancing certain 2D images used in the game, such as improving quality, refining details, or making visual adjustments. All gameplay, programming, game design, and the final implementation of assets were created and reviewed by the developer. No generative AI is used to create gameplay content or player interactions during gameplay.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4868610",
@@ -14535,7 +15294,10 @@
         "动作类 Rogue",
         "类 Rogue",
         "回合制战斗"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4542710",
@@ -14591,7 +15353,10 @@
         "休闲",
         "解谜",
         "指向点击"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4844330",
@@ -14650,7 +15415,10 @@
         "2D 平台",
         "回合制",
         "回合制战斗"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Generative AI was used as a production aid for character portraits, backgrounds, some UI elements, music and sound effects, and localization. AI-assisted tools were also used during development. The game's combat systems, boss mechanics, character builds, progression, balance, and overall game design were created by the developer.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4874010",
@@ -14709,7 +15477,10 @@
         "回合制策略",
         "平台游戏",
         "角色扮演"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4810930",
@@ -14768,7 +15539,10 @@
         "奔跑",
         "沉浸式模拟",
         "益智平台"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "This game contains some pre-generated visual and sound assets created with the assistance of generative AI. All such content was reviewed and integrated by the developer. No generative AI is used during live gameplay.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4872590",
@@ -14825,7 +15599,10 @@
         "街机",
         "分数挑战",
         "休闲"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4752540",
@@ -14865,7 +15642,10 @@
       "fetched_at": "2026-07-10T05:15:50+08:00",
       "is_discounted": false,
       "price_value": 0,
-      "genres": []
+      "genres": [],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4539870",
@@ -14920,7 +15700,10 @@
         "策略",
         "模拟",
         "沙盒"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4167650",
@@ -14979,7 +15762,10 @@
         "街机",
         "类 Rogue",
         "类魂"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4235660",
@@ -15035,7 +15821,10 @@
         "回合制战术",
         "策略角色扮演",
         "策略"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4588010",
@@ -15094,7 +15883,10 @@
         "2D",
         "欢乐",
         "分数挑战"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Most in-game visual assets were generated using AI tools, while all implementation, including placement and animation, was handled by the developers. The user interface was created using non-AI assets and implemented by the development team.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4724650",
@@ -15147,7 +15939,10 @@
       "genres": [
         "老式",
         "恐怖"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4827240",
@@ -15206,7 +16001,10 @@
         "策略",
         "生活模拟",
         "2D"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "2627350",
@@ -15265,7 +16063,10 @@
         "剧情丰富",
         "2.5D",
         "第一人称"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "2209900",
@@ -15322,7 +16123,10 @@
         "生活模拟",
         "可爱",
         "放松"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4133940",
@@ -15381,7 +16185,10 @@
         "动作",
         "探索",
         "氛围"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "AI-assisted tools were used during the development of this game, including assistance with writing game code, some audio assets, and certain promotional materials for this store page. All AI-assisted content was directed, reviewed, and integrated by the developer, and the game's design and creative direction are the developer's own. The game does not use AI at runtime: no gameplay content, player-facing text, or other material is generated by AI while playing.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4742610",
@@ -15438,7 +16245,10 @@
         "动作类 Rogue",
         "街机",
         "休闲"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "AI was used only to assist with game code",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4886660",
@@ -15496,7 +16306,10 @@
         "氛围",
         "互动小说",
         "视觉小说"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "游戏里的图片由AI生成",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4729470",
@@ -15555,7 +16368,10 @@
         "动作角色扮演",
         "弹幕射击",
         "2D"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4476350",
@@ -15611,7 +16427,10 @@
         "解谜",
         "逻辑",
         "时间管理"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4769520",
@@ -15665,7 +16484,10 @@
         "角色扮演",
         "模拟",
         "动作角色扮演"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "This game uses AI in various places. A a solo developer it was nearly impossible to put out this game in a meaningful time frame or act on feedback without leveraging AI as a tool. I'm happy to reduce AI usage if the game is financially stable enough through your support! Thank you in advanced if we ever get that opportunity.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4853960",
@@ -15722,7 +16544,10 @@
         "策略",
         "类 Rogue",
         "回合制战斗"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "本游戏使用AI生成了Steam的宣传/成就图片",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4905910",
@@ -15776,7 +16601,10 @@
         "探索",
         "射击",
         "动作"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4856290",
@@ -15835,7 +16663,10 @@
         "解谜",
         "像素图形",
         "2D"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4915990",
@@ -15891,7 +16722,10 @@
         "模拟",
         "街机",
         "解谜"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "2883030",
@@ -15942,7 +16776,10 @@
       "fetched_at": "2026-07-10T05:15:50+08:00",
       "genres": [
         "模拟"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4847340",
@@ -15980,7 +16817,10 @@
       "fetched_at": "2026-07-10T05:15:50+08:00",
       "is_discounted": false,
       "price_value": 0,
-      "genres": []
+      "genres": [],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4900240",
@@ -16030,7 +16870,10 @@
         "独立",
         "休闲",
         "模拟"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4863340",
@@ -16077,7 +16920,10 @@
       "genres": [
         "动作",
         "冒险"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4885280",
@@ -16135,7 +16981,10 @@
         "平台游戏",
         "2D 平台",
         "精确平台"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4876610",
@@ -16193,7 +17042,10 @@
         "独立",
         "街机",
         "精确平台"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4789820",
@@ -16252,7 +17104,10 @@
         "策略",
         "街机",
         "沙盒"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Generative AI tools were used during the creation of marketing and promotional materials for the game's Steam Store page and Community Hub assets. Specifically, the game's official community avatars, group banner backgrounds, and concept art presentations were generated using AI imagery tools to establish the game's retro space pixel-art aesthetic. No AI-generated assets are contained directly within the game code or build itself.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4081200",
@@ -16311,7 +17166,10 @@
         "解谜",
         "单人",
         "奇幻"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4726020",
@@ -16370,7 +17228,10 @@
         "街机",
         "3D",
         "欢乐"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4765310",
@@ -16429,7 +17290,10 @@
         "单人",
         "战斗",
         "探索"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Ai Voice Character And Images",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4902070",
@@ -16474,7 +17338,10 @@
       "price_value": 0,
       "genres": [
         "独立"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     }
   ],
   "potential_items": [
@@ -16528,7 +17395,10 @@
       "genres": [
         "模拟",
         "多人"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Dynasty and RTG Modes - Storyline content in hub screen, Design Implementation and tuning Commentary scripting support Trophy Room Support Creating more realistic play calls made by CPU teams",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3265230",
@@ -16585,7 +17455,10 @@
         "多人",
         "探索",
         "第一人称"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4380490",
@@ -16645,7 +17518,10 @@
         "生活模拟",
         "可爱",
         "氛围"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3751950",
@@ -16707,7 +17583,10 @@
       "genres": [
         "动作冒险",
         "探索"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3935020",
@@ -16760,7 +17639,10 @@
       "genres": [
         "街机",
         "角色扮演"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4760110",
@@ -16816,7 +17698,10 @@
         "休闲",
         "独立",
         "3D"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "2377930",
@@ -16873,7 +17758,10 @@
         "角色扮演",
         "剧情丰富",
         "探索"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4873170",
@@ -16929,7 +17817,10 @@
         "休闲",
         "控制器",
         "单人"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Some of the game’s assets, were created with AI.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4872970",
@@ -16982,7 +17873,10 @@
       "genres": [
         "冒险",
         "休闲"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Some of the logos are made with AI",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "2209900",
@@ -17039,7 +17933,10 @@
         "生活模拟",
         "可爱",
         "放松"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "2749950",
@@ -17092,7 +17989,10 @@
       "genres": [
         "模拟",
         "策略"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "AI was used for generation of players' faces and in-game logos.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "450540",
@@ -17148,7 +18048,10 @@
         "射击",
         "物理",
         "模拟"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3462790",
@@ -17200,7 +18103,10 @@
       "genres": [
         "大型多人在线",
         "3D"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "AI was used for text translation into multiple languages and for generating small placeholder images, such as icons and minor UI elements. All core creative assets, gameplay systems, and design decisions were made by the developer, and AI-generated placeholders may be replaced in future updates.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4634490",
@@ -17254,7 +18160,10 @@
       "genres": [
         "魔法",
         "奇幻"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4714810",
@@ -17310,7 +18219,10 @@
         "回合制",
         "刷宝",
         "角色扮演"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "我的商店页面的部分资源使用了AI辅助优化",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4156370",
@@ -17371,7 +18283,10 @@
         "剧情丰富",
         "街机",
         "动漫"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3278290",
@@ -17429,7 +18344,10 @@
         "战争",
         "单人",
         "3D"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4173970",
@@ -17488,7 +18406,10 @@
         "多人",
         "模拟",
         "街机"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4683470",
@@ -17544,7 +18465,10 @@
         "视觉小说",
         "教育",
         "互动小说"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "AI-Assisted Production",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4186870",
@@ -17598,7 +18522,10 @@
         "恐怖",
         "氛围",
         "互动小说"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4616840",
@@ -17649,7 +18576,10 @@
       "fetched_at": "2026-07-10T05:15:50+08:00",
       "genres": [
         "休闲"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4800590",
@@ -17705,7 +18635,10 @@
         "解谜",
         "休闲",
         "沉浸式模拟"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "All 3D models, music, and UI icons were created by humans. Generative AI was used for some in-game textures, localization, and translation.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4080030",
@@ -17761,7 +18694,10 @@
         "解谜",
         "战争",
         "3D"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4560490",
@@ -17815,7 +18751,10 @@
         "解谜",
         "角色扮演",
         "休闲"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "最终工作人员字幕背景图用ai滤镜。游戏图标，个别3d模型的底纹素材。宣传图。",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4559140",
@@ -17873,7 +18812,10 @@
         "2D 平台",
         "2D",
         "战争"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4740460",
@@ -17931,7 +18873,10 @@
         "刷宝",
         "角色扮演",
         "免费开玩"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "商店页面的部分资源使用了AI进行优化",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3979330",
@@ -17989,7 +18934,10 @@
         "氛围",
         "可爱",
         "动漫"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3690760",
@@ -18045,7 +18993,10 @@
         "模拟",
         "单人",
         "休闲"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Artificial intelligence (AI) was used during the development of this game to generate concept art, apply graphic filters, and assist with debugging.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4834070",
@@ -18097,7 +19048,10 @@
       "genres": [
         "冒险",
         "指向点击"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3880410",
@@ -18155,7 +19109,10 @@
         "可爱",
         "休闲",
         "动漫"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4557340",
@@ -18210,7 +19167,10 @@
         "抢先体验",
         "剧情丰富",
         "策略"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Dead Reckoning is written, and designed by one person. I want to be precise about where AI tools do and don't appear in it. Creative content — no generative AI. All writing, narrative, and design is mine. I've worked as a technical writer for twelve years; the game's voice is my own. All art and visual assets are hand-made or licensed from named human artists. All music and sound effects are licensed from named human creators (public domain / Creative Commons) — none of it is AI-generated. This is a hard line and I intend to keep it. Development & release tooling — where AI assists. I use AI in the engineering and release pipeline only, never to author the game itself: - Coding assistance while writing the game's GDScript. - An automated QA/test harness that plays the simulation thousands ",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3859750",
@@ -18270,7 +19230,10 @@
         "放松",
         "真实",
         "沉浸式模拟"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3992580",
@@ -18328,7 +19291,10 @@
         "单人",
         "模拟",
         "超现实"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3924280",
@@ -18380,7 +19346,10 @@
       "genres": [
         "休闲",
         "可爱"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4049910",
@@ -18430,7 +19399,10 @@
       "is_discounted": false,
       "genres": [
         "奇幻"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "We use AI to generate some icons.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "1466520",
@@ -18477,7 +19449,10 @@
       "detail_error": "",
       "fetched_at": "2026-07-10T05:15:50+08:00",
       "is_discounted": false,
-      "genres": []
+      "genres": [],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3987560",
@@ -18536,7 +19511,10 @@
         "视觉小说",
         "生活模拟",
         "动态叙事"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "少量文本和美术图片如游戏中的书籍、图画等使用AI生成",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4144680",
@@ -18590,7 +19568,10 @@
         "3D",
         "可爱",
         "动作"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3954990",
@@ -18648,7 +19629,10 @@
         "模拟",
         "氛围",
         "俯视射击"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3529670",
@@ -18708,7 +19692,10 @@
         "多人",
         "3D",
         "氛围"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4323990",
@@ -18762,7 +19749,10 @@
         "射击",
         "动作",
         "多人"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4631110",
@@ -18814,7 +19804,10 @@
       "genres": [
         "休闲",
         "模拟"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4487840",
@@ -18868,7 +19861,10 @@
         "休闲",
         "3D",
         "单人"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4754800",
@@ -18924,7 +19920,10 @@
         "2D",
         "动漫",
         "欢乐"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4446010",
@@ -18976,7 +19975,10 @@
       "is_discounted": false,
       "genres": [
         "策略"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "1910680",
@@ -19035,7 +20037,10 @@
         "策略",
         "解谜",
         "独立"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4562150",
@@ -19091,7 +20096,10 @@
         "模拟",
         "彩色",
         "真实"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4221310",
@@ -19141,7 +20149,10 @@
       "price_value": 0,
       "genres": [
         "抢先体验"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Generative AI was used in the prototyping stage to develop card art concept alternatives and communicate with human artists on our intentions for each finished piece. These images have all been replaced with human-created artwork. AI is not used to live-generate content or code during gameplay.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "2654990",
@@ -19194,7 +20205,10 @@
       "genres": [
         "视觉小说",
         "休闲"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "2454170",
@@ -19251,7 +20265,10 @@
         "休闲",
         "多人",
         "策略"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "2458980",
@@ -19311,7 +20328,10 @@
         "第一人称",
         "剧情丰富",
         "探索"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4680930",
@@ -19365,7 +20385,10 @@
         "休闲",
         "2D",
         "模拟"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "1803140",
@@ -19423,7 +20446,10 @@
         "剧情丰富",
         "益智平台",
         "动作冒险"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "2803360",
@@ -19480,7 +20506,10 @@
         "角色扮演",
         "射击",
         "沙盒"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3688130",
@@ -19538,7 +20567,10 @@
         "街机",
         "2D",
         "模拟"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4366330",
@@ -19596,7 +20628,10 @@
         "策略",
         "回合制战斗",
         "类 Rogue"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4639520",
@@ -19649,7 +20684,10 @@
       "genres": [
         "解谜",
         "指向点击"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "2819400",
@@ -19703,7 +20741,10 @@
         "抢先体验",
         "模拟",
         "角色扮演"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "2063480",
@@ -19755,7 +20796,10 @@
       "genres": [
         "探索",
         "沉浸式模拟"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4768400",
@@ -19809,7 +20853,10 @@
         "角色扮演",
         "休闲",
         "模拟"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "AI tools are used to assist in development, including code, writing, art, and sound effects",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4716540",
@@ -19865,7 +20912,10 @@
         "冒险",
         "氛围",
         "探索"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4453680",
@@ -19921,7 +20971,10 @@
         "探索",
         "2D",
         "动作"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4056810",
@@ -19979,7 +21032,10 @@
         "冒险",
         "互动小说",
         "动态叙事"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3929330",
@@ -20035,7 +21091,10 @@
         "回合制策略",
         "策略",
         "剧情丰富"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4411600",
@@ -20093,7 +21152,10 @@
         "冒险",
         "角色扮演",
         "独立"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "部分美术资源由AI生成后人为进行优化调整",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4312850",
@@ -20151,7 +21213,10 @@
         "欢乐",
         "清版动作",
         "2D"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3474700",
@@ -20207,7 +21272,10 @@
         "单人",
         "休闲",
         "第一人称"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "1431300",
@@ -20258,7 +21326,10 @@
       "is_discounted": false,
       "genres": [
         "抢先体验"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "2840000",
@@ -20316,7 +21387,10 @@
         "冒险",
         "动漫",
         "老式"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4227400",
@@ -20372,7 +21446,10 @@
         "类 Rogue",
         "弹幕射击",
         "刷宝"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "2789810",
@@ -20427,7 +21504,10 @@
         "类 Rogue",
         "单人",
         "像素图形"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "2912550",
@@ -20485,7 +21565,10 @@
         "动作类 Rogue",
         "平台游戏",
         "类 Rogue"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4102010",
@@ -20536,7 +21619,10 @@
       "is_discounted": false,
       "genres": [
         "放松"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3759220",
@@ -20594,7 +21680,10 @@
         "独立",
         "单人",
         "模拟"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "2742710",
@@ -20653,7 +21742,10 @@
         "休闲",
         "模拟",
         "可爱"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4779560",
@@ -20712,7 +21804,10 @@
         "2D 平台",
         "2D",
         "放松"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "Idle Startup is made by a solo developer with the help of generative AI. The milestone background artwork — the illustrations that unlock as each skill levels up — is generated with AI image tools and then selected and curated by the developer. The game's code is also written with the assistance of AI coding tools. All music and sound effects are generated procedurally in code, the interface art and icons are hand-drawn, and all in-game text is written by the developer.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4334840",
@@ -20768,7 +21863,10 @@
         "角色扮演",
         "沙盒",
         "单人"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "2776630",
@@ -20825,7 +21923,10 @@
         "休闲",
         "沙盒",
         "像素图形"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3939700",
@@ -20881,7 +21982,10 @@
       "genres": [
         "放松",
         "可爱"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4353630",
@@ -20937,7 +22041,10 @@
         "角色扮演",
         "像素图形",
         "可爱"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3975500",
@@ -20994,7 +22101,10 @@
         "休闲",
         "生活模拟",
         "探索"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4681880",
@@ -21052,7 +22162,10 @@
         "动态叙事",
         "3D",
         "彩色"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4483120",
@@ -21110,7 +22223,10 @@
         "3D",
         "动作",
         "第一人称"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3392490",
@@ -21168,7 +22284,10 @@
         "像素图形",
         "氛围",
         "角色扮演"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4791730",
@@ -21225,7 +22344,10 @@
         "独立",
         "沉浸式模拟",
         "沙盒"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "This game uses pre-generated AI only for certain UI background images and promotional store visuals. These assets were created before release and remain fixed. The game does not include any live AI generation during gameplay.",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4753590",
@@ -21283,7 +22405,10 @@
         "恐怖",
         "多人",
         "动作冒险"
-      ]
+      ],
+      "ai_involved": true,
+      "ai_disclosure": "在开发过程的部分阶段中，使用了 AI 辅助工具来支持部分视觉与音频内容的创建和优化。",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "2881370",
@@ -21341,7 +22466,10 @@
         "2D",
         "像素图形",
         "单人"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "2899760",
@@ -21401,7 +22529,10 @@
         "视觉小说",
         "动态叙事",
         "动漫"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3986670",
@@ -21459,7 +22590,10 @@
         "单人",
         "街机",
         "动作冒险"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3541590",
@@ -21513,7 +22647,10 @@
       "genres": [
         "互动小说",
         "奇幻"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "2169930",
@@ -21571,7 +22708,10 @@
         "回合制战斗",
         "模拟",
         "3D"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3483510",
@@ -21630,7 +22770,10 @@
         "角色扮演",
         "像素图形",
         "2.5D"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3975750",
@@ -21689,7 +22832,10 @@
         "弹幕射击",
         "类魂",
         "塔防"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3354200",
@@ -21741,7 +22887,10 @@
       "genres": [
         "模拟",
         "休闲"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4196120",
@@ -21799,7 +22948,10 @@
         "独立",
         "逻辑",
         "探索"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4794380",
@@ -21853,7 +23005,10 @@
         "休闲",
         "像素图形",
         "单人"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4018020",
@@ -21911,7 +23066,10 @@
         "2D 平台",
         "可爱",
         "奇幻"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "4315850",
@@ -21967,7 +23125,10 @@
         "冒险",
         "模拟",
         "真实"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "3403590",
@@ -22019,7 +23180,10 @@
       "genres": [
         "沙盒",
         "生活模拟"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     },
     {
       "appid": "327070",
@@ -22075,117 +23239,23 @@
         "动作",
         "角色扮演",
         "多人"
-      ]
+      ],
+      "ai_involved": false,
+      "ai_disclosure": "",
+      "ai_checked_at": "2026-10-20T09:53:18+08:00"
     }
   ],
   "log": [
-    "Started at 2026-07-10T05:15:50+08:00",
-    "Target latest items: 300",
-    "Fetch search combined page=1 url=https://store.steampowered.com/search/results/?query=&start=0&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998%2C10&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch search combined page=2 url=https://store.steampowered.com/search/results/?query=&start=25&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998%2C10&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch search combined page=3 url=https://store.steampowered.com/search/results/?query=&start=50&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998%2C10&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch search combined page=4 url=https://store.steampowered.com/search/results/?query=&start=75&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998%2C10&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch search combined page=5 url=https://store.steampowered.com/search/results/?query=&start=100&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998%2C10&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch search combined page=6 url=https://store.steampowered.com/search/results/?query=&start=125&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998%2C10&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch search combined page=7 url=https://store.steampowered.com/search/results/?query=&start=150&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998%2C10&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch search combined page=8 url=https://store.steampowered.com/search/results/?query=&start=175&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998%2C10&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch search combined page=9 url=https://store.steampowered.com/search/results/?query=&start=200&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998%2C10&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch search combined page=10 url=https://store.steampowered.com/search/results/?query=&start=225&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998%2C10&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch search combined page=11 url=https://store.steampowered.com/search/results/?query=&start=250&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998%2C10&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch search combined page=12 url=https://store.steampowered.com/search/results/?query=&start=275&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998%2C10&cc=CN&l=schinese&ignore_preferences=1",
-    "Selected newest items: 298 from search candidates",
-    "Fetch StoreBrowse details batches=6 batch_size=50 items=298",
-    "StoreBrowse batch 1/6 appids=4719680,4483200,4140190,4806800,4866810,4825510,1511740,4927810,3692680,4840910,4825850,4932380,4849860,4068360,3630480,4032350,3227320,4534300,4665930,4713470,4870310,4373160,4720870,3265230,4596160,4436830,4889230,4849630,4790520,4897740,1349930,4329100,4809010,4820270,4867060,3534790,4806090,4867550,4900730,4887320,4668040,4175650,4825940,4793460,4809670,4834000,4815620,4809360,4906550,4380490",
-    "StoreBrowse batch 2/6 appids=4893830,4530260,4912550,4864450,4930230,4877230,4862400,4594240,3751950,3897960,4556460,4879230,4048500,4856460,4634940,3620130,4589040,4365920,4919300,3935020,4548160,4540330,4854210,4604330,3748630,4876730,2988050,4929040,4784870,4861030,4868650,4499910,4866620,4868710,4877150,3298430,4911720,4308440,4874470,4851820,4334120,4894160,3789070,4692030,4481560,4829980,4872690,4797420,4282450,4199030",
-    "StoreBrowse batch 3/6 appids=4659040,4752830,4925840,4599400,4804250,4775010,4787300,4917950,4774490,4508570,4781720,4521970,4928570,4927970,4833680,4888370,4834080,4581510,4866530,4875720,4078750,3916610,4129340,4540610,4927390,4912920,4260190,4637560,4773260,4576570,4330950,4457130,4924730,4787550,4767420,4717660,4760110,4926320,4104650,4766440,4848170,4601840,4918410,4093240,4896840,4798350,4917790,3957810,4856990,4861010",
-    "StoreBrowse batch 4/6 appids=4856860,4851300,4656420,4870090,4860070,4045460,3863770,4856470,4924250,4904960,4904820,4798820,3041280,4791950,4773850,4855490,4827360,4890640,4345460,4851600,4799480,4733540,4899790,4868140,3821830,4924670,4817530,4923670,4655610,4297450,4401900,4907990,4922710,4443070,4888190,4858890,4838190,4823800,4444690,4533740,4914160,4856250,4279050,4904610,4848340,4798960,4775200,4400900,4611050,3990210",
-    "StoreBrowse batch 5/6 appids=4918970,4877610,4417490,4891310,2377930,4735570,4522470,4522440,4522460,4522430,3706280,3914980,4794570,4282880,4727270,562770,4727280,3946050,4772820,4828210,4373150,4689290,4822060,4787290,4796940,4862010,4905200,4909370,4700250,4836100,4633320,4838940,4101270,1835420,4724520,4916210,4732390,2618160,4268060,4773390,4856850,4697170,3515060,4873170,4872970,4876460,4841480,4881510,4851270,4871420",
-    "StoreBrowse batch 6/6 appids=4753990,4909770,4855940,4887220,4868590,4389170,3873040,4829530,4733840,4859790,4907050,4917990,4868610,4542710,4844330,4874010,4810930,4872590,4752540,4539870,4167650,4235660,4588010,4724650,4827240,2627350,2209900,4133940,4742610,4886660,4729470,4476350,4769520,4853960,4905910,4856290,4915990,2883030,4847340,4900240,4863340,4885280,4876610,4789820,4081200,4726020,4765310,4902070",
-    "Potential target=100 min_reviews>50 min_reviews_demo>10 cutoff=2025-07-10 max_pages=160",
-    "Fetch potential game page=1 url=https://store.steampowered.com/search/results/?query=&start=0&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential demo page=1 url=https://store.steampowered.com/search/results/?query=&start=0&count=25&sort_by=Released_DESC&sort_order=DESC&category1=10&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=2 url=https://store.steampowered.com/search/results/?query=&start=25&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential demo page=2 url=https://store.steampowered.com/search/results/?query=&start=25&count=25&sort_by=Released_DESC&sort_order=DESC&category1=10&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=3 url=https://store.steampowered.com/search/results/?query=&start=50&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential demo page=3 url=https://store.steampowered.com/search/results/?query=&start=50&count=25&sort_by=Released_DESC&sort_order=DESC&category1=10&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=4 url=https://store.steampowered.com/search/results/?query=&start=75&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential demo page=4 url=https://store.steampowered.com/search/results/?query=&start=75&count=25&sort_by=Released_DESC&sort_order=DESC&category1=10&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=5 url=https://store.steampowered.com/search/results/?query=&start=100&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential demo page=5 url=https://store.steampowered.com/search/results/?query=&start=100&count=25&sort_by=Released_DESC&sort_order=DESC&category1=10&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=6 url=https://store.steampowered.com/search/results/?query=&start=125&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential demo page=6 url=https://store.steampowered.com/search/results/?query=&start=125&count=25&sort_by=Released_DESC&sort_order=DESC&category1=10&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=7 url=https://store.steampowered.com/search/results/?query=&start=150&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential demo page=7 url=https://store.steampowered.com/search/results/?query=&start=150&count=25&sort_by=Released_DESC&sort_order=DESC&category1=10&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=8 url=https://store.steampowered.com/search/results/?query=&start=175&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential demo page=8 url=https://store.steampowered.com/search/results/?query=&start=175&count=25&sort_by=Released_DESC&sort_order=DESC&category1=10&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=9 url=https://store.steampowered.com/search/results/?query=&start=200&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential demo page=9 url=https://store.steampowered.com/search/results/?query=&start=200&count=25&sort_by=Released_DESC&sort_order=DESC&category1=10&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=10 url=https://store.steampowered.com/search/results/?query=&start=225&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential demo page=10 url=https://store.steampowered.com/search/results/?query=&start=225&count=25&sort_by=Released_DESC&sort_order=DESC&category1=10&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=11 url=https://store.steampowered.com/search/results/?query=&start=250&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential demo page=11 url=https://store.steampowered.com/search/results/?query=&start=250&count=25&sort_by=Released_DESC&sort_order=DESC&category1=10&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=12 url=https://store.steampowered.com/search/results/?query=&start=275&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential demo page=12 url=https://store.steampowered.com/search/results/?query=&start=275&count=25&sort_by=Released_DESC&sort_order=DESC&category1=10&cc=CN&l=schinese&ignore_preferences=1",
-    "Potential demo found no qualified items in first 12 pages; stopping demo.",
-    "Fetch potential game page=13 url=https://store.steampowered.com/search/results/?query=&start=300&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=14 url=https://store.steampowered.com/search/results/?query=&start=325&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=15 url=https://store.steampowered.com/search/results/?query=&start=350&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=16 url=https://store.steampowered.com/search/results/?query=&start=375&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=17 url=https://store.steampowered.com/search/results/?query=&start=400&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=18 url=https://store.steampowered.com/search/results/?query=&start=425&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=19 url=https://store.steampowered.com/search/results/?query=&start=450&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=20 url=https://store.steampowered.com/search/results/?query=&start=475&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=21 url=https://store.steampowered.com/search/results/?query=&start=500&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=22 url=https://store.steampowered.com/search/results/?query=&start=525&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=23 url=https://store.steampowered.com/search/results/?query=&start=550&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=24 url=https://store.steampowered.com/search/results/?query=&start=575&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=25 url=https://store.steampowered.com/search/results/?query=&start=600&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=26 url=https://store.steampowered.com/search/results/?query=&start=625&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=27 url=https://store.steampowered.com/search/results/?query=&start=650&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=28 url=https://store.steampowered.com/search/results/?query=&start=675&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=29 url=https://store.steampowered.com/search/results/?query=&start=700&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=30 url=https://store.steampowered.com/search/results/?query=&start=725&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=31 url=https://store.steampowered.com/search/results/?query=&start=750&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=32 url=https://store.steampowered.com/search/results/?query=&start=775&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=33 url=https://store.steampowered.com/search/results/?query=&start=800&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=34 url=https://store.steampowered.com/search/results/?query=&start=825&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=35 url=https://store.steampowered.com/search/results/?query=&start=850&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=36 url=https://store.steampowered.com/search/results/?query=&start=875&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=37 url=https://store.steampowered.com/search/results/?query=&start=900&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=38 url=https://store.steampowered.com/search/results/?query=&start=925&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=39 url=https://store.steampowered.com/search/results/?query=&start=950&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=40 url=https://store.steampowered.com/search/results/?query=&start=975&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=41 url=https://store.steampowered.com/search/results/?query=&start=1000&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=42 url=https://store.steampowered.com/search/results/?query=&start=1025&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=43 url=https://store.steampowered.com/search/results/?query=&start=1050&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=44 url=https://store.steampowered.com/search/results/?query=&start=1075&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=45 url=https://store.steampowered.com/search/results/?query=&start=1100&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=46 url=https://store.steampowered.com/search/results/?query=&start=1125&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=47 url=https://store.steampowered.com/search/results/?query=&start=1150&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=48 url=https://store.steampowered.com/search/results/?query=&start=1175&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=49 url=https://store.steampowered.com/search/results/?query=&start=1200&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=50 url=https://store.steampowered.com/search/results/?query=&start=1225&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=51 url=https://store.steampowered.com/search/results/?query=&start=1250&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=52 url=https://store.steampowered.com/search/results/?query=&start=1275&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=53 url=https://store.steampowered.com/search/results/?query=&start=1300&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=54 url=https://store.steampowered.com/search/results/?query=&start=1325&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=55 url=https://store.steampowered.com/search/results/?query=&start=1350&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=56 url=https://store.steampowered.com/search/results/?query=&start=1375&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=57 url=https://store.steampowered.com/search/results/?query=&start=1400&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=58 url=https://store.steampowered.com/search/results/?query=&start=1425&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=59 url=https://store.steampowered.com/search/results/?query=&start=1450&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=60 url=https://store.steampowered.com/search/results/?query=&start=1475&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=61 url=https://store.steampowered.com/search/results/?query=&start=1500&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=62 url=https://store.steampowered.com/search/results/?query=&start=1525&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=63 url=https://store.steampowered.com/search/results/?query=&start=1550&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=64 url=https://store.steampowered.com/search/results/?query=&start=1575&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Fetch potential game page=65 url=https://store.steampowered.com/search/results/?query=&start=1600&count=25&sort_by=Released_DESC&sort_order=DESC&category1=998&cc=CN&l=schinese&ignore_preferences=1",
-    "Potential game page=65 is older than current top 100; stopping game.",
-    "Potential game: pages=65 candidates=1623 qualified=109",
-    "Potential demo: pages=12 candidates=300 qualified=0",
-    "Fetch StoreBrowse details batches=2 batch_size=50 items=100",
-    "StoreBrowse batch 1/2 appids=4032350,3265230,4380490,3751950,3935020,4760110,2377930,4873170,4872970,2209900,2749950,450540,3462790,4634490,4714810,4156370,3278290,4173970,4683470,4186870,4616840,4800590,4080030,4560490,4559140,4740460,3979330,3690760,4834070,3880410,4557340,3859750,3992580,3924280,4049910,1466520,3987560,4144680,3954990,3529670,4323990,4631110,4487840,4754800,4446010,1910680,4562150,4221310,2654990,2454170",
-    "StoreBrowse batch 2/2 appids=2458980,4680930,1803140,2803360,3688130,4366330,4639520,2819400,2063480,4768400,4716540,4453680,4056810,3929330,4411600,4312850,3474700,1431300,2840000,4227400,2789810,2912550,4102010,3759220,2742710,4779560,4334840,2776630,3939700,4353630,3975500,4681880,4483120,3392490,4791730,4753590,2881370,2899760,3986670,3541590,2169930,3483510,3975750,3354200,4196120,4794380,4018020,4315850,3403590,327070",
-    "Potential selected=100 games=100 demos=0 raw_qualified=100"
+    "Rendered HTML from /workspace/latest.json at 2026-10-20T09:53:18+08:00",
+    "4719680: store page unreadable (other); AI disclosure left unknown",
+    "4870310: store page unreadable (other); AI disclosure left unknown",
+    "4868650: store page unreadable (other); AI disclosure left unknown",
+    "4752830: store page unreadable (other); AI disclosure left unknown",
+    "4927970: store page unreadable (other); AI disclosure left unknown",
+    "4129340: store page unreadable (other); AI disclosure left unknown",
+    "4093240: store page unreadable (other); AI disclosure left unknown",
+    "4851270: store page unreadable (other); AI disclosure left unknown",
+    "4855940: store page unreadable (other); AI disclosure left unknown",
+    "AI disclosure checked=379 cache_hits=0 involved=131 failed=9 stopped=False"
   ]
 }
