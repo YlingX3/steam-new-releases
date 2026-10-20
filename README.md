@@ -9,4 +9,33 @@ The report keeps the newest 300 combined game and demo releases from Steam searc
 - `detail_cache.json`
 - `run.log`
 
-GitHub Actions refreshes the report every day at 10:00 Asia/Hong_Kong time.
+`index.html` is a symlink to `latest.html` when it does not already exist.
+
+GitHub Actions refreshes the report every day at 10:00 Asia/Hong_Kong time. A server timer can run `refresh.sh`, which only calls `python3 generate_report.py`. The web process reads the regenerated files on each request and does not need a restart.
+
+## AI disclosure
+
+Steam's StoreBrowse API and `/api/appdetails` do not include the AI Generated Content Disclosure. The generator reads it from each store page (`AI 生成内容披露` / `AI Generated Content Disclosure`) and stores `ai_involved`, `ai_disclosure`, and `ai_checked_at` on the item and in `detail_cache.json`. A fresh cache entry is reused for 7 days (`--ai-cache-days`). Failed or age-gated pages stay unknown and are not hidden by the filter. To fill an existing report without a full search:
+
+```bash
+python3 generate_report.py --render-from latest.json --backfill-ai
+```
+
+## Account server
+
+`server.py` replaces `python3 -m http.server`. It serves the report on `127.0.0.1:10001` and stores accounts, seen appids, and the last list position in SQLite (`data/accounts.sqlite`). No extra packages are required. Passwords are hashed with scrypt. The session cookie is `HttpOnly`, `SameSite=Lax`, and `Secure` unless `STEAM_REPORT_COOKIE_SECURE=0`.
+
+```bash
+python3 server.py create-user YOUR_NAME
+# or, while registration is open (the default):
+# use 注册 on the page, then set STEAM_REPORT_ALLOW_REGISTER=0
+python3 server.py --host 127.0.0.1 --port 10001
+```
+
+See `deploy/steam-release-page.service` for the systemd unit. Optional environment variables:
+
+- `STEAM_REPORT_DB` (default `data/accounts.sqlite`)
+- `STEAM_REPORT_COOKIE_SECURE` (default `1`)
+- `STEAM_REPORT_ALLOW_REGISTER` (default `1`)
+- `STEAM_REPORT_ALLOWED_ORIGINS` (extra Origins to accept, comma-separated)
+- `STEAM_REPORT_SESSION_DAYS` (default `30`)
